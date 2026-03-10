@@ -70,9 +70,13 @@ try {
             break;
     }
 }
-catch (Exception $e) {
+catch (Throwable $t) {
     http_response_code(500);
-    echo json_encode(['error' => $e->getMessage()]);
+    echo json_encode([
+        'error' => $t->getMessage(),
+        'file' => basename($t->getFile()),
+        'line' => $t->getLine()
+    ]);
 }
 
 function getSpanishMonth($n)

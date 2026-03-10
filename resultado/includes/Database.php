@@ -74,8 +74,16 @@ class Database
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
         }
 
-        $response = curl_exec($ch);
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        if ($response === false) {
+            $error = curl_error($ch);
+            curl_close($ch);
+            throw new Exception("CURL Error: " . $error);
+        }
+
+        $httpCode = curl_getinfo($ch);
+        if (is_array($httpCode))
+            $httpCode = $httpCode['http_code']; // Handle different PHP versions/returns
+
         curl_close($ch);
 
         if ($httpCode >= 400) {
