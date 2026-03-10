@@ -1,39 +1,40 @@
 /* SUPER PREMIUM THEME OVERRIDES */
 :root {
     /* CLARO / LIGHT MODE */
-    --primary-color: #4F46E5;
+    --primary-color: #2563EB;
     --secondary-color: #7C3AED;
     --accent-color: #E11D48;
     --success-color: #059669;
     --warning-color: #D97706;
+    --glow-color: rgba(37, 99, 235, 0.3);
     
-    --background-base: #F3F4F6;
+    --background-base: #F8FAFC;
     --background-light: #FFFFFF;
-    --background-dark: #1F2937;
+    --background-dark: #F1F5F9;
     
-    --text-dark: #111827;
-    --text-muted: #4B5563;
-    --text-light: #F9FAFB;
+    --text-dark: #0F172A;
+    --text-muted: #64748B;
+    --text-light: #FFFFFF;
     
-    --border-color: #E5E7EB;
+    --border-color: #E2E8F0;
     
-    --glass-background: rgba(255, 255, 255, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.5);
+    --glass-background: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.6);
     
-    --header-bg: rgba(255, 255, 255, 0.65);
-    --header-text: #111827;
+    --header-bg: rgba(255, 255, 255, 0.9);
+    --header-text: #0F172A;
     
-    --nav-menu-bg: rgba(255, 255, 255, 0.95);
+    --nav-menu-bg: rgba(255, 255, 255, 0.98);
     
-    --card-bg: rgba(255, 255, 255, 0.85);
+    --card-bg: rgba(255, 255, 255, 0.7);
     
-    --table-header-bg: #4F46E5;
+    --table-header-bg: #2563EB;
     --table-header-text: #FFFFFF;
     --table-cell-bg: #FFFFFF;
-    --table-cell-text: #111827;
-    --table-cell-data-bg: #EEF2FF;
-    --table-cell-data-text: #4F46E5;
-    --table-cell-hover: #F3F4F6;
+    --table-cell-text: #94A3B8;
+    --table-cell-data-bg: #EFF6FF;
+    --table-cell-data-text: #1D4ED8;
+    --table-cell-hover: #F8FAFC;
     
     --shadow-light: rgba(0, 0, 0, 0.05);
     --shadow-medium: rgba(0, 0, 0, 0.1);
@@ -41,44 +42,45 @@
 }
 
 [data-theme="dark"] {
-    /* OSCURO / DARK MODE */
-    --primary-color: #818CF8;
-    --secondary-color: #A78BFA;
-    --accent-color: #FB7185;
-    --success-color: #34D399;
+    /* OSCURO / DARK MODE - ULTRA PREMIUM */
+    --primary-color: #38BDF8; /* Electric Cyan */
+    --secondary-color: #A78BFA; /* Bright Lavender */
+    --accent-color: #F43F5E; /* Neon Rose */
+    --success-color: #34D399; /* Neon Emerald */
     --warning-color: #FBBF24;
+    --glow-color: rgba(56, 189, 248, 0.6);
 
-    --background-base: #0F172A;
-    --background-light: #1E293B;
+    --background-base: #020617; /* Deepest space blue */
+    --background-light: #0F172A; /* Slate 900 */
     --background-dark: #000000;
     
     --text-dark: #F8FAFC;
-    --text-muted: #94A3B8;
+    --text-muted: #64748B;
     --text-light: #FFFFFF;
     
-    --border-color: #334155;
+    --border-color: #1E293B; /* Slate 800 */
     
-    --glass-background: rgba(30, 41, 59, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-background: rgba(15, 23, 42, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.05);
     
-    --header-bg: rgba(15, 23, 42, 0.75);
+    --header-bg: rgba(2, 6, 23, 0.85);
     --header-text: #F8FAFC;
     
-    --nav-menu-bg: rgba(15, 23, 42, 0.95);
+    --nav-menu-bg: rgba(2, 6, 23, 0.98);
     
-    --card-bg: rgba(30, 41, 59, 0.85);
+    --card-bg: rgba(15, 23, 42, 0.6);
     
-    --table-header-bg: #1E293B;
-    --table-header-text: #818CF8;
-    --table-cell-bg: #0F172A;
-    --table-cell-text: #E2E8F0;
-    --table-cell-data-bg: #1E293B;
-    --table-cell-data-text: #A78BFA;
-    --table-cell-hover: #334155;
+    --table-header-bg: #0F172A;
+    --table-header-text: #38BDF8;
+    --table-cell-bg: #020617; /* Very deep */
+    --table-cell-text: #1E293B; /* Hard-to-see faint gray for empty */
+    --table-cell-data-bg: rgba(56, 189, 248, 0.1); /* Tint of cyan */
+    --table-cell-data-text: #38BDF8; /* Bright cyan text */
+    --table-cell-hover: #0F172A;
     
     --shadow-light: rgba(0, 0, 0, 0.3);
-    --shadow-medium: rgba(0, 0, 0, 0.5);
-    --shadow-heavy: rgba(0, 0, 0, 0.7);
+    --shadow-medium: rgba(0, 0, 0, 0.6);
+    --shadow-heavy: rgba(0, 0, 0, 0.8);
 }
 
 /* Base resets for theme */
@@ -88,13 +90,27 @@ body {
     transition: background 0.4s ease, color 0.4s ease;
 }
 
+/* FIX NAV-MENU CLIP BUG: No backdrop-filter on header itself! */
 header {
-    background: var(--header-bg) !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    position: sticky;
+    z-index: 999999 !important; /* Top priority */
+    box-shadow: none !important;
+    border: none !important;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--header-bg);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    color: var(--header-text) !important;
+    z-index: -1;
     border-bottom: 1px solid var(--glass-border);
-    box-shadow: 0 4px 30px var(--shadow-medium) !important;
+    box-shadow: 0 4px 30px var(--shadow-medium);
 }
 
 .logo {
@@ -147,14 +163,15 @@ header {
 
 .nav-menu {
     background: var(--nav-menu-bg) !important;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
     border-left: 1px solid var(--glass-border);
     z-index: 99999 !important;
 }
 
 .nav-menu li a {
     color: var(--text-dark) !important;
+    font-weight: 500 !important;
 }
 .nav-menu li a:hover {
     background: var(--background-base) !important;
@@ -167,11 +184,13 @@ header {
 .main-container {
     background: var(--card-bg) !important;
     border: 1px solid var(--border-color) !important;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px !important;
 }
 .main-container::before {
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+    border-radius: 16px 16px 0 0 !important;
 }
 
 .title {
@@ -179,6 +198,7 @@ header {
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     background-clip: text !important;
+    font-weight: 900 !important;
 }
 .title::after {
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) !important;
@@ -195,8 +215,8 @@ header {
 }
 .switch-label.active {
     color: var(--primary-color) !important;
-    background: rgba(79, 70, 229, 0.1) !important;
-    border-color: rgba(79, 70, 229, 0.2) !important;
+    background: rgba(56, 189, 248, 0.1) !important;
+    border-color: rgba(56, 189, 248, 0.2) !important;
     text-shadow: none !important;
     box-shadow: none !important;
     animation: none !important;
@@ -207,11 +227,12 @@ header {
 }
 input:checked + .slider {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
-    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3) !important;
+    box-shadow: 0 4px 15px var(--glow-color) !important;
 }
 
 .table-container {
     background: var(--card-bg) !important;
+    border-radius: 0 0 16px 16px !important;
 }
 
 table th {
@@ -219,12 +240,15 @@ table th {
     color: var(--table-header-text) !important;
     border-bottom: 2px solid var(--border-color) !important;
     text-shadow: none !important;
+    letter-spacing: 1px;
 }
 
 table td {
     background-color: var(--table-cell-bg) !important;
     color: var(--table-cell-text) !important;
     border-color: var(--border-color) !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
 }
 
 table tr:hover td {
@@ -235,7 +259,10 @@ table td:not(.empty-cell) {
     background: var(--table-cell-data-bg) !important;
     color: var(--table-cell-data-text) !important;
     border-color: var(--border-color) !important;
-    text-shadow: none !important;
+    text-shadow: 0 0 10px var(--glow-color) !important;
+    font-size: 1.25rem !important;
+    font-weight: 900 !important;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.05) !important;
 }
 
 .alias-dropdown-btn {
@@ -263,17 +290,19 @@ table td:not(.empty-cell) {
 }
 
 .alias-actions {
-    background-color: var(--background-light) !important;
+    background: var(--background-base) !important;
     border-top: 1px solid var(--border-color) !important;
 }
 
 .btn-clear {
-    background-color: var(--background-base) !important;
+    background-color: var(--background-light) !important;
     color: var(--text-dark) !important;
+    border: 1px solid var(--border-color) !important;
 }
 .btn-apply {
     background-color: var(--primary-color) !important;
     color: var(--text-light) !important;
+    box-shadow: 0 2px 10px var(--glow-color) !important;
 }
 
 .date-filter-container select, .date-filter-container input[type="date"], .date-filter-container button {
@@ -283,7 +312,7 @@ table td:not(.empty-cell) {
 }
 .date-filter-container select:focus, .date-filter-container input[type="date"]:focus {
     border-color: var(--primary-color) !important;
-    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2) !important;
+    box-shadow: 0 0 0 2px var(--glow-color) !important;
 }
 
 .date-filter-container .date-range-label {
@@ -332,6 +361,7 @@ table td:not(.empty-cell) {
 .info-modal-close {
     background: var(--background-base) !important;
     color: var(--text-dark) !important;
+    border: 1px solid var(--border-color) !important;
     box-shadow: none !important;
 }
 .info-modal-close:hover {
@@ -343,9 +373,85 @@ table td:not(.empty-cell) {
     color: var(--primary-color) !important;
 }
 .filter-shortcut:hover {
-    background-color: rgba(79, 70, 229, 0.1) !important;
+    background-color: var(--background-light) !important;
 }
 
 #filterStatus {
-    color: var(--text-muted) !important;
+    color: var(--text-dark) !important;
+}
+
+/* LEVITATING BACKGROUND ANIMATION (Lottery specific) */
+.levitating-bg {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0.6;
+}
+[data-theme="dark"] .levitating-bg {
+    opacity: 0.25;
+}
+
+.floating-item {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    box-shadow: inset -5px -5px 15px rgba(0,0,0,0.15), 0 10px 25px rgba(0,0,0,0.1);
+    animation: floatAnim infinite ease-in-out alternate;
+}
+
+.floating-item.ball {
+    width: 90px; height: 90px;
+    background: radial-gradient(circle at 30% 30%, #ffffff 0%, #cbd5e1 100%);
+    color: #0f172a;
+    font-size: 38px;
+    border: 3px solid #94a3b8;
+}
+
+.floating-item.money {
+    width: 65px; height: 65px;
+    background: radial-gradient(circle at 30% 30%, #fbbf24 0%, #b45309 100%);
+    color: #ffffff;
+    font-size: 26px;
+    border: 3px solid #f59e0b;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.ball-1 { top: 15%; left: 8%; animation-duration: 22s; transform: scale(0.9); }
+.money-1 { top: 30%; right: 12%; animation-duration: 18s; animation-delay: -5s; transform: scale(1.1); }
+.ball-2 { bottom: 20%; left: 15%; animation-duration: 25s; animation-delay: -12s; transform: scale(1.2); }
+.money-2 { bottom: 10%; right: 20%; animation-duration: 20s; animation-delay: -3s; transform: scale(0.85); }
+.ball-3 { top: 55%; left: 2%; animation-duration: 19s; animation-delay: -8s; transform: scale(0.7); }
+.ball-4 { top: 40%; right: 5%; animation-duration: 24s; animation-delay: -15s; transform: scale(1); }
+
+@keyframes floatAnim {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); }
+}
+
+/* TOP BANNER AD CONTAINER */
+.top-ad {
+    width: 100%;
+    max-width: 728px;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.03);
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    text-align: center;
+}
+.top-ad span {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+[data-theme="dark"] .top-ad {
+    background: rgba(255,255,255,0.02);
 }
