@@ -14,15 +14,32 @@ try {
     $action = $_GET['action'] ?? 'get_recent_results';
     switch ($action) {
         case 'get_alias':
-            // Retorna la lista única de loterías registradas
-            // Solicitamos un límite alto para asegurar que vemos todas las loterías en la DB
-            $data = $db->fetch('lottery_results', ['select' => 'loteria', 'limit' => 5000]);
-            $loterias = array_unique(array_column($data, 'loteria'));
-            sort($loterias);
-            $alias = [];
-            foreach ($loterias as $l) {
-                $alias[$l] = $l;
-            }
+            // Lista canónica de todas las loterías disponibles.
+            // Hardcodeada para evitar el límite de 1000 filas de PostgREST que
+            // impedía descubrir las loterías que no aparecen en las primeras 1000 filas.
+            $alias = [
+                'Anguilla 1 PM' => 'Anguilla 1 PM',
+                'Anguilla 10AM' => 'Anguilla 10AM',
+                'Anguilla Noche (9 PM)' => 'Anguilla Noche (9 PM)',
+                'Anguilla Tarde (6 PM)' => 'Anguilla Tarde (6 PM)',
+                'Florida Dia' => 'Florida Dia',
+                'Florida Noche' => 'Florida Noche',
+                'Florida Tarde' => 'Florida Tarde',
+                'Gana Mas' => 'Gana Mas',
+                'King Lottery Dia' => 'King Lottery Dia',
+                'King Lottery Noche' => 'King Lottery Noche',
+                'La Primera Dia' => 'La Primera Dia',
+                'La Primera Noche' => 'La Primera Noche',
+                'La Real' => 'La Real',
+                'La Suerte 12:30' => 'La Suerte 12:30',
+                'La Suerte 6 PM' => 'La Suerte 6 PM',
+                'Leidsa' => 'Leidsa',
+                'LoteDom' => 'LoteDom',
+                'Loteka' => 'Loteka',
+                'Nacional' => 'Nacional',
+                'New York Noche' => 'New York Noche',
+                'New York Tarde' => 'New York Tarde',
+            ];
             echo json_encode($alias);
             break;
 
