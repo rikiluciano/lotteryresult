@@ -301,7 +301,8 @@ main {
     box-shadow:
         0 10px 30px var(--shadow-medium),
         0 1px 8px var(--shadow-light);
-    padding: var(--spacing-xl);
+    padding: var(--spacing-lg) 0;
+    /* sin padding lateral - lo controla cada hijo */
     position: relative;
     overflow: hidden;
     transition: var(--transition-normal);
@@ -350,6 +351,8 @@ main {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: relative;
+    padding: 0 var(--spacing-lg);
+    /* el título tiene padding lateral propio */
 }
 
 .title::after {
@@ -373,12 +376,17 @@ main {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-lg);
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(236, 240, 241, 0.5) 100%);
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    /* sin redondeo - quedan los del padre */
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 15px var(--shadow-light);
     margin-bottom: var(--spacing-lg);
+    box-sizing: border-box;
 }
 
 .switch-container {
@@ -485,12 +493,12 @@ input:checked+.slider:before {
    =========================================== */
 .table-container {
     overflow: visible;
-    /* Cambiar de auto a visible para móviles */
     width: 100%;
-    border-radius: 15px;
+    border-radius: 0 0 22px 22px;
+    /* redondeo solo abajo, siguiendo al padre */
     box-shadow: 0 8px 25px var(--shadow-light);
     background: white;
-    margin-top: var(--spacing-lg);
+    margin-top: 0;
     animation: slideUp 0.5s ease-out;
 }
 
