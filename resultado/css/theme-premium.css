@@ -98,7 +98,11 @@ header {
 }
 
 .logo {
-    color: var(--header-text) !important;
+    color: transparent !important;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    font-weight: 900 !important;
     text-shadow: none !important;
 }
 
@@ -107,7 +111,7 @@ header {
 }
 
 .nav-toggle span {
-    background-color: var(--header-text) !important;
+    background-color: var(--primary-color) !important;
 }
 
 .btn-theme {
@@ -146,6 +150,7 @@ header {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-left: 1px solid var(--glass-border);
+    z-index: 99999 !important;
 }
 
 .nav-menu li a {
@@ -246,6 +251,7 @@ table td:not(.empty-cell) {
 .alias-dropdown-content, .shortcut-dropdown {
     background: var(--background-light) !important;
     border: 1px solid var(--border-color) !important;
+    z-index: 99999 !important;
 }
 
 .alias-option, .shortcut-option {

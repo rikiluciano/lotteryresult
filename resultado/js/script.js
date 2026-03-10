@@ -393,6 +393,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 monthShortcut.textContent = currentFilter.month.charAt(0).toUpperCase() + currentFilter.month.slice(1);
                 monthShortcut.dataset.type = 'month';
                 fragment.appendChild(monthShortcut);
+                
+                const spaceText = document.createTextNode(' de ');
+                fragment.appendChild(spaceText);
             }
 
             const yearShortcut = document.createElement('span');
