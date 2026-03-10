@@ -170,6 +170,17 @@
     align-items: center;
     font-size: 0.75rem;
     color: #64748b;
+    gap: 0.5rem;
+}
+
+.footer-copyright {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.footer-rights {
+    font-size: 0.68rem;
+    color: #4a5568;
 }
 
 .status-indicator {
@@ -180,6 +191,8 @@
     padding: 2px 8px;
     border-radius: 20px;
     border: 1px solid rgba(16, 185, 129, 0.2);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .status-dot {

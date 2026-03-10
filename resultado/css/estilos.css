@@ -315,9 +315,9 @@ main {
 
 /* Clase para tabla a pantalla completa */
 .main-container-full {
-    width: 99%;
-    max-width: 99%;
-    margin: var(--spacing-md) auto;
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    margin: 8px auto;
     border-radius: 16px;
     min-height: calc(100vh - 100px);
 }
