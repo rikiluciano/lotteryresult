@@ -3,13 +3,14 @@
 
 .rlabs-premium-footer {
     position: relative;
-    background: #030712; /* Deepest blue/black */
-    color: #9ca3af; /* Cool gray */
+    background: #020617; /* Deepest space blue */
+    color: #94A3B8; /* Slate 400 */
     font-family: 'Inter', 'Segoe UI', sans-serif;
     padding: 0;
     overflow: hidden;
     margin-top: 5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: inset 0 2px 20px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.05);
     z-index: 10;
 }
 
@@ -194,19 +195,36 @@
 }
 
 .col-links li a {
-    color: #9ca3af;
+    color: #94A3B8;
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 400;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    position: relative;
+    padding-left: 0;
+}
+
+.col-links li a::before {
+    content: "›";
+    position: absolute;
+    left: -15px;
+    opacity: 0;
+    color: #38BDF8; /* Electric Cyan */
+    transition: all 0.3s ease;
 }
 
 .col-links li a:hover {
-    color: #ffffff;
-    transform: translateX(4px);
+    color: #F8FAFC;
+    transform: translateX(15px);
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+.col-links li a:hover::before {
+    opacity: 1;
+    left: -12px;
 }
 
 .badge.new {
