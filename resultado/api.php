@@ -43,7 +43,7 @@ try {
 
         case 'get_results':
             // Retorna resultados filtrados por fecha, año o mes
-            $params = ['select' => '*'];
+            $params = ['select' => '*', 'order' => 'fecha.desc'];
 
             if (isset($_GET['startDate']) && isset($_GET['endDate'])) {
                 $params['fecha'] = 'gte.' . $_GET['startDate'] . '&fecha=lte.' . $_GET['endDate'];
@@ -54,11 +54,14 @@ try {
                     'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
                     'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
                 ]) + 1;
-                $prefix = $_GET['year'] . '-' . str_pad($monthNum, 2, '0', STR_PAD_LEFT);
-                $params['fecha'] = 'like.' . $prefix . '*';
+                $year = $_GET['year'];
+                $month = str_pad($monthNum, 2, '0', STR_PAD_LEFT);
+                $lastDay = date('t', strtotime("$year-$month-01"));
+                $params['fecha'] = "gte.$year-$month-01&fecha=lte.$year-$month-$lastDay";
             }
             elseif (isset($_GET['year'])) {
-                $params['fecha'] = 'like.' . $_GET['year'] . '*';
+                $year = $_GET['year'];
+                $params['fecha'] = "gte.$year-01-01&fecha=lte.$year-12-31";
             }
 
             echo json_encode($db->fetch('lottery_results', $params));
