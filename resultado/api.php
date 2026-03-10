@@ -7,10 +7,6 @@
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-// TEMPORARY DEBUG: Enable errors
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 try {
     require_once __DIR__ . '/includes/Database.php';
 
