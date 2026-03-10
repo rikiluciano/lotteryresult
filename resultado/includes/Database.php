@@ -19,13 +19,16 @@ class Database
     {
         if (file_exists(__DIR__ . '/../config.php')) {
             require_once __DIR__ . '/../config.php';
-            $this->url = SUPABASE_URL;
-            $this->key = SUPABASE_KEY;
+            $this->url = defined('SUPABASE_URL') ? SUPABASE_URL : getenv('SUPABASE_URL');
+            $this->key = defined('SUPABASE_KEY') ? SUPABASE_KEY : getenv('SUPABASE_KEY');
         }
         else {
-            // Fallback for local development or initial setup
             $this->url = getenv('SUPABASE_URL');
             $this->key = getenv('SUPABASE_KEY');
+        }
+
+        if (empty($this->url) || empty($this->key)) {
+            throw new Exception("Error de configuración: SUPABASE_URL o SUPABASE_KEY no definidos. Asegúrate de que config.php existe en el servidor.");
         }
     }
 

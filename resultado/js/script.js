@@ -284,20 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         loadingDiv.style.display = 'block';
 
         try {
-            if (currentFilter.type === 'range' || currentFilter.type === 'year') {
-                await cargarDatosConteo();
-            } else {
-                let year = new Date().getFullYear();
-                let month = MESES[new Date().getMonth()];
-
-                if (currentFilter.year) year = currentFilter.year.replace('Año ', '');
-                if (currentFilter.month) month = currentFilter.month;
-
-                const url = `json/conteo-${year}/conteo-${month}/conteo-${month}.json`;
-                const response = await fetch(url + `?v=${new Date().getTime()}`);
-                if (!response.ok) throw new Error(`HTTP ${response.status} al cargar ${url}`);
-                conteoData = await response.json();
-            }
+            await cargarDatosConteo();
 
             const datosConteo = calcularConteoAgregado();
 

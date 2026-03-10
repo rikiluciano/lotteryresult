@@ -42,6 +42,29 @@ try {
             echo json_encode($available);
             break;
 
+        case 'get_results':
+            // Retorna resultados filtrados por fecha, año o mes
+            $params = ['select' => '*'];
+
+            if (isset($_GET['startDate']) && isset($_GET['endDate'])) {
+                $params['fecha'] = 'gte.' . $_GET['startDate'] . '&fecha=lte.' . $_GET['endDate'];
+            }
+            elseif (isset($_GET['year']) && isset($_GET['month'])) {
+                // Filtro por mes (ej: 2026-03)
+                $monthNum = array_search($_GET['month'], [
+                    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+                    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
+                ]) + 1;
+                $prefix = $_GET['year'] . '-' . str_pad($monthNum, 2, '0', STR_PAD_LEFT);
+                $params['fecha'] = 'like.' . $prefix . '*';
+            }
+            elseif (isset($_GET['year'])) {
+                $params['fecha'] = 'like.' . $_GET['year'] . '*';
+            }
+
+            echo json_encode($db->fetch('lottery_results', $params));
+            break;
+
         default:
             echo json_encode(['error' => 'Acción no reconocida']);
             break;
