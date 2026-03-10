@@ -74,6 +74,7 @@ class Database
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
         }
 
+        $response = curl_exec($ch);
         if ($response === false) {
             $error = curl_error($ch);
             curl_close($ch);
