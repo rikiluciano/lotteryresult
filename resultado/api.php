@@ -15,7 +15,8 @@ try {
     switch ($action) {
         case 'get_alias':
             // Retorna la lista única de loterías registradas
-            $data = $db->fetch('lottery_results', ['select' => 'loteria']);
+            // Solicitamos un límite alto para asegurar que vemos todas las loterías en la DB
+            $data = $db->fetch('lottery_results', ['select' => 'loteria', 'limit' => 5000]);
             $loterias = array_unique(array_column($data, 'loteria'));
             sort($loterias);
             $alias = [];
@@ -27,7 +28,8 @@ try {
 
         case 'get_available_data':
             // Retorna años y meses disponibles
-            $data = $db->fetch('lottery_results', ['select' => 'fecha']);
+            // Solicitamos un límite alto para ver todo el histórico
+            $data = $db->fetch('lottery_results', ['select' => 'fecha', 'limit' => 10000]);
             $available = [];
             foreach ($data as $row) {
                 $dt = new DateTime($row['fecha']);
@@ -38,6 +40,8 @@ try {
                 if (!in_array($month, $available[$year]))
                     $available[$year][] = $month;
             }
+            // Ordenamos los años descendente (más recientes primero)
+            krsort($available);
             echo json_encode($available);
             break;
 

@@ -308,12 +308,16 @@ main {
     width: 98%;
     max-width: 98%;
     margin: var(--spacing-md) auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Clase para tabla a pantalla completa */
 .main-container-full {
+    width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 0;
     min-height: calc(100vh - 70px);
 }
