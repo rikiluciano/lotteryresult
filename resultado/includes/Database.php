@@ -44,7 +44,7 @@ class Database
     }
 
     /**
-     * Insert data into a table
+     * Insert data into a table (single or multiple rows)
      */
     public function insert($table, $data)
     {

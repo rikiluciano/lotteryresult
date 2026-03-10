@@ -7,10 +7,10 @@
 require_once __DIR__ . '/../includes/Database.php';
 
 $db = new Database();
-$jsonDir = __DIR__ . '/../../json';
+$jsonDir = __DIR__ . '/../json';
 
 if (!is_dir($jsonDir)) {
-    die("Error: Directorio /json no encontrado.\n");
+    die("Error: Directorio /json no encontrado en $jsonDir.\n");
 }
 
 echo "🚀 Iniciando migración...\n";
@@ -35,42 +35,53 @@ foreach ($years as $yearDir) {
                 continue;
 
             $content = json_decode(file_get_contents("$path/$file"), true);
-            if (!$content)
-                continue;
-
-            procesarLoterias($db, $content);
+            procesarLoterias($db, $content, $batch);
         }
+    }
+}
+
+// Flush any remaining records in the batch
+if (!empty($batch)) {
+    try {
+        $db->insert('lottery_results', $batch);
+        echo "   ✓ Batch final insertado (" . count($batch) . " registros).\n";
+    }
+    catch (Exception $e) {
+        echo "   ✗ Error en batch final: " . $e->getMessage() . "\n";
     }
 }
 
 echo "✅ Migración completada.\n";
 
-function procesarLoterias($db, $data)
+$batch = [];
+function procesarLoterias($db, $data, &$batch)
 {
     foreach ($data as $loteriaName => $info) {
-        // En el formato actual, ConteoAll tiene los resultados individuales por fecha
         if (!isset($info['ConteoAll']))
             continue;
 
         foreach ($info['ConteoAll'] as $fechaStr => $sorteo) {
-            // Ignorar el campo 'estadisticas' que a veces viene en el mismo nivel
             if ($fechaStr === 'estadisticas')
                 continue;
 
-            $dataToInsert = [
+            $batch[] = [
                 'loteria' => $loteriaName,
-                'fecha' => $sorteo['fecha_completa'], // Supabase manejará el formato ISO
+                'fecha' => (new DateTime($sorteo['fecha_completa']))->format('Y-m-d'), // Format to strict ISO date
                 'primera' => $sorteo['numeros'][0] ?? null,
                 'segunda' => $sorteo['numeros'][1] ?? null,
                 'tercera' => $sorteo['numeros'][2] ?? null
             ];
 
-            try {
-                $db->insert('lottery_results', $dataToInsert);
-                echo "   ✓ [{$loteriaName}] {$fechaStr} insertado.\n";
-            }
-            catch (Exception $e) {
-                echo "   ✗ Error en [{$loteriaName}] {$fechaStr}: " . $e->getMessage() . "\n";
+            // Subir de a 1000 registros para no sobrecargar el servidor
+            if (count($batch) >= 1000) {
+                try {
+                    $db->insert('lottery_results', $batch);
+                    echo "   ✓ Batch insertado.\n";
+                }
+                catch (Exception $e) {
+                    echo "   ✗ Error en batch: " . $e->getMessage() . "\n";
+                }
+                $batch = []; // Limpiar batch
             }
         }
     }

@@ -27,21 +27,25 @@ try {
             break;
 
         case 'get_available_data':
-            // Retorna años y meses disponibles
-            // Solicitamos un límite alto para ver todo el histórico
-            $data = $db->fetch('lottery_results', ['select' => 'fecha', 'limit' => 10000]);
+            // Dado que Supabase tiene un límite de 1000 filas (o postgREST max rows),
+            // usar select fecha iterará sólo sobre las primeras 1000 filas perdiendo años.
+            // Solución: Generar la estructura de años/meses desde 2012 dinámicamente.
             $available = [];
-            foreach ($data as $row) {
-                $dt = new DateTime($row['fecha']);
-                $year = "Año " . $dt->format('Y');
-                $month = strtolower(getSpanishMonth($dt->format('n')));
-                if (!isset($available[$year]))
-                    $available[$year] = [];
-                if (!in_array($month, $available[$year]))
-                    $available[$year][] = $month;
+            $currentYear = (int)date('Y');
+            $meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+            for ($v = $currentYear; $v >= 2012; $v--) {
+                $yearLabel = "Año $v";
+                // En el año actual, mostramos hasta el mes actual. Para el resto, todos.
+                if ($v === $currentYear) {
+                    $currentMonth = (int)date('n');
+                    $available[$yearLabel] = array_slice($meses, 0, $currentMonth);
+                }
+                else {
+                    $available[$yearLabel] = $meses;
+                }
             }
-            // Ordenamos los años descendente (más recientes primero)
-            krsort($available);
+
             echo json_encode($available);
             break;
 
