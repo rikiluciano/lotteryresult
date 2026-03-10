@@ -1,0 +1,14 @@
+# Sensitive files
+config.php
+resultado/config.php
+
+# IDEs
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

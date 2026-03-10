@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla De Frecuencias - Sistema Avanzado Optimizado</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-<link rel="stylesheet" href="css/estilos.css?v=1">
-<link rel="stylesheet" href="RLabs/rlabs-footer.css?v=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="resultado/css/estilos.css?v=1">
+    <link rel="stylesheet" href="resultado/RLabs/rlabs-footer.css?v=1">
 </head>
+
 <body>
     <header>
         <div class="header-container">
             <div class="logo-info-group">
                 <a href="#" class="logo"><i class="bi bi-bar-chart-fill"></i> FreqTable</a>
-                <button class="btn-info" id="btnInfo" aria-label="Mostrar información y ayuda" title="Información y Ayuda">
+                <button class="btn-info" id="btnInfo" aria-label="Mostrar información y ayuda"
+                    title="Información y Ayuda">
                     <span class="info-icon">i</span>
                 </button>
             </div>
             <nav>
-                <button class="nav-toggle" id="navToggle" aria-label="Abrir o cerrar menú de navegación" aria-expanded="false" aria-controls="navMenu">
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir o cerrar menú de navegación"
+                    aria-expanded="false" aria-controls="navMenu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -34,9 +40,13 @@
                     <li><a href="#ayuda">Ayuda</a></li>
                     <li><a href="#acerca">Acerca</a></li>
                     <li class="date-filter-container" id="dateFilterContainer">
-                        <select id="yearFilter"><option value="">Seleccionar Año</option></select>
-                        <select id="monthFilter"><option value="">Seleccionar Mes</option></select>
-                        
+                        <select id="yearFilter">
+                            <option value="">Seleccionar Año</option>
+                        </select>
+                        <select id="monthFilter">
+                            <option value="">Seleccionar Mes</option>
+                        </select>
+
                         <!-- NUEVO: Filtros de País y Horario con 3 posiciones -->
                         <div class="filter-switches-container">
                             <!-- Switch País: Dominicanas/Todas/Americanas -->
@@ -57,7 +67,7 @@
                                     </button>
                                 </div>
                             </div>
-                            
+
                             <!-- Switch Horario: Día/Todas/Noche -->
                             <div class="filter-switch-group">
                                 <span class="filter-switch-title">Filtrar por Horario:</span>
@@ -77,46 +87,49 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- NUEVO: Sección de Fecha Única -->
                         <span class="date-range-label">Ver Conteo Rápido:</span>
                         <input type="date" id="singleDate" aria-label="Fecha única" style="display: none;">
-                        
+
                         <!-- Botones para Fecha Única -->
                         <div style="display: flex; gap: 8px; width: 100%;">
                             <button class="btn-single-date" id="todayBtn" style="flex: 1;">Hoy</button>
                             <button class="btn-single-date" id="specificDayBtn" style="flex: 1;">Día Específico</button>
                         </div>
-                        
+
                         <!-- Separador visual -->
-                        <span class="date-range-label" style="margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.2);">
+                        <span class="date-range-label"
+                            style="margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.2);">
                             O ver rango de fechas:
                         </span>
                         <!-- Fin de la sección nueva -->
-                        
+
                         <input type="date" id="startDate" aria-label="Fecha de inicio">
                         <span class="date-range-label">Hasta:</span>
                         <input type="date" id="endDate" aria-label="Fecha de fin">
                         <button class="btn-clear" id="clearDateFilter">Limpiar Filtros</button>
                     </li>
                     <!-- Análisis con IA -->
-                    <li style="padding: 1rem; border-top: 2px solid rgba(255,255,255,0.3); margin-top: 1rem; list-style: none;">
+                    <li
+                        style="padding: 1rem; border-top: 2px solid rgba(255,255,255,0.3); margin-top: 1rem; list-style: none;">
                         <h4 style="color: #fff; margin-bottom: 0.5rem; font-size: 14px;">🤖 Análisis con IA</h4>
-                        <button id="numerosCalientesBtn" class="btn-ia-analysis" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 15px;">
+                        <button id="numerosCalientesBtn" class="btn-ia-analysis"
+                            style="width: 100%; padding: 12px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 15px;">
                             🔥 Números Calientes
                         </button>
                         <div id="iaResultado" style="margin-top: 1rem; display: none;"></div>
                     </li>
                 </ul>
             </nav>
-            </div>
+        </div>
         </div>
     </header>
 
     <main>
         <section class="main-container main-container-full" id="tabla">
             <h1 class="title">Tabla de Frecuencias</h1>
-            
+
             <div class="controls-wrapper">
                 <div class="switch-container">
                     <span class="switch-label" id="label1">Conteo en 1°</span>
@@ -140,12 +153,12 @@
                     </div>
                 </div>
             </div>
-            
+
             <div id="loading" class="loading">🔄 Cargando datos...</div>
             <div id="error" class="error" style="display: none;"></div>
             <div id="filterStatus">
                 <div id="filterStatusContent"></div>
-                </div>
+            </div>
             <div class="table-container">
                 <table id="tabla-numeros"></table>
             </div>
@@ -155,164 +168,180 @@
             <button class="info-modal-close" id="closeInfoModal" aria-label="Cerrar información" title="Cerrar">
                 <span class="close-icon">✕</span>
             </button>
-    
-    <!-- Logo del modal -->
-    <div style="text-align: center; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid rgba(102, 126, 234, 0.2);">
-        <div style="display: inline-flex; align-items: center; gap: 12px; font-size: 28px; font-weight: 700; color: #667eea;">
-            <i class="bi bi-bar-chart-fill" style="font-size: 32px;"></i>
-            <span>FreqTable</span>
-            <div style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(102, 126, 234, 0.15); border-radius: 50%; margin-left: 4px;">
-                <span style="font-family: Georgia, 'Times New Roman', serif; font-size: 20px; font-weight: 700; font-style: italic; color: #667eea;">i</span>
+
+            <!-- Logo del modal -->
+            <div
+                style="text-align: center; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid rgba(102, 126, 234, 0.2);">
+                <div
+                    style="display: inline-flex; align-items: center; gap: 12px; font-size: 28px; font-weight: 700; color: #667eea;">
+                    <i class="bi bi-bar-chart-fill" style="font-size: 32px;"></i>
+                    <span>FreqTable</span>
+                    <div
+                        style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: rgba(102, 126, 234, 0.15); border-radius: 50%; margin-left: 4px;">
+                        <span
+                            style="font-family: Georgia, 'Times New Roman', serif; font-size: 20px; font-weight: 700; font-style: italic; color: #667eea;">i</span>
+                    </div>
+                </div>
+                <p style="margin: 0.5rem 0 0 0; font-size: 14px; color: #7f8c8d; font-weight: 500;">Tu herramienta de
+                    análisis de lotería</p>
             </div>
-        </div>
-        <p style="margin: 0.5rem 0 0 0; font-size: 14px; color: #7f8c8d; font-weight: 500;">Tu herramienta de análisis de lotería</p>
-    </div>
-    
-    <h3>📊 ¿Qué hace FreqTable?</h3>
-    <p>
-        <strong>FreqTable</strong> es tu herramienta definitiva para analizar los números de la lotería. 
-        Te muestra cuántas veces ha salido cada número en tus loterías favoritas, 
-        para que juegues con datos reales, no a ciegas.
-    </p>
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+            <h3>📊 ¿Qué hace FreqTable?</h3>
+            <p>
+                <strong>FreqTable</strong> es tu herramienta definitiva para analizar los números de la lotería.
+                Te muestra cuántas veces ha salido cada número en tus loterías favoritas,
+                para que juegues con datos reales, no a ciegas.
+            </p>
 
-    <h3>🎯 Modos de Conteo</h3>
-    <div style="background: rgba(52, 152, 219, 0.05); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-        <p style="margin: 0;"><strong>🥇 Conteo en 1°</strong></p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 14px;">
-            Cuenta SOLO los números que salieron en primera. 
-        </p>
-    </div>
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
 
-    <div style="background: rgba(46, 204, 113, 0.05); padding: 1rem; border-radius: 8px;">
-        <p style="margin: 0;"><strong>🎲 Conteo en 1° 2° 3°</strong></p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 14px;">
-            Cuenta TODOS los números sin importar si salieron en 1°, 2° o 3°. 
-        </p>
-    </div>
+            <h3>🎯 Modos de Conteo</h3>
+            <div style="background: rgba(52, 152, 219, 0.05); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                <p style="margin: 0;"><strong>🥇 Conteo en 1°</strong></p>
+                <p style="margin: 0.5rem 0 0 0; font-size: 14px;">
+                    Cuenta SOLO los números que salieron en primera.
+                </p>
+            </div>
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+            <div style="background: rgba(46, 204, 113, 0.05); padding: 1rem; border-radius: 8px;">
+                <p style="margin: 0;"><strong>🎲 Conteo en 1° 2° 3°</strong></p>
+                <p style="margin: 0.5rem 0 0 0; font-size: 14px;">
+                    Cuenta TODOS los números sin importar si salieron en 1°, 2° o 3°.
+                </p>
+            </div>
 
-    <h3>🎛️ Filtros Disponibles</h3>
-    
-    <p><strong>📅 Por Fecha:</strong></p>
-    <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
-        <li><strong>Hoy</strong> - Un clic y listo, tienes al instante los datos del día de hoy</li>
-        <li><strong>Día Específico</strong> - Elige cualquier fecha del calendario</li>
-        <li><strong>Mes/Año</strong> - Analiza períodos completos, año o mes, segun elijas</li>
-        <li><strong>Rango Personalizado</strong> - De fecha <strong>A</strong> hasta fecha <strong>B</strong></li>
-    </ul>
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
 
-    <p><strong>Por País:</strong></p>
-    <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
-        <li><strong>🇩🇴 Dominicanas</strong> - Solo las loterías de RD</li>
-        <li><strong>TODAS</strong> - Dominicanas y Americanas juntas</li>
-        <li><strong>Americanas</strong> - Solo las loterías americanas</li>
-    </ul>
+            <h3>🎛️ Filtros Disponibles</h3>
 
-    <p><strong>⏰ Por Horario:</strong></p>
-    <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
-        <li><strong>Día</strong> - Solo las loterías del día y la tarde</li>
-        <li><strong>TODAS</strong> - Todos las loterias, Día y Noche completo</li>
-        <li><strong>Noche</strong> - Solo Loterías de la noche de la noche</li>
-    </ul>
+            <p><strong>📅 Por Fecha:</strong></p>
+            <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
+                <li><strong>Hoy</strong> - Un clic y listo, tienes al instante los datos del día de hoy</li>
+                <li><strong>Día Específico</strong> - Elige cualquier fecha del calendario</li>
+                <li><strong>Mes/Año</strong> - Analiza períodos completos, año o mes, segun elijas</li>
+                <li><strong>Rango Personalizado</strong> - De fecha <strong>A</strong> hasta fecha <strong>B</strong>
+                </li>
+            </ul>
 
-    <p><strong>🎰 Por Lotería:</strong></p>
-    <ul style="margin-left: 20px; line-height: 1.8;">
-        <li>Elige loterías específicas o márcalas todas</li>
-    </ul>
+            <p><strong>Por País:</strong></p>
+            <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
+                <li><strong>🇩🇴 Dominicanas</strong> - Solo las loterías de RD</li>
+                <li><strong>TODAS</strong> - Dominicanas y Americanas juntas</li>
+                <li><strong>Americanas</strong> - Solo las loterías americanas</li>
+            </ul>
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+            <p><strong>⏰ Por Horario:</strong></p>
+            <ul style="margin-left: 20px; margin-bottom: 15px; line-height: 1.8;">
+                <li><strong>Día</strong> - Solo las loterías del día y la tarde</li>
+                <li><strong>TODAS</strong> - Todos las loterias, Día y Noche completo</li>
+                <li><strong>Noche</strong> - Solo Loterías de la noche de la noche</li>
+            </ul>
 
-    <h3>🚀 Cómo Usar FreqTable (Paso a Paso)</h3>
-    
-    <div style="background: linear-gradient(135deg, rgba(52, 152, 219, 0.08), rgba(155, 89, 182, 0.08)); padding: 1.2rem; border-radius: 10px; border-left: 4px solid #3498db;">
-        <p style="margin: 0 0 1rem 0;"><strong>Paso 1:</strong> Abre el menú (☰) arriba a la derecha</p>
-        
-        <p style="margin: 0 0 1rem 0;"><strong>Paso 2:</strong> Configura tus filtros:</p>
-        <ul style="margin: 0 0 1rem 20px; line-height: 1.8;">
-            <li>Selecciona el país (Dominicanas/TODAS/Americanas)</li>
-            <li>Elige el horario (DÍA/TODAS/NOCHE)</li>
-            <li>Marca las loterías de las que quieres ver los números que han salido y los que no</li>
-            <li>Define la fecha o rango de tiempo</li>
-        </ul>
+            <p><strong>🎰 Por Lotería:</strong></p>
+            <ul style="margin-left: 20px; line-height: 1.8;">
+                <li>Elige loterías específicas o márcalas todas</li>
+            </ul>
 
-        <p style="margin: 0 0 1rem 0;"><strong>Paso 3:</strong> Escoge el modo de conteo (1° o 1° 2° 3°)</p>
-        
-        <p style="margin: 0;"><strong>Paso 4:</strong> ¡Listo! La tabla se actualiza automáticamente con los datos</p>
-    </div>
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+            <h3>🚀 Cómo Usar FreqTable (Paso a Paso)</h3>
 
-    <h3>💡 Tips de Uso</h3>
-    <ul style="margin-left: 20px; line-height: 1.8;">
-       <!--<li>🔥 <strong>Números calientes:</strong> Los que aparecen más veces en la tabla</li>-->
-        <!--<li>❄️ <strong>Números fríos:</strong> Los que no aparecen o tienen poco conteo</li>-->
-        <li>📊 <strong>Combina filtros:</strong> Ej: "Dominicanas + Noche + Octubre" para análisis específicos</li>
-        <li>⚡ <strong>Vista rápida:</strong> Botón "Hoy" para ver los números del día de hoy al instante</li>
-        <li>💾 <strong>Se guarda todo:</strong> Tus preferencias se mantienen aunque cierres la página</li>
-    </ul>
+            <div
+                style="background: linear-gradient(135deg, rgba(52, 152, 219, 0.08), rgba(155, 89, 182, 0.08)); padding: 1.2rem; border-radius: 10px; border-left: 4px solid #3498db;">
+                <p style="margin: 0 0 1rem 0;"><strong>Paso 1:</strong> Abre el menú (☰) arriba a la derecha</p>
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+                <p style="margin: 0 0 1rem 0;"><strong>Paso 2:</strong> Configura tus filtros:</p>
+                <ul style="margin: 0 0 1rem 20px; line-height: 1.8;">
+                    <li>Selecciona el país (Dominicanas/TODAS/Americanas)</li>
+                    <li>Elige el horario (DÍA/TODAS/NOCHE)</li>
+                    <li>Marca las loterías de las que quieres ver los números que han salido y los que no</li>
+                    <li>Define la fecha o rango de tiempo</li>
+                </ul>
 
-    <h3>🎲 Ejemplo Práctico</h3>
-    <div style="background: rgba(241, 196, 15, 0.1); padding: 1rem; border-radius: 8px; font-size: 14px;">
-        <p style="margin: 0 0 0.5rem 0;"><strong>Quieres saber:</strong></p>
-        <p style="margin: 0 0 1rem 0; font-style: italic;">
-            "¿Cuáles números salieron más en la noche en las loterias dominicanas durante octubre?"
-        </p>
-        
-        <p style="margin: 0 0 0.5rem 0;"><strong>Configura así:</strong></p>
-        <ol style="margin: 0 0 0 20px; line-height: 1.8;">
-            <li>País: <strong>Dominicanas</strong></li>
-            <li>Horario: <strong>Noche</strong></li>
-            <!--<li>Lotería: <strong>La Primera Noche</strong> ✓</li>-->
-            <li>Fecha: <strong>Año 2024 → Octubre</strong></li>
-            <li>Modo: <strong>Conteo en 1°</strong> (si juegas fijo) o <strong>1° 2° 3°</strong> (si juegas pale/tripleta)</li>
-        </ol>
-        
-        <p style="margin: 1rem 0 0 0;"><strong>¡Ta'listo!</strong> 🎯 La tabla te muestra los números más repetidos en la noche durante octubre de 2024.</p>
-    </div>
+                <p style="margin: 0 0 1rem 0;"><strong>Paso 3:</strong> Escoge el modo de conteo (1° o 1° 2° 3°)</p>
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+                <p style="margin: 0;"><strong>Paso 4:</strong> ¡Listo! La tabla se actualiza automáticamente con los
+                    datos</p>
+            </div>
 
-    <h3>⚠️ Nota Importante</h3>
-    <p style="font-size: 14px; color: #7f8c8d; line-height: 1.6;">
-        <strong>FreqTable</strong> es una herramienta de análisis de los números que han salido y los que no. 
-        Los datos históricos NO garantizan resultados futuros. 
-        Juega responsablemente y dentro de tus posibilidades. 
-        <!--La lotería es un juego de azar. 🎰-->
-    </p>
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
 
-    <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+            <h3>💡 Tips de Uso</h3>
+            <ul style="margin-left: 20px; line-height: 1.8;">
+                <!--<li>🔥 <strong>Números calientes:</strong> Los que aparecen más veces en la tabla</li>-->
+                <!--<li>❄️ <strong>Números fríos:</strong> Los que no aparecen o tienen poco conteo</li>-->
+                <li>📊 <strong>Combina filtros:</strong> Ej: "Dominicanas + Noche + Octubre" para análisis específicos
+                </li>
+                <li>⚡ <strong>Vista rápida:</strong> Botón "Hoy" para ver los números del día de hoy al instante</li>
+                <li>💾 <strong>Se guarda todo:</strong> Tus preferencias se mantienen aunque cierres la página</li>
+            </ul>
 
-    <div style="text-align: center; padding: 1rem; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(155, 89, 182, 0.1)); border-radius: 10px;">
-        <p style="margin: 0; font-size: 16px; font-weight: 600; color: #2c3e50;">
-            ¿Listo pa' jugar con estadísticas de verdad? 🚀
-        </p>
-        <p style="margin: 0.5rem 0 0 0; font-size: 14px; color: #7f8c8d;">
-            ¡Dale pal' menú y configura tus filtros!
-        </p>
-    </div>
-</aside>
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+
+            <h3>🎲 Ejemplo Práctico</h3>
+            <div style="background: rgba(241, 196, 15, 0.1); padding: 1rem; border-radius: 8px; font-size: 14px;">
+                <p style="margin: 0 0 0.5rem 0;"><strong>Quieres saber:</strong></p>
+                <p style="margin: 0 0 1rem 0; font-style: italic;">
+                    "¿Cuáles números salieron más en la noche en las loterias dominicanas durante octubre?"
+                </p>
+
+                <p style="margin: 0 0 0.5rem 0;"><strong>Configura así:</strong></p>
+                <ol style="margin: 0 0 0 20px; line-height: 1.8;">
+                    <li>País: <strong>Dominicanas</strong></li>
+                    <li>Horario: <strong>Noche</strong></li>
+                    <!--<li>Lotería: <strong>La Primera Noche</strong> ✓</li>-->
+                    <li>Fecha: <strong>Año 2024 → Octubre</strong></li>
+                    <li>Modo: <strong>Conteo en 1°</strong> (si juegas fijo) o <strong>1° 2° 3°</strong> (si juegas
+                        pale/tripleta)</li>
+                </ol>
+
+                <p style="margin: 1rem 0 0 0;"><strong>¡Ta'listo!</strong> 🎯 La tabla te muestra los números más
+                    repetidos en la noche durante octubre de 2024.</p>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+
+            <h3>⚠️ Nota Importante</h3>
+            <p style="font-size: 14px; color: #7f8c8d; line-height: 1.6;">
+                <strong>FreqTable</strong> es una herramienta de análisis de los números que han salido y los que no.
+                Los datos históricos NO garantizan resultados futuros.
+                Juega responsablemente y dentro de tus posibilidades.
+                <!--La lotería es un juego de azar. 🎰-->
+            </p>
+
+            <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1.5rem 0;">
+
+            <div
+                style="text-align: center; padding: 1rem; background: linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(155, 89, 182, 0.1)); border-radius: 10px;">
+                <p style="margin: 0; font-size: 16px; font-weight: 600; color: #2c3e50;">
+                    ¿Listo pa' jugar con estadísticas de verdad? 🚀
+                </p>
+                <p style="margin: 0.5rem 0 0 0; font-size: 14px; color: #7f8c8d;">
+                    ¡Dale pal' menú y configura tus filtros!
+                </p>
+            </div>
+        </aside>
     </main>
 
-<!-- Overlay oscuro para el modal -->
-<div class="info-modal-overlay" id="infoModalOverlay"></div>
+    <!-- Overlay oscuro para el modal -->
+    <div class="info-modal-overlay" id="infoModalOverlay"></div>
 
-<script src="js/script.js" defer></script>
+    <!-- RLabs Footer -->
+    <div id="rlabs-footer-container"></div>
 
-<!-- RLabs Footer -->
-<div id="rlabs-footer-container"></div>
-
-<script>
-// Cargar footer dinámicamente
-fetch('RLabs/rlabs-footer.html')
-    .then(response => response.text())
-    .then(html => {
-        document.getElementById('rlabs-footer-container').innerHTML = html;
-    });
-</script>
+    <script src="resultado/js/script.js" defer></script>
+    <script src="resultado/RLabs/rlabs-footer.js" defer></script>
+    <script>
+        // Cargar footer dinámicamente
+        fetch('resultado/RLabs/rlabs-footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('rlabs-footer-container').innerHTML = html;
+                if (typeof updateRLabsYear === 'function') {
+                    updateRLabsYear();
+                }
+            });
+    </script>
 </body>
+
 </html>

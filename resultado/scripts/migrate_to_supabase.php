@@ -7,7 +7,7 @@
 require_once __DIR__ . '/../includes/Database.php';
 
 $db = new Database();
-$jsonDir = __DIR__ . '/../json';
+$jsonDir = __DIR__ . '/../../json';
 
 if (!is_dir($jsonDir)) {
     die("Error: Directorio /json no encontrado.\n");

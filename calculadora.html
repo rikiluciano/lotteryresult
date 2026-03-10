@@ -1,77 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora De Jugadas de Loterías</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="resultado/RLabs/rlabs-footer.css?v=1">
   <style>
-        /* ===========================================
-           FOOTER
-           =========================================== */
-        footer {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--background-dark) 100%);
-            color: var(--text-light);
-            text-align: center;
-            padding: var(--spacing-lg);
-            margin-top: var(--spacing-xl);
-        }
-
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-
-        .footer-content p {
-            margin-bottom: var(--spacing-xs);
-        }
-         .signature-animated {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    background: linear-gradient(135deg, #f8f9fa, #ffffff);
-    border-radius: 8px;
-    border: 1px solid #e0e0e0;
-    transition: all 0.3s ease;
-    width: 80%;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-
-.signature-animated:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.2);
-}
-
-
-.logo-animated {
-    width: 35px;
-    height: 35px;
-    background: linear-gradient(45deg, #00d4ff, #7c3aed);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    transition: all 0.3s ease;
-}
-
-
-.signature-animated:hover .logo-animated {
-    transform: rotate(5deg) scale(1.1);
-}
   </style>
 </head>
+
 <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
   <header class="bg-gradient-to-r from-teal-500 via-purple-500 to-indigo-500 p-6 text-center shadow-lg">
     <h1 class="text-3xl font-extrabold tracking-wide uppercase">Calculadora De Jugadas de Loterías</h1>
@@ -81,7 +20,8 @@
     <form id="formulario" class="bg-gray-800 p-6 rounded-xl shadow-xl space-y-4 max-w-xl mx-auto">
       <div>
         <label class="font-semibold">Tipo de Juego:</label>
-        <select id="tipoJuego" name="tipoJuego" class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <select id="tipoJuego" name="tipoJuego"
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
           <option value="72" data-nombre="Quiniela">Quiniela</option>
           <option value="1500" data-nombre="Palé">Palé</option>
           <option value="3000" data-nombre="Súper Palé">Súper Palé</option>
@@ -90,34 +30,43 @@
       </div>
       <div>
         <label class="font-semibold">Días a jugar:</label>
-        <input type="number" id="dias" name="dias" min="1" required class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <input type="number" id="dias" name="dias" min="1" required
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
       </div>
       <div>
         <label class="font-semibold">Monto Inicial a Jugar:</label>
-        <input type="number" id="montoInicial" name="montoInicial" min="0.01" step="0.01" value="1" required class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <input type="number" id="montoInicial" name="montoInicial" min="0.01" step="0.01" value="1" required
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
       </div>
       <div>
         <label class="font-semibold">Modo de Cálculo:</label>
-        <select id="modoCalculo" name="modoCalculo" class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <select id="modoCalculo" name="modoCalculo"
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
           <option value="martingala">Martingala (Multiplica la inversion diariamente)</option>
           <option value="gananciaDiaria">Ganancia Fija Diaria</option>
         </select>
       </div>
       <div id="campoMartingala">
         <label class="font-semibold">Martingala (Multiplicador):</label>
-        <input type="number" id="martingala" name="martingala" min="1" class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <input type="number" id="martingala" name="martingala" min="1"
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
       </div>
       <div>
         <label class="font-semibold" id="labelCantidadNumeros">Cantidad de Números:</label>
-        <input type="number" id="cantidadNumeros" name="cantidadNumeros" min="1" required class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <input type="number" id="cantidadNumeros" name="cantidadNumeros" min="1" required
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
       </div>
       <div>
         <label class="font-semibold">Cantidad de Loterías:</label>
-        <input type="number" id="cantidadLoterias" name="cantidadLoterias" min="1" required class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
+        <input type="number" id="cantidadLoterias" name="cantidadLoterias" min="1" required
+          class="mt-2 w-full p-2 bg-gray-700 rounded border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400">
       </div>
       <div class="flex gap-3">
-        <button type="submit" class="bg-teal-500 hover:bg-teal-400 text-gray-900 font-bold py-2 px-4 rounded-xl transition flex-1">Calcular</button>
-        <button type="button" id="btnNuevoCalculo" class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-xl transition flex-1">Nuevo Cálculo</button>
+        <button type="submit"
+          class="bg-teal-500 hover:bg-teal-400 text-gray-900 font-bold py-2 px-4 rounded-xl transition flex-1">Calcular</button>
+        <button type="button" id="btnNuevoCalculo"
+          class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-xl transition flex-1">Nuevo
+          Cálculo</button>
       </div>
     </form>
 
@@ -130,29 +79,20 @@
     </section>
   </main>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; <span id="current-year"></span> Calculadora De Jugadas De Loterías<br>Todos los derechos reservados.</p>
-            <div class="signature-animated">
-    <div class="logo-animated">R</div>
-    <div>
-        <div style="font-weight: bold; color: #333;">RLabs</div>
-        <div style="font-size: 12px; color: #666;">Desarrollo Web</div>
-    </div>
-</div>
-        </div>
-    </footer>
-    <script>
-        // Obtener el año actual y actualizar el footer
-        const currentYear = new Date().getFullYear();
-        document.getElementById('current-year').textContent = currentYear;
-        
-        // Opcional: Actualizar el año cada minuto (por si la página queda abierta durante el cambio de año)
-        setInterval(() => {
-            const newYear = new Date().getFullYear();
-            document.getElementById('current-year').textContent = newYear;
-        }, 60000); // Actualiza cada minuto
-    </script>
+  <!-- RLabs Footer -->
+  <div id="rlabs-footer-container"></div>
+  <script src="resultado/RLabs/rlabs-footer.js" defer></script>
+  <script>
+    // Cargar footer dinámicamente
+    fetch('resultado/RLabs/rlabs-footer.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('rlabs-footer-container').innerHTML = html;
+        if (typeof updateRLabsYear === 'function') {
+          updateRLabsYear();
+        }
+      });
+  </script>
 
   <script>
     const selectJuego = document.getElementById('tipoJuego');
@@ -187,7 +127,7 @@
     const formulario = document.getElementById('formulario');
 
     const formato = num => num.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    
+
     // Función para formatear con peso/pesos
     const formatoConPeso = num => {
       const montoFormateado = formato(num);
@@ -222,7 +162,7 @@
           if (datos.cantidadLoterias) document.getElementById('cantidadLoterias').value = datos.cantidadLoterias;
           if (datos.montoInicial) document.getElementById('montoInicial').value = datos.montoInicial;
           if (datos.modo) modoCalculo.value = datos.modo;
-          
+
           // Actualizar la interfaz
           actualizarEtiqueta();
           campoMartingala.style.display = (modoCalculo.value === 'martingala') ? 'block' : 'none';
@@ -268,15 +208,15 @@
       document.getElementById('cantidadLoterias').value = '';
       document.getElementById('montoInicial').value = '1';
       modoCalculo.value = 'martingala';
-      
+
       // Actualizar interfaz
       actualizarEtiqueta();
       campoMartingala.style.display = 'block';
       document.getElementById('martingala').required = true;
-      
+
       // Ocultar resultados
       document.getElementById('resultado').classList.add('hidden');
-      
+
       // Limpiar localStorage
       localStorage.removeItem('datosLoteria');
       localStorage.removeItem('resultadosLoteria');
@@ -351,7 +291,7 @@
           gananciaBruta = datos.tipoJuego * montoJugada;
           gananciaNeta = mejorAjuste.gananciaNeta;
           const diferenciaValor = gananciaNeta - gananciaEsperada;
-          
+
           // Ajuste para el formato de la diferencia
           if (Math.abs(diferenciaValor) < 0.01) {
             diferencia = formatoConPeso(0);
@@ -390,11 +330,11 @@
       }
 
       const resumenHTML = `Necesitarás un capital mínimo de <span class="font-bold text-teal-400">${formatoConPeso(inversionTotal)}</span> para jugar durante <span class="font-bold">${datos.dias}</span> días.`;
-      
+
       document.getElementById('resumenCapital').innerHTML = resumenHTML;
       document.getElementById('tablaResultados').innerHTML = tablaHTML;
       document.getElementById('resultado').classList.remove('hidden');
-      
+
       // Guardar resultados en localStorage
       guardarResultados(resumenHTML, tablaHTML);
     });
@@ -404,4 +344,5 @@
     cargarResultados();
   </script>
 </body>
+
 </html>

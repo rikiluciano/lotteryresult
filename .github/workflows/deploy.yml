@@ -19,7 +19,7 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/ # Cambia esto por tu directorio de hosting
+        server-dir: htdocs/ # Directorio estándar para InfinityFree
         exclude: |
           **/.git*
           **/node_modules/**
