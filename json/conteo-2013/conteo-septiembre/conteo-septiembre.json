@@ -1,0 +1,2593 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2013-09-01 07:54:02"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2013-09-03 07:56:02"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2013-09-06 07:59:01"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2013-09-07 08:00:04"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2013-09-08 08:01:02"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2013-09-09 08:02:02"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2013-09-10 08:03:01"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2013-09-12 08:05:03"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2013-09-14 08:07:02"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2013-09-15 08:08:02"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2013-09-16 08:09:02"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2013-09-17 08:10:02"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2013-09-18 08:11:02"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2013-09-19 08:12:02"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2013-09-20 08:13:02"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2013-09-21 08:14:02"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2013-09-23 08:16:02"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2013-09-26 08:19:01"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2013-09-28 08:21:02"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2013-09-29 08:22:02"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2013-09-30 08:23:02"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "42",
+                    "64",
+                    "57"
+                ],
+                "fecha_completa": "2013-09-01 07:54:02"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "16",
+                    "48",
+                    "29"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "23",
+                    "50",
+                    "16"
+                ],
+                "fecha_completa": "2013-09-03 07:56:02"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "91",
+                    "95",
+                    "97"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "02",
+                    "86",
+                    "03"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "51",
+                    "82",
+                    "17"
+                ],
+                "fecha_completa": "2013-09-06 07:59:01"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "23",
+                    "46",
+                    "53"
+                ],
+                "fecha_completa": "2013-09-07 08:00:04"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "40",
+                    "13",
+                    "46"
+                ],
+                "fecha_completa": "2013-09-08 08:01:02"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "18",
+                    "31",
+                    "94"
+                ],
+                "fecha_completa": "2013-09-09 08:02:02"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "95",
+                    "38",
+                    "13"
+                ],
+                "fecha_completa": "2013-09-10 08:03:01"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "29",
+                    "80",
+                    "62"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "01",
+                    "71",
+                    "43"
+                ],
+                "fecha_completa": "2013-09-12 08:05:03"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "03",
+                    "57",
+                    "26"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "08",
+                    "56",
+                    "98"
+                ],
+                "fecha_completa": "2013-09-14 08:07:02"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "62",
+                    "11",
+                    "79"
+                ],
+                "fecha_completa": "2013-09-15 08:08:02"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "84",
+                    "48",
+                    "66"
+                ],
+                "fecha_completa": "2013-09-16 08:09:02"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "64",
+                    "82",
+                    "57"
+                ],
+                "fecha_completa": "2013-09-17 08:10:02"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "68",
+                    "26",
+                    "20"
+                ],
+                "fecha_completa": "2013-09-18 08:11:02"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "03",
+                    "79",
+                    "98"
+                ],
+                "fecha_completa": "2013-09-19 08:12:02"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "75",
+                    "43",
+                    "32"
+                ],
+                "fecha_completa": "2013-09-20 08:13:02"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "97",
+                    "88",
+                    "94"
+                ],
+                "fecha_completa": "2013-09-21 08:14:02"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "15",
+                    "29",
+                    "85"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "61",
+                    "23",
+                    "38"
+                ],
+                "fecha_completa": "2013-09-23 08:16:02"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "45",
+                    "39",
+                    "76"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "57",
+                    "85",
+                    "33"
+                ],
+                "fecha_completa": "2013-09-26 08:19:01"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "92",
+                    "74",
+                    "84"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "24",
+                    "24",
+                    "49"
+                ],
+                "fecha_completa": "2013-09-28 08:21:02"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "21",
+                    "33",
+                    "91"
+                ],
+                "fecha_completa": "2013-09-29 08:22:02"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "28",
+                    "23",
+                    "60"
+                ],
+                "fecha_completa": "2013-09-30 08:23:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "42": 1,
+                    "16": 1,
+                    "23": 2,
+                    "91": 1,
+                    "02": 1,
+                    "51": 1,
+                    "40": 1,
+                    "18": 1,
+                    "95": 1,
+                    "29": 1,
+                    "01": 1,
+                    "03": 2,
+                    "08": 1,
+                    "62": 1,
+                    "84": 1,
+                    "64": 1,
+                    "68": 1,
+                    "75": 1,
+                    "97": 1,
+                    "15": 1,
+                    "61": 1,
+                    "45": 1,
+                    "57": 1,
+                    "92": 1,
+                    "24": 1,
+                    "21": 1,
+                    "28": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "42": 1,
+                    "64": 2,
+                    "57": 4,
+                    "16": 2,
+                    "48": 2,
+                    "29": 3,
+                    "23": 4,
+                    "50": 1,
+                    "91": 2,
+                    "95": 2,
+                    "97": 2,
+                    "02": 1,
+                    "86": 1,
+                    "03": 3,
+                    "51": 1,
+                    "82": 2,
+                    "17": 1,
+                    "46": 2,
+                    "53": 1,
+                    "40": 1,
+                    "13": 2,
+                    "18": 1,
+                    "31": 1,
+                    "94": 2,
+                    "38": 2,
+                    "80": 1,
+                    "62": 2,
+                    "01": 1,
+                    "71": 1,
+                    "43": 2,
+                    "26": 2,
+                    "08": 1,
+                    "56": 1,
+                    "98": 2,
+                    "11": 1,
+                    "79": 2,
+                    "84": 2,
+                    "66": 1,
+                    "68": 1,
+                    "20": 1,
+                    "75": 1,
+                    "32": 1,
+                    "88": 1,
+                    "15": 1,
+                    "85": 2,
+                    "61": 1,
+                    "45": 1,
+                    "39": 1,
+                    "76": 1,
+                    "33": 2,
+                    "92": 1,
+                    "74": 1,
+                    "24": 2,
+                    "49": 1,
+                    "21": 1,
+                    "28": 1,
+                    "60": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2013-09-01",
+            "fecha_ultimo_registro": "2013-09-30"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2013-09-01 07:54:02"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2013-09-03 07:56:02"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2013-09-08 08:01:02"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2013-09-09 08:02:02"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2013-09-12 08:05:03"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2013-09-15 08:08:02"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2013-09-16 08:09:02"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2013-09-19 08:12:02"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2013-09-20 08:13:02"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2013-09-21 08:14:02"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2013-09-30 08:23:02"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "61",
+                    "41",
+                    "66"
+                ],
+                "fecha_completa": "2013-09-01 07:54:02"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "79",
+                    "67",
+                    "60"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "61",
+                    "12",
+                    "37"
+                ],
+                "fecha_completa": "2013-09-03 07:56:02"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "96",
+                    "02",
+                    "87"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "92",
+                    "33",
+                    "26"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "29",
+                    "22",
+                    "93"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "79",
+                    "20",
+                    "89"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "95",
+                    "03",
+                    "09"
+                ],
+                "fecha_completa": "2013-09-08 08:01:02"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "05",
+                    "29",
+                    "83"
+                ],
+                "fecha_completa": "2013-09-09 08:02:02"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "90",
+                    "18",
+                    "92"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "35",
+                    "39",
+                    "02"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "90",
+                    "04",
+                    "52"
+                ],
+                "fecha_completa": "2013-09-12 08:05:03"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "65",
+                    "47",
+                    "13"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "18",
+                    "51",
+                    "98"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "48",
+                    "14",
+                    "87"
+                ],
+                "fecha_completa": "2013-09-15 08:08:02"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "95",
+                    "88",
+                    "43"
+                ],
+                "fecha_completa": "2013-09-16 08:09:02"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "72",
+                    "40",
+                    "90"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "60",
+                    "03",
+                    "54"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "59",
+                    "76",
+                    "55"
+                ],
+                "fecha_completa": "2013-09-19 08:12:02"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "62",
+                    "15",
+                    "09"
+                ],
+                "fecha_completa": "2013-09-20 08:13:02"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "63",
+                    "30",
+                    "30"
+                ],
+                "fecha_completa": "2013-09-21 08:14:02"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "53",
+                    "11",
+                    "70"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "86",
+                    "68",
+                    "13"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "30",
+                    "86",
+                    "42"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "88",
+                    "14",
+                    "10"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "11",
+                    "68",
+                    "01"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "43",
+                    "71",
+                    "04"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "93",
+                    "02",
+                    "05"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "30",
+                    "22",
+                    "68"
+                ],
+                "fecha_completa": "2013-09-30 08:23:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "61": 2,
+                    "79": 2,
+                    "96": 1,
+                    "92": 1,
+                    "29": 1,
+                    "95": 2,
+                    "05": 1,
+                    "90": 2,
+                    "35": 1,
+                    "65": 1,
+                    "18": 1,
+                    "48": 1,
+                    "72": 1,
+                    "60": 1,
+                    "59": 1,
+                    "62": 1,
+                    "63": 1,
+                    "53": 1,
+                    "86": 1,
+                    "30": 2,
+                    "88": 1,
+                    "11": 1,
+                    "43": 1,
+                    "93": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "61": 2,
+                    "41": 1,
+                    "66": 1,
+                    "79": 2,
+                    "67": 1,
+                    "60": 2,
+                    "12": 1,
+                    "37": 1,
+                    "96": 1,
+                    "02": 3,
+                    "87": 2,
+                    "92": 2,
+                    "33": 1,
+                    "26": 1,
+                    "29": 2,
+                    "22": 2,
+                    "93": 2,
+                    "20": 1,
+                    "89": 1,
+                    "95": 2,
+                    "03": 2,
+                    "09": 2,
+                    "05": 2,
+                    "83": 1,
+                    "90": 3,
+                    "18": 2,
+                    "35": 1,
+                    "39": 1,
+                    "04": 2,
+                    "52": 1,
+                    "65": 1,
+                    "47": 1,
+                    "13": 2,
+                    "51": 1,
+                    "98": 1,
+                    "48": 1,
+                    "14": 2,
+                    "88": 2,
+                    "43": 2,
+                    "72": 1,
+                    "40": 1,
+                    "54": 1,
+                    "59": 1,
+                    "76": 1,
+                    "55": 1,
+                    "62": 1,
+                    "15": 1,
+                    "63": 1,
+                    "30": 4,
+                    "53": 1,
+                    "11": 2,
+                    "70": 1,
+                    "86": 2,
+                    "68": 3,
+                    "42": 1,
+                    "10": 1,
+                    "01": 1,
+                    "71": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2013-09-01",
+            "fecha_ultimo_registro": "2013-09-30"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2013-09-09 08:02:03"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2013-09-15 08:08:03"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "73",
+                    "28",
+                    "69"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "24",
+                    "59",
+                    "12"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "40",
+                    "37",
+                    "09"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "49",
+                    "70",
+                    "47"
+                ],
+                "fecha_completa": "2013-09-04 07:57:02"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "43",
+                    "05",
+                    "74"
+                ],
+                "fecha_completa": "2013-09-05 07:58:02"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "93",
+                    "78",
+                    "43"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "62",
+                    "05",
+                    "03"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "90",
+                    "20",
+                    "34"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "47",
+                    "23",
+                    "04"
+                ],
+                "fecha_completa": "2013-09-09 08:02:03"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "04",
+                    "27",
+                    "96"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "59",
+                    "22",
+                    "64"
+                ],
+                "fecha_completa": "2013-09-11 08:04:02"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "85",
+                    "90",
+                    "47"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "77",
+                    "69",
+                    "12"
+                ],
+                "fecha_completa": "2013-09-13 08:06:02"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "82",
+                    "04",
+                    "60"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "74",
+                    "91",
+                    "92"
+                ],
+                "fecha_completa": "2013-09-15 08:08:03"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "45",
+                    "24",
+                    "90"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "72",
+                    "59",
+                    "71"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "77",
+                    "20",
+                    "00"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "00",
+                    "26",
+                    "25"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "31",
+                    "91",
+                    "28"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "71",
+                    "13",
+                    "16"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "06",
+                    "25",
+                    "69"
+                ],
+                "fecha_completa": "2013-09-22 08:15:06"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "45",
+                    "67",
+                    "88"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "10",
+                    "24",
+                    "74"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "54",
+                    "49",
+                    "52"
+                ],
+                "fecha_completa": "2013-09-25 08:18:02"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "93",
+                    "17",
+                    "46"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "43",
+                    "72",
+                    "29"
+                ],
+                "fecha_completa": "2013-09-27 08:20:03"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "35",
+                    "63",
+                    "04"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "12",
+                    "50",
+                    "98"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "66",
+                    "25",
+                    "82"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "73": 1,
+                    "24": 1,
+                    "40": 1,
+                    "49": 1,
+                    "43": 2,
+                    "93": 2,
+                    "62": 1,
+                    "90": 1,
+                    "47": 1,
+                    "04": 1,
+                    "59": 1,
+                    "85": 1,
+                    "77": 2,
+                    "82": 1,
+                    "74": 1,
+                    "45": 2,
+                    "72": 1,
+                    "00": 1,
+                    "31": 1,
+                    "71": 1,
+                    "06": 1,
+                    "10": 1,
+                    "54": 1,
+                    "35": 1,
+                    "12": 1,
+                    "66": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "73": 1,
+                    "28": 2,
+                    "69": 3,
+                    "24": 3,
+                    "59": 3,
+                    "12": 3,
+                    "40": 1,
+                    "37": 1,
+                    "09": 1,
+                    "49": 2,
+                    "70": 1,
+                    "47": 3,
+                    "43": 3,
+                    "05": 2,
+                    "74": 3,
+                    "93": 2,
+                    "78": 1,
+                    "62": 1,
+                    "03": 1,
+                    "90": 3,
+                    "20": 2,
+                    "34": 1,
+                    "23": 1,
+                    "04": 4,
+                    "27": 1,
+                    "96": 1,
+                    "22": 1,
+                    "64": 1,
+                    "85": 1,
+                    "77": 2,
+                    "82": 2,
+                    "60": 1,
+                    "91": 2,
+                    "92": 1,
+                    "45": 2,
+                    "72": 2,
+                    "71": 2,
+                    "00": 2,
+                    "26": 1,
+                    "25": 3,
+                    "31": 1,
+                    "13": 1,
+                    "16": 1,
+                    "06": 1,
+                    "67": 1,
+                    "88": 1,
+                    "10": 1,
+                    "54": 1,
+                    "52": 1,
+                    "17": 1,
+                    "46": 1,
+                    "29": 1,
+                    "35": 1,
+                    "63": 1,
+                    "50": 1,
+                    "98": 1,
+                    "66": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2013-09-01",
+            "fecha_ultimo_registro": "2013-09-30"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2013-09-04 07:57:03"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2013-09-05 07:58:03"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2013-09-09 08:02:03"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2013-09-11 08:04:03"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2013-09-13 08:06:03"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2013-09-15 08:08:03"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2013-09-22 08:15:07"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2013-09-25 08:18:03"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2013-09-27 08:20:04"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "20",
+                    "59",
+                    "57"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "56",
+                    "73",
+                    "51"
+                ],
+                "fecha_completa": "2013-09-02 07:55:03"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "45",
+                    "60",
+                    "16"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "76",
+                    "73",
+                    "74"
+                ],
+                "fecha_completa": "2013-09-04 07:57:03"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "55",
+                    "94",
+                    "35"
+                ],
+                "fecha_completa": "2013-09-05 07:58:03"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "60",
+                    "48",
+                    "52"
+                ],
+                "fecha_completa": "2013-09-06 07:59:02"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "33",
+                    "41",
+                    "21"
+                ],
+                "fecha_completa": "2013-09-07 08:00:05"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "50",
+                    "97",
+                    "26"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "05",
+                    "52",
+                    "46"
+                ],
+                "fecha_completa": "2013-09-09 08:02:03"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "05",
+                    "26",
+                    "90"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "76",
+                    "46",
+                    "21"
+                ],
+                "fecha_completa": "2013-09-11 08:04:03"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "34",
+                    "82",
+                    "99"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "57",
+                    "08",
+                    "83"
+                ],
+                "fecha_completa": "2013-09-13 08:06:03"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "93",
+                    "58",
+                    "65"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "43",
+                    "74",
+                    "44"
+                ],
+                "fecha_completa": "2013-09-15 08:08:03"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "50",
+                    "42",
+                    "15"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "37",
+                    "59",
+                    "14"
+                ],
+                "fecha_completa": "2013-09-17 08:10:03"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "73",
+                    "30",
+                    "63"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "49",
+                    "53",
+                    "60"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "73",
+                    "78",
+                    "92"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "22",
+                    "25",
+                    "02"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "29",
+                    "86",
+                    "25"
+                ],
+                "fecha_completa": "2013-09-22 08:15:07"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "36",
+                    "69",
+                    "73"
+                ],
+                "fecha_completa": "2013-09-23 08:16:03"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "05",
+                    "83",
+                    "10"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "49",
+                    "40",
+                    "02"
+                ],
+                "fecha_completa": "2013-09-25 08:18:03"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "52",
+                    "24",
+                    "18"
+                ],
+                "fecha_completa": "2013-09-26 08:19:02"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "48",
+                    "08",
+                    "12"
+                ],
+                "fecha_completa": "2013-09-27 08:20:04"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "84",
+                    "38",
+                    "81"
+                ],
+                "fecha_completa": "2013-09-28 08:21:03"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "99",
+                    "84",
+                    "84"
+                ],
+                "fecha_completa": "2013-09-29 08:22:03"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "62",
+                    "15",
+                    "02"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "20": 1,
+                    "56": 1,
+                    "45": 1,
+                    "76": 2,
+                    "55": 1,
+                    "60": 1,
+                    "33": 1,
+                    "50": 2,
+                    "05": 3,
+                    "34": 1,
+                    "57": 1,
+                    "93": 1,
+                    "43": 1,
+                    "37": 1,
+                    "73": 2,
+                    "49": 2,
+                    "22": 1,
+                    "29": 1,
+                    "36": 1,
+                    "52": 1,
+                    "48": 1,
+                    "84": 1,
+                    "99": 1,
+                    "62": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "20": 1,
+                    "59": 2,
+                    "57": 2,
+                    "56": 1,
+                    "73": 5,
+                    "51": 1,
+                    "45": 1,
+                    "60": 3,
+                    "16": 1,
+                    "76": 2,
+                    "74": 2,
+                    "55": 1,
+                    "94": 1,
+                    "35": 1,
+                    "48": 2,
+                    "52": 3,
+                    "33": 1,
+                    "41": 1,
+                    "21": 2,
+                    "50": 2,
+                    "97": 1,
+                    "26": 2,
+                    "05": 3,
+                    "46": 2,
+                    "90": 1,
+                    "34": 1,
+                    "82": 1,
+                    "99": 2,
+                    "08": 2,
+                    "83": 2,
+                    "93": 1,
+                    "58": 1,
+                    "65": 1,
+                    "43": 1,
+                    "44": 1,
+                    "42": 1,
+                    "15": 2,
+                    "37": 1,
+                    "14": 1,
+                    "30": 1,
+                    "63": 1,
+                    "49": 2,
+                    "53": 1,
+                    "78": 1,
+                    "92": 1,
+                    "22": 1,
+                    "25": 2,
+                    "02": 3,
+                    "29": 1,
+                    "86": 1,
+                    "36": 1,
+                    "69": 1,
+                    "10": 1,
+                    "40": 1,
+                    "24": 1,
+                    "18": 1,
+                    "12": 1,
+                    "84": 3,
+                    "38": 1,
+                    "81": 1,
+                    "62": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2013-09-01",
+            "fecha_ultimo_registro": "2013-09-30"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2013-09-02 07:55:04"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2013-09-04 07:57:03"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2013-09-05 07:58:03"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2013-09-06 07:59:03"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2013-09-07 08:00:06"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2013-09-09 08:02:04"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2013-09-11 08:04:03"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2013-09-13 08:06:03"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2013-09-15 08:08:04"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2013-09-17 08:10:04"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2013-09-22 08:15:07"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2013-09-23 08:16:04"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2013-09-25 08:18:03"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2013-09-26 08:19:03"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2013-09-27 08:20:04"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2013-09-28 08:21:04"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2013-09-29 08:22:04"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de septiembre": {
+                "numeros": [
+                    "70",
+                    "00",
+                    "89"
+                ],
+                "fecha_completa": "2013-09-01 07:54:03"
+            },
+            "lunes, 2 de septiembre": {
+                "numeros": [
+                    "76",
+                    "79",
+                    "69"
+                ],
+                "fecha_completa": "2013-09-02 07:55:04"
+            },
+            "martes, 3 de septiembre": {
+                "numeros": [
+                    "41",
+                    "60",
+                    "86"
+                ],
+                "fecha_completa": "2013-09-03 07:56:03"
+            },
+            "miércoles, 4 de septiembre": {
+                "numeros": [
+                    "92",
+                    "37",
+                    "24"
+                ],
+                "fecha_completa": "2013-09-04 07:57:03"
+            },
+            "jueves, 5 de septiembre": {
+                "numeros": [
+                    "30",
+                    "14",
+                    "74"
+                ],
+                "fecha_completa": "2013-09-05 07:58:03"
+            },
+            "viernes, 6 de septiembre": {
+                "numeros": [
+                    "52",
+                    "69",
+                    "03"
+                ],
+                "fecha_completa": "2013-09-06 07:59:03"
+            },
+            "sábado, 7 de septiembre": {
+                "numeros": [
+                    "02",
+                    "82",
+                    "56"
+                ],
+                "fecha_completa": "2013-09-07 08:00:06"
+            },
+            "domingo, 8 de septiembre": {
+                "numeros": [
+                    "00",
+                    "28",
+                    "39"
+                ],
+                "fecha_completa": "2013-09-08 08:01:03"
+            },
+            "lunes, 9 de septiembre": {
+                "numeros": [
+                    "38",
+                    "96",
+                    "73"
+                ],
+                "fecha_completa": "2013-09-09 08:02:04"
+            },
+            "martes, 10 de septiembre": {
+                "numeros": [
+                    "35",
+                    "74",
+                    "49"
+                ],
+                "fecha_completa": "2013-09-10 08:03:02"
+            },
+            "miércoles, 11 de septiembre": {
+                "numeros": [
+                    "31",
+                    "57",
+                    "89"
+                ],
+                "fecha_completa": "2013-09-11 08:04:03"
+            },
+            "jueves, 12 de septiembre": {
+                "numeros": [
+                    "24",
+                    "70",
+                    "58"
+                ],
+                "fecha_completa": "2013-09-12 08:05:04"
+            },
+            "viernes, 13 de septiembre": {
+                "numeros": [
+                    "99",
+                    "33",
+                    "22"
+                ],
+                "fecha_completa": "2013-09-13 08:06:03"
+            },
+            "sábado, 14 de septiembre": {
+                "numeros": [
+                    "01",
+                    "84",
+                    "60"
+                ],
+                "fecha_completa": "2013-09-14 08:07:03"
+            },
+            "domingo, 15 de septiembre": {
+                "numeros": [
+                    "46",
+                    "48",
+                    "74"
+                ],
+                "fecha_completa": "2013-09-15 08:08:04"
+            },
+            "lunes, 16 de septiembre": {
+                "numeros": [
+                    "45",
+                    "13",
+                    "79"
+                ],
+                "fecha_completa": "2013-09-16 08:09:03"
+            },
+            "martes, 17 de septiembre": {
+                "numeros": [
+                    "55",
+                    "36",
+                    "10"
+                ],
+                "fecha_completa": "2013-09-17 08:10:04"
+            },
+            "miércoles, 18 de septiembre": {
+                "numeros": [
+                    "44",
+                    "75",
+                    "23"
+                ],
+                "fecha_completa": "2013-09-18 08:11:03"
+            },
+            "jueves, 19 de septiembre": {
+                "numeros": [
+                    "15",
+                    "20",
+                    "70"
+                ],
+                "fecha_completa": "2013-09-19 08:12:03"
+            },
+            "viernes, 20 de septiembre": {
+                "numeros": [
+                    "78",
+                    "83",
+                    "77"
+                ],
+                "fecha_completa": "2013-09-20 08:13:03"
+            },
+            "sábado, 21 de septiembre": {
+                "numeros": [
+                    "52",
+                    "26",
+                    "89"
+                ],
+                "fecha_completa": "2013-09-21 08:14:03"
+            },
+            "domingo, 22 de septiembre": {
+                "numeros": [
+                    "92",
+                    "37",
+                    "27"
+                ],
+                "fecha_completa": "2013-09-22 08:15:07"
+            },
+            "lunes, 23 de septiembre": {
+                "numeros": [
+                    "93",
+                    "85",
+                    "11"
+                ],
+                "fecha_completa": "2013-09-23 08:16:04"
+            },
+            "martes, 24 de septiembre": {
+                "numeros": [
+                    "19",
+                    "23",
+                    "32"
+                ],
+                "fecha_completa": "2013-09-24 08:17:03"
+            },
+            "miércoles, 25 de septiembre": {
+                "numeros": [
+                    "28",
+                    "73",
+                    "39"
+                ],
+                "fecha_completa": "2013-09-25 08:18:03"
+            },
+            "jueves, 26 de septiembre": {
+                "numeros": [
+                    "22",
+                    "71",
+                    "35"
+                ],
+                "fecha_completa": "2013-09-26 08:19:03"
+            },
+            "viernes, 27 de septiembre": {
+                "numeros": [
+                    "77",
+                    "96",
+                    "63"
+                ],
+                "fecha_completa": "2013-09-27 08:20:04"
+            },
+            "sábado, 28 de septiembre": {
+                "numeros": [
+                    "67",
+                    "53",
+                    "17"
+                ],
+                "fecha_completa": "2013-09-28 08:21:04"
+            },
+            "domingo, 29 de septiembre": {
+                "numeros": [
+                    "48",
+                    "86",
+                    "10"
+                ],
+                "fecha_completa": "2013-09-29 08:22:04"
+            },
+            "lunes, 30 de septiembre": {
+                "numeros": [
+                    "33",
+                    "70",
+                    "10"
+                ],
+                "fecha_completa": "2013-09-30 08:23:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "70": 1,
+                    "76": 1,
+                    "41": 1,
+                    "92": 2,
+                    "30": 1,
+                    "52": 2,
+                    "02": 1,
+                    "00": 1,
+                    "38": 1,
+                    "35": 1,
+                    "31": 1,
+                    "24": 1,
+                    "99": 1,
+                    "01": 1,
+                    "46": 1,
+                    "45": 1,
+                    "55": 1,
+                    "44": 1,
+                    "15": 1,
+                    "78": 1,
+                    "93": 1,
+                    "19": 1,
+                    "28": 1,
+                    "22": 1,
+                    "77": 1,
+                    "67": 1,
+                    "48": 1,
+                    "33": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "70": 4,
+                    "00": 2,
+                    "89": 3,
+                    "76": 1,
+                    "79": 2,
+                    "69": 2,
+                    "41": 1,
+                    "60": 2,
+                    "86": 2,
+                    "92": 2,
+                    "37": 2,
+                    "24": 2,
+                    "30": 1,
+                    "14": 1,
+                    "74": 3,
+                    "52": 2,
+                    "03": 1,
+                    "02": 1,
+                    "82": 1,
+                    "56": 1,
+                    "28": 2,
+                    "39": 2,
+                    "38": 1,
+                    "96": 2,
+                    "73": 2,
+                    "35": 2,
+                    "49": 1,
+                    "31": 1,
+                    "57": 1,
+                    "58": 1,
+                    "99": 1,
+                    "33": 2,
+                    "22": 2,
+                    "01": 1,
+                    "84": 1,
+                    "46": 1,
+                    "48": 2,
+                    "45": 1,
+                    "13": 1,
+                    "55": 1,
+                    "36": 1,
+                    "10": 3,
+                    "44": 1,
+                    "75": 1,
+                    "23": 2,
+                    "15": 1,
+                    "20": 1,
+                    "78": 1,
+                    "83": 1,
+                    "77": 2,
+                    "26": 1,
+                    "27": 1,
+                    "93": 1,
+                    "85": 1,
+                    "11": 1,
+                    "19": 1,
+                    "32": 1,
+                    "71": 1,
+                    "63": 1,
+                    "67": 1,
+                    "53": 1,
+                    "17": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2013-09-01",
+            "fecha_ultimo_registro": "2013-09-30"
+        }
+    }
+}

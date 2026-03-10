@@ -1,0 +1,6289 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-02 03:36:02"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2020-11-04 03:38:02"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-05 03:39:01"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-06 03:40:03"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-10 03:44:02"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "2020-11-12 03:46:02"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-11-13 03:47:02"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-16 03:50:02"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2020-11-17 03:51:02"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2020-11-19 03:53:02"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-21 03:55:02"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2020-11-22 03:56:02"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2020-11-23 03:57:02"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-11-24 03:58:02"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2020-11-25 03:59:02"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2020-11-26 04:00:03"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2020-11-27 04:01:02"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-28 04:02:01"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-11-29 04:03:02"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-30 04:04:02"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "21",
+                    "06",
+                    "77"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "40",
+                    "38",
+                    "69"
+                ],
+                "fecha_completa": "2020-11-02 03:36:02"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "92",
+                    "75",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "73",
+                    "34",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-04 03:38:02"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "98",
+                    "27",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-05 03:39:01"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "27",
+                    "95",
+                    "65"
+                ],
+                "fecha_completa": "2020-11-06 03:40:03"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "60",
+                    "20",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "16",
+                    "31",
+                    "38"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "77",
+                    "58",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "24",
+                    "19",
+                    "41"
+                ],
+                "fecha_completa": "2020-11-10 03:44:02"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "95",
+                    "24",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "65",
+                    "43",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-12 03:46:02"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "04",
+                    "08",
+                    "36"
+                ],
+                "fecha_completa": "2020-11-13 03:47:02"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "04",
+                    "34",
+                    "32"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "83",
+                    "57",
+                    "73"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "69",
+                    "35",
+                    "58"
+                ],
+                "fecha_completa": "2020-11-16 03:50:02"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "49",
+                    "04",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-17 03:51:02"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "32",
+                    "82",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "97",
+                    "48",
+                    "04"
+                ],
+                "fecha_completa": "2020-11-19 03:53:02"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "50",
+                    "63",
+                    "71"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "46",
+                    "63",
+                    "75"
+                ],
+                "fecha_completa": "2020-11-21 03:55:02"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "42",
+                    "08",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-22 03:56:02"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "76",
+                    "13",
+                    "50"
+                ],
+                "fecha_completa": "2020-11-23 03:57:02"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "84",
+                    "98",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-24 03:58:02"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "23",
+                    "47",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-25 03:59:02"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "23",
+                    "40",
+                    "55"
+                ],
+                "fecha_completa": "2020-11-26 04:00:03"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "54",
+                    "58",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-27 04:01:02"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "24",
+                    "11",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-28 04:02:01"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "01",
+                    "18",
+                    "11"
+                ],
+                "fecha_completa": "2020-11-29 04:03:02"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "37",
+                    "64",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-30 04:04:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "21": 1,
+                    "40": 1,
+                    "92": 1,
+                    "73": 1,
+                    "98": 1,
+                    "27": 1,
+                    "60": 1,
+                    "16": 1,
+                    "77": 1,
+                    "24": 2,
+                    "95": 1,
+                    "65": 1,
+                    "04": 2,
+                    "83": 1,
+                    "69": 1,
+                    "49": 1,
+                    "32": 1,
+                    "97": 1,
+                    "50": 1,
+                    "46": 1,
+                    "42": 1,
+                    "76": 1,
+                    "84": 1,
+                    "23": 2,
+                    "54": 1,
+                    "01": 1,
+                    "37": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "21": 1,
+                    "06": 1,
+                    "77": 2,
+                    "40": 2,
+                    "38": 2,
+                    "69": 2,
+                    "92": 1,
+                    "75": 2,
+                    "26": 1,
+                    "73": 2,
+                    "34": 2,
+                    "03": 2,
+                    "98": 2,
+                    "27": 2,
+                    "72": 1,
+                    "95": 2,
+                    "65": 2,
+                    "60": 1,
+                    "20": 1,
+                    "14": 1,
+                    "16": 1,
+                    "31": 1,
+                    "58": 3,
+                    "42": 4,
+                    "24": 3,
+                    "19": 2,
+                    "41": 1,
+                    "76": 2,
+                    "43": 1,
+                    "49": 2,
+                    "04": 4,
+                    "08": 2,
+                    "36": 1,
+                    "32": 2,
+                    "83": 1,
+                    "57": 1,
+                    "35": 1,
+                    "05": 2,
+                    "82": 1,
+                    "97": 1,
+                    "48": 1,
+                    "50": 2,
+                    "63": 2,
+                    "71": 1,
+                    "46": 1,
+                    "13": 1,
+                    "84": 1,
+                    "86": 1,
+                    "23": 2,
+                    "47": 1,
+                    "55": 1,
+                    "54": 1,
+                    "11": 2,
+                    "01": 2,
+                    "18": 1,
+                    "37": 1,
+                    "64": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2020-11-04 03:38:02"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2020-11-05 03:39:02"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-11-06 03:40:03"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-11-10 03:44:02"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-11-12 03:46:02"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2020-11-13 03:47:02"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-16 03:50:03"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2020-11-21 03:55:03"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2020-11-22 03:56:03"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2020-11-23 03:57:02"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-24 03:58:02"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-25 03:59:02"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2020-11-27 04:01:02"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-11-28 04:02:02"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2020-11-29 04:03:02"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-30 04:04:02"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "47",
+                    "69",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "86",
+                    "91",
+                    "31"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "74",
+                    "11",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "79",
+                    "57",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-04 03:38:02"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "33",
+                    "55",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-05 03:39:02"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "93",
+                    "70",
+                    "82"
+                ],
+                "fecha_completa": "2020-11-06 03:40:03"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "65",
+                    "72",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "11",
+                    "28",
+                    "44"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "74",
+                    "68",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "77",
+                    "69",
+                    "46"
+                ],
+                "fecha_completa": "2020-11-10 03:44:02"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "07",
+                    "43",
+                    "28"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "90",
+                    "88",
+                    "46"
+                ],
+                "fecha_completa": "2020-11-12 03:46:02"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "19",
+                    "13",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-13 03:47:02"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "75",
+                    "94",
+                    "20"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "01",
+                    "33",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "85",
+                    "75",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-16 03:50:03"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "78",
+                    "25",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "96",
+                    "95",
+                    "83"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "85",
+                    "44",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "92",
+                    "35",
+                    "56"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "64",
+                    "00",
+                    "36"
+                ],
+                "fecha_completa": "2020-11-21 03:55:03"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "18",
+                    "40",
+                    "23"
+                ],
+                "fecha_completa": "2020-11-22 03:56:03"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "43",
+                    "90",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-23 03:57:02"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "75",
+                    "73",
+                    "92"
+                ],
+                "fecha_completa": "2020-11-24 03:58:02"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "12",
+                    "57",
+                    "64"
+                ],
+                "fecha_completa": "2020-11-25 03:59:02"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "81",
+                    "98",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "66",
+                    "40",
+                    "68"
+                ],
+                "fecha_completa": "2020-11-27 04:01:02"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "17",
+                    "04",
+                    "11"
+                ],
+                "fecha_completa": "2020-11-28 04:02:02"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "53",
+                    "46",
+                    "71"
+                ],
+                "fecha_completa": "2020-11-29 04:03:02"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "36",
+                    "61",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-30 04:04:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "47": 1,
+                    "86": 1,
+                    "74": 2,
+                    "79": 1,
+                    "33": 1,
+                    "93": 1,
+                    "65": 1,
+                    "11": 1,
+                    "77": 1,
+                    "07": 1,
+                    "90": 1,
+                    "19": 1,
+                    "75": 2,
+                    "01": 1,
+                    "85": 2,
+                    "78": 1,
+                    "96": 1,
+                    "92": 1,
+                    "64": 1,
+                    "18": 1,
+                    "43": 1,
+                    "12": 1,
+                    "81": 1,
+                    "66": 1,
+                    "17": 1,
+                    "53": 1,
+                    "36": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "47": 1,
+                    "69": 2,
+                    "14": 1,
+                    "86": 1,
+                    "91": 1,
+                    "31": 1,
+                    "74": 2,
+                    "11": 3,
+                    "81": 2,
+                    "79": 1,
+                    "57": 2,
+                    "52": 1,
+                    "33": 2,
+                    "55": 1,
+                    "19": 2,
+                    "93": 1,
+                    "70": 1,
+                    "82": 1,
+                    "65": 1,
+                    "72": 1,
+                    "00": 3,
+                    "28": 2,
+                    "44": 2,
+                    "68": 2,
+                    "42": 1,
+                    "77": 1,
+                    "46": 3,
+                    "07": 1,
+                    "43": 2,
+                    "90": 2,
+                    "88": 1,
+                    "13": 1,
+                    "37": 3,
+                    "75": 3,
+                    "94": 1,
+                    "20": 1,
+                    "01": 2,
+                    "87": 1,
+                    "85": 2,
+                    "78": 1,
+                    "25": 1,
+                    "96": 1,
+                    "95": 1,
+                    "83": 1,
+                    "76": 1,
+                    "92": 2,
+                    "35": 1,
+                    "56": 1,
+                    "64": 2,
+                    "36": 2,
+                    "18": 1,
+                    "40": 2,
+                    "23": 1,
+                    "73": 1,
+                    "12": 1,
+                    "98": 1,
+                    "84": 1,
+                    "66": 1,
+                    "17": 1,
+                    "04": 1,
+                    "53": 1,
+                    "71": 1,
+                    "61": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-04 03:38:03"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2020-11-05 03:39:02"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2020-11-06 03:40:04"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-11-10 03:44:03"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-16 03:50:03"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-21 03:55:03"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-22 03:56:03"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-23 03:57:03"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-11-24 03:58:03"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-11-28 04:02:02"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-29 04:03:03"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-11-30 04:04:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "82",
+                    "05",
+                    "30"
+                ],
+                "fecha_completa": "2020-11-01 03:35:03"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "63",
+                    "54",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "82",
+                    "58",
+                    "79"
+                ],
+                "fecha_completa": "2020-11-03 03:37:02"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "41",
+                    "46",
+                    "38"
+                ],
+                "fecha_completa": "2020-11-04 03:38:03"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "45",
+                    "24",
+                    "06"
+                ],
+                "fecha_completa": "2020-11-05 03:39:02"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "70",
+                    "31",
+                    "20"
+                ],
+                "fecha_completa": "2020-11-06 03:40:04"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "92",
+                    "15",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-07 03:41:02"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "50",
+                    "88",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-08 03:42:02"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "39",
+                    "79",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "00",
+                    "92",
+                    "64"
+                ],
+                "fecha_completa": "2020-11-10 03:44:03"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "90",
+                    "52",
+                    "85"
+                ],
+                "fecha_completa": "2020-11-11 03:45:03"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "75",
+                    "88",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "16",
+                    "94",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "04",
+                    "10",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-14 03:48:02"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "14",
+                    "13",
+                    "61"
+                ],
+                "fecha_completa": "2020-11-15 03:49:02"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "82",
+                    "94",
+                    "08"
+                ],
+                "fecha_completa": "2020-11-16 03:50:03"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "52",
+                    "43",
+                    "92"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "99",
+                    "97",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-18 03:52:03"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "78",
+                    "19",
+                    "55"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "63",
+                    "18",
+                    "33"
+                ],
+                "fecha_completa": "2020-11-20 03:54:03"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "98",
+                    "62",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-21 03:55:03"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "63",
+                    "82",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-22 03:56:03"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "88",
+                    "29",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-23 03:57:03"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "00",
+                    "28",
+                    "65"
+                ],
+                "fecha_completa": "2020-11-24 03:58:03"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "17",
+                    "00",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "15",
+                    "04",
+                    "83"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "81",
+                    "25",
+                    "85"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "26",
+                    "68",
+                    "33"
+                ],
+                "fecha_completa": "2020-11-28 04:02:02"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "88",
+                    "91",
+                    "93"
+                ],
+                "fecha_completa": "2020-11-29 04:03:03"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "48",
+                    "68",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-30 04:04:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "82": 3,
+                    "63": 3,
+                    "41": 1,
+                    "45": 1,
+                    "70": 1,
+                    "92": 1,
+                    "50": 1,
+                    "39": 1,
+                    "00": 2,
+                    "90": 1,
+                    "75": 1,
+                    "16": 1,
+                    "04": 1,
+                    "14": 1,
+                    "52": 1,
+                    "99": 1,
+                    "78": 1,
+                    "98": 1,
+                    "88": 2,
+                    "17": 1,
+                    "15": 1,
+                    "81": 1,
+                    "26": 1,
+                    "48": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "82": 4,
+                    "05": 1,
+                    "30": 1,
+                    "63": 4,
+                    "54": 2,
+                    "49": 1,
+                    "58": 1,
+                    "79": 2,
+                    "41": 1,
+                    "46": 1,
+                    "38": 1,
+                    "45": 1,
+                    "24": 1,
+                    "06": 1,
+                    "70": 1,
+                    "31": 1,
+                    "20": 1,
+                    "92": 3,
+                    "15": 2,
+                    "52": 3,
+                    "50": 1,
+                    "88": 4,
+                    "37": 2,
+                    "39": 1,
+                    "26": 2,
+                    "00": 3,
+                    "64": 1,
+                    "90": 1,
+                    "85": 2,
+                    "75": 1,
+                    "81": 3,
+                    "16": 1,
+                    "94": 2,
+                    "04": 2,
+                    "10": 1,
+                    "14": 1,
+                    "13": 1,
+                    "61": 1,
+                    "08": 1,
+                    "43": 1,
+                    "99": 1,
+                    "97": 1,
+                    "78": 3,
+                    "19": 2,
+                    "55": 1,
+                    "18": 1,
+                    "33": 2,
+                    "98": 1,
+                    "62": 1,
+                    "86": 1,
+                    "29": 1,
+                    "28": 1,
+                    "65": 1,
+                    "17": 1,
+                    "83": 1,
+                    "25": 1,
+                    "68": 2,
+                    "91": 1,
+                    "93": 1,
+                    "48": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-01 03:35:04"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-03 03:37:03"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-04 03:38:03"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-05 03:39:03"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-06 03:40:04"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-07 03:41:03"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-11-08 03:42:03"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-10 03:44:03"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-11-14 03:48:03"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-15 03:49:03"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2020-11-18 03:52:04"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2020-11-20 03:54:04"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-21 03:55:04"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-23 03:57:03"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2020-11-24 03:58:03"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-29 04:03:03"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-30 04:04:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "06",
+                    "88",
+                    "31"
+                ],
+                "fecha_completa": "2020-11-01 03:35:04"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "74",
+                    "05",
+                    "90"
+                ],
+                "fecha_completa": "2020-11-02 03:36:03"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "95",
+                    "23",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-03 03:37:03"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "27",
+                    "47",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-04 03:38:03"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "75",
+                    "89",
+                    "15"
+                ],
+                "fecha_completa": "2020-11-05 03:39:03"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "50",
+                    "19",
+                    "50"
+                ],
+                "fecha_completa": "2020-11-06 03:40:04"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "56",
+                    "00",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-07 03:41:03"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "32",
+                    "49",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-08 03:42:03"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "24",
+                    "62",
+                    "04"
+                ],
+                "fecha_completa": "2020-11-09 03:43:02"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "37",
+                    "49",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-10 03:44:03"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "13",
+                    "38",
+                    "36"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "98",
+                    "51",
+                    "74"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "39",
+                    "95",
+                    "77"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "62",
+                    "54",
+                    "69"
+                ],
+                "fecha_completa": "2020-11-14 03:48:03"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "63",
+                    "10",
+                    "56"
+                ],
+                "fecha_completa": "2020-11-15 03:49:03"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "34",
+                    "64",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "82",
+                    "07",
+                    "83"
+                ],
+                "fecha_completa": "2020-11-17 03:51:03"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "38",
+                    "42",
+                    "12"
+                ],
+                "fecha_completa": "2020-11-18 03:52:04"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "36",
+                    "56",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-19 03:53:03"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "97",
+                    "92",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-20 03:54:04"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "69",
+                    "08",
+                    "96"
+                ],
+                "fecha_completa": "2020-11-21 03:55:04"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "58",
+                    "98",
+                    "48"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "37",
+                    "73",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-23 03:57:03"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "58",
+                    "83",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-24 03:58:03"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "39",
+                    "68",
+                    "59"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "51",
+                    "74",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-26 04:00:04"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "79",
+                    "41",
+                    "65"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "13",
+                    "46",
+                    "11"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "24",
+                    "80",
+                    "44"
+                ],
+                "fecha_completa": "2020-11-29 04:03:03"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "95",
+                    "54",
+                    "35"
+                ],
+                "fecha_completa": "2020-11-30 04:04:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "06": 1,
+                    "74": 1,
+                    "95": 2,
+                    "27": 1,
+                    "75": 1,
+                    "50": 1,
+                    "56": 1,
+                    "32": 1,
+                    "24": 2,
+                    "37": 2,
+                    "13": 2,
+                    "98": 1,
+                    "39": 2,
+                    "62": 1,
+                    "63": 1,
+                    "34": 1,
+                    "82": 1,
+                    "38": 1,
+                    "36": 1,
+                    "97": 1,
+                    "69": 1,
+                    "58": 2,
+                    "51": 1,
+                    "79": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "06": 1,
+                    "88": 1,
+                    "31": 1,
+                    "74": 3,
+                    "05": 3,
+                    "90": 1,
+                    "95": 3,
+                    "23": 1,
+                    "19": 2,
+                    "27": 1,
+                    "47": 1,
+                    "16": 1,
+                    "75": 1,
+                    "89": 1,
+                    "15": 1,
+                    "50": 2,
+                    "56": 3,
+                    "00": 1,
+                    "32": 1,
+                    "49": 3,
+                    "24": 2,
+                    "62": 2,
+                    "04": 1,
+                    "37": 2,
+                    "01": 2,
+                    "13": 2,
+                    "38": 2,
+                    "36": 2,
+                    "98": 2,
+                    "51": 2,
+                    "39": 2,
+                    "77": 1,
+                    "54": 3,
+                    "69": 2,
+                    "63": 1,
+                    "10": 1,
+                    "34": 1,
+                    "64": 1,
+                    "76": 1,
+                    "82": 1,
+                    "07": 1,
+                    "83": 2,
+                    "42": 1,
+                    "12": 1,
+                    "97": 1,
+                    "92": 1,
+                    "08": 1,
+                    "96": 1,
+                    "58": 2,
+                    "48": 1,
+                    "73": 1,
+                    "14": 1,
+                    "78": 1,
+                    "68": 1,
+                    "59": 1,
+                    "79": 1,
+                    "41": 1,
+                    "65": 1,
+                    "46": 1,
+                    "11": 1,
+                    "80": 1,
+                    "44": 1,
+                    "35": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2020-11-01 03:35:04"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-02 03:36:04"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-03 03:37:03"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2020-11-05 03:39:03"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-07 03:41:03"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2020-11-08 03:42:03"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-11-09 03:43:03"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-14 03:48:03"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-15 03:49:03"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-17 03:51:04"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-11-18 03:52:04"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-11-19 03:53:04"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-20 03:54:04"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2020-11-21 03:55:04"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-11-23 03:57:04"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2020-11-26 04:00:05"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2020-11-30 04:04:04"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "10",
+                    "09",
+                    "36"
+                ],
+                "fecha_completa": "2020-11-01 03:35:04"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "82",
+                    "24",
+                    "66"
+                ],
+                "fecha_completa": "2020-11-02 03:36:04"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "03",
+                    "45",
+                    "35"
+                ],
+                "fecha_completa": "2020-11-03 03:37:03"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "97",
+                    "52",
+                    "12"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "70",
+                    "15",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-05 03:39:03"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "64",
+                    "71",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "40",
+                    "70",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-07 03:41:03"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "67",
+                    "07",
+                    "15"
+                ],
+                "fecha_completa": "2020-11-08 03:42:03"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "90",
+                    "12",
+                    "47"
+                ],
+                "fecha_completa": "2020-11-09 03:43:03"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "70",
+                    "93",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "84",
+                    "01",
+                    "95"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "33",
+                    "01",
+                    "29"
+                ],
+                "fecha_completa": "2020-11-12 03:46:03"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "21",
+                    "27",
+                    "66"
+                ],
+                "fecha_completa": "2020-11-13 03:47:03"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "50",
+                    "27",
+                    "15"
+                ],
+                "fecha_completa": "2020-11-14 03:48:03"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "41",
+                    "83",
+                    "90"
+                ],
+                "fecha_completa": "2020-11-15 03:49:03"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "47",
+                    "72",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "36",
+                    "69",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-17 03:51:04"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "26",
+                    "01",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-18 03:52:04"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "07",
+                    "04",
+                    "60"
+                ],
+                "fecha_completa": "2020-11-19 03:53:04"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "46",
+                    "49",
+                    "94"
+                ],
+                "fecha_completa": "2020-11-20 03:54:04"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "15",
+                    "30",
+                    "34"
+                ],
+                "fecha_completa": "2020-11-21 03:55:04"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "01",
+                    "89",
+                    "30"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "00",
+                    "58",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-23 03:57:04"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "20",
+                    "50",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "48",
+                    "00",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-25 03:59:03"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "18",
+                    "69",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-26 04:00:05"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "30",
+                    "12",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-27 04:01:03"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "32",
+                    "50",
+                    "39"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "08",
+                    "38",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "79",
+                    "84",
+                    "15"
+                ],
+                "fecha_completa": "2020-11-30 04:04:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "10": 1,
+                    "82": 1,
+                    "03": 1,
+                    "97": 1,
+                    "70": 2,
+                    "64": 1,
+                    "40": 1,
+                    "67": 1,
+                    "90": 1,
+                    "84": 1,
+                    "33": 1,
+                    "21": 1,
+                    "50": 1,
+                    "41": 1,
+                    "47": 1,
+                    "36": 1,
+                    "26": 1,
+                    "07": 1,
+                    "46": 1,
+                    "15": 1,
+                    "01": 1,
+                    "00": 1,
+                    "20": 1,
+                    "48": 1,
+                    "18": 1,
+                    "30": 1,
+                    "32": 1,
+                    "08": 1,
+                    "79": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "10": 1,
+                    "09": 1,
+                    "36": 2,
+                    "82": 1,
+                    "24": 1,
+                    "66": 2,
+                    "03": 2,
+                    "45": 1,
+                    "35": 1,
+                    "97": 1,
+                    "52": 1,
+                    "12": 3,
+                    "70": 3,
+                    "15": 5,
+                    "16": 1,
+                    "64": 1,
+                    "71": 1,
+                    "86": 2,
+                    "40": 1,
+                    "84": 5,
+                    "67": 1,
+                    "07": 2,
+                    "90": 2,
+                    "47": 2,
+                    "93": 1,
+                    "01": 5,
+                    "95": 1,
+                    "33": 1,
+                    "29": 1,
+                    "21": 1,
+                    "27": 2,
+                    "50": 3,
+                    "41": 1,
+                    "83": 1,
+                    "72": 1,
+                    "87": 1,
+                    "69": 2,
+                    "26": 1,
+                    "63": 1,
+                    "04": 1,
+                    "60": 1,
+                    "46": 1,
+                    "49": 1,
+                    "94": 1,
+                    "30": 3,
+                    "34": 1,
+                    "89": 1,
+                    "00": 2,
+                    "58": 1,
+                    "20": 1,
+                    "14": 1,
+                    "48": 1,
+                    "18": 1,
+                    "76": 1,
+                    "42": 1,
+                    "32": 1,
+                    "39": 1,
+                    "08": 1,
+                    "38": 1,
+                    "79": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "Florida Dia": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2020-11-02 03:36:04"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-03 03:37:04"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-09 03:43:03"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2020-11-17 03:51:04"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-19 03:53:04"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-23 03:57:04"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-25 03:59:04"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2020-11-26 04:00:05"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-27 04:01:04"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2020-11-30 04:04:04"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "86",
+                    "20",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "16",
+                    "78",
+                    "01"
+                ],
+                "fecha_completa": "2020-11-02 03:36:04"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "27",
+                    "51",
+                    "22"
+                ],
+                "fecha_completa": "2020-11-03 03:37:04"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "48",
+                    "81",
+                    "11"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "02",
+                    "95",
+                    "47"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "85",
+                    "17",
+                    "30"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "46",
+                    "24",
+                    "45"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "50",
+                    "27",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "40",
+                    "07",
+                    "34"
+                ],
+                "fecha_completa": "2020-11-09 03:43:03"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "21",
+                    "63",
+                    "17"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "29",
+                    "96",
+                    "92"
+                ],
+                "fecha_completa": "2020-11-11 03:45:04"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "12",
+                    "95",
+                    "56"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "63",
+                    "48",
+                    "31"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "99",
+                    "02",
+                    "44"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "98",
+                    "35",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "41",
+                    "73",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-16 03:50:04"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "22",
+                    "79",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-17 03:51:04"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "13",
+                    "07",
+                    "60"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "03",
+                    "05",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-19 03:53:04"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "49",
+                    "19",
+                    "08"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "14",
+                    "64",
+                    "23"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "01",
+                    "44",
+                    "29"
+                ],
+                "fecha_completa": "2020-11-22 03:56:04"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "06",
+                    "52",
+                    "62"
+                ],
+                "fecha_completa": "2020-11-23 03:57:04"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "70",
+                    "31",
+                    "70"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "46",
+                    "72",
+                    "66"
+                ],
+                "fecha_completa": "2020-11-25 03:59:04"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "67",
+                    "08",
+                    "75"
+                ],
+                "fecha_completa": "2020-11-26 04:00:05"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "21",
+                    "26",
+                    "70"
+                ],
+                "fecha_completa": "2020-11-27 04:01:04"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "03",
+                    "65",
+                    "53"
+                ],
+                "fecha_completa": "2020-11-28 04:02:03"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "95",
+                    "64",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "59",
+                    "79",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-30 04:04:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "86": 1,
+                    "16": 1,
+                    "27": 1,
+                    "48": 1,
+                    "02": 1,
+                    "85": 1,
+                    "46": 2,
+                    "50": 1,
+                    "40": 1,
+                    "21": 2,
+                    "29": 1,
+                    "12": 1,
+                    "63": 1,
+                    "99": 1,
+                    "98": 1,
+                    "41": 1,
+                    "22": 1,
+                    "13": 1,
+                    "03": 2,
+                    "49": 1,
+                    "14": 1,
+                    "01": 1,
+                    "06": 1,
+                    "70": 1,
+                    "67": 1,
+                    "95": 1,
+                    "59": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "86": 1,
+                    "20": 1,
+                    "19": 2,
+                    "16": 1,
+                    "78": 1,
+                    "01": 2,
+                    "27": 2,
+                    "51": 1,
+                    "22": 2,
+                    "48": 2,
+                    "81": 1,
+                    "11": 1,
+                    "02": 2,
+                    "95": 3,
+                    "47": 1,
+                    "85": 1,
+                    "17": 2,
+                    "30": 1,
+                    "46": 2,
+                    "24": 1,
+                    "45": 1,
+                    "50": 1,
+                    "63": 4,
+                    "40": 1,
+                    "07": 2,
+                    "34": 1,
+                    "21": 2,
+                    "29": 2,
+                    "96": 1,
+                    "92": 1,
+                    "12": 1,
+                    "56": 1,
+                    "31": 2,
+                    "99": 1,
+                    "44": 2,
+                    "98": 1,
+                    "35": 1,
+                    "41": 1,
+                    "73": 1,
+                    "52": 2,
+                    "79": 2,
+                    "26": 2,
+                    "13": 1,
+                    "60": 1,
+                    "03": 4,
+                    "05": 1,
+                    "49": 1,
+                    "08": 2,
+                    "14": 1,
+                    "64": 2,
+                    "23": 1,
+                    "06": 1,
+                    "62": 1,
+                    "70": 3,
+                    "72": 1,
+                    "66": 1,
+                    "67": 1,
+                    "75": 1,
+                    "65": 1,
+                    "53": 1,
+                    "59": 1,
+                    "00": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "New York Tarde": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-03 03:37:04"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-16 03:50:05"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-25 03:59:04"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-26 04:00:06"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-27 04:01:04"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2020-11-28 04:02:04"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "76",
+                    "29",
+                    "25"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "56",
+                    "02",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "41",
+                    "59",
+                    "58"
+                ],
+                "fecha_completa": "2020-11-03 03:37:04"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "27",
+                    "00",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-04 03:38:04"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "26",
+                    "41",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "58",
+                    "82",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-06 03:40:05"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "96",
+                    "41",
+                    "20"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "90",
+                    "69",
+                    "93"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "69",
+                    "76",
+                    "11"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "88",
+                    "71",
+                    "73"
+                ],
+                "fecha_completa": "2020-11-10 03:44:04"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "54",
+                    "90",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "76",
+                    "93",
+                    "21"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "29",
+                    "88",
+                    "60"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "53",
+                    "99",
+                    "57"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "64",
+                    "06",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "21",
+                    "58",
+                    "34"
+                ],
+                "fecha_completa": "2020-11-16 03:50:05"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "31",
+                    "37",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "93",
+                    "95",
+                    "39"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "62",
+                    "59",
+                    "50"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "72",
+                    "16",
+                    "04"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "06",
+                    "92",
+                    "35"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "75",
+                    "12",
+                    "62"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "10",
+                    "87",
+                    "45"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "17",
+                    "38",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-24 03:58:04"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "95",
+                    "85",
+                    "21"
+                ],
+                "fecha_completa": "2020-11-25 03:59:04"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "69",
+                    "23",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-26 04:00:06"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "98",
+                    "39",
+                    "04"
+                ],
+                "fecha_completa": "2020-11-27 04:01:04"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "14",
+                    "29",
+                    "83"
+                ],
+                "fecha_completa": "2020-11-28 04:02:04"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "90",
+                    "71",
+                    "71"
+                ],
+                "fecha_completa": "2020-11-29 04:03:04"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "30",
+                    "11",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "76": 2,
+                    "56": 1,
+                    "41": 1,
+                    "27": 1,
+                    "26": 1,
+                    "58": 1,
+                    "96": 1,
+                    "90": 2,
+                    "69": 2,
+                    "88": 1,
+                    "54": 1,
+                    "29": 1,
+                    "53": 1,
+                    "64": 1,
+                    "21": 1,
+                    "31": 1,
+                    "93": 1,
+                    "62": 1,
+                    "72": 1,
+                    "06": 1,
+                    "75": 1,
+                    "10": 1,
+                    "17": 1,
+                    "95": 1,
+                    "98": 1,
+                    "14": 1,
+                    "30": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "76": 3,
+                    "29": 3,
+                    "25": 1,
+                    "56": 1,
+                    "02": 1,
+                    "78": 2,
+                    "41": 3,
+                    "59": 2,
+                    "58": 3,
+                    "27": 1,
+                    "00": 2,
+                    "63": 1,
+                    "26": 2,
+                    "82": 1,
+                    "87": 2,
+                    "96": 1,
+                    "20": 1,
+                    "90": 3,
+                    "69": 3,
+                    "93": 3,
+                    "11": 2,
+                    "88": 2,
+                    "71": 3,
+                    "73": 1,
+                    "54": 1,
+                    "03": 1,
+                    "21": 3,
+                    "60": 1,
+                    "53": 1,
+                    "99": 1,
+                    "57": 1,
+                    "64": 1,
+                    "06": 2,
+                    "14": 2,
+                    "34": 1,
+                    "31": 1,
+                    "37": 1,
+                    "95": 2,
+                    "39": 2,
+                    "62": 2,
+                    "50": 1,
+                    "72": 1,
+                    "16": 1,
+                    "04": 2,
+                    "92": 1,
+                    "35": 1,
+                    "75": 1,
+                    "12": 1,
+                    "10": 1,
+                    "45": 1,
+                    "17": 1,
+                    "38": 1,
+                    "85": 1,
+                    "23": 1,
+                    "84": 1,
+                    "98": 1,
+                    "83": 1,
+                    "30": 1,
+                    "19": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "Florida Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-06 03:40:06"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-16 03:50:05"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-11-24 03:58:05"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-11-26 04:00:06"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-27 04:01:05"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-28 04:02:04"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2020-11-29 04:03:05"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "95",
+                    "00",
+                    "34"
+                ],
+                "fecha_completa": "2020-11-01 03:35:05"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "31",
+                    "44",
+                    "12"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "47",
+                    "80",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "22",
+                    "19",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "11",
+                    "79",
+                    "96"
+                ],
+                "fecha_completa": "2020-11-05 03:39:04"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "95",
+                    "23",
+                    "15"
+                ],
+                "fecha_completa": "2020-11-06 03:40:06"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "13",
+                    "36",
+                    "80"
+                ],
+                "fecha_completa": "2020-11-07 03:41:04"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "98",
+                    "60",
+                    "23"
+                ],
+                "fecha_completa": "2020-11-08 03:42:04"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "37",
+                    "25",
+                    "90"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "43",
+                    "98",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "10",
+                    "61",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "60",
+                    "36",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-12 03:46:04"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "10",
+                    "75",
+                    "06"
+                ],
+                "fecha_completa": "2020-11-13 03:47:04"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "68",
+                    "08",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-14 03:48:04"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "41",
+                    "47",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-15 03:49:04"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "06",
+                    "15",
+                    "55"
+                ],
+                "fecha_completa": "2020-11-16 03:50:05"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "74",
+                    "30",
+                    "27"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "73",
+                    "23",
+                    "95"
+                ],
+                "fecha_completa": "2020-11-18 03:52:05"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "06",
+                    "21",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "21",
+                    "01",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-20 03:54:05"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "51",
+                    "49",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-21 03:55:05"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "85",
+                    "00",
+                    "10"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "83",
+                    "45",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "41",
+                    "89",
+                    "17"
+                ],
+                "fecha_completa": "2020-11-24 03:58:05"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "40",
+                    "27",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "07",
+                    "12",
+                    "98"
+                ],
+                "fecha_completa": "2020-11-26 04:00:06"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "69",
+                    "44",
+                    "65"
+                ],
+                "fecha_completa": "2020-11-27 04:01:05"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "37",
+                    "35",
+                    "91"
+                ],
+                "fecha_completa": "2020-11-28 04:02:04"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "55",
+                    "12",
+                    "42"
+                ],
+                "fecha_completa": "2020-11-29 04:03:05"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "03",
+                    "67",
+                    "46"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "95": 2,
+                    "31": 1,
+                    "47": 1,
+                    "22": 1,
+                    "11": 1,
+                    "13": 1,
+                    "98": 1,
+                    "37": 2,
+                    "43": 1,
+                    "10": 2,
+                    "60": 1,
+                    "68": 1,
+                    "41": 2,
+                    "06": 2,
+                    "74": 1,
+                    "73": 1,
+                    "21": 1,
+                    "51": 1,
+                    "85": 1,
+                    "83": 1,
+                    "40": 1,
+                    "07": 1,
+                    "69": 1,
+                    "55": 1,
+                    "03": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "95": 3,
+                    "00": 2,
+                    "34": 1,
+                    "31": 1,
+                    "44": 2,
+                    "12": 3,
+                    "47": 2,
+                    "80": 2,
+                    "63": 1,
+                    "22": 1,
+                    "19": 3,
+                    "52": 1,
+                    "11": 1,
+                    "79": 1,
+                    "96": 1,
+                    "23": 3,
+                    "15": 2,
+                    "13": 1,
+                    "36": 2,
+                    "98": 3,
+                    "60": 2,
+                    "37": 2,
+                    "25": 1,
+                    "90": 1,
+                    "43": 1,
+                    "54": 3,
+                    "10": 3,
+                    "61": 1,
+                    "72": 1,
+                    "16": 1,
+                    "75": 1,
+                    "06": 3,
+                    "68": 1,
+                    "08": 1,
+                    "41": 2,
+                    "05": 1,
+                    "55": 2,
+                    "74": 1,
+                    "30": 1,
+                    "27": 2,
+                    "73": 1,
+                    "21": 2,
+                    "76": 1,
+                    "01": 1,
+                    "51": 1,
+                    "49": 1,
+                    "86": 1,
+                    "85": 1,
+                    "83": 1,
+                    "45": 1,
+                    "89": 1,
+                    "17": 1,
+                    "40": 1,
+                    "07": 1,
+                    "69": 1,
+                    "65": 1,
+                    "35": 1,
+                    "91": 1,
+                    "42": 1,
+                    "03": 1,
+                    "67": 1,
+                    "46": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "New york Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-01 03:35:06"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-05 03:39:05"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-06 03:40:06"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-07 03:41:05"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-11-08 03:42:05"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-12 03:46:05"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2020-11-13 03:47:05"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2020-11-14 03:48:05"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-11-15 03:49:05"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2020-11-16 03:50:06"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2020-11-18 03:52:06"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2020-11-20 03:54:06"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2020-11-21 03:55:06"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-11-24 03:58:05"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-11-26 04:00:07"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-11-27 04:01:05"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-11-28 04:02:05"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-11-29 04:03:05"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "85",
+                    "52",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-01 03:35:06"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "56",
+                    "76",
+                    "46"
+                ],
+                "fecha_completa": "2020-11-02 03:36:05"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "40",
+                    "55",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "91",
+                    "27",
+                    "91"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "12",
+                    "79",
+                    "91"
+                ],
+                "fecha_completa": "2020-11-05 03:39:05"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "63",
+                    "95",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-06 03:40:06"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "56",
+                    "90",
+                    "22"
+                ],
+                "fecha_completa": "2020-11-07 03:41:05"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "32",
+                    "09",
+                    "99"
+                ],
+                "fecha_completa": "2020-11-08 03:42:05"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "88",
+                    "73",
+                    "40"
+                ],
+                "fecha_completa": "2020-11-09 03:43:04"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "52",
+                    "63",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "12",
+                    "71",
+                    "50"
+                ],
+                "fecha_completa": "2020-11-11 03:45:05"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "37",
+                    "44",
+                    "13"
+                ],
+                "fecha_completa": "2020-11-12 03:46:05"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "81",
+                    "05",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-13 03:47:05"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "34",
+                    "03",
+                    "58"
+                ],
+                "fecha_completa": "2020-11-14 03:48:05"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "78",
+                    "31",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-15 03:49:05"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "34",
+                    "15",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-16 03:50:06"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "88",
+                    "68",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-17 03:51:05"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "09",
+                    "84",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-18 03:52:06"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "71",
+                    "17",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-19 03:53:05"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "35",
+                    "90",
+                    "51"
+                ],
+                "fecha_completa": "2020-11-20 03:54:06"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "52",
+                    "02",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-21 03:55:06"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "20",
+                    "80",
+                    "48"
+                ],
+                "fecha_completa": "2020-11-22 03:56:05"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "03",
+                    "41",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-23 03:57:05"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "92",
+                    "19",
+                    "88"
+                ],
+                "fecha_completa": "2020-11-24 03:58:05"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "28",
+                    "93",
+                    "65"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "82",
+                    "42",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-26 04:00:07"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "99",
+                    "19",
+                    "43"
+                ],
+                "fecha_completa": "2020-11-27 04:01:05"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "40",
+                    "24",
+                    "88"
+                ],
+                "fecha_completa": "2020-11-28 04:02:05"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "51",
+                    "47",
+                    "04"
+                ],
+                "fecha_completa": "2020-11-29 04:03:05"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "50",
+                    "98",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-30 04:04:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "85": 1,
+                    "56": 2,
+                    "40": 2,
+                    "91": 1,
+                    "12": 2,
+                    "63": 1,
+                    "32": 1,
+                    "88": 2,
+                    "52": 2,
+                    "37": 1,
+                    "81": 1,
+                    "34": 2,
+                    "78": 1,
+                    "09": 1,
+                    "71": 1,
+                    "35": 1,
+                    "20": 1,
+                    "03": 1,
+                    "92": 1,
+                    "28": 1,
+                    "82": 1,
+                    "99": 1,
+                    "51": 1,
+                    "50": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "85": 1,
+                    "52": 5,
+                    "56": 2,
+                    "76": 1,
+                    "46": 1,
+                    "40": 3,
+                    "55": 1,
+                    "72": 2,
+                    "91": 3,
+                    "27": 1,
+                    "12": 2,
+                    "79": 1,
+                    "63": 2,
+                    "95": 1,
+                    "00": 1,
+                    "90": 2,
+                    "22": 1,
+                    "32": 1,
+                    "09": 2,
+                    "99": 2,
+                    "88": 4,
+                    "73": 1,
+                    "16": 1,
+                    "71": 2,
+                    "50": 2,
+                    "37": 2,
+                    "44": 1,
+                    "13": 1,
+                    "81": 3,
+                    "05": 1,
+                    "34": 2,
+                    "03": 2,
+                    "58": 1,
+                    "78": 1,
+                    "31": 1,
+                    "15": 1,
+                    "87": 2,
+                    "68": 1,
+                    "84": 2,
+                    "19": 3,
+                    "17": 1,
+                    "35": 1,
+                    "51": 2,
+                    "02": 1,
+                    "14": 1,
+                    "20": 1,
+                    "80": 1,
+                    "48": 1,
+                    "41": 1,
+                    "92": 1,
+                    "28": 1,
+                    "93": 1,
+                    "65": 1,
+                    "82": 1,
+                    "42": 1,
+                    "43": 1,
+                    "24": 1,
+                    "47": 1,
+                    "04": 1,
+                    "98": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "La Primera Dia": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-01 03:35:06"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-11-02 03:36:06"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-05 03:39:05"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2020-11-06 03:40:07"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-11-07 03:41:05"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-11-08 03:42:05"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-09 03:43:05"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-11-11 03:45:06"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-12 03:46:05"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-13 03:47:05"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-11-14 03:48:05"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2020-11-15 03:49:05"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-11-16 03:50:06"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-17 03:51:06"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2020-11-18 03:52:06"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2020-11-19 03:53:06"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-11-20 03:54:06"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-21 03:55:06"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-22 03:56:06"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2020-11-23 03:57:06"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2020-11-24 03:58:06"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2020-11-26 04:00:07"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2020-11-27 04:01:06"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2020-11-28 04:02:05"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2020-11-29 04:03:06"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2020-11-30 04:04:06"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "95",
+                    "62",
+                    "94"
+                ],
+                "fecha_completa": "2020-11-01 03:35:06"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "26",
+                    "60",
+                    "18"
+                ],
+                "fecha_completa": "2020-11-02 03:36:06"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "77",
+                    "59",
+                    "54"
+                ],
+                "fecha_completa": "2020-11-03 03:37:05"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "48",
+                    "90",
+                    "32"
+                ],
+                "fecha_completa": "2020-11-04 03:38:05"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "24",
+                    "34",
+                    "38"
+                ],
+                "fecha_completa": "2020-11-05 03:39:05"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "68",
+                    "92",
+                    "43"
+                ],
+                "fecha_completa": "2020-11-06 03:40:07"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "93",
+                    "30",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-07 03:41:05"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "37",
+                    "29",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-08 03:42:05"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "06",
+                    "34",
+                    "44"
+                ],
+                "fecha_completa": "2020-11-09 03:43:05"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "95",
+                    "80",
+                    "95"
+                ],
+                "fecha_completa": "2020-11-10 03:44:05"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "63",
+                    "66",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-11 03:45:06"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "50",
+                    "71",
+                    "87"
+                ],
+                "fecha_completa": "2020-11-12 03:46:05"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "88",
+                    "66",
+                    "07"
+                ],
+                "fecha_completa": "2020-11-13 03:47:05"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "96",
+                    "77",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-14 03:48:05"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "87",
+                    "48",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-15 03:49:05"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "48",
+                    "82",
+                    "09"
+                ],
+                "fecha_completa": "2020-11-16 03:50:06"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "06",
+                    "75",
+                    "84"
+                ],
+                "fecha_completa": "2020-11-17 03:51:06"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "94",
+                    "14",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-18 03:52:06"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "25",
+                    "13",
+                    "31"
+                ],
+                "fecha_completa": "2020-11-19 03:53:06"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "03",
+                    "42",
+                    "95"
+                ],
+                "fecha_completa": "2020-11-20 03:54:06"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "36",
+                    "43",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-21 03:55:06"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "27",
+                    "31",
+                    "53"
+                ],
+                "fecha_completa": "2020-11-22 03:56:06"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "89",
+                    "06",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-23 03:57:06"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "68",
+                    "69",
+                    "64"
+                ],
+                "fecha_completa": "2020-11-24 03:58:06"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "39",
+                    "79",
+                    "35"
+                ],
+                "fecha_completa": "2020-11-25 03:59:05"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "11",
+                    "22",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-26 04:00:07"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "43",
+                    "68",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-27 04:01:06"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "19",
+                    "38",
+                    "31"
+                ],
+                "fecha_completa": "2020-11-28 04:02:05"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "18",
+                    "54",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-29 04:03:06"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "97",
+                    "54",
+                    "90"
+                ],
+                "fecha_completa": "2020-11-30 04:04:06"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "95": 2,
+                    "26": 1,
+                    "77": 1,
+                    "48": 2,
+                    "24": 1,
+                    "68": 2,
+                    "93": 1,
+                    "37": 1,
+                    "06": 2,
+                    "63": 1,
+                    "50": 1,
+                    "88": 1,
+                    "96": 1,
+                    "87": 1,
+                    "94": 1,
+                    "25": 1,
+                    "03": 1,
+                    "36": 1,
+                    "27": 1,
+                    "89": 1,
+                    "39": 1,
+                    "11": 1,
+                    "43": 1,
+                    "19": 1,
+                    "18": 1,
+                    "97": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "95": 4,
+                    "62": 1,
+                    "94": 2,
+                    "26": 2,
+                    "60": 1,
+                    "18": 2,
+                    "77": 2,
+                    "59": 1,
+                    "54": 3,
+                    "48": 3,
+                    "90": 2,
+                    "32": 1,
+                    "24": 1,
+                    "34": 2,
+                    "38": 2,
+                    "68": 3,
+                    "92": 1,
+                    "43": 3,
+                    "93": 1,
+                    "30": 1,
+                    "86": 2,
+                    "37": 2,
+                    "29": 1,
+                    "63": 2,
+                    "06": 3,
+                    "44": 1,
+                    "80": 1,
+                    "66": 2,
+                    "72": 1,
+                    "50": 1,
+                    "71": 1,
+                    "87": 2,
+                    "88": 1,
+                    "07": 1,
+                    "96": 1,
+                    "82": 1,
+                    "09": 1,
+                    "75": 1,
+                    "84": 1,
+                    "14": 1,
+                    "52": 1,
+                    "25": 1,
+                    "13": 1,
+                    "31": 3,
+                    "03": 1,
+                    "42": 1,
+                    "36": 1,
+                    "49": 2,
+                    "27": 1,
+                    "53": 1,
+                    "89": 1,
+                    "69": 1,
+                    "64": 1,
+                    "39": 1,
+                    "79": 1,
+                    "35": 1,
+                    "11": 1,
+                    "22": 1,
+                    "00": 1,
+                    "16": 1,
+                    "19": 1,
+                    "97": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "La Suerte 12:30": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2020-11-01 03:35:07"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2020-11-02 03:36:06"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-03 03:37:06"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-11-04 03:38:06"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2020-11-05 03:39:06"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2020-11-06 03:40:07"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-07 03:41:06"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2020-11-08 03:42:06"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-11-09 03:43:05"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-11-10 03:44:06"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-11-11 03:45:06"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2020-11-12 03:46:06"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-11-13 03:47:06"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-11-14 03:48:06"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2020-11-15 03:49:06"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-16 03:50:07"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-11-17 03:51:06"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-11-18 03:52:07"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-19 03:53:06"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2020-11-20 03:54:07"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-11-21 03:55:07"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2020-11-22 03:56:07"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2020-11-23 03:57:06"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-11-24 03:58:06"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-11-25 03:59:06"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2020-11-26 04:00:08"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-11-27 04:01:06"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-11-28 04:02:06"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2020-11-29 04:03:07"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-30 04:04:07"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de noviembre": {
+                "numeros": [
+                    "66",
+                    "58",
+                    "56"
+                ],
+                "fecha_completa": "2020-11-01 03:35:07"
+            },
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "18",
+                    "25",
+                    "98"
+                ],
+                "fecha_completa": "2020-11-02 03:36:06"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "56",
+                    "66",
+                    "91"
+                ],
+                "fecha_completa": "2020-11-03 03:37:06"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "07",
+                    "31",
+                    "86"
+                ],
+                "fecha_completa": "2020-11-04 03:38:06"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "33",
+                    "52",
+                    "17"
+                ],
+                "fecha_completa": "2020-11-05 03:39:06"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "91",
+                    "58",
+                    "23"
+                ],
+                "fecha_completa": "2020-11-06 03:40:07"
+            },
+            "sábado, 7 de noviembre": {
+                "numeros": [
+                    "75",
+                    "15",
+                    "71"
+                ],
+                "fecha_completa": "2020-11-07 03:41:06"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "87",
+                    "99",
+                    "16"
+                ],
+                "fecha_completa": "2020-11-08 03:42:06"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "85",
+                    "13",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-09 03:43:05"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "27",
+                    "97",
+                    "19"
+                ],
+                "fecha_completa": "2020-11-10 03:44:06"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "51",
+                    "79",
+                    "44"
+                ],
+                "fecha_completa": "2020-11-11 03:45:06"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "05",
+                    "91",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-12 03:46:06"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "06",
+                    "54",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-13 03:47:06"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "50",
+                    "56",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-14 03:48:06"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "69",
+                    "22",
+                    "00"
+                ],
+                "fecha_completa": "2020-11-15 03:49:06"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "46",
+                    "45",
+                    "82"
+                ],
+                "fecha_completa": "2020-11-16 03:50:07"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "88",
+                    "23",
+                    "72"
+                ],
+                "fecha_completa": "2020-11-17 03:51:06"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "78",
+                    "83",
+                    "88"
+                ],
+                "fecha_completa": "2020-11-18 03:52:07"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "12",
+                    "30",
+                    "67"
+                ],
+                "fecha_completa": "2020-11-19 03:53:06"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "61",
+                    "49",
+                    "05"
+                ],
+                "fecha_completa": "2020-11-20 03:54:07"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "07",
+                    "93",
+                    "35"
+                ],
+                "fecha_completa": "2020-11-21 03:55:07"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "79",
+                    "61",
+                    "74"
+                ],
+                "fecha_completa": "2020-11-22 03:56:07"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "76",
+                    "48",
+                    "94"
+                ],
+                "fecha_completa": "2020-11-23 03:57:06"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "77",
+                    "61",
+                    "37"
+                ],
+                "fecha_completa": "2020-11-24 03:58:06"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "32",
+                    "43",
+                    "70"
+                ],
+                "fecha_completa": "2020-11-25 03:59:06"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "64",
+                    "92",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-26 04:00:08"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "84",
+                    "69",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-27 04:01:06"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "24",
+                    "90",
+                    "76"
+                ],
+                "fecha_completa": "2020-11-28 04:02:06"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "02",
+                    "26",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-29 04:03:07"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "36",
+                    "86",
+                    "40"
+                ],
+                "fecha_completa": "2020-11-30 04:04:07"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "66": 1,
+                    "18": 1,
+                    "56": 1,
+                    "07": 2,
+                    "33": 1,
+                    "91": 1,
+                    "75": 1,
+                    "87": 1,
+                    "85": 1,
+                    "27": 1,
+                    "51": 1,
+                    "05": 1,
+                    "06": 1,
+                    "50": 1,
+                    "69": 1,
+                    "46": 1,
+                    "88": 1,
+                    "78": 1,
+                    "12": 1,
+                    "61": 1,
+                    "79": 1,
+                    "76": 1,
+                    "77": 1,
+                    "32": 1,
+                    "64": 1,
+                    "84": 1,
+                    "24": 1,
+                    "02": 1,
+                    "36": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "66": 2,
+                    "58": 2,
+                    "56": 3,
+                    "18": 1,
+                    "25": 1,
+                    "98": 1,
+                    "91": 3,
+                    "07": 2,
+                    "31": 1,
+                    "86": 2,
+                    "33": 1,
+                    "52": 2,
+                    "17": 1,
+                    "23": 2,
+                    "75": 1,
+                    "15": 1,
+                    "71": 1,
+                    "87": 1,
+                    "99": 1,
+                    "16": 1,
+                    "85": 1,
+                    "13": 1,
+                    "76": 3,
+                    "27": 1,
+                    "97": 1,
+                    "19": 1,
+                    "51": 1,
+                    "79": 2,
+                    "44": 1,
+                    "05": 3,
+                    "00": 2,
+                    "06": 1,
+                    "54": 1,
+                    "50": 1,
+                    "72": 2,
+                    "69": 2,
+                    "22": 1,
+                    "46": 1,
+                    "45": 1,
+                    "82": 1,
+                    "88": 2,
+                    "78": 1,
+                    "83": 1,
+                    "12": 1,
+                    "30": 1,
+                    "67": 1,
+                    "61": 3,
+                    "49": 1,
+                    "93": 1,
+                    "35": 1,
+                    "74": 1,
+                    "48": 1,
+                    "94": 1,
+                    "77": 1,
+                    "37": 1,
+                    "32": 1,
+                    "43": 1,
+                    "70": 1,
+                    "64": 1,
+                    "92": 1,
+                    "63": 1,
+                    "84": 1,
+                    "24": 1,
+                    "90": 1,
+                    "02": 1,
+                    "26": 1,
+                    "03": 1,
+                    "36": 1,
+                    "40": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2020-11-01",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    },
+    "LoteDom": {
+        "ConteoEnPrimera": {
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2020-11-02 03:36:07"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-03 03:37:07"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2020-11-04 03:38:07"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2020-11-05 03:39:07"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2020-11-06 03:40:08"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-11-08 03:42:06"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2020-11-09 03:43:06"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2020-11-10 03:44:07"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2020-11-11 03:45:07"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-11-12 03:46:06"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2020-11-13 03:47:07"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-11-14 03:48:06"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2020-11-15 03:49:07"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-11-16 03:50:07"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2020-11-17 03:51:07"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2020-11-18 03:52:08"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-11-19 03:53:07"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-11-20 03:54:08"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2020-11-21 03:55:08"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2020-11-22 03:56:07"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-11-23 03:57:07"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-11-24 03:58:07"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-11-25 03:59:07"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2020-11-26 04:00:09"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-11-27 04:01:07"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-11-28 04:02:07"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2020-11-29 04:03:07"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2020-11-30 04:04:07"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 2 de noviembre": {
+                "numeros": [
+                    "25",
+                    "66",
+                    "63"
+                ],
+                "fecha_completa": "2020-11-02 03:36:07"
+            },
+            "martes, 3 de noviembre": {
+                "numeros": [
+                    "75",
+                    "46",
+                    "61"
+                ],
+                "fecha_completa": "2020-11-03 03:37:07"
+            },
+            "miércoles, 4 de noviembre": {
+                "numeros": [
+                    "35",
+                    "77",
+                    "40"
+                ],
+                "fecha_completa": "2020-11-04 03:38:07"
+            },
+            "jueves, 5 de noviembre": {
+                "numeros": [
+                    "71",
+                    "96",
+                    "38"
+                ],
+                "fecha_completa": "2020-11-05 03:39:07"
+            },
+            "viernes, 6 de noviembre": {
+                "numeros": [
+                    "54",
+                    "59",
+                    "89"
+                ],
+                "fecha_completa": "2020-11-06 03:40:08"
+            },
+            "domingo, 8 de noviembre": {
+                "numeros": [
+                    "36",
+                    "76",
+                    "27"
+                ],
+                "fecha_completa": "2020-11-08 03:42:06"
+            },
+            "lunes, 9 de noviembre": {
+                "numeros": [
+                    "30",
+                    "00",
+                    "75"
+                ],
+                "fecha_completa": "2020-11-09 03:43:06"
+            },
+            "martes, 10 de noviembre": {
+                "numeros": [
+                    "29",
+                    "95",
+                    "47"
+                ],
+                "fecha_completa": "2020-11-10 03:44:07"
+            },
+            "miércoles, 11 de noviembre": {
+                "numeros": [
+                    "35",
+                    "72",
+                    "61"
+                ],
+                "fecha_completa": "2020-11-11 03:45:07"
+            },
+            "jueves, 12 de noviembre": {
+                "numeros": [
+                    "21",
+                    "49",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-12 03:46:06"
+            },
+            "viernes, 13 de noviembre": {
+                "numeros": [
+                    "12",
+                    "27",
+                    "14"
+                ],
+                "fecha_completa": "2020-11-13 03:47:07"
+            },
+            "sábado, 14 de noviembre": {
+                "numeros": [
+                    "17",
+                    "24",
+                    "82"
+                ],
+                "fecha_completa": "2020-11-14 03:48:06"
+            },
+            "domingo, 15 de noviembre": {
+                "numeros": [
+                    "44",
+                    "21",
+                    "73"
+                ],
+                "fecha_completa": "2020-11-15 03:49:07"
+            },
+            "lunes, 16 de noviembre": {
+                "numeros": [
+                    "56",
+                    "73",
+                    "34"
+                ],
+                "fecha_completa": "2020-11-16 03:50:07"
+            },
+            "martes, 17 de noviembre": {
+                "numeros": [
+                    "49",
+                    "06",
+                    "24"
+                ],
+                "fecha_completa": "2020-11-17 03:51:07"
+            },
+            "miércoles, 18 de noviembre": {
+                "numeros": [
+                    "38",
+                    "29",
+                    "08"
+                ],
+                "fecha_completa": "2020-11-18 03:52:08"
+            },
+            "jueves, 19 de noviembre": {
+                "numeros": [
+                    "62",
+                    "68",
+                    "28"
+                ],
+                "fecha_completa": "2020-11-19 03:53:07"
+            },
+            "viernes, 20 de noviembre": {
+                "numeros": [
+                    "46",
+                    "68",
+                    "49"
+                ],
+                "fecha_completa": "2020-11-20 03:54:08"
+            },
+            "sábado, 21 de noviembre": {
+                "numeros": [
+                    "71",
+                    "77",
+                    "78"
+                ],
+                "fecha_completa": "2020-11-21 03:55:08"
+            },
+            "domingo, 22 de noviembre": {
+                "numeros": [
+                    "34",
+                    "95",
+                    "39"
+                ],
+                "fecha_completa": "2020-11-22 03:56:07"
+            },
+            "lunes, 23 de noviembre": {
+                "numeros": [
+                    "75",
+                    "13",
+                    "22"
+                ],
+                "fecha_completa": "2020-11-23 03:57:07"
+            },
+            "martes, 24 de noviembre": {
+                "numeros": [
+                    "84",
+                    "33",
+                    "40"
+                ],
+                "fecha_completa": "2020-11-24 03:58:07"
+            },
+            "miércoles, 25 de noviembre": {
+                "numeros": [
+                    "51",
+                    "02",
+                    "03"
+                ],
+                "fecha_completa": "2020-11-25 03:59:07"
+            },
+            "jueves, 26 de noviembre": {
+                "numeros": [
+                    "60",
+                    "34",
+                    "29"
+                ],
+                "fecha_completa": "2020-11-26 04:00:09"
+            },
+            "viernes, 27 de noviembre": {
+                "numeros": [
+                    "93",
+                    "20",
+                    "81"
+                ],
+                "fecha_completa": "2020-11-27 04:01:07"
+            },
+            "sábado, 28 de noviembre": {
+                "numeros": [
+                    "26",
+                    "75",
+                    "47"
+                ],
+                "fecha_completa": "2020-11-28 04:02:07"
+            },
+            "domingo, 29 de noviembre": {
+                "numeros": [
+                    "87",
+                    "93",
+                    "52"
+                ],
+                "fecha_completa": "2020-11-29 04:03:07"
+            },
+            "lunes, 30 de noviembre": {
+                "numeros": [
+                    "02",
+                    "29",
+                    "26"
+                ],
+                "fecha_completa": "2020-11-30 04:04:07"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "25": 1,
+                    "75": 2,
+                    "35": 2,
+                    "71": 2,
+                    "54": 1,
+                    "36": 1,
+                    "30": 1,
+                    "29": 1,
+                    "21": 1,
+                    "12": 1,
+                    "17": 1,
+                    "44": 1,
+                    "56": 1,
+                    "49": 1,
+                    "38": 1,
+                    "62": 1,
+                    "46": 1,
+                    "34": 1,
+                    "84": 1,
+                    "51": 1,
+                    "60": 1,
+                    "93": 1,
+                    "26": 1,
+                    "87": 1,
+                    "02": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "25": 1,
+                    "66": 1,
+                    "63": 1,
+                    "75": 4,
+                    "46": 2,
+                    "61": 2,
+                    "35": 2,
+                    "77": 2,
+                    "40": 2,
+                    "71": 2,
+                    "96": 1,
+                    "38": 2,
+                    "54": 1,
+                    "59": 1,
+                    "89": 1,
+                    "36": 1,
+                    "76": 1,
+                    "27": 2,
+                    "30": 1,
+                    "00": 1,
+                    "29": 4,
+                    "95": 2,
+                    "47": 2,
+                    "72": 1,
+                    "21": 2,
+                    "49": 3,
+                    "14": 2,
+                    "12": 1,
+                    "17": 1,
+                    "24": 2,
+                    "82": 1,
+                    "44": 1,
+                    "73": 2,
+                    "56": 1,
+                    "34": 3,
+                    "06": 1,
+                    "08": 1,
+                    "62": 1,
+                    "68": 2,
+                    "28": 1,
+                    "78": 1,
+                    "39": 1,
+                    "13": 1,
+                    "22": 1,
+                    "84": 1,
+                    "33": 1,
+                    "51": 1,
+                    "02": 2,
+                    "03": 1,
+                    "60": 1,
+                    "93": 2,
+                    "20": 1,
+                    "81": 1,
+                    "26": 2,
+                    "87": 1,
+                    "52": 1
+                }
+            },
+            "total_sorteos": 28,
+            "fecha_primer_registro": "2020-11-02",
+            "fecha_ultimo_registro": "2020-11-30"
+        }
+    }
+}

@@ -1,0 +1,2635 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2015-06-01 18:33:02"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2015-06-02 18:34:02"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2015-06-03 18:35:02"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2015-06-04 18:36:02"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2015-06-05 18:37:01"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2015-06-06 18:38:02"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2015-06-07 18:39:02"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2015-06-08 18:40:02"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2015-06-10 18:42:01"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2015-06-12 18:44:01"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2015-06-13 18:45:03"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2015-06-15 18:47:01"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2015-06-16 18:48:02"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2015-06-17 18:49:01"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2015-06-21 18:53:02"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2015-06-23 18:55:02"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2015-06-26 18:58:02"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2015-06-27 18:59:02"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2015-06-29 19:01:02"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2015-06-30 19:02:01"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "21",
+                    "25",
+                    "79"
+                ],
+                "fecha_completa": "2015-06-01 18:33:02"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "82",
+                    "94",
+                    "28"
+                ],
+                "fecha_completa": "2015-06-02 18:34:02"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "29",
+                    "11",
+                    "68"
+                ],
+                "fecha_completa": "2015-06-03 18:35:02"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "63",
+                    "05",
+                    "93"
+                ],
+                "fecha_completa": "2015-06-04 18:36:02"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "10",
+                    "94",
+                    "14"
+                ],
+                "fecha_completa": "2015-06-05 18:37:01"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "75",
+                    "93",
+                    "24"
+                ],
+                "fecha_completa": "2015-06-06 18:38:02"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "97",
+                    "46",
+                    "31"
+                ],
+                "fecha_completa": "2015-06-07 18:39:02"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "30",
+                    "98",
+                    "67"
+                ],
+                "fecha_completa": "2015-06-08 18:40:02"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "02",
+                    "00",
+                    "14"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "94",
+                    "02",
+                    "72"
+                ],
+                "fecha_completa": "2015-06-10 18:42:01"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "72",
+                    "96",
+                    "93"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "87",
+                    "62",
+                    "61"
+                ],
+                "fecha_completa": "2015-06-12 18:44:01"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "99",
+                    "76",
+                    "03"
+                ],
+                "fecha_completa": "2015-06-13 18:45:03"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "06",
+                    "32",
+                    "20"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "66",
+                    "82",
+                    "11"
+                ],
+                "fecha_completa": "2015-06-15 18:47:01"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "70",
+                    "13",
+                    "31"
+                ],
+                "fecha_completa": "2015-06-16 18:48:02"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "68",
+                    "65",
+                    "83"
+                ],
+                "fecha_completa": "2015-06-17 18:49:01"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "44",
+                    "87",
+                    "85"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "40",
+                    "81",
+                    "16"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "87",
+                    "11",
+                    "20"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "50",
+                    "32",
+                    "89"
+                ],
+                "fecha_completa": "2015-06-21 18:53:02"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "47",
+                    "81",
+                    "65"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "03",
+                    "83",
+                    "66"
+                ],
+                "fecha_completa": "2015-06-23 18:55:02"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "73",
+                    "16",
+                    "77"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "71",
+                    "13",
+                    "06"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "96",
+                    "61",
+                    "69"
+                ],
+                "fecha_completa": "2015-06-26 18:58:02"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "51",
+                    "07",
+                    "55"
+                ],
+                "fecha_completa": "2015-06-27 18:59:02"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "34",
+                    "16",
+                    "94"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "34",
+                    "66",
+                    "16"
+                ],
+                "fecha_completa": "2015-06-29 19:01:02"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "56",
+                    "14",
+                    "57"
+                ],
+                "fecha_completa": "2015-06-30 19:02:01"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "21": 1,
+                    "82": 1,
+                    "29": 1,
+                    "63": 1,
+                    "10": 1,
+                    "75": 1,
+                    "97": 1,
+                    "30": 1,
+                    "02": 1,
+                    "94": 1,
+                    "72": 1,
+                    "87": 2,
+                    "99": 1,
+                    "06": 1,
+                    "66": 1,
+                    "70": 1,
+                    "68": 1,
+                    "44": 1,
+                    "40": 1,
+                    "50": 1,
+                    "47": 1,
+                    "03": 1,
+                    "73": 1,
+                    "71": 1,
+                    "96": 1,
+                    "51": 1,
+                    "34": 2,
+                    "56": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "21": 1,
+                    "25": 1,
+                    "79": 1,
+                    "82": 2,
+                    "94": 4,
+                    "28": 1,
+                    "29": 1,
+                    "11": 3,
+                    "68": 2,
+                    "63": 1,
+                    "05": 1,
+                    "93": 3,
+                    "10": 1,
+                    "14": 3,
+                    "75": 1,
+                    "24": 1,
+                    "97": 1,
+                    "46": 1,
+                    "31": 2,
+                    "30": 1,
+                    "98": 1,
+                    "67": 1,
+                    "02": 2,
+                    "00": 1,
+                    "72": 2,
+                    "96": 2,
+                    "87": 3,
+                    "62": 1,
+                    "61": 2,
+                    "99": 1,
+                    "76": 1,
+                    "03": 2,
+                    "06": 2,
+                    "32": 2,
+                    "20": 2,
+                    "66": 3,
+                    "70": 1,
+                    "13": 2,
+                    "65": 2,
+                    "83": 2,
+                    "44": 1,
+                    "85": 1,
+                    "40": 1,
+                    "81": 2,
+                    "16": 4,
+                    "50": 1,
+                    "89": 1,
+                    "47": 1,
+                    "73": 1,
+                    "77": 1,
+                    "71": 1,
+                    "69": 1,
+                    "51": 1,
+                    "07": 1,
+                    "55": 1,
+                    "34": 2,
+                    "56": 1,
+                    "57": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2015-06-01",
+            "fecha_ultimo_registro": "2015-06-30"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2015-06-04 18:36:02"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2015-06-05 18:37:02"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2015-06-07 18:39:02"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2015-06-08 18:40:02"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2015-06-12 18:44:02"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2015-06-13 18:45:03"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2015-06-16 18:48:02"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2015-06-23 18:55:02"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2015-06-27 18:59:02"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2015-06-29 19:01:02"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "48",
+                    "13",
+                    "50"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "40",
+                    "27",
+                    "74"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "04",
+                    "31",
+                    "94"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "18",
+                    "19",
+                    "58"
+                ],
+                "fecha_completa": "2015-06-04 18:36:02"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "72",
+                    "44",
+                    "23"
+                ],
+                "fecha_completa": "2015-06-05 18:37:02"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "28",
+                    "19",
+                    "24"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "26",
+                    "64",
+                    "63"
+                ],
+                "fecha_completa": "2015-06-07 18:39:02"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "97",
+                    "06",
+                    "57"
+                ],
+                "fecha_completa": "2015-06-08 18:40:02"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "66",
+                    "97",
+                    "26"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "39",
+                    "29",
+                    "79"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "97",
+                    "96",
+                    "28"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "96",
+                    "05",
+                    "50"
+                ],
+                "fecha_completa": "2015-06-12 18:44:02"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "09",
+                    "85",
+                    "50"
+                ],
+                "fecha_completa": "2015-06-13 18:45:03"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "42",
+                    "38",
+                    "00"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "16",
+                    "28",
+                    "71"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "83",
+                    "97",
+                    "60"
+                ],
+                "fecha_completa": "2015-06-16 18:48:02"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "05",
+                    "76",
+                    "69"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "34",
+                    "15",
+                    "88"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "71",
+                    "67",
+                    "83"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "13",
+                    "42",
+                    "04"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "29",
+                    "02",
+                    "82"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "10",
+                    "64",
+                    "93"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "69",
+                    "98",
+                    "58"
+                ],
+                "fecha_completa": "2015-06-23 18:55:02"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "78",
+                    "62",
+                    "88"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "46",
+                    "74",
+                    "90"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "67",
+                    "12",
+                    "56"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "69",
+                    "67",
+                    "32"
+                ],
+                "fecha_completa": "2015-06-27 18:59:02"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "53",
+                    "25",
+                    "19"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "84",
+                    "82",
+                    "84"
+                ],
+                "fecha_completa": "2015-06-29 19:01:02"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "88",
+                    "57",
+                    "71"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "48": 1,
+                    "40": 1,
+                    "04": 1,
+                    "18": 1,
+                    "72": 1,
+                    "28": 1,
+                    "26": 1,
+                    "97": 2,
+                    "66": 1,
+                    "39": 1,
+                    "96": 1,
+                    "09": 1,
+                    "42": 1,
+                    "16": 1,
+                    "83": 1,
+                    "05": 1,
+                    "34": 1,
+                    "71": 1,
+                    "13": 1,
+                    "29": 1,
+                    "10": 1,
+                    "69": 2,
+                    "78": 1,
+                    "46": 1,
+                    "67": 1,
+                    "53": 1,
+                    "84": 1,
+                    "88": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "48": 1,
+                    "13": 2,
+                    "50": 3,
+                    "40": 1,
+                    "27": 1,
+                    "74": 2,
+                    "04": 2,
+                    "31": 1,
+                    "94": 1,
+                    "18": 1,
+                    "19": 3,
+                    "58": 2,
+                    "72": 1,
+                    "44": 1,
+                    "23": 1,
+                    "28": 3,
+                    "24": 1,
+                    "26": 2,
+                    "64": 2,
+                    "63": 1,
+                    "97": 4,
+                    "06": 1,
+                    "57": 2,
+                    "66": 1,
+                    "39": 1,
+                    "29": 2,
+                    "79": 1,
+                    "96": 2,
+                    "05": 2,
+                    "09": 1,
+                    "85": 1,
+                    "42": 2,
+                    "38": 1,
+                    "00": 1,
+                    "16": 1,
+                    "71": 3,
+                    "83": 2,
+                    "60": 1,
+                    "76": 1,
+                    "69": 3,
+                    "34": 1,
+                    "15": 1,
+                    "88": 3,
+                    "67": 3,
+                    "02": 1,
+                    "82": 2,
+                    "10": 1,
+                    "93": 1,
+                    "98": 1,
+                    "78": 1,
+                    "62": 1,
+                    "46": 1,
+                    "90": 1,
+                    "12": 1,
+                    "56": 1,
+                    "32": 1,
+                    "53": 1,
+                    "25": 1,
+                    "84": 2
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2015-06-01",
+            "fecha_ultimo_registro": "2015-06-30"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2015-06-04 18:36:03"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2015-06-05 18:37:02"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2015-06-12 18:44:02"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2015-06-23 18:55:03"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "79",
+                    "17",
+                    "49"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "57",
+                    "57",
+                    "33"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "37",
+                    "20",
+                    "05"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "93",
+                    "91",
+                    "41"
+                ],
+                "fecha_completa": "2015-06-04 18:36:03"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "36",
+                    "06",
+                    "64"
+                ],
+                "fecha_completa": "2015-06-05 18:37:02"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "37",
+                    "52",
+                    "57"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "68",
+                    "72",
+                    "47"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "76",
+                    "87",
+                    "17"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "94",
+                    "93",
+                    "20"
+                ],
+                "fecha_completa": "2015-06-09 18:41:02"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "10",
+                    "43",
+                    "33"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "59",
+                    "00",
+                    "89"
+                ],
+                "fecha_completa": "2015-06-11 18:43:02"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "45",
+                    "09",
+                    "39"
+                ],
+                "fecha_completa": "2015-06-12 18:44:02"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "32",
+                    "65",
+                    "29"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "51",
+                    "43",
+                    "05"
+                ],
+                "fecha_completa": "2015-06-14 18:46:02"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "72",
+                    "05",
+                    "47"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "60",
+                    "03",
+                    "90"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "98",
+                    "18",
+                    "87"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "60",
+                    "30",
+                    "35"
+                ],
+                "fecha_completa": "2015-06-18 18:50:03"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "68",
+                    "33",
+                    "52"
+                ],
+                "fecha_completa": "2015-06-19 18:51:02"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "66",
+                    "96",
+                    "22"
+                ],
+                "fecha_completa": "2015-06-20 18:52:02"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "95",
+                    "78",
+                    "22"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "63",
+                    "46",
+                    "39"
+                ],
+                "fecha_completa": "2015-06-22 18:54:02"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "64",
+                    "72",
+                    "03"
+                ],
+                "fecha_completa": "2015-06-23 18:55:03"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "46",
+                    "87",
+                    "31"
+                ],
+                "fecha_completa": "2015-06-24 18:56:02"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "57",
+                    "73",
+                    "60"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "63",
+                    "23",
+                    "28"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "74",
+                    "02",
+                    "27"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "24",
+                    "93",
+                    "70"
+                ],
+                "fecha_completa": "2015-06-28 19:00:04"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "69",
+                    "10",
+                    "99"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "53",
+                    "25",
+                    "91"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "79": 1,
+                    "57": 2,
+                    "37": 2,
+                    "93": 1,
+                    "36": 1,
+                    "68": 2,
+                    "76": 1,
+                    "94": 1,
+                    "10": 1,
+                    "59": 1,
+                    "45": 1,
+                    "32": 1,
+                    "51": 1,
+                    "72": 1,
+                    "60": 2,
+                    "98": 1,
+                    "66": 1,
+                    "95": 1,
+                    "63": 2,
+                    "64": 1,
+                    "46": 1,
+                    "74": 1,
+                    "24": 1,
+                    "69": 1,
+                    "53": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "79": 1,
+                    "17": 2,
+                    "49": 1,
+                    "57": 4,
+                    "33": 3,
+                    "37": 2,
+                    "20": 2,
+                    "05": 3,
+                    "93": 3,
+                    "91": 2,
+                    "41": 1,
+                    "36": 1,
+                    "06": 1,
+                    "64": 2,
+                    "52": 2,
+                    "68": 2,
+                    "72": 3,
+                    "47": 2,
+                    "76": 1,
+                    "87": 3,
+                    "94": 1,
+                    "10": 2,
+                    "43": 2,
+                    "59": 1,
+                    "00": 1,
+                    "89": 1,
+                    "45": 1,
+                    "09": 1,
+                    "39": 2,
+                    "32": 1,
+                    "65": 1,
+                    "29": 1,
+                    "51": 1,
+                    "60": 3,
+                    "03": 2,
+                    "90": 1,
+                    "98": 1,
+                    "18": 1,
+                    "30": 1,
+                    "35": 1,
+                    "66": 1,
+                    "96": 1,
+                    "22": 2,
+                    "95": 1,
+                    "78": 1,
+                    "63": 2,
+                    "46": 2,
+                    "31": 1,
+                    "73": 1,
+                    "23": 1,
+                    "28": 1,
+                    "74": 1,
+                    "02": 1,
+                    "27": 1,
+                    "24": 1,
+                    "70": 1,
+                    "69": 1,
+                    "99": 1,
+                    "53": 1,
+                    "25": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2015-06-01",
+            "fecha_ultimo_registro": "2015-06-30"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2015-06-04 18:36:03"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2015-06-05 18:37:03"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2015-06-09 18:41:03"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2015-06-11 18:43:03"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2015-06-12 18:44:03"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2015-06-14 18:46:03"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2015-06-18 18:50:04"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2015-06-19 18:51:03"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2015-06-20 18:52:03"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2015-06-22 18:54:03"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2015-06-23 18:55:03"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2015-06-24 18:56:03"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2015-06-28 19:00:05"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "49",
+                    "95",
+                    "78"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "75",
+                    "94",
+                    "33"
+                ],
+                "fecha_completa": "2015-06-02 18:34:03"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "76",
+                    "84",
+                    "54"
+                ],
+                "fecha_completa": "2015-06-03 18:35:03"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "12",
+                    "50",
+                    "62"
+                ],
+                "fecha_completa": "2015-06-04 18:36:03"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "52",
+                    "66",
+                    "21"
+                ],
+                "fecha_completa": "2015-06-05 18:37:03"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "31",
+                    "57",
+                    "80"
+                ],
+                "fecha_completa": "2015-06-06 18:38:03"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "97",
+                    "99",
+                    "85"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "21",
+                    "27",
+                    "06"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "28",
+                    "27",
+                    "36"
+                ],
+                "fecha_completa": "2015-06-09 18:41:03"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "74",
+                    "56",
+                    "91"
+                ],
+                "fecha_completa": "2015-06-10 18:42:02"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "97",
+                    "82",
+                    "25"
+                ],
+                "fecha_completa": "2015-06-11 18:43:03"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "02",
+                    "53",
+                    "56"
+                ],
+                "fecha_completa": "2015-06-12 18:44:03"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "91",
+                    "33",
+                    "22"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "91",
+                    "05",
+                    "12"
+                ],
+                "fecha_completa": "2015-06-14 18:46:03"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "23",
+                    "29",
+                    "43"
+                ],
+                "fecha_completa": "2015-06-15 18:47:02"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "86",
+                    "68",
+                    "88"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "96",
+                    "15",
+                    "69"
+                ],
+                "fecha_completa": "2015-06-17 18:49:02"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "81",
+                    "08",
+                    "98"
+                ],
+                "fecha_completa": "2015-06-18 18:50:04"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "52",
+                    "70",
+                    "91"
+                ],
+                "fecha_completa": "2015-06-19 18:51:03"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "58",
+                    "20",
+                    "25"
+                ],
+                "fecha_completa": "2015-06-20 18:52:03"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "38",
+                    "79",
+                    "16"
+                ],
+                "fecha_completa": "2015-06-21 18:53:03"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "89",
+                    "96",
+                    "74"
+                ],
+                "fecha_completa": "2015-06-22 18:54:03"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "64",
+                    "87",
+                    "02"
+                ],
+                "fecha_completa": "2015-06-23 18:55:03"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "82",
+                    "24",
+                    "95"
+                ],
+                "fecha_completa": "2015-06-24 18:56:03"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "21",
+                    "03",
+                    "95"
+                ],
+                "fecha_completa": "2015-06-25 18:57:02"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "30",
+                    "96",
+                    "50"
+                ],
+                "fecha_completa": "2015-06-26 18:58:03"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "79",
+                    "52",
+                    "68"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "25",
+                    "93",
+                    "34"
+                ],
+                "fecha_completa": "2015-06-28 19:00:05"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "77",
+                    "07",
+                    "00"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "88",
+                    "02",
+                    "68"
+                ],
+                "fecha_completa": "2015-06-30 19:02:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "49": 1,
+                    "75": 1,
+                    "76": 1,
+                    "12": 1,
+                    "52": 2,
+                    "31": 1,
+                    "97": 2,
+                    "21": 2,
+                    "28": 1,
+                    "74": 1,
+                    "02": 1,
+                    "91": 2,
+                    "23": 1,
+                    "86": 1,
+                    "96": 1,
+                    "81": 1,
+                    "58": 1,
+                    "38": 1,
+                    "89": 1,
+                    "64": 1,
+                    "82": 1,
+                    "30": 1,
+                    "79": 1,
+                    "25": 1,
+                    "77": 1,
+                    "88": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "49": 1,
+                    "95": 3,
+                    "78": 1,
+                    "75": 1,
+                    "94": 1,
+                    "33": 2,
+                    "76": 1,
+                    "84": 1,
+                    "54": 1,
+                    "12": 2,
+                    "50": 2,
+                    "62": 1,
+                    "52": 3,
+                    "66": 1,
+                    "21": 3,
+                    "31": 1,
+                    "57": 1,
+                    "80": 1,
+                    "97": 2,
+                    "99": 1,
+                    "85": 1,
+                    "27": 2,
+                    "06": 1,
+                    "28": 1,
+                    "36": 1,
+                    "74": 2,
+                    "56": 2,
+                    "91": 4,
+                    "82": 2,
+                    "25": 3,
+                    "02": 3,
+                    "53": 1,
+                    "22": 1,
+                    "05": 1,
+                    "23": 1,
+                    "29": 1,
+                    "43": 1,
+                    "86": 1,
+                    "68": 3,
+                    "88": 2,
+                    "96": 3,
+                    "15": 1,
+                    "69": 1,
+                    "81": 1,
+                    "08": 1,
+                    "98": 1,
+                    "70": 1,
+                    "58": 1,
+                    "20": 1,
+                    "38": 1,
+                    "79": 2,
+                    "16": 1,
+                    "89": 1,
+                    "64": 1,
+                    "87": 1,
+                    "24": 1,
+                    "03": 1,
+                    "30": 1,
+                    "93": 1,
+                    "34": 1,
+                    "77": 1,
+                    "07": 1,
+                    "00": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2015-06-01",
+            "fecha_ultimo_registro": "2015-06-30"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2015-06-02 18:34:04"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2015-06-03 18:35:04"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2015-06-04 18:36:04"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2015-06-05 18:37:03"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2015-06-06 18:38:04"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2015-06-09 18:41:03"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2015-06-10 18:42:03"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2015-06-11 18:43:03"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2015-06-12 18:44:03"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2015-06-14 18:46:03"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2015-06-15 18:47:03"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2015-06-17 18:49:03"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2015-06-18 18:50:04"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2015-06-19 18:51:03"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2015-06-20 18:52:03"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2015-06-21 18:53:04"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2015-06-22 18:54:03"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2015-06-23 18:55:04"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2015-06-24 18:56:03"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2015-06-25 18:57:03"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2015-06-26 18:58:04"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2015-06-28 19:00:05"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2015-06-30 19:02:03"
+            }
+        },
+        "ConteoAll": {
+            "lunes, 1 de junio": {
+                "numeros": [
+                    "54",
+                    "99",
+                    "94"
+                ],
+                "fecha_completa": "2015-06-01 18:33:03"
+            },
+            "martes, 2 de junio": {
+                "numeros": [
+                    "12",
+                    "55",
+                    "13"
+                ],
+                "fecha_completa": "2015-06-02 18:34:04"
+            },
+            "miércoles, 3 de junio": {
+                "numeros": [
+                    "27",
+                    "80",
+                    "61"
+                ],
+                "fecha_completa": "2015-06-03 18:35:04"
+            },
+            "jueves, 4 de junio": {
+                "numeros": [
+                    "09",
+                    "10",
+                    "68"
+                ],
+                "fecha_completa": "2015-06-04 18:36:04"
+            },
+            "viernes, 5 de junio": {
+                "numeros": [
+                    "19",
+                    "83",
+                    "21"
+                ],
+                "fecha_completa": "2015-06-05 18:37:03"
+            },
+            "sábado, 6 de junio": {
+                "numeros": [
+                    "93",
+                    "76",
+                    "87"
+                ],
+                "fecha_completa": "2015-06-06 18:38:04"
+            },
+            "domingo, 7 de junio": {
+                "numeros": [
+                    "01",
+                    "00",
+                    "61"
+                ],
+                "fecha_completa": "2015-06-07 18:39:03"
+            },
+            "lunes, 8 de junio": {
+                "numeros": [
+                    "00",
+                    "22",
+                    "84"
+                ],
+                "fecha_completa": "2015-06-08 18:40:03"
+            },
+            "martes, 9 de junio": {
+                "numeros": [
+                    "17",
+                    "90",
+                    "12"
+                ],
+                "fecha_completa": "2015-06-09 18:41:03"
+            },
+            "miércoles, 10 de junio": {
+                "numeros": [
+                    "96",
+                    "72",
+                    "99"
+                ],
+                "fecha_completa": "2015-06-10 18:42:03"
+            },
+            "jueves, 11 de junio": {
+                "numeros": [
+                    "15",
+                    "49",
+                    "61"
+                ],
+                "fecha_completa": "2015-06-11 18:43:03"
+            },
+            "viernes, 12 de junio": {
+                "numeros": [
+                    "95",
+                    "66",
+                    "77"
+                ],
+                "fecha_completa": "2015-06-12 18:44:03"
+            },
+            "sábado, 13 de junio": {
+                "numeros": [
+                    "78",
+                    "16",
+                    "42"
+                ],
+                "fecha_completa": "2015-06-13 18:45:04"
+            },
+            "domingo, 14 de junio": {
+                "numeros": [
+                    "08",
+                    "11",
+                    "57"
+                ],
+                "fecha_completa": "2015-06-14 18:46:03"
+            },
+            "lunes, 15 de junio": {
+                "numeros": [
+                    "56",
+                    "86",
+                    "61"
+                ],
+                "fecha_completa": "2015-06-15 18:47:03"
+            },
+            "martes, 16 de junio": {
+                "numeros": [
+                    "44",
+                    "68",
+                    "73"
+                ],
+                "fecha_completa": "2015-06-16 18:48:03"
+            },
+            "miércoles, 17 de junio": {
+                "numeros": [
+                    "31",
+                    "69",
+                    "05"
+                ],
+                "fecha_completa": "2015-06-17 18:49:03"
+            },
+            "jueves, 18 de junio": {
+                "numeros": [
+                    "88",
+                    "18",
+                    "35"
+                ],
+                "fecha_completa": "2015-06-18 18:50:04"
+            },
+            "viernes, 19 de junio": {
+                "numeros": [
+                    "34",
+                    "28",
+                    "33"
+                ],
+                "fecha_completa": "2015-06-19 18:51:03"
+            },
+            "sábado, 20 de junio": {
+                "numeros": [
+                    "05",
+                    "57",
+                    "14"
+                ],
+                "fecha_completa": "2015-06-20 18:52:03"
+            },
+            "domingo, 21 de junio": {
+                "numeros": [
+                    "83",
+                    "83",
+                    "91"
+                ],
+                "fecha_completa": "2015-06-21 18:53:04"
+            },
+            "lunes, 22 de junio": {
+                "numeros": [
+                    "93",
+                    "83",
+                    "29"
+                ],
+                "fecha_completa": "2015-06-22 18:54:03"
+            },
+            "martes, 23 de junio": {
+                "numeros": [
+                    "31",
+                    "88",
+                    "01"
+                ],
+                "fecha_completa": "2015-06-23 18:55:04"
+            },
+            "miércoles, 24 de junio": {
+                "numeros": [
+                    "72",
+                    "49",
+                    "38"
+                ],
+                "fecha_completa": "2015-06-24 18:56:03"
+            },
+            "jueves, 25 de junio": {
+                "numeros": [
+                    "23",
+                    "40",
+                    "90"
+                ],
+                "fecha_completa": "2015-06-25 18:57:03"
+            },
+            "viernes, 26 de junio": {
+                "numeros": [
+                    "70",
+                    "67",
+                    "42"
+                ],
+                "fecha_completa": "2015-06-26 18:58:04"
+            },
+            "sábado, 27 de junio": {
+                "numeros": [
+                    "13",
+                    "98",
+                    "12"
+                ],
+                "fecha_completa": "2015-06-27 18:59:03"
+            },
+            "domingo, 28 de junio": {
+                "numeros": [
+                    "63",
+                    "22",
+                    "72"
+                ],
+                "fecha_completa": "2015-06-28 19:00:05"
+            },
+            "lunes, 29 de junio": {
+                "numeros": [
+                    "64",
+                    "98",
+                    "38"
+                ],
+                "fecha_completa": "2015-06-29 19:01:03"
+            },
+            "martes, 30 de junio": {
+                "numeros": [
+                    "81",
+                    "72",
+                    "74"
+                ],
+                "fecha_completa": "2015-06-30 19:02:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "54": 1,
+                    "12": 1,
+                    "27": 1,
+                    "09": 1,
+                    "19": 1,
+                    "93": 2,
+                    "01": 1,
+                    "00": 1,
+                    "17": 1,
+                    "96": 1,
+                    "15": 1,
+                    "95": 1,
+                    "78": 1,
+                    "08": 1,
+                    "56": 1,
+                    "44": 1,
+                    "31": 2,
+                    "88": 1,
+                    "34": 1,
+                    "05": 1,
+                    "83": 1,
+                    "72": 1,
+                    "23": 1,
+                    "70": 1,
+                    "13": 1,
+                    "63": 1,
+                    "64": 1,
+                    "81": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "54": 1,
+                    "99": 2,
+                    "94": 1,
+                    "12": 3,
+                    "55": 1,
+                    "13": 2,
+                    "27": 1,
+                    "80": 1,
+                    "61": 4,
+                    "09": 1,
+                    "10": 1,
+                    "68": 2,
+                    "19": 1,
+                    "83": 4,
+                    "21": 1,
+                    "93": 2,
+                    "76": 1,
+                    "87": 1,
+                    "01": 2,
+                    "00": 2,
+                    "22": 2,
+                    "84": 1,
+                    "17": 1,
+                    "90": 2,
+                    "96": 1,
+                    "72": 4,
+                    "15": 1,
+                    "49": 2,
+                    "95": 1,
+                    "66": 1,
+                    "77": 1,
+                    "78": 1,
+                    "16": 1,
+                    "42": 2,
+                    "08": 1,
+                    "11": 1,
+                    "57": 2,
+                    "56": 1,
+                    "86": 1,
+                    "44": 1,
+                    "73": 1,
+                    "31": 2,
+                    "69": 1,
+                    "05": 2,
+                    "88": 2,
+                    "18": 1,
+                    "35": 1,
+                    "34": 1,
+                    "28": 1,
+                    "33": 1,
+                    "14": 1,
+                    "91": 1,
+                    "29": 1,
+                    "38": 2,
+                    "23": 1,
+                    "40": 1,
+                    "70": 1,
+                    "67": 1,
+                    "98": 2,
+                    "63": 1,
+                    "64": 1,
+                    "81": 1,
+                    "74": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2015-06-01",
+            "fecha_ultimo_registro": "2015-06-30"
+        }
+    }
+}

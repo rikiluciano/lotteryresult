@@ -1,0 +1,35 @@
+# ============================================
+# PROTECCIÓN DE ARCHIVOS SENSIBLES
+# Sistema de Loterías RD
+# ============================================
+
+# Denegar acceso a archivos de configuración
+<FilesMatch "^(config_db\.php|config_simple\.php|mapeo_loterias\.php)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Denegar acceso a archivos JSON de datos
+<FilesMatch "\.(json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Denegar acceso a archivos de log
+<FilesMatch "\.(log)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Permitir solo al servidor ejecutar scripts vía CLI/cronjob
+# Los scripts solo se ejecutarán por línea de comandos
+
+# Denegar listado de directorios
+Options -Indexes
+
+# Proteger carpeta de datos
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^datos/ - [F,L]
+    RewriteRule ^logs/ - [F,L]
+</IfModule>

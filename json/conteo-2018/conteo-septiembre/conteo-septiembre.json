@@ -1,0 +1,3648 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2018-09-01 14:21:02"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2018-09-02 14:22:02"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2018-09-03 14:23:02"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2018-09-04 14:24:02"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2018-09-05 14:25:02"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2018-09-06 14:26:02"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2018-09-07 14:27:02"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2018-09-08 14:28:02"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2018-09-09 14:29:02"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2018-09-10 14:30:03"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-11 14:31:01"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2018-09-12 14:32:02"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2018-09-14 14:34:02"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2018-09-15 14:35:02"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2018-09-16 14:36:02"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2018-09-17 14:37:02"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2018-09-19 14:39:02"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2018-09-20 14:40:02"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2018-09-21 14:41:02"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2018-09-22 14:42:02"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2018-09-25 14:45:04"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2018-09-26 14:46:02"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2018-09-28 14:48:02"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "63",
+                    "87",
+                    "77"
+                ],
+                "fecha_completa": "2018-09-01 14:21:02"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "99",
+                    "10",
+                    "56"
+                ],
+                "fecha_completa": "2018-09-02 14:22:02"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "92",
+                    "66",
+                    "09"
+                ],
+                "fecha_completa": "2018-09-03 14:23:02"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "55",
+                    "61",
+                    "96"
+                ],
+                "fecha_completa": "2018-09-04 14:24:02"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "89",
+                    "16",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-05 14:25:02"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "40",
+                    "71",
+                    "13"
+                ],
+                "fecha_completa": "2018-09-06 14:26:02"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "28",
+                    "71",
+                    "99"
+                ],
+                "fecha_completa": "2018-09-07 14:27:02"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "90",
+                    "23",
+                    "38"
+                ],
+                "fecha_completa": "2018-09-08 14:28:02"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "67",
+                    "16",
+                    "65"
+                ],
+                "fecha_completa": "2018-09-09 14:29:02"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "63",
+                    "02",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-10 14:30:03"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "15",
+                    "38",
+                    "14"
+                ],
+                "fecha_completa": "2018-09-11 14:31:01"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "06",
+                    "88",
+                    "10"
+                ],
+                "fecha_completa": "2018-09-12 14:32:02"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "42",
+                    "42",
+                    "97"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "67",
+                    "93",
+                    "57"
+                ],
+                "fecha_completa": "2018-09-14 14:34:02"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "38",
+                    "47",
+                    "95"
+                ],
+                "fecha_completa": "2018-09-15 14:35:02"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "84",
+                    "00",
+                    "20"
+                ],
+                "fecha_completa": "2018-09-16 14:36:02"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "63",
+                    "47",
+                    "82"
+                ],
+                "fecha_completa": "2018-09-17 14:37:02"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "04",
+                    "68",
+                    "19"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "03",
+                    "31",
+                    "33"
+                ],
+                "fecha_completa": "2018-09-19 14:39:02"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "40",
+                    "60",
+                    "42"
+                ],
+                "fecha_completa": "2018-09-20 14:40:02"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "76",
+                    "52",
+                    "83"
+                ],
+                "fecha_completa": "2018-09-21 14:41:02"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "60",
+                    "79",
+                    "47"
+                ],
+                "fecha_completa": "2018-09-22 14:42:02"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "87",
+                    "73",
+                    "67"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "28",
+                    "90",
+                    "30"
+                ],
+                "fecha_completa": "2018-09-25 14:45:04"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "22",
+                    "32",
+                    "95"
+                ],
+                "fecha_completa": "2018-09-26 14:46:02"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "25",
+                    "08",
+                    "83"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "32",
+                    "58",
+                    "77"
+                ],
+                "fecha_completa": "2018-09-28 14:48:02"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "47",
+                    "36",
+                    "32"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "68",
+                    "58",
+                    "99"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "63": 3,
+                    "99": 1,
+                    "92": 1,
+                    "55": 1,
+                    "89": 1,
+                    "40": 2,
+                    "28": 2,
+                    "90": 1,
+                    "67": 2,
+                    "15": 1,
+                    "06": 1,
+                    "42": 1,
+                    "38": 1,
+                    "84": 1,
+                    "04": 1,
+                    "03": 1,
+                    "76": 1,
+                    "60": 1,
+                    "87": 1,
+                    "22": 1,
+                    "25": 1,
+                    "32": 1,
+                    "47": 1,
+                    "68": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "63": 3,
+                    "87": 2,
+                    "77": 2,
+                    "99": 3,
+                    "10": 2,
+                    "56": 1,
+                    "92": 1,
+                    "66": 1,
+                    "09": 1,
+                    "55": 1,
+                    "61": 1,
+                    "96": 1,
+                    "89": 1,
+                    "16": 2,
+                    "50": 1,
+                    "40": 2,
+                    "71": 2,
+                    "13": 1,
+                    "28": 2,
+                    "90": 2,
+                    "23": 1,
+                    "38": 3,
+                    "67": 3,
+                    "65": 1,
+                    "02": 1,
+                    "85": 1,
+                    "15": 1,
+                    "14": 1,
+                    "06": 1,
+                    "88": 1,
+                    "42": 3,
+                    "97": 1,
+                    "93": 1,
+                    "57": 1,
+                    "47": 4,
+                    "95": 2,
+                    "84": 1,
+                    "00": 1,
+                    "20": 1,
+                    "82": 1,
+                    "04": 1,
+                    "68": 2,
+                    "19": 1,
+                    "03": 1,
+                    "31": 1,
+                    "33": 1,
+                    "60": 2,
+                    "76": 1,
+                    "52": 1,
+                    "83": 2,
+                    "79": 1,
+                    "73": 1,
+                    "30": 1,
+                    "22": 1,
+                    "32": 3,
+                    "25": 1,
+                    "08": 1,
+                    "58": 2,
+                    "36": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2018-09-01 14:21:02"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2018-09-02 14:22:02"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2018-09-05 14:25:03"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2018-09-06 14:26:02"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2018-09-07 14:27:02"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-08 14:28:03"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2018-09-09 14:29:02"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2018-09-10 14:30:03"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2018-09-11 14:31:02"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2018-09-14 14:34:02"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2018-09-15 14:35:03"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2018-09-16 14:36:02"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "2018-09-19 14:39:02"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-21 14:41:02"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2018-09-22 14:42:02"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2018-09-25 14:45:04"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2018-09-26 14:46:02"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2018-09-28 14:48:02"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "44",
+                    "18",
+                    "24"
+                ],
+                "fecha_completa": "2018-09-01 14:21:02"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "13",
+                    "26",
+                    "95"
+                ],
+                "fecha_completa": "2018-09-02 14:22:02"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "56",
+                    "67",
+                    "31"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "97",
+                    "31",
+                    "27"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "72",
+                    "02",
+                    "04"
+                ],
+                "fecha_completa": "2018-09-05 14:25:03"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "45",
+                    "83",
+                    "28"
+                ],
+                "fecha_completa": "2018-09-06 14:26:02"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "48",
+                    "84",
+                    "88"
+                ],
+                "fecha_completa": "2018-09-07 14:27:02"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "15",
+                    "88",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-08 14:28:03"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "24",
+                    "93",
+                    "20"
+                ],
+                "fecha_completa": "2018-09-09 14:29:02"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "14",
+                    "61",
+                    "93"
+                ],
+                "fecha_completa": "2018-09-10 14:30:03"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "03",
+                    "08",
+                    "19"
+                ],
+                "fecha_completa": "2018-09-11 14:31:02"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "33",
+                    "48",
+                    "75"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "97",
+                    "82",
+                    "65"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "86",
+                    "60",
+                    "82"
+                ],
+                "fecha_completa": "2018-09-14 14:34:02"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "33",
+                    "21",
+                    "68"
+                ],
+                "fecha_completa": "2018-09-15 14:35:03"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "88",
+                    "86",
+                    "98"
+                ],
+                "fecha_completa": "2018-09-16 14:36:02"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "22",
+                    "12",
+                    "77"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "81",
+                    "83",
+                    "97"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "65",
+                    "76",
+                    "74"
+                ],
+                "fecha_completa": "2018-09-19 14:39:02"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "97",
+                    "09",
+                    "52"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "97",
+                    "96",
+                    "23"
+                ],
+                "fecha_completa": "2018-09-21 14:41:02"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "89",
+                    "13",
+                    "79"
+                ],
+                "fecha_completa": "2018-09-22 14:42:02"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "95",
+                    "31",
+                    "90"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "83",
+                    "13",
+                    "96"
+                ],
+                "fecha_completa": "2018-09-25 14:45:04"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "59",
+                    "55",
+                    "53"
+                ],
+                "fecha_completa": "2018-09-26 14:46:02"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "29",
+                    "22",
+                    "58"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "42",
+                    "82",
+                    "14"
+                ],
+                "fecha_completa": "2018-09-28 14:48:02"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "83",
+                    "76",
+                    "86"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "14",
+                    "44",
+                    "00"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "44": 1,
+                    "13": 1,
+                    "56": 1,
+                    "97": 4,
+                    "72": 1,
+                    "45": 1,
+                    "48": 1,
+                    "15": 1,
+                    "24": 1,
+                    "14": 2,
+                    "03": 1,
+                    "33": 2,
+                    "86": 1,
+                    "88": 1,
+                    "22": 1,
+                    "81": 1,
+                    "65": 1,
+                    "89": 1,
+                    "95": 1,
+                    "83": 2,
+                    "59": 1,
+                    "29": 1,
+                    "42": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "44": 2,
+                    "18": 1,
+                    "24": 2,
+                    "13": 3,
+                    "26": 1,
+                    "95": 2,
+                    "56": 1,
+                    "67": 1,
+                    "31": 3,
+                    "97": 5,
+                    "27": 1,
+                    "72": 1,
+                    "02": 1,
+                    "04": 1,
+                    "45": 1,
+                    "83": 4,
+                    "28": 1,
+                    "48": 2,
+                    "84": 1,
+                    "88": 3,
+                    "15": 1,
+                    "54": 1,
+                    "93": 2,
+                    "20": 1,
+                    "14": 3,
+                    "61": 1,
+                    "03": 1,
+                    "08": 1,
+                    "19": 1,
+                    "33": 2,
+                    "75": 1,
+                    "82": 3,
+                    "65": 2,
+                    "86": 3,
+                    "60": 1,
+                    "21": 1,
+                    "68": 1,
+                    "98": 1,
+                    "22": 2,
+                    "12": 1,
+                    "77": 1,
+                    "81": 1,
+                    "76": 2,
+                    "74": 1,
+                    "09": 1,
+                    "52": 1,
+                    "96": 2,
+                    "23": 1,
+                    "89": 1,
+                    "79": 1,
+                    "90": 1,
+                    "59": 1,
+                    "55": 1,
+                    "53": 1,
+                    "29": 1,
+                    "58": 1,
+                    "42": 1,
+                    "00": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2018-09-01 14:21:03"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2018-09-05 14:25:03"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2018-09-08 14:28:03"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2018-09-11 14:31:02"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2018-09-15 14:35:03"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2018-09-16 14:36:03"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2018-09-19 14:39:03"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2018-09-21 14:41:03"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2018-09-24 14:44:03"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2018-09-26 14:46:03"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "09",
+                    "67",
+                    "82"
+                ],
+                "fecha_completa": "2018-09-01 14:21:03"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "71",
+                    "50",
+                    "35"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "47",
+                    "28",
+                    "57"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "96",
+                    "38",
+                    "66"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "34",
+                    "31",
+                    "11"
+                ],
+                "fecha_completa": "2018-09-05 14:25:03"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "55",
+                    "89",
+                    "25"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "49",
+                    "59",
+                    "21"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "10",
+                    "03",
+                    "86"
+                ],
+                "fecha_completa": "2018-09-08 14:28:03"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "23",
+                    "72",
+                    "74"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "99",
+                    "06",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "63",
+                    "62",
+                    "62"
+                ],
+                "fecha_completa": "2018-09-11 14:31:02"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "33",
+                    "63",
+                    "43"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "99",
+                    "90",
+                    "82"
+                ],
+                "fecha_completa": "2018-09-13 14:33:02"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "53",
+                    "42",
+                    "58"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "25",
+                    "24",
+                    "06"
+                ],
+                "fecha_completa": "2018-09-15 14:35:03"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "17",
+                    "96",
+                    "93"
+                ],
+                "fecha_completa": "2018-09-16 14:36:03"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "07",
+                    "37",
+                    "81"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "90",
+                    "72",
+                    "13"
+                ],
+                "fecha_completa": "2018-09-18 14:38:02"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "56",
+                    "24",
+                    "34"
+                ],
+                "fecha_completa": "2018-09-19 14:39:03"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "36",
+                    "15",
+                    "76"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "50",
+                    "09",
+                    "17"
+                ],
+                "fecha_completa": "2018-09-21 14:41:03"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "25",
+                    "12",
+                    "61"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "35",
+                    "20",
+                    "69"
+                ],
+                "fecha_completa": "2018-09-23 14:43:02"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "70",
+                    "07",
+                    "29"
+                ],
+                "fecha_completa": "2018-09-24 14:44:03"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "61",
+                    "13",
+                    "15"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "14",
+                    "57",
+                    "37"
+                ],
+                "fecha_completa": "2018-09-26 14:46:03"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "58",
+                    "80",
+                    "16"
+                ],
+                "fecha_completa": "2018-09-27 14:47:02"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "56",
+                    "98",
+                    "81"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "27",
+                    "28",
+                    "65"
+                ],
+                "fecha_completa": "2018-09-29 14:49:02"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "61",
+                    "48",
+                    "26"
+                ],
+                "fecha_completa": "2018-09-30 14:50:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "09": 1,
+                    "71": 1,
+                    "47": 1,
+                    "96": 1,
+                    "34": 1,
+                    "55": 1,
+                    "49": 1,
+                    "10": 1,
+                    "23": 1,
+                    "99": 2,
+                    "63": 1,
+                    "33": 1,
+                    "53": 1,
+                    "25": 2,
+                    "17": 1,
+                    "07": 1,
+                    "90": 1,
+                    "56": 2,
+                    "36": 1,
+                    "50": 1,
+                    "35": 1,
+                    "70": 1,
+                    "61": 2,
+                    "14": 1,
+                    "58": 1,
+                    "27": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "09": 2,
+                    "67": 1,
+                    "82": 2,
+                    "71": 1,
+                    "50": 2,
+                    "35": 2,
+                    "47": 1,
+                    "28": 2,
+                    "57": 2,
+                    "96": 2,
+                    "38": 1,
+                    "66": 1,
+                    "34": 2,
+                    "31": 1,
+                    "11": 1,
+                    "55": 1,
+                    "89": 1,
+                    "25": 3,
+                    "49": 1,
+                    "59": 1,
+                    "21": 1,
+                    "10": 1,
+                    "03": 1,
+                    "86": 1,
+                    "23": 1,
+                    "72": 2,
+                    "74": 1,
+                    "99": 2,
+                    "06": 2,
+                    "85": 1,
+                    "63": 2,
+                    "62": 2,
+                    "33": 1,
+                    "43": 1,
+                    "90": 2,
+                    "53": 1,
+                    "42": 1,
+                    "58": 2,
+                    "24": 2,
+                    "17": 2,
+                    "93": 1,
+                    "07": 2,
+                    "37": 2,
+                    "81": 2,
+                    "13": 2,
+                    "56": 2,
+                    "36": 1,
+                    "15": 2,
+                    "76": 1,
+                    "12": 1,
+                    "61": 3,
+                    "20": 1,
+                    "69": 1,
+                    "70": 1,
+                    "29": 1,
+                    "14": 1,
+                    "80": 1,
+                    "16": 1,
+                    "98": 1,
+                    "27": 1,
+                    "65": 1,
+                    "48": 1,
+                    "26": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2018-09-01 14:21:03"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2018-09-05 14:25:04"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-08 14:28:04"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2018-09-11 14:31:03"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2018-09-13 14:33:03"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-15 14:35:04"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2018-09-16 14:36:03"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2018-09-18 14:38:03"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2018-09-19 14:39:03"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2018-09-21 14:41:03"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2018-09-23 14:43:03"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2018-09-24 14:44:03"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2018-09-26 14:46:03"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2018-09-27 14:47:03"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2018-09-29 14:49:03"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2018-09-30 14:50:04"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "56",
+                    "76",
+                    "45"
+                ],
+                "fecha_completa": "2018-09-01 14:21:03"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "28",
+                    "26",
+                    "26"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "33",
+                    "79",
+                    "03"
+                ],
+                "fecha_completa": "2018-09-03 14:23:03"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "64",
+                    "27",
+                    "24"
+                ],
+                "fecha_completa": "2018-09-04 14:24:03"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "94",
+                    "69",
+                    "57"
+                ],
+                "fecha_completa": "2018-09-05 14:25:04"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "13",
+                    "71",
+                    "84"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "98",
+                    "74",
+                    "16"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "97",
+                    "78",
+                    "75"
+                ],
+                "fecha_completa": "2018-09-08 14:28:04"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "62",
+                    "44",
+                    "69"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "81",
+                    "06",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "69",
+                    "53",
+                    "77"
+                ],
+                "fecha_completa": "2018-09-11 14:31:03"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "67",
+                    "05",
+                    "64"
+                ],
+                "fecha_completa": "2018-09-12 14:32:03"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "79",
+                    "15",
+                    "97"
+                ],
+                "fecha_completa": "2018-09-13 14:33:03"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "07",
+                    "96",
+                    "02"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "97",
+                    "74",
+                    "23"
+                ],
+                "fecha_completa": "2018-09-15 14:35:04"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "60",
+                    "88",
+                    "06"
+                ],
+                "fecha_completa": "2018-09-16 14:36:03"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "82",
+                    "19",
+                    "48"
+                ],
+                "fecha_completa": "2018-09-17 14:37:03"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "86",
+                    "68",
+                    "66"
+                ],
+                "fecha_completa": "2018-09-18 14:38:03"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "57",
+                    "16",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-19 14:39:03"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "62",
+                    "15",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-20 14:40:03"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "44",
+                    "36",
+                    "67"
+                ],
+                "fecha_completa": "2018-09-21 14:41:03"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "66",
+                    "88",
+                    "26"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "50",
+                    "27",
+                    "37"
+                ],
+                "fecha_completa": "2018-09-23 14:43:03"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "81",
+                    "82",
+                    "17"
+                ],
+                "fecha_completa": "2018-09-24 14:44:03"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "94",
+                    "08",
+                    "22"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "25",
+                    "75",
+                    "93"
+                ],
+                "fecha_completa": "2018-09-26 14:46:03"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "51",
+                    "82",
+                    "21"
+                ],
+                "fecha_completa": "2018-09-27 14:47:03"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "87",
+                    "61",
+                    "00"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "08",
+                    "15",
+                    "02"
+                ],
+                "fecha_completa": "2018-09-29 14:49:03"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "39",
+                    "95",
+                    "01"
+                ],
+                "fecha_completa": "2018-09-30 14:50:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "56": 1,
+                    "28": 1,
+                    "33": 1,
+                    "64": 1,
+                    "94": 2,
+                    "13": 1,
+                    "98": 1,
+                    "97": 2,
+                    "62": 2,
+                    "81": 2,
+                    "69": 1,
+                    "67": 1,
+                    "79": 1,
+                    "07": 1,
+                    "60": 1,
+                    "82": 1,
+                    "86": 1,
+                    "57": 1,
+                    "44": 1,
+                    "66": 1,
+                    "50": 1,
+                    "25": 1,
+                    "51": 1,
+                    "87": 1,
+                    "08": 1,
+                    "39": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "56": 1,
+                    "76": 1,
+                    "45": 1,
+                    "28": 1,
+                    "26": 3,
+                    "33": 1,
+                    "79": 2,
+                    "03": 1,
+                    "64": 2,
+                    "27": 2,
+                    "24": 1,
+                    "94": 2,
+                    "69": 3,
+                    "57": 2,
+                    "13": 1,
+                    "71": 1,
+                    "84": 1,
+                    "98": 1,
+                    "74": 2,
+                    "16": 2,
+                    "97": 3,
+                    "78": 1,
+                    "75": 2,
+                    "62": 2,
+                    "44": 2,
+                    "81": 2,
+                    "06": 2,
+                    "54": 3,
+                    "53": 1,
+                    "77": 1,
+                    "67": 2,
+                    "05": 1,
+                    "15": 3,
+                    "07": 1,
+                    "96": 1,
+                    "02": 2,
+                    "23": 1,
+                    "60": 1,
+                    "88": 2,
+                    "82": 3,
+                    "19": 1,
+                    "48": 1,
+                    "86": 1,
+                    "68": 1,
+                    "66": 2,
+                    "36": 1,
+                    "50": 1,
+                    "37": 1,
+                    "17": 1,
+                    "08": 2,
+                    "22": 1,
+                    "25": 1,
+                    "93": 1,
+                    "51": 1,
+                    "21": 1,
+                    "87": 1,
+                    "61": 1,
+                    "00": 1,
+                    "39": 1,
+                    "95": 1,
+                    "01": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2018-09-01 14:21:04"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2018-09-03 14:23:04"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2018-09-04 14:24:04"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2018-09-05 14:25:04"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2018-09-08 14:28:04"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2018-09-11 14:31:03"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2018-09-12 14:32:04"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2018-09-13 14:33:03"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2018-09-15 14:35:04"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2018-09-16 14:36:04"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2018-09-17 14:37:04"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2018-09-18 14:38:03"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2018-09-19 14:39:04"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2018-09-20 14:40:04"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2018-09-21 14:41:04"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2018-09-23 14:43:03"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2018-09-24 14:44:04"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2018-09-26 14:46:04"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2018-09-27 14:47:03"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2018-09-29 14:49:03"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "2018-09-30 14:50:04"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "12",
+                    "38",
+                    "26"
+                ],
+                "fecha_completa": "2018-09-01 14:21:04"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "97",
+                    "96",
+                    "87"
+                ],
+                "fecha_completa": "2018-09-02 14:22:03"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "77",
+                    "56",
+                    "78"
+                ],
+                "fecha_completa": "2018-09-03 14:23:04"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "17",
+                    "56",
+                    "10"
+                ],
+                "fecha_completa": "2018-09-04 14:24:04"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "49",
+                    "05",
+                    "20"
+                ],
+                "fecha_completa": "2018-09-05 14:25:04"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "64",
+                    "33",
+                    "30"
+                ],
+                "fecha_completa": "2018-09-06 14:26:03"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "15",
+                    "91",
+                    "52"
+                ],
+                "fecha_completa": "2018-09-07 14:27:03"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "17",
+                    "81",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-08 14:28:04"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "11",
+                    "25",
+                    "08"
+                ],
+                "fecha_completa": "2018-09-09 14:29:03"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "38",
+                    "99",
+                    "81"
+                ],
+                "fecha_completa": "2018-09-10 14:30:04"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "92",
+                    "56",
+                    "73"
+                ],
+                "fecha_completa": "2018-09-11 14:31:03"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "94",
+                    "54",
+                    "05"
+                ],
+                "fecha_completa": "2018-09-12 14:32:04"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "96",
+                    "75",
+                    "02"
+                ],
+                "fecha_completa": "2018-09-13 14:33:03"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "78",
+                    "13",
+                    "72"
+                ],
+                "fecha_completa": "2018-09-14 14:34:03"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "95",
+                    "12",
+                    "41"
+                ],
+                "fecha_completa": "2018-09-15 14:35:04"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "94",
+                    "97",
+                    "67"
+                ],
+                "fecha_completa": "2018-09-16 14:36:04"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "28",
+                    "40",
+                    "74"
+                ],
+                "fecha_completa": "2018-09-17 14:37:04"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "90",
+                    "23",
+                    "98"
+                ],
+                "fecha_completa": "2018-09-18 14:38:03"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "83",
+                    "54",
+                    "56"
+                ],
+                "fecha_completa": "2018-09-19 14:39:04"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "09",
+                    "29",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-20 14:40:04"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "21",
+                    "05",
+                    "93"
+                ],
+                "fecha_completa": "2018-09-21 14:41:04"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "70",
+                    "81",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-22 14:42:03"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "80",
+                    "96",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-23 14:43:03"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "06",
+                    "49",
+                    "97"
+                ],
+                "fecha_completa": "2018-09-24 14:44:04"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "16",
+                    "59",
+                    "31"
+                ],
+                "fecha_completa": "2018-09-25 14:45:05"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "04",
+                    "88",
+                    "70"
+                ],
+                "fecha_completa": "2018-09-26 14:46:04"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "39",
+                    "08",
+                    "57"
+                ],
+                "fecha_completa": "2018-09-27 14:47:03"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "81",
+                    "11",
+                    "43"
+                ],
+                "fecha_completa": "2018-09-28 14:48:03"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "42",
+                    "94",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-29 14:49:03"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "95",
+                    "36",
+                    "71"
+                ],
+                "fecha_completa": "2018-09-30 14:50:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "12": 1,
+                    "97": 1,
+                    "77": 1,
+                    "17": 2,
+                    "49": 1,
+                    "64": 1,
+                    "15": 1,
+                    "11": 1,
+                    "38": 1,
+                    "92": 1,
+                    "94": 2,
+                    "96": 1,
+                    "78": 1,
+                    "95": 2,
+                    "28": 1,
+                    "90": 1,
+                    "83": 1,
+                    "09": 1,
+                    "21": 1,
+                    "70": 1,
+                    "80": 1,
+                    "06": 1,
+                    "16": 1,
+                    "04": 1,
+                    "39": 1,
+                    "81": 1,
+                    "42": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "12": 2,
+                    "38": 2,
+                    "26": 1,
+                    "97": 3,
+                    "96": 3,
+                    "87": 1,
+                    "77": 1,
+                    "56": 4,
+                    "78": 2,
+                    "17": 2,
+                    "10": 1,
+                    "49": 2,
+                    "05": 3,
+                    "20": 1,
+                    "64": 1,
+                    "33": 1,
+                    "30": 1,
+                    "15": 1,
+                    "91": 1,
+                    "52": 1,
+                    "81": 4,
+                    "50": 2,
+                    "11": 2,
+                    "25": 1,
+                    "08": 2,
+                    "99": 1,
+                    "92": 1,
+                    "73": 1,
+                    "94": 3,
+                    "54": 3,
+                    "75": 1,
+                    "02": 1,
+                    "13": 1,
+                    "72": 1,
+                    "95": 2,
+                    "41": 1,
+                    "67": 1,
+                    "28": 1,
+                    "40": 1,
+                    "74": 1,
+                    "90": 1,
+                    "23": 1,
+                    "98": 1,
+                    "83": 1,
+                    "09": 1,
+                    "29": 1,
+                    "21": 1,
+                    "93": 1,
+                    "70": 2,
+                    "85": 2,
+                    "80": 1,
+                    "06": 1,
+                    "16": 1,
+                    "59": 1,
+                    "31": 1,
+                    "04": 1,
+                    "88": 1,
+                    "39": 1,
+                    "57": 1,
+                    "43": 1,
+                    "42": 1,
+                    "36": 1,
+                    "71": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "New York Tarde": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2018-09-01 14:21:04"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2018-09-02 14:22:04"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2018-09-03 14:23:05"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2018-09-04 14:24:04"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2018-09-05 14:25:05"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2018-09-06 14:26:04"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2018-09-07 14:27:04"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2018-09-08 14:28:05"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2018-09-09 14:29:04"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2018-09-10 14:30:05"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2018-09-11 14:31:04"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2018-09-12 14:32:05"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2018-09-13 14:33:04"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2018-09-14 14:34:04"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2018-09-15 14:35:05"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-16 14:36:04"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2018-09-17 14:37:05"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2018-09-18 14:38:04"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2018-09-19 14:39:04"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2018-09-20 14:40:04"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2018-09-21 14:41:04"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2018-09-22 14:42:04"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2018-09-23 14:43:04"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2018-09-24 14:44:04"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-25 14:45:06"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2018-09-26 14:46:04"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-27 14:47:04"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2018-09-28 14:48:04"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2018-09-29 14:49:04"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2018-09-30 14:50:05"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "30",
+                    "89",
+                    "67"
+                ],
+                "fecha_completa": "2018-09-01 14:21:04"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "40",
+                    "52",
+                    "76"
+                ],
+                "fecha_completa": "2018-09-02 14:22:04"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "04",
+                    "47",
+                    "92"
+                ],
+                "fecha_completa": "2018-09-03 14:23:05"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "37",
+                    "78",
+                    "94"
+                ],
+                "fecha_completa": "2018-09-04 14:24:04"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "12",
+                    "64",
+                    "46"
+                ],
+                "fecha_completa": "2018-09-05 14:25:05"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "20",
+                    "47",
+                    "09"
+                ],
+                "fecha_completa": "2018-09-06 14:26:04"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "27",
+                    "70",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-07 14:27:04"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "17",
+                    "10",
+                    "76"
+                ],
+                "fecha_completa": "2018-09-08 14:28:05"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "32",
+                    "34",
+                    "33"
+                ],
+                "fecha_completa": "2018-09-09 14:29:04"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "94",
+                    "08",
+                    "96"
+                ],
+                "fecha_completa": "2018-09-10 14:30:05"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "64",
+                    "92",
+                    "69"
+                ],
+                "fecha_completa": "2018-09-11 14:31:04"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "42",
+                    "34",
+                    "42"
+                ],
+                "fecha_completa": "2018-09-12 14:32:05"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "49",
+                    "91",
+                    "04"
+                ],
+                "fecha_completa": "2018-09-13 14:33:04"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "02",
+                    "87",
+                    "35"
+                ],
+                "fecha_completa": "2018-09-14 14:34:04"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "53",
+                    "85",
+                    "73"
+                ],
+                "fecha_completa": "2018-09-15 14:35:05"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "97",
+                    "12",
+                    "90"
+                ],
+                "fecha_completa": "2018-09-16 14:36:04"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "75",
+                    "25",
+                    "44"
+                ],
+                "fecha_completa": "2018-09-17 14:37:05"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "00",
+                    "52",
+                    "23"
+                ],
+                "fecha_completa": "2018-09-18 14:38:04"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "30",
+                    "74",
+                    "60"
+                ],
+                "fecha_completa": "2018-09-19 14:39:04"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "25",
+                    "40",
+                    "69"
+                ],
+                "fecha_completa": "2018-09-20 14:40:04"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "85",
+                    "33",
+                    "87"
+                ],
+                "fecha_completa": "2018-09-21 14:41:04"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "77",
+                    "92",
+                    "51"
+                ],
+                "fecha_completa": "2018-09-22 14:42:04"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "90",
+                    "19",
+                    "11"
+                ],
+                "fecha_completa": "2018-09-23 14:43:04"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "74",
+                    "75",
+                    "87"
+                ],
+                "fecha_completa": "2018-09-24 14:44:04"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "15",
+                    "07",
+                    "43"
+                ],
+                "fecha_completa": "2018-09-25 14:45:06"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "62",
+                    "04",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-26 14:46:04"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "15",
+                    "90",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-27 14:47:04"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "15",
+                    "26",
+                    "91"
+                ],
+                "fecha_completa": "2018-09-28 14:48:04"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "31",
+                    "07",
+                    "47"
+                ],
+                "fecha_completa": "2018-09-29 14:49:04"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "41",
+                    "53",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-30 14:50:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "30": 2,
+                    "40": 1,
+                    "04": 1,
+                    "37": 1,
+                    "12": 1,
+                    "20": 1,
+                    "27": 1,
+                    "17": 1,
+                    "32": 1,
+                    "94": 1,
+                    "64": 1,
+                    "42": 1,
+                    "49": 1,
+                    "02": 1,
+                    "53": 1,
+                    "97": 1,
+                    "75": 1,
+                    "00": 1,
+                    "25": 1,
+                    "85": 1,
+                    "77": 1,
+                    "90": 1,
+                    "74": 1,
+                    "15": 3,
+                    "62": 1,
+                    "31": 1,
+                    "41": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "30": 2,
+                    "89": 1,
+                    "67": 1,
+                    "40": 2,
+                    "52": 2,
+                    "76": 2,
+                    "04": 3,
+                    "47": 3,
+                    "92": 3,
+                    "37": 1,
+                    "78": 1,
+                    "94": 2,
+                    "12": 2,
+                    "64": 2,
+                    "46": 1,
+                    "20": 1,
+                    "09": 1,
+                    "27": 1,
+                    "70": 1,
+                    "85": 3,
+                    "17": 1,
+                    "10": 1,
+                    "32": 1,
+                    "34": 2,
+                    "33": 2,
+                    "08": 1,
+                    "96": 1,
+                    "69": 2,
+                    "42": 2,
+                    "49": 1,
+                    "91": 2,
+                    "02": 1,
+                    "87": 3,
+                    "35": 1,
+                    "53": 2,
+                    "73": 1,
+                    "97": 1,
+                    "90": 3,
+                    "75": 2,
+                    "25": 2,
+                    "44": 1,
+                    "00": 1,
+                    "23": 1,
+                    "74": 2,
+                    "60": 1,
+                    "77": 1,
+                    "51": 1,
+                    "19": 1,
+                    "11": 1,
+                    "15": 3,
+                    "07": 2,
+                    "43": 1,
+                    "62": 1,
+                    "50": 3,
+                    "26": 1,
+                    "31": 1,
+                    "41": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    },
+    "New york Noche": {
+        "ConteoEnPrimera": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2018-09-01 14:21:05"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2018-09-02 14:22:05"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2018-09-03 14:23:05"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2018-09-04 14:24:05"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2018-09-05 14:25:06"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2018-09-06 14:26:05"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2018-09-07 14:27:05"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2018-09-08 14:28:05"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2018-09-09 14:29:05"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2018-09-10 14:30:06"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2018-09-11 14:31:05"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2018-09-12 14:32:05"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2018-09-13 14:33:04"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2018-09-14 14:34:05"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2018-09-15 14:35:05"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2018-09-16 14:36:05"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2018-09-17 14:37:05"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2018-09-18 14:38:05"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2018-09-19 14:39:05"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2018-09-20 14:40:05"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2018-09-21 14:41:05"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2018-09-22 14:42:05"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2018-09-23 14:43:05"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2018-09-24 14:44:05"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2018-09-25 14:45:07"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2018-09-26 14:46:05"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2018-09-27 14:47:04"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2018-09-28 14:48:05"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2018-09-29 14:49:05"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2018-09-30 14:50:06"
+            }
+        },
+        "ConteoAll": {
+            "sábado, 1 de septiembre": {
+                "numeros": [
+                    "69",
+                    "66",
+                    "56"
+                ],
+                "fecha_completa": "2018-09-01 14:21:05"
+            },
+            "domingo, 2 de septiembre": {
+                "numeros": [
+                    "84",
+                    "33",
+                    "17"
+                ],
+                "fecha_completa": "2018-09-02 14:22:05"
+            },
+            "lunes, 3 de septiembre": {
+                "numeros": [
+                    "31",
+                    "19",
+                    "31"
+                ],
+                "fecha_completa": "2018-09-03 14:23:05"
+            },
+            "martes, 4 de septiembre": {
+                "numeros": [
+                    "06",
+                    "54",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-04 14:24:05"
+            },
+            "miércoles, 5 de septiembre": {
+                "numeros": [
+                    "32",
+                    "30",
+                    "27"
+                ],
+                "fecha_completa": "2018-09-05 14:25:06"
+            },
+            "jueves, 6 de septiembre": {
+                "numeros": [
+                    "12",
+                    "93",
+                    "39"
+                ],
+                "fecha_completa": "2018-09-06 14:26:05"
+            },
+            "viernes, 7 de septiembre": {
+                "numeros": [
+                    "75",
+                    "51",
+                    "89"
+                ],
+                "fecha_completa": "2018-09-07 14:27:05"
+            },
+            "sábado, 8 de septiembre": {
+                "numeros": [
+                    "05",
+                    "12",
+                    "58"
+                ],
+                "fecha_completa": "2018-09-08 14:28:05"
+            },
+            "domingo, 9 de septiembre": {
+                "numeros": [
+                    "91",
+                    "61",
+                    "10"
+                ],
+                "fecha_completa": "2018-09-09 14:29:05"
+            },
+            "lunes, 10 de septiembre": {
+                "numeros": [
+                    "62",
+                    "83",
+                    "38"
+                ],
+                "fecha_completa": "2018-09-10 14:30:06"
+            },
+            "martes, 11 de septiembre": {
+                "numeros": [
+                    "99",
+                    "31",
+                    "26"
+                ],
+                "fecha_completa": "2018-09-11 14:31:05"
+            },
+            "miércoles, 12 de septiembre": {
+                "numeros": [
+                    "97",
+                    "52",
+                    "41"
+                ],
+                "fecha_completa": "2018-09-12 14:32:05"
+            },
+            "jueves, 13 de septiembre": {
+                "numeros": [
+                    "44",
+                    "16",
+                    "35"
+                ],
+                "fecha_completa": "2018-09-13 14:33:04"
+            },
+            "viernes, 14 de septiembre": {
+                "numeros": [
+                    "52",
+                    "94",
+                    "84"
+                ],
+                "fecha_completa": "2018-09-14 14:34:05"
+            },
+            "sábado, 15 de septiembre": {
+                "numeros": [
+                    "23",
+                    "65",
+                    "59"
+                ],
+                "fecha_completa": "2018-09-15 14:35:05"
+            },
+            "domingo, 16 de septiembre": {
+                "numeros": [
+                    "52",
+                    "04",
+                    "85"
+                ],
+                "fecha_completa": "2018-09-16 14:36:05"
+            },
+            "lunes, 17 de septiembre": {
+                "numeros": [
+                    "64",
+                    "01",
+                    "51"
+                ],
+                "fecha_completa": "2018-09-17 14:37:05"
+            },
+            "martes, 18 de septiembre": {
+                "numeros": [
+                    "56",
+                    "68",
+                    "16"
+                ],
+                "fecha_completa": "2018-09-18 14:38:05"
+            },
+            "miércoles, 19 de septiembre": {
+                "numeros": [
+                    "88",
+                    "42",
+                    "38"
+                ],
+                "fecha_completa": "2018-09-19 14:39:05"
+            },
+            "jueves, 20 de septiembre": {
+                "numeros": [
+                    "24",
+                    "03",
+                    "68"
+                ],
+                "fecha_completa": "2018-09-20 14:40:05"
+            },
+            "viernes, 21 de septiembre": {
+                "numeros": [
+                    "93",
+                    "17",
+                    "27"
+                ],
+                "fecha_completa": "2018-09-21 14:41:05"
+            },
+            "sábado, 22 de septiembre": {
+                "numeros": [
+                    "59",
+                    "39",
+                    "00"
+                ],
+                "fecha_completa": "2018-09-22 14:42:05"
+            },
+            "domingo, 23 de septiembre": {
+                "numeros": [
+                    "26",
+                    "68",
+                    "50"
+                ],
+                "fecha_completa": "2018-09-23 14:43:05"
+            },
+            "lunes, 24 de septiembre": {
+                "numeros": [
+                    "41",
+                    "45",
+                    "83"
+                ],
+                "fecha_completa": "2018-09-24 14:44:05"
+            },
+            "martes, 25 de septiembre": {
+                "numeros": [
+                    "33",
+                    "82",
+                    "46"
+                ],
+                "fecha_completa": "2018-09-25 14:45:07"
+            },
+            "miércoles, 26 de septiembre": {
+                "numeros": [
+                    "19",
+                    "99",
+                    "07"
+                ],
+                "fecha_completa": "2018-09-26 14:46:05"
+            },
+            "jueves, 27 de septiembre": {
+                "numeros": [
+                    "04",
+                    "01",
+                    "54"
+                ],
+                "fecha_completa": "2018-09-27 14:47:04"
+            },
+            "viernes, 28 de septiembre": {
+                "numeros": [
+                    "66",
+                    "54",
+                    "87"
+                ],
+                "fecha_completa": "2018-09-28 14:48:05"
+            },
+            "sábado, 29 de septiembre": {
+                "numeros": [
+                    "45",
+                    "25",
+                    "22"
+                ],
+                "fecha_completa": "2018-09-29 14:49:05"
+            },
+            "domingo, 30 de septiembre": {
+                "numeros": [
+                    "12",
+                    "21",
+                    "43"
+                ],
+                "fecha_completa": "2018-09-30 14:50:06"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "69": 1,
+                    "84": 1,
+                    "31": 1,
+                    "06": 1,
+                    "32": 1,
+                    "12": 2,
+                    "75": 1,
+                    "05": 1,
+                    "91": 1,
+                    "62": 1,
+                    "99": 1,
+                    "97": 1,
+                    "44": 1,
+                    "52": 2,
+                    "23": 1,
+                    "64": 1,
+                    "56": 1,
+                    "88": 1,
+                    "24": 1,
+                    "93": 1,
+                    "59": 1,
+                    "26": 1,
+                    "41": 1,
+                    "33": 1,
+                    "19": 1,
+                    "04": 1,
+                    "66": 1,
+                    "45": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "69": 1,
+                    "66": 2,
+                    "56": 2,
+                    "84": 2,
+                    "33": 2,
+                    "17": 2,
+                    "31": 3,
+                    "19": 2,
+                    "06": 1,
+                    "54": 3,
+                    "85": 2,
+                    "32": 1,
+                    "30": 1,
+                    "27": 2,
+                    "12": 3,
+                    "93": 2,
+                    "39": 2,
+                    "75": 1,
+                    "51": 2,
+                    "89": 1,
+                    "05": 1,
+                    "58": 1,
+                    "91": 1,
+                    "61": 1,
+                    "10": 1,
+                    "62": 1,
+                    "83": 2,
+                    "38": 2,
+                    "99": 2,
+                    "26": 2,
+                    "97": 1,
+                    "52": 3,
+                    "41": 2,
+                    "44": 1,
+                    "16": 2,
+                    "35": 1,
+                    "94": 1,
+                    "23": 1,
+                    "65": 1,
+                    "59": 2,
+                    "04": 2,
+                    "64": 1,
+                    "01": 2,
+                    "68": 3,
+                    "88": 1,
+                    "42": 1,
+                    "24": 1,
+                    "03": 1,
+                    "00": 1,
+                    "50": 1,
+                    "45": 2,
+                    "82": 1,
+                    "46": 1,
+                    "07": 1,
+                    "87": 1,
+                    "25": 1,
+                    "22": 1,
+                    "21": 1,
+                    "43": 1
+                }
+            },
+            "total_sorteos": 30,
+            "fecha_primer_registro": "2018-09-01",
+            "fecha_ultimo_registro": "2018-09-30"
+        }
+    }
+}

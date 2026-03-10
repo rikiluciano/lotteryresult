@@ -1,0 +1,2548 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "2012-02-02 22:16:01"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2012-02-04 22:18:01"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2012-02-05 22:19:02"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2012-02-06 22:20:02"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2012-02-07 22:21:02"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2012-02-09 22:23:02"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2012-02-10 22:24:02"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2012-02-11 22:25:02"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2012-02-12 22:26:02"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2012-02-14 22:28:01"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2012-02-15 22:29:02"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2012-02-16 22:30:02"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2012-02-17 22:31:02"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2012-02-18 22:32:02"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2012-02-19 22:33:01"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2012-02-20 22:34:02"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2012-02-21 22:35:02"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2012-02-22 22:36:02"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "2012-02-24 22:38:01"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "2012-02-25 22:39:02"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2012-02-26 22:40:02"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2012-02-27 22:41:01"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2012-02-28 22:42:02"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "ConteoAll": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "24",
+                    "17",
+                    "09"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "67",
+                    "85",
+                    "29"
+                ],
+                "fecha_completa": "2012-02-02 22:16:01"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "30",
+                    "31",
+                    "93"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "08",
+                    "58",
+                    "71"
+                ],
+                "fecha_completa": "2012-02-04 22:18:01"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "61",
+                    "46",
+                    "02"
+                ],
+                "fecha_completa": "2012-02-05 22:19:02"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "80",
+                    "56",
+                    "29"
+                ],
+                "fecha_completa": "2012-02-06 22:20:02"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "57",
+                    "70",
+                    "74"
+                ],
+                "fecha_completa": "2012-02-07 22:21:02"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "17",
+                    "02",
+                    "86"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "13",
+                    "61",
+                    "86"
+                ],
+                "fecha_completa": "2012-02-09 22:23:02"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "61",
+                    "93",
+                    "22"
+                ],
+                "fecha_completa": "2012-02-10 22:24:02"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "69",
+                    "56",
+                    "21"
+                ],
+                "fecha_completa": "2012-02-11 22:25:02"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "20",
+                    "72",
+                    "87"
+                ],
+                "fecha_completa": "2012-02-12 22:26:02"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "12",
+                    "79",
+                    "68"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "70",
+                    "04",
+                    "83"
+                ],
+                "fecha_completa": "2012-02-14 22:28:01"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "08",
+                    "65",
+                    "21"
+                ],
+                "fecha_completa": "2012-02-15 22:29:02"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "57",
+                    "24",
+                    "13"
+                ],
+                "fecha_completa": "2012-02-16 22:30:02"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "47",
+                    "90",
+                    "68"
+                ],
+                "fecha_completa": "2012-02-17 22:31:02"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "33",
+                    "82",
+                    "51"
+                ],
+                "fecha_completa": "2012-02-18 22:32:02"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "96",
+                    "21",
+                    "18"
+                ],
+                "fecha_completa": "2012-02-19 22:33:01"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "45",
+                    "90",
+                    "88"
+                ],
+                "fecha_completa": "2012-02-20 22:34:02"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "04",
+                    "92",
+                    "17"
+                ],
+                "fecha_completa": "2012-02-21 22:35:02"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "92",
+                    "79",
+                    "49"
+                ],
+                "fecha_completa": "2012-02-22 22:36:02"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "53",
+                    "45",
+                    "98"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "42",
+                    "67",
+                    "11"
+                ],
+                "fecha_completa": "2012-02-24 22:38:01"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "87",
+                    "73",
+                    "24"
+                ],
+                "fecha_completa": "2012-02-25 22:39:02"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "04",
+                    "80",
+                    "48"
+                ],
+                "fecha_completa": "2012-02-26 22:40:02"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "55",
+                    "44",
+                    "85"
+                ],
+                "fecha_completa": "2012-02-27 22:41:01"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "49",
+                    "70",
+                    "70"
+                ],
+                "fecha_completa": "2012-02-28 22:42:02"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "98",
+                    "84",
+                    "46"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "24": 1,
+                    "67": 1,
+                    "30": 1,
+                    "08": 2,
+                    "61": 2,
+                    "80": 1,
+                    "57": 2,
+                    "17": 1,
+                    "13": 1,
+                    "69": 1,
+                    "20": 1,
+                    "12": 1,
+                    "70": 1,
+                    "47": 1,
+                    "33": 1,
+                    "96": 1,
+                    "45": 1,
+                    "04": 2,
+                    "92": 1,
+                    "53": 1,
+                    "42": 1,
+                    "87": 1,
+                    "55": 1,
+                    "49": 1,
+                    "98": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "24": 3,
+                    "17": 3,
+                    "09": 1,
+                    "67": 2,
+                    "85": 2,
+                    "29": 2,
+                    "30": 1,
+                    "31": 1,
+                    "93": 2,
+                    "08": 2,
+                    "58": 1,
+                    "71": 1,
+                    "61": 3,
+                    "46": 2,
+                    "02": 2,
+                    "80": 2,
+                    "56": 2,
+                    "57": 2,
+                    "70": 4,
+                    "74": 1,
+                    "86": 2,
+                    "13": 2,
+                    "22": 1,
+                    "69": 1,
+                    "21": 3,
+                    "20": 1,
+                    "72": 1,
+                    "87": 2,
+                    "12": 1,
+                    "79": 2,
+                    "68": 2,
+                    "04": 3,
+                    "83": 1,
+                    "65": 1,
+                    "47": 1,
+                    "90": 2,
+                    "33": 1,
+                    "82": 1,
+                    "51": 1,
+                    "96": 1,
+                    "18": 1,
+                    "45": 2,
+                    "88": 1,
+                    "92": 2,
+                    "49": 2,
+                    "53": 1,
+                    "98": 2,
+                    "42": 1,
+                    "11": 1,
+                    "73": 1,
+                    "48": 1,
+                    "55": 1,
+                    "44": 1,
+                    "84": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2012-02-01",
+            "fecha_ultimo_registro": "2012-02-29"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2012-02-07 22:21:02"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2012-02-10 22:24:02"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2012-02-12 22:26:02"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2012-02-14 22:28:02"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-15 22:29:02"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2012-02-18 22:32:02"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2012-02-20 22:34:02"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2012-02-22 22:36:02"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2012-02-25 22:39:02"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2012-02-27 22:41:02"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-28 22:42:02"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "ConteoAll": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "61",
+                    "19",
+                    "94"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "96",
+                    "96",
+                    "77"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "54",
+                    "85",
+                    "79"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "51",
+                    "86",
+                    "98"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "60",
+                    "81",
+                    "38"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "14",
+                    "99",
+                    "89"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "23",
+                    "57",
+                    "92"
+                ],
+                "fecha_completa": "2012-02-07 22:21:02"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "38",
+                    "04",
+                    "29"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "33",
+                    "22",
+                    "39"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "17",
+                    "00",
+                    "06"
+                ],
+                "fecha_completa": "2012-02-10 22:24:02"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "02",
+                    "76",
+                    "78"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "56",
+                    "74",
+                    "80"
+                ],
+                "fecha_completa": "2012-02-12 22:26:02"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "77",
+                    "95",
+                    "07"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "04",
+                    "45",
+                    "04"
+                ],
+                "fecha_completa": "2012-02-14 22:28:02"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "14",
+                    "68",
+                    "89"
+                ],
+                "fecha_completa": "2012-02-15 22:29:02"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "15",
+                    "04",
+                    "71"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "94",
+                    "05",
+                    "51"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "09",
+                    "67",
+                    "56"
+                ],
+                "fecha_completa": "2012-02-18 22:32:02"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "13",
+                    "90",
+                    "46"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "28",
+                    "70",
+                    "90"
+                ],
+                "fecha_completa": "2012-02-20 22:34:02"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "57",
+                    "58",
+                    "06"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "48",
+                    "24",
+                    "56"
+                ],
+                "fecha_completa": "2012-02-22 22:36:02"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "69",
+                    "18",
+                    "94"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "72",
+                    "35",
+                    "18"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "38",
+                    "76",
+                    "32"
+                ],
+                "fecha_completa": "2012-02-25 22:39:02"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "97",
+                    "86",
+                    "91"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "31",
+                    "55",
+                    "87"
+                ],
+                "fecha_completa": "2012-02-27 22:41:02"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "14",
+                    "70",
+                    "48"
+                ],
+                "fecha_completa": "2012-02-28 22:42:02"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "71",
+                    "31",
+                    "24"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "61": 1,
+                    "96": 1,
+                    "54": 1,
+                    "51": 1,
+                    "60": 1,
+                    "14": 3,
+                    "23": 1,
+                    "38": 2,
+                    "33": 1,
+                    "17": 1,
+                    "02": 1,
+                    "56": 1,
+                    "77": 1,
+                    "04": 1,
+                    "15": 1,
+                    "94": 1,
+                    "09": 1,
+                    "13": 1,
+                    "28": 1,
+                    "57": 1,
+                    "48": 1,
+                    "69": 1,
+                    "72": 1,
+                    "97": 1,
+                    "31": 1,
+                    "71": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "61": 1,
+                    "19": 1,
+                    "94": 3,
+                    "96": 2,
+                    "77": 2,
+                    "54": 1,
+                    "85": 1,
+                    "79": 1,
+                    "51": 2,
+                    "86": 2,
+                    "98": 1,
+                    "60": 1,
+                    "81": 1,
+                    "38": 3,
+                    "14": 3,
+                    "99": 1,
+                    "89": 2,
+                    "23": 1,
+                    "57": 2,
+                    "92": 1,
+                    "04": 4,
+                    "29": 1,
+                    "33": 1,
+                    "22": 1,
+                    "39": 1,
+                    "17": 1,
+                    "00": 1,
+                    "06": 2,
+                    "02": 1,
+                    "76": 2,
+                    "78": 1,
+                    "56": 3,
+                    "74": 1,
+                    "80": 1,
+                    "95": 1,
+                    "07": 1,
+                    "45": 1,
+                    "68": 1,
+                    "15": 1,
+                    "71": 2,
+                    "05": 1,
+                    "09": 1,
+                    "67": 1,
+                    "13": 1,
+                    "90": 2,
+                    "46": 1,
+                    "28": 1,
+                    "70": 2,
+                    "58": 1,
+                    "48": 2,
+                    "24": 2,
+                    "69": 1,
+                    "18": 2,
+                    "72": 1,
+                    "35": 1,
+                    "32": 1,
+                    "97": 1,
+                    "91": 1,
+                    "31": 2,
+                    "55": 1,
+                    "87": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2012-02-01",
+            "fecha_ultimo_registro": "2012-02-29"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2012-02-14 22:28:02"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2012-02-15 22:29:03"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "2012-02-27 22:41:02"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "ConteoAll": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "43",
+                    "90",
+                    "61"
+                ],
+                "fecha_completa": "2012-02-01 22:15:03"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "28",
+                    "27",
+                    "49"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "80",
+                    "44",
+                    "44"
+                ],
+                "fecha_completa": "2012-02-03 22:17:02"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "30",
+                    "91",
+                    "78"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "96",
+                    "06",
+                    "02"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "73",
+                    "86",
+                    "15"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "91",
+                    "65",
+                    "92"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "51",
+                    "74",
+                    "55"
+                ],
+                "fecha_completa": "2012-02-08 22:22:02"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "83",
+                    "59",
+                    "24"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "03",
+                    "53",
+                    "13"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "13",
+                    "01",
+                    "79"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "38",
+                    "30",
+                    "65"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "02",
+                    "57",
+                    "38"
+                ],
+                "fecha_completa": "2012-02-13 22:27:02"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "34",
+                    "58",
+                    "94"
+                ],
+                "fecha_completa": "2012-02-14 22:28:02"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "75",
+                    "42",
+                    "05"
+                ],
+                "fecha_completa": "2012-02-15 22:29:03"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "88",
+                    "62",
+                    "76"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "31",
+                    "16",
+                    "53"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "07",
+                    "04",
+                    "34"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "30",
+                    "07",
+                    "93"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "22",
+                    "60",
+                    "64"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "17",
+                    "19",
+                    "34"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "28",
+                    "98",
+                    "59"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "54",
+                    "80",
+                    "08"
+                ],
+                "fecha_completa": "2012-02-23 22:37:02"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "26",
+                    "23",
+                    "43"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "75",
+                    "41",
+                    "05"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "61",
+                    "50",
+                    "18"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "31",
+                    "81",
+                    "99"
+                ],
+                "fecha_completa": "2012-02-27 22:41:02"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "33",
+                    "90",
+                    "12"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "15",
+                    "75",
+                    "90"
+                ],
+                "fecha_completa": "2012-02-29 22:43:02"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "43": 1,
+                    "28": 2,
+                    "80": 1,
+                    "30": 2,
+                    "96": 1,
+                    "73": 1,
+                    "91": 1,
+                    "51": 1,
+                    "83": 1,
+                    "03": 1,
+                    "13": 1,
+                    "38": 1,
+                    "02": 1,
+                    "34": 1,
+                    "75": 2,
+                    "88": 1,
+                    "31": 2,
+                    "07": 1,
+                    "22": 1,
+                    "17": 1,
+                    "54": 1,
+                    "26": 1,
+                    "61": 1,
+                    "33": 1,
+                    "15": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "43": 2,
+                    "90": 3,
+                    "61": 2,
+                    "28": 2,
+                    "27": 1,
+                    "49": 1,
+                    "80": 2,
+                    "44": 2,
+                    "30": 3,
+                    "91": 2,
+                    "78": 1,
+                    "96": 1,
+                    "06": 1,
+                    "02": 2,
+                    "73": 1,
+                    "86": 1,
+                    "15": 2,
+                    "65": 2,
+                    "92": 1,
+                    "51": 1,
+                    "74": 1,
+                    "55": 1,
+                    "83": 1,
+                    "59": 2,
+                    "24": 1,
+                    "03": 1,
+                    "53": 2,
+                    "13": 2,
+                    "01": 1,
+                    "79": 1,
+                    "38": 2,
+                    "57": 1,
+                    "34": 3,
+                    "58": 1,
+                    "94": 1,
+                    "75": 3,
+                    "42": 1,
+                    "05": 2,
+                    "88": 1,
+                    "62": 1,
+                    "76": 1,
+                    "31": 2,
+                    "16": 1,
+                    "07": 2,
+                    "04": 1,
+                    "93": 1,
+                    "22": 1,
+                    "60": 1,
+                    "64": 1,
+                    "17": 1,
+                    "19": 1,
+                    "98": 1,
+                    "54": 1,
+                    "08": 1,
+                    "26": 1,
+                    "23": 1,
+                    "41": 1,
+                    "50": 1,
+                    "18": 1,
+                    "81": 1,
+                    "99": 1,
+                    "33": 1,
+                    "12": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2012-02-01",
+            "fecha_ultimo_registro": "2012-02-29"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2012-02-01 22:15:04"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "08"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "72"
+                ],
+                "fecha_completa": "2012-02-03 22:17:03"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2012-02-08 22:22:03"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2012-02-13 22:27:03"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "2012-02-14 22:28:03"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2012-02-15 22:29:03"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2012-02-23 22:37:03"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2012-02-27 22:41:03"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2012-02-29 22:43:03"
+            }
+        },
+        "ConteoAll": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "19",
+                    "49",
+                    "28"
+                ],
+                "fecha_completa": "2012-02-01 22:15:04"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "08",
+                    "28",
+                    "82"
+                ],
+                "fecha_completa": "2012-02-02 22:16:02"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "72",
+                    "69",
+                    "07"
+                ],
+                "fecha_completa": "2012-02-03 22:17:03"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "55",
+                    "94",
+                    "23"
+                ],
+                "fecha_completa": "2012-02-04 22:18:02"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "19",
+                    "78",
+                    "50"
+                ],
+                "fecha_completa": "2012-02-05 22:19:03"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "64",
+                    "31",
+                    "24"
+                ],
+                "fecha_completa": "2012-02-06 22:20:03"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "15",
+                    "19",
+                    "86"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "23",
+                    "45",
+                    "69"
+                ],
+                "fecha_completa": "2012-02-08 22:22:03"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "69",
+                    "06",
+                    "73"
+                ],
+                "fecha_completa": "2012-02-09 22:23:03"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "21",
+                    "42",
+                    "06"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "53",
+                    "47",
+                    "37"
+                ],
+                "fecha_completa": "2012-02-11 22:25:03"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "99",
+                    "53",
+                    "91"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "97",
+                    "32",
+                    "62"
+                ],
+                "fecha_completa": "2012-02-13 22:27:03"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "83",
+                    "88",
+                    "99"
+                ],
+                "fecha_completa": "2012-02-14 22:28:03"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "81",
+                    "25",
+                    "24"
+                ],
+                "fecha_completa": "2012-02-15 22:29:03"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "32",
+                    "97",
+                    "27"
+                ],
+                "fecha_completa": "2012-02-16 22:30:03"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "88",
+                    "60",
+                    "67"
+                ],
+                "fecha_completa": "2012-02-17 22:31:03"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "46",
+                    "39",
+                    "25"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "14",
+                    "85",
+                    "09"
+                ],
+                "fecha_completa": "2012-02-19 22:33:02"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "60",
+                    "41",
+                    "82"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "39",
+                    "06",
+                    "60"
+                ],
+                "fecha_completa": "2012-02-21 22:35:03"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "49",
+                    "09",
+                    "82"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "77",
+                    "72",
+                    "85"
+                ],
+                "fecha_completa": "2012-02-23 22:37:03"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "68",
+                    "94",
+                    "74"
+                ],
+                "fecha_completa": "2012-02-24 22:38:02"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "94",
+                    "37",
+                    "98"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "43",
+                    "83",
+                    "08"
+                ],
+                "fecha_completa": "2012-02-26 22:40:03"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "09",
+                    "18",
+                    "07"
+                ],
+                "fecha_completa": "2012-02-27 22:41:03"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "65",
+                    "31",
+                    "79"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "76",
+                    "16",
+                    "56"
+                ],
+                "fecha_completa": "2012-02-29 22:43:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "19": 2,
+                    "08": 1,
+                    "72": 1,
+                    "55": 1,
+                    "64": 1,
+                    "15": 1,
+                    "23": 1,
+                    "69": 1,
+                    "21": 1,
+                    "53": 1,
+                    "99": 1,
+                    "97": 1,
+                    "83": 1,
+                    "81": 1,
+                    "32": 1,
+                    "88": 1,
+                    "46": 1,
+                    "14": 1,
+                    "60": 1,
+                    "39": 1,
+                    "49": 1,
+                    "77": 1,
+                    "68": 1,
+                    "94": 1,
+                    "43": 1,
+                    "09": 1,
+                    "65": 1,
+                    "76": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "19": 3,
+                    "49": 2,
+                    "28": 2,
+                    "08": 2,
+                    "82": 3,
+                    "72": 2,
+                    "69": 3,
+                    "07": 2,
+                    "55": 1,
+                    "94": 3,
+                    "23": 2,
+                    "78": 1,
+                    "50": 1,
+                    "64": 1,
+                    "31": 2,
+                    "24": 2,
+                    "15": 1,
+                    "86": 1,
+                    "45": 1,
+                    "06": 3,
+                    "73": 1,
+                    "21": 1,
+                    "42": 1,
+                    "53": 2,
+                    "47": 1,
+                    "37": 2,
+                    "99": 2,
+                    "91": 1,
+                    "97": 2,
+                    "32": 2,
+                    "62": 1,
+                    "83": 2,
+                    "88": 2,
+                    "81": 1,
+                    "25": 2,
+                    "27": 1,
+                    "60": 3,
+                    "67": 1,
+                    "46": 1,
+                    "39": 2,
+                    "14": 1,
+                    "85": 2,
+                    "09": 3,
+                    "41": 1,
+                    "77": 1,
+                    "68": 1,
+                    "74": 1,
+                    "98": 1,
+                    "43": 1,
+                    "18": 1,
+                    "65": 1,
+                    "79": 1,
+                    "76": 1,
+                    "16": 1,
+                    "56": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2012-02-01",
+            "fecha_ultimo_registro": "2012-02-29"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-01 22:15:04"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "2012-02-02 22:16:03"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "2012-02-03 22:17:03"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2012-02-04 22:18:03"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2012-02-05 22:19:04"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "2012-02-06 22:20:04"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2012-02-08 22:22:03"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2012-02-09 22:23:04"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2012-02-11 22:25:04"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "35"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2012-02-13 22:27:03"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2012-02-14 22:28:03"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2012-02-15 22:29:04"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2012-02-16 22:30:04"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2012-02-17 22:31:04"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2012-02-19 22:33:03"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2012-02-21 22:35:04"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2012-02-23 22:37:03"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2012-02-24 22:38:03"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2012-02-26 22:40:04"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2012-02-27 22:41:03"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2012-02-29 22:43:03"
+            }
+        },
+        "ConteoAll": {
+            "miércoles, 1 de febrero": {
+                "numeros": [
+                    "14",
+                    "57",
+                    "44"
+                ],
+                "fecha_completa": "2012-02-01 22:15:04"
+            },
+            "jueves, 2 de febrero": {
+                "numeros": [
+                    "94",
+                    "33",
+                    "92"
+                ],
+                "fecha_completa": "2012-02-02 22:16:03"
+            },
+            "viernes, 3 de febrero": {
+                "numeros": [
+                    "91",
+                    "16",
+                    "42"
+                ],
+                "fecha_completa": "2012-02-03 22:17:03"
+            },
+            "sábado, 4 de febrero": {
+                "numeros": [
+                    "61",
+                    "64",
+                    "50"
+                ],
+                "fecha_completa": "2012-02-04 22:18:03"
+            },
+            "domingo, 5 de febrero": {
+                "numeros": [
+                    "84",
+                    "80",
+                    "48"
+                ],
+                "fecha_completa": "2012-02-05 22:19:04"
+            },
+            "lunes, 6 de febrero": {
+                "numeros": [
+                    "64",
+                    "65",
+                    "41"
+                ],
+                "fecha_completa": "2012-02-06 22:20:04"
+            },
+            "martes, 7 de febrero": {
+                "numeros": [
+                    "41",
+                    "65",
+                    "04"
+                ],
+                "fecha_completa": "2012-02-07 22:21:03"
+            },
+            "miércoles, 8 de febrero": {
+                "numeros": [
+                    "96",
+                    "38",
+                    "68"
+                ],
+                "fecha_completa": "2012-02-08 22:22:03"
+            },
+            "jueves, 9 de febrero": {
+                "numeros": [
+                    "41",
+                    "03",
+                    "21"
+                ],
+                "fecha_completa": "2012-02-09 22:23:04"
+            },
+            "viernes, 10 de febrero": {
+                "numeros": [
+                    "14",
+                    "63",
+                    "30"
+                ],
+                "fecha_completa": "2012-02-10 22:24:03"
+            },
+            "sábado, 11 de febrero": {
+                "numeros": [
+                    "75",
+                    "58",
+                    "57"
+                ],
+                "fecha_completa": "2012-02-11 22:25:04"
+            },
+            "domingo, 12 de febrero": {
+                "numeros": [
+                    "35",
+                    "92",
+                    "61"
+                ],
+                "fecha_completa": "2012-02-12 22:26:03"
+            },
+            "lunes, 13 de febrero": {
+                "numeros": [
+                    "60",
+                    "59",
+                    "54"
+                ],
+                "fecha_completa": "2012-02-13 22:27:03"
+            },
+            "martes, 14 de febrero": {
+                "numeros": [
+                    "34",
+                    "26",
+                    "01"
+                ],
+                "fecha_completa": "2012-02-14 22:28:03"
+            },
+            "miércoles, 15 de febrero": {
+                "numeros": [
+                    "76",
+                    "29",
+                    "72"
+                ],
+                "fecha_completa": "2012-02-15 22:29:04"
+            },
+            "jueves, 16 de febrero": {
+                "numeros": [
+                    "13",
+                    "66",
+                    "62"
+                ],
+                "fecha_completa": "2012-02-16 22:30:04"
+            },
+            "viernes, 17 de febrero": {
+                "numeros": [
+                    "58",
+                    "41",
+                    "52"
+                ],
+                "fecha_completa": "2012-02-17 22:31:04"
+            },
+            "sábado, 18 de febrero": {
+                "numeros": [
+                    "98",
+                    "39",
+                    "71"
+                ],
+                "fecha_completa": "2012-02-18 22:32:03"
+            },
+            "domingo, 19 de febrero": {
+                "numeros": [
+                    "71",
+                    "39",
+                    "01"
+                ],
+                "fecha_completa": "2012-02-19 22:33:03"
+            },
+            "lunes, 20 de febrero": {
+                "numeros": [
+                    "71",
+                    "81",
+                    "50"
+                ],
+                "fecha_completa": "2012-02-20 22:34:03"
+            },
+            "martes, 21 de febrero": {
+                "numeros": [
+                    "10",
+                    "49",
+                    "80"
+                ],
+                "fecha_completa": "2012-02-21 22:35:04"
+            },
+            "miércoles, 22 de febrero": {
+                "numeros": [
+                    "20",
+                    "47",
+                    "79"
+                ],
+                "fecha_completa": "2012-02-22 22:36:03"
+            },
+            "jueves, 23 de febrero": {
+                "numeros": [
+                    "51",
+                    "58",
+                    "10"
+                ],
+                "fecha_completa": "2012-02-23 22:37:03"
+            },
+            "viernes, 24 de febrero": {
+                "numeros": [
+                    "59",
+                    "76",
+                    "33"
+                ],
+                "fecha_completa": "2012-02-24 22:38:03"
+            },
+            "sábado, 25 de febrero": {
+                "numeros": [
+                    "05",
+                    "87",
+                    "66"
+                ],
+                "fecha_completa": "2012-02-25 22:39:03"
+            },
+            "domingo, 26 de febrero": {
+                "numeros": [
+                    "22",
+                    "92",
+                    "40"
+                ],
+                "fecha_completa": "2012-02-26 22:40:04"
+            },
+            "lunes, 27 de febrero": {
+                "numeros": [
+                    "62",
+                    "80",
+                    "09"
+                ],
+                "fecha_completa": "2012-02-27 22:41:03"
+            },
+            "martes, 28 de febrero": {
+                "numeros": [
+                    "30",
+                    "86",
+                    "35"
+                ],
+                "fecha_completa": "2012-02-28 22:42:03"
+            },
+            "miércoles, 29 de febrero": {
+                "numeros": [
+                    "11",
+                    "64",
+                    "62"
+                ],
+                "fecha_completa": "2012-02-29 22:43:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "14": 2,
+                    "94": 1,
+                    "91": 1,
+                    "61": 1,
+                    "84": 1,
+                    "64": 1,
+                    "41": 2,
+                    "96": 1,
+                    "75": 1,
+                    "35": 1,
+                    "60": 1,
+                    "34": 1,
+                    "76": 1,
+                    "13": 1,
+                    "58": 1,
+                    "98": 1,
+                    "71": 2,
+                    "10": 1,
+                    "20": 1,
+                    "51": 1,
+                    "59": 1,
+                    "05": 1,
+                    "22": 1,
+                    "62": 1,
+                    "30": 1,
+                    "11": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "14": 2,
+                    "57": 2,
+                    "44": 1,
+                    "94": 1,
+                    "33": 2,
+                    "92": 3,
+                    "91": 1,
+                    "16": 1,
+                    "42": 1,
+                    "61": 2,
+                    "64": 3,
+                    "50": 2,
+                    "84": 1,
+                    "80": 3,
+                    "48": 1,
+                    "65": 2,
+                    "41": 4,
+                    "04": 1,
+                    "96": 1,
+                    "38": 1,
+                    "68": 1,
+                    "03": 1,
+                    "21": 1,
+                    "63": 1,
+                    "30": 2,
+                    "75": 1,
+                    "58": 3,
+                    "35": 2,
+                    "60": 1,
+                    "59": 2,
+                    "54": 1,
+                    "34": 1,
+                    "26": 1,
+                    "01": 2,
+                    "76": 2,
+                    "29": 1,
+                    "72": 1,
+                    "13": 1,
+                    "66": 2,
+                    "62": 3,
+                    "52": 1,
+                    "98": 1,
+                    "39": 2,
+                    "71": 3,
+                    "81": 1,
+                    "10": 2,
+                    "49": 1,
+                    "20": 1,
+                    "47": 1,
+                    "79": 1,
+                    "51": 1,
+                    "05": 1,
+                    "87": 1,
+                    "22": 1,
+                    "40": 1,
+                    "09": 1,
+                    "86": 1,
+                    "11": 1
+                }
+            },
+            "total_sorteos": 29,
+            "fecha_primer_registro": "2012-02-01",
+            "fecha_ultimo_registro": "2012-02-29"
+        }
+    }
+}

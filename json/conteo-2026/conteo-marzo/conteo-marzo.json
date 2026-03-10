@@ -1,0 +1,3946 @@
+{
+    "Anguilla 10AM": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 10:06:25 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 10:01:10 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 10:01:12 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 10:01:10 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 10:00:42 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 10:02:29 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 10:04:16 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 10:04:29 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 10:02:27 -0400",
+                "fecha_iso": "2026-03-09"
+            },
+            "martes, 10 de marzo de 2026": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "Tue, 10 Mar 2026 10:01:50 -0400",
+                "fecha_iso": "2026-03-10"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "87",
+                    "86",
+                    "48"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 10:06:25 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "91",
+                    "61",
+                    "00"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 10:01:10 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "07",
+                    "50",
+                    "56"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 10:01:12 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "43",
+                    "97",
+                    "82"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 10:01:10 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "73",
+                    "04",
+                    "08"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 10:00:42 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "58",
+                    "45",
+                    "38"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 10:02:29 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "49",
+                    "20",
+                    "15"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 10:04:16 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "24",
+                    "41",
+                    "73"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 10:04:29 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "02",
+                    "79",
+                    "76"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 10:02:27 -0400",
+                "fecha_iso": "2026-03-09"
+            },
+            "martes, 10 de marzo de 2026": {
+                "numeros": [
+                    "67",
+                    "17",
+                    "98"
+                ],
+                "fecha_completa": "Tue, 10 Mar 2026 10:01:50 -0400",
+                "fecha_iso": "2026-03-10"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "87": 1,
+                    "91": 1,
+                    "07": 1,
+                    "43": 1,
+                    "73": 1,
+                    "58": 1,
+                    "49": 1,
+                    "24": 1,
+                    "02": 1,
+                    "67": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "87": 1,
+                    "86": 1,
+                    "48": 1,
+                    "91": 1,
+                    "61": 1,
+                    "00": 1,
+                    "07": 1,
+                    "50": 1,
+                    "56": 1,
+                    "43": 1,
+                    "97": 1,
+                    "82": 1,
+                    "73": 2,
+                    "04": 1,
+                    "08": 1,
+                    "58": 1,
+                    "45": 1,
+                    "38": 1,
+                    "49": 1,
+                    "20": 1,
+                    "15": 1,
+                    "24": 1,
+                    "41": 1,
+                    "02": 1,
+                    "79": 1,
+                    "76": 1,
+                    "67": 1,
+                    "17": 1,
+                    "98": 1
+                }
+            },
+            "total_sorteos": 10,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "La Primera Dia": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:05:40 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:03:23 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:03:40 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "49"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:03:21 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:03:37 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:03:53 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:03:45 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:04:32 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:03:24 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "04",
+                    "94",
+                    "30"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:05:40 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "06",
+                    "69",
+                    "18"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:03:23 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "27",
+                    "28",
+                    "21"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:03:40 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "49",
+                    "27",
+                    "11"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:03:21 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "83",
+                    "68",
+                    "02"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:03:37 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "77",
+                    "53",
+                    "10"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:03:53 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "52",
+                    "11",
+                    "37"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:03:45 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "15",
+                    "43",
+                    "15"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:04:32 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "43",
+                    "83",
+                    "70"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:03:24 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "04": 1,
+                    "06": 1,
+                    "27": 1,
+                    "49": 1,
+                    "83": 1,
+                    "77": 1,
+                    "52": 1,
+                    "15": 1,
+                    "43": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "04": 1,
+                    "94": 1,
+                    "30": 1,
+                    "06": 1,
+                    "69": 1,
+                    "18": 1,
+                    "27": 2,
+                    "28": 1,
+                    "21": 1,
+                    "49": 1,
+                    "11": 2,
+                    "83": 2,
+                    "68": 1,
+                    "02": 1,
+                    "77": 1,
+                    "53": 1,
+                    "10": 1,
+                    "52": 1,
+                    "37": 1,
+                    "15": 2,
+                    "43": 2,
+                    "70": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "LoteDom": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:05:32 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:01:52 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:01:53 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:02:16 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:02:15 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:02:08 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:03:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:04:12 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:01:52 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "68",
+                    "25",
+                    "55"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:05:32 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "60",
+                    "76",
+                    "27"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:01:52 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "05",
+                    "77",
+                    "65"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:01:53 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "85",
+                    "57",
+                    "26"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:02:16 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "20",
+                    "16",
+                    "83"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:02:15 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "91",
+                    "58",
+                    "64"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:02:08 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "28",
+                    "52",
+                    "40"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:03:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "25",
+                    "06",
+                    "67"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:04:12 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "94",
+                    "34",
+                    "59"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:01:52 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "68": 1,
+                    "60": 1,
+                    "05": 1,
+                    "85": 1,
+                    "20": 1,
+                    "91": 1,
+                    "28": 1,
+                    "25": 1,
+                    "94": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "68": 1,
+                    "25": 2,
+                    "55": 1,
+                    "60": 1,
+                    "76": 1,
+                    "27": 1,
+                    "05": 1,
+                    "77": 1,
+                    "65": 1,
+                    "85": 1,
+                    "57": 1,
+                    "26": 1,
+                    "20": 1,
+                    "16": 1,
+                    "83": 1,
+                    "91": 1,
+                    "58": 1,
+                    "64": 1,
+                    "28": 1,
+                    "52": 1,
+                    "40": 1,
+                    "06": 1,
+                    "67": 1,
+                    "94": 1,
+                    "34": 1,
+                    "59": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "King Lottery Dia": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:40:13 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:33:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:33:17 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:33:30 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:33:19 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:33:26 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:33:14 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:33:49 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:33:23 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "94",
+                    "54",
+                    "02"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:40:13 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "69",
+                    "81",
+                    "74"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:33:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "28",
+                    "41",
+                    "36"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:33:17 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "48",
+                    "56",
+                    "13"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:33:30 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "30",
+                    "61",
+                    "75"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:33:19 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "98",
+                    "23",
+                    "09"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:33:26 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "09",
+                    "21",
+                    "12"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:33:14 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "51",
+                    "88",
+                    "44"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:33:49 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "52",
+                    "95",
+                    "65"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:33:23 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "94": 1,
+                    "69": 1,
+                    "28": 1,
+                    "48": 1,
+                    "30": 1,
+                    "98": 1,
+                    "09": 1,
+                    "51": 1,
+                    "52": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "94": 1,
+                    "54": 1,
+                    "02": 1,
+                    "69": 1,
+                    "81": 1,
+                    "74": 1,
+                    "28": 1,
+                    "41": 1,
+                    "36": 1,
+                    "48": 1,
+                    "56": 1,
+                    "13": 1,
+                    "30": 1,
+                    "61": 1,
+                    "75": 1,
+                    "98": 1,
+                    "23": 1,
+                    "09": 2,
+                    "21": 1,
+                    "12": 1,
+                    "51": 1,
+                    "88": 1,
+                    "44": 1,
+                    "52": 1,
+                    "95": 1,
+                    "65": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "La Suerte 12:30": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:45:18 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:35:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:34:48 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:35:05 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:35:02 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:34:38 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:35:34 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:35:09 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:34:59 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "19",
+                    "14",
+                    "34"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 12:45:18 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "85",
+                    "63",
+                    "72"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 12:35:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "42",
+                    "46",
+                    "17"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 12:34:48 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "36",
+                    "45",
+                    "35"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 12:35:05 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "76",
+                    "08",
+                    "81"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 12:35:02 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "29",
+                    "07",
+                    "06"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 12:34:38 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "66",
+                    "88",
+                    "71"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 12:35:34 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "71",
+                    "52",
+                    "79"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 12:35:09 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "66",
+                    "98",
+                    "36"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 12:34:59 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "19": 1,
+                    "85": 1,
+                    "42": 1,
+                    "36": 1,
+                    "76": 1,
+                    "29": 1,
+                    "66": 2,
+                    "71": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "19": 1,
+                    "14": 1,
+                    "34": 1,
+                    "85": 1,
+                    "63": 1,
+                    "72": 1,
+                    "42": 1,
+                    "46": 1,
+                    "17": 1,
+                    "36": 2,
+                    "45": 1,
+                    "35": 1,
+                    "76": 1,
+                    "08": 1,
+                    "81": 1,
+                    "29": 1,
+                    "07": 1,
+                    "06": 1,
+                    "66": 2,
+                    "88": 1,
+                    "71": 2,
+                    "52": 1,
+                    "79": 1,
+                    "98": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Anguilla 1 PM": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 13:05:05 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "02"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 13:01:15 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 13:00:37 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 13:00:37 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 13:00:49 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 13:03:35 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 13:01:02 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:03:32 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:01:30 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "29",
+                    "39",
+                    "28"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 13:05:05 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "02",
+                    "64",
+                    "41"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 13:01:15 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "46",
+                    "46",
+                    "03"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 13:00:37 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "59",
+                    "99",
+                    "41"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 13:00:37 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "59",
+                    "49"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 13:00:49 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "18",
+                    "81",
+                    "09"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 13:03:35 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "62",
+                    "82",
+                    "52"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 13:01:02 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "44",
+                    "74",
+                    "71"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:03:32 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "67",
+                    "24",
+                    "60"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:01:30 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "29": 1,
+                    "02": 1,
+                    "46": 1,
+                    "59": 1,
+                    "55": 1,
+                    "18": 1,
+                    "62": 1,
+                    "44": 1,
+                    "67": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "29": 1,
+                    "39": 1,
+                    "28": 1,
+                    "02": 1,
+                    "64": 1,
+                    "41": 2,
+                    "46": 2,
+                    "03": 1,
+                    "59": 2,
+                    "99": 1,
+                    "55": 1,
+                    "49": 1,
+                    "18": 1,
+                    "81": 1,
+                    "09": 1,
+                    "62": 1,
+                    "82": 1,
+                    "52": 1,
+                    "44": 1,
+                    "74": 1,
+                    "71": 1,
+                    "67": 1,
+                    "24": 1,
+                    "60": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 13:10:34 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 13:03:12 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 13:04:26 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "69"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 13:04:33 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 13:03:02 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "31"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 13:03:52 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 13:04:03 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:04:27 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:02:43 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "49",
+                    "19"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 13:10:34 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "60",
+                    "24",
+                    "83"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 13:03:12 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "32",
+                    "07",
+                    "53"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 13:04:26 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "69",
+                    "30",
+                    "20"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 13:04:33 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "23",
+                    "82",
+                    "36"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 13:03:02 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "31",
+                    "70",
+                    "14"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 13:03:52 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "42",
+                    "52",
+                    "40"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 13:04:03 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "26",
+                    "65",
+                    "15"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:04:27 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "05",
+                    "41",
+                    "63"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:02:43 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "55": 1,
+                    "60": 1,
+                    "32": 1,
+                    "69": 1,
+                    "23": 1,
+                    "31": 1,
+                    "42": 1,
+                    "26": 1,
+                    "05": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "55": 1,
+                    "49": 1,
+                    "19": 1,
+                    "60": 1,
+                    "24": 1,
+                    "83": 1,
+                    "32": 1,
+                    "07": 1,
+                    "53": 1,
+                    "69": 1,
+                    "30": 1,
+                    "20": 1,
+                    "23": 1,
+                    "82": 1,
+                    "36": 1,
+                    "31": 1,
+                    "70": 1,
+                    "14": 1,
+                    "42": 1,
+                    "52": 1,
+                    "40": 1,
+                    "26": 1,
+                    "65": 1,
+                    "15": 1,
+                    "05": 1,
+                    "41": 1,
+                    "63": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Florida Tarde": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 14:48:33 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 14:45:14 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 14:37:34 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 14:37:07 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 14:37:03 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 14:36:41 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "12"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 14:44:16 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:49:27 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "83"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:37:39 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "96",
+                    "97",
+                    "22"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 14:48:33 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "43",
+                    "10",
+                    "47"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 14:45:14 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "67",
+                    "58"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 14:37:34 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "53",
+                    "84",
+                    "66"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 14:37:07 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "41",
+                    "18",
+                    "31"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 14:37:03 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "62",
+                    "05",
+                    "22"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 14:36:41 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "12",
+                    "88",
+                    "42"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 14:44:16 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "11",
+                    "46",
+                    "53"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 13:49:27 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "83",
+                    "28",
+                    "76"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 13:37:39 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "96": 1,
+                    "43": 1,
+                    "55": 1,
+                    "53": 1,
+                    "41": 1,
+                    "62": 1,
+                    "12": 1,
+                    "11": 1,
+                    "83": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "96": 1,
+                    "97": 1,
+                    "22": 2,
+                    "43": 1,
+                    "10": 1,
+                    "47": 1,
+                    "55": 1,
+                    "67": 1,
+                    "58": 1,
+                    "53": 2,
+                    "84": 1,
+                    "66": 1,
+                    "41": 1,
+                    "18": 1,
+                    "31": 1,
+                    "62": 1,
+                    "05": 1,
+                    "12": 1,
+                    "88": 1,
+                    "42": 1,
+                    "11": 1,
+                    "46": 1,
+                    "83": 1,
+                    "28": 1,
+                    "76": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 14:50:31 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 14:44:06 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "64"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 14:44:23 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 14:45:44 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 14:44:51 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 14:44:31 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 14:41:30 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 14:43:46 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 14:46:06 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "57",
+                    "00",
+                    "53"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 14:50:31 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "51",
+                    "91"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 14:44:06 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "64",
+                    "53",
+                    "25"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 14:44:23 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "37",
+                    "32",
+                    "21"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 14:45:44 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "44",
+                    "93",
+                    "62"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 14:44:51 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "69",
+                    "79"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 14:44:31 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "41",
+                    "15",
+                    "10"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 14:41:30 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "59",
+                    "36",
+                    "79"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 14:43:46 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "09",
+                    "66",
+                    "50"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 14:46:06 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "57": 1,
+                    "55": 2,
+                    "64": 1,
+                    "37": 1,
+                    "44": 1,
+                    "41": 1,
+                    "59": 1,
+                    "09": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "57": 1,
+                    "00": 1,
+                    "53": 2,
+                    "55": 2,
+                    "51": 1,
+                    "91": 1,
+                    "64": 1,
+                    "25": 1,
+                    "37": 1,
+                    "32": 1,
+                    "21": 1,
+                    "44": 1,
+                    "93": 1,
+                    "62": 1,
+                    "69": 1,
+                    "79": 2,
+                    "41": 1,
+                    "15": 1,
+                    "10": 1,
+                    "59": 1,
+                    "36": 1,
+                    "09": 1,
+                    "66": 1,
+                    "50": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "New York Tarde": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 15:44:28 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 15:47:27 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 15:47:14 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 15:42:18 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 15:44:44 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 15:50:07 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "87"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 15:45:20 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 14:43:28 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 14:50:20 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "33",
+                    "78",
+                    "75"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 15:44:28 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "43",
+                    "85",
+                    "72"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 15:47:27 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "32",
+                    "57",
+                    "34"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 15:47:14 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "18",
+                    "52",
+                    "14"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 15:42:18 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "29",
+                    "61",
+                    "39"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 15:44:44 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "34",
+                    "35",
+                    "59"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 15:50:07 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "87",
+                    "51",
+                    "64"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 15:45:20 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "00",
+                    "89",
+                    "08"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 14:43:28 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "00",
+                    "73",
+                    "30"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 14:50:20 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "33": 1,
+                    "43": 1,
+                    "32": 1,
+                    "18": 1,
+                    "29": 1,
+                    "34": 1,
+                    "87": 1,
+                    "00": 2
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "33": 1,
+                    "78": 1,
+                    "75": 1,
+                    "43": 1,
+                    "85": 1,
+                    "72": 1,
+                    "32": 1,
+                    "57": 1,
+                    "34": 2,
+                    "18": 1,
+                    "52": 1,
+                    "14": 1,
+                    "29": 1,
+                    "61": 1,
+                    "39": 1,
+                    "35": 1,
+                    "59": 1,
+                    "87": 1,
+                    "51": 1,
+                    "64": 1,
+                    "00": 2,
+                    "89": 1,
+                    "08": 1,
+                    "73": 1,
+                    "30": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 16:00:09 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:00:11 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:00:26 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 20:59:13 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:02:22 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "19"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:01:03 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "95"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 20:59:27 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 16:01:33 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:00:22 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "54",
+                    "98",
+                    "34"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 16:00:09 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "11",
+                    "14",
+                    "74"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:00:11 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "79",
+                    "03",
+                    "51"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:00:26 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "22",
+                    "51",
+                    "15"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 20:59:13 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "86",
+                    "10",
+                    "76"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:02:22 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "19",
+                    "08",
+                    "29"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:01:03 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "95",
+                    "83",
+                    "81"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 20:59:27 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "77",
+                    "96",
+                    "65"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 16:01:33 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "94",
+                    "39",
+                    "95"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:00:22 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "54": 1,
+                    "11": 1,
+                    "79": 1,
+                    "22": 1,
+                    "86": 1,
+                    "19": 1,
+                    "95": 1,
+                    "77": 1,
+                    "94": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "54": 1,
+                    "98": 1,
+                    "34": 1,
+                    "11": 1,
+                    "14": 1,
+                    "74": 1,
+                    "79": 1,
+                    "03": 1,
+                    "51": 2,
+                    "22": 1,
+                    "15": 1,
+                    "86": 1,
+                    "10": 1,
+                    "76": 1,
+                    "19": 1,
+                    "08": 1,
+                    "29": 1,
+                    "95": 2,
+                    "83": 1,
+                    "81": 1,
+                    "77": 1,
+                    "96": 1,
+                    "65": 1,
+                    "94": 1,
+                    "39": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "La Suerte 6 PM": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:05:19 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 18:04:51 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 18:05:10 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 18:05:11 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 18:05:17 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 18:05:05 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 18:05:06 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:05:15 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 18:04:40 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "03",
+                    "66",
+                    "39"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:05:19 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "32",
+                    "22",
+                    "35"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 18:04:51 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "04",
+                    "14",
+                    "22"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 18:05:10 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "63",
+                    "12",
+                    "92"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 18:05:11 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "11",
+                    "13",
+                    "07"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 18:05:17 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "84",
+                    "98",
+                    "99"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 18:05:05 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "10",
+                    "73",
+                    "32"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 18:05:06 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "53",
+                    "60",
+                    "96"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:05:15 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "57",
+                    "67",
+                    "92"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 18:04:40 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "03": 1,
+                    "32": 1,
+                    "04": 1,
+                    "63": 1,
+                    "11": 1,
+                    "84": 1,
+                    "10": 1,
+                    "53": 1,
+                    "57": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "03": 1,
+                    "66": 1,
+                    "39": 1,
+                    "32": 2,
+                    "22": 2,
+                    "35": 1,
+                    "04": 1,
+                    "14": 1,
+                    "63": 1,
+                    "12": 1,
+                    "92": 2,
+                    "11": 1,
+                    "13": 1,
+                    "07": 1,
+                    "84": 1,
+                    "98": 1,
+                    "99": 1,
+                    "10": 1,
+                    "73": 1,
+                    "53": 1,
+                    "60": 1,
+                    "96": 1,
+                    "57": 1,
+                    "67": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:19:13 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:07:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:11:04 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 21:06:08 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:04:30 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:07:04 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 21:03:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:19:05 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:05:06 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "11",
+                    "13",
+                    "08"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:19:13 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "30",
+                    "68",
+                    "44"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:07:07 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "43",
+                    "04",
+                    "19"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:11:04 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "61",
+                    "22",
+                    "64"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 21:06:08 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "84",
+                    "61",
+                    "55"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:04:30 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "41",
+                    "93",
+                    "30"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:07:04 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "84",
+                    "61",
+                    "19"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 21:03:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "14",
+                    "90"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:19:05 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "50",
+                    "83",
+                    "92"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:05:06 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "11": 1,
+                    "30": 1,
+                    "43": 1,
+                    "61": 1,
+                    "84": 2,
+                    "41": 1,
+                    "55": 1,
+                    "50": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "11": 1,
+                    "13": 1,
+                    "08": 1,
+                    "30": 2,
+                    "68": 1,
+                    "44": 1,
+                    "43": 1,
+                    "04": 1,
+                    "19": 2,
+                    "61": 3,
+                    "22": 1,
+                    "64": 1,
+                    "84": 2,
+                    "55": 2,
+                    "41": 1,
+                    "93": 1,
+                    "14": 1,
+                    "90": 1,
+                    "50": 1,
+                    "83": 1,
+                    "92": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Anguilla Tarde (6 PM)": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:30:21 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 18:01:40 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "28"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 18:02:18 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 18:02:31 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 18:03:19 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 18:10:08 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 18:03:11 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:05:15 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 18:02:21 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "24",
+                    "11",
+                    "27"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 18:30:21 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "57",
+                    "33",
+                    "92"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 18:01:40 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "28",
+                    "03",
+                    "46"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 18:02:18 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "94",
+                    "90",
+                    "60"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 18:02:31 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "18",
+                    "53",
+                    "82"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 18:03:19 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "62",
+                    "51",
+                    "79"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 18:10:08 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "42",
+                    "54",
+                    "88"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 18:03:11 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "06",
+                    "20",
+                    "96"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 18:05:15 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "77",
+                    "42",
+                    "54"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 18:02:21 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "24": 1,
+                    "57": 1,
+                    "28": 1,
+                    "94": 1,
+                    "18": 1,
+                    "62": 1,
+                    "42": 1,
+                    "06": 1,
+                    "77": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "24": 1,
+                    "11": 1,
+                    "27": 1,
+                    "57": 1,
+                    "33": 1,
+                    "92": 1,
+                    "28": 1,
+                    "03": 1,
+                    "46": 1,
+                    "94": 1,
+                    "90": 1,
+                    "60": 1,
+                    "18": 1,
+                    "53": 1,
+                    "82": 1,
+                    "62": 1,
+                    "51": 1,
+                    "79": 1,
+                    "42": 2,
+                    "54": 2,
+                    "88": 1,
+                    "06": 1,
+                    "20": 1,
+                    "96": 1,
+                    "77": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "La Primera Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 19:05:40 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 19:06:31 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "16"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 19:06:31 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 19:05:28 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 19:05:41 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 19:06:12 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 19:07:01 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 19:07:39 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 19:05:29 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "84",
+                    "85",
+                    "65"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 19:05:40 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "25",
+                    "77",
+                    "07"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 19:06:31 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "16",
+                    "03",
+                    "47"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 19:06:31 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "75",
+                    "30",
+                    "05"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 19:05:28 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "81",
+                    "95",
+                    "91"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 19:05:41 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "56",
+                    "15",
+                    "18"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 19:06:12 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "79",
+                    "35",
+                    "80"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 19:07:01 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "60",
+                    "92",
+                    "88"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 19:07:39 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "45",
+                    "09",
+                    "31"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 19:05:29 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "84": 1,
+                    "25": 1,
+                    "16": 1,
+                    "75": 1,
+                    "81": 1,
+                    "56": 1,
+                    "79": 1,
+                    "60": 1,
+                    "45": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "84": 1,
+                    "85": 1,
+                    "65": 1,
+                    "25": 1,
+                    "77": 1,
+                    "07": 1,
+                    "16": 1,
+                    "03": 1,
+                    "47": 1,
+                    "75": 1,
+                    "30": 1,
+                    "05": 1,
+                    "81": 1,
+                    "95": 1,
+                    "91": 1,
+                    "56": 1,
+                    "15": 1,
+                    "18": 1,
+                    "79": 1,
+                    "35": 1,
+                    "80": 1,
+                    "60": 1,
+                    "92": 1,
+                    "88": 1,
+                    "45": 1,
+                    "09": 1,
+                    "31": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "King Lottery Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 19:36:23 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 19:33:54 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 19:33:13 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "33"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 19:34:52 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 19:33:32 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 19:33:05 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "67"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 19:36:03 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 19:33:18 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "54"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 19:34:57 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "81",
+                    "11",
+                    "01"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 19:36:23 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "66",
+                    "18",
+                    "02"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 19:33:54 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "59",
+                    "15",
+                    "73"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 19:33:13 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "33",
+                    "66",
+                    "97"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 19:34:52 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "21",
+                    "63",
+                    "49"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 19:33:32 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "56",
+                    "25",
+                    "16"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 19:33:05 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "67",
+                    "42",
+                    "09"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 19:36:03 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "17",
+                    "54",
+                    "14"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 19:33:18 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "54",
+                    "27",
+                    "30"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 19:34:57 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "81": 1,
+                    "66": 1,
+                    "59": 1,
+                    "33": 1,
+                    "21": 1,
+                    "56": 1,
+                    "67": 1,
+                    "17": 1,
+                    "54": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "81": 1,
+                    "11": 1,
+                    "01": 1,
+                    "66": 2,
+                    "18": 1,
+                    "02": 1,
+                    "59": 1,
+                    "15": 1,
+                    "73": 1,
+                    "33": 1,
+                    "97": 1,
+                    "21": 1,
+                    "63": 1,
+                    "49": 1,
+                    "56": 1,
+                    "25": 1,
+                    "16": 1,
+                    "67": 1,
+                    "42": 1,
+                    "09": 1,
+                    "17": 1,
+                    "54": 2,
+                    "14": 1,
+                    "27": 1,
+                    "30": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "91"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 21:00:15 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 20:01:45 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "42"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 20:02:16 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 20:01:22 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 20:01:49 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "15"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 20:01:22 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 20:01:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 20:10:11 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 20:01:23 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "91",
+                    "34",
+                    "74"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 21:00:15 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "74",
+                    "02",
+                    "97"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 20:01:45 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "42",
+                    "31",
+                    "93"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 20:02:16 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "04",
+                    "97",
+                    "34"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 20:01:22 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "92",
+                    "52",
+                    "03"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 20:01:49 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "15",
+                    "50",
+                    "64"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 20:01:22 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "57",
+                    "35",
+                    "14"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 20:01:13 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "10",
+                    "09",
+                    "56"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 20:10:11 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "09",
+                    "43",
+                    "98"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 20:01:23 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "91": 1,
+                    "74": 1,
+                    "42": 1,
+                    "04": 1,
+                    "92": 1,
+                    "15": 1,
+                    "57": 1,
+                    "10": 1,
+                    "09": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "91": 1,
+                    "34": 2,
+                    "74": 2,
+                    "02": 1,
+                    "97": 2,
+                    "42": 1,
+                    "31": 1,
+                    "93": 1,
+                    "04": 1,
+                    "92": 1,
+                    "52": 1,
+                    "03": 1,
+                    "15": 1,
+                    "50": 1,
+                    "64": 1,
+                    "57": 1,
+                    "35": 1,
+                    "14": 1,
+                    "10": 1,
+                    "09": 2,
+                    "56": 1,
+                    "43": 1,
+                    "98": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Anguilla Noche (9 PM)": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 21:01:34 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:07:08 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:02:17 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 21:03:12 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:07:09 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:09:12 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 21:11:08 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "65"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 21:01:21 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:09:31 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "50",
+                    "35",
+                    "81"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 21:01:34 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "39",
+                    "48",
+                    "12"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 21:07:08 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "79",
+                    "76",
+                    "51"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 21:02:17 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "03",
+                    "76",
+                    "23"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 21:03:12 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "29",
+                    "98",
+                    "06"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 21:07:09 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "36",
+                    "87",
+                    "74"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 21:09:12 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "56",
+                    "90",
+                    "22"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 21:11:08 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "65",
+                    "35",
+                    "95"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 21:01:21 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "56",
+                    "22",
+                    "62"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 21:09:31 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "50": 1,
+                    "39": 1,
+                    "79": 1,
+                    "03": 1,
+                    "29": 1,
+                    "36": 1,
+                    "56": 2,
+                    "65": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "50": 1,
+                    "35": 2,
+                    "81": 1,
+                    "39": 1,
+                    "48": 1,
+                    "12": 1,
+                    "79": 1,
+                    "76": 2,
+                    "51": 1,
+                    "03": 1,
+                    "23": 1,
+                    "29": 1,
+                    "98": 1,
+                    "06": 1,
+                    "36": 1,
+                    "87": 1,
+                    "74": 1,
+                    "56": 2,
+                    "90": 1,
+                    "22": 2,
+                    "65": 1,
+                    "95": 1,
+                    "62": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "Florida Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 22:55:18 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 22:56:27 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 22:53:29 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 22:53:06 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 22:56:14 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 22:58:23 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 22:56:06 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 22:06:19 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 22:01:17 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "63",
+                    "12",
+                    "35"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 22:55:18 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "93",
+                    "54",
+                    "60"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 22:56:27 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "34",
+                    "71",
+                    "47"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 22:53:29 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "66",
+                    "10",
+                    "69"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 22:53:06 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "55",
+                    "00",
+                    "54"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 22:56:14 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "73",
+                    "27",
+                    "42"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 22:58:23 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "59",
+                    "75",
+                    "05"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 22:56:06 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "89",
+                    "59",
+                    "98"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 22:06:19 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "41",
+                    "25",
+                    "87"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 22:01:17 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "63": 1,
+                    "93": 1,
+                    "34": 1,
+                    "66": 1,
+                    "55": 1,
+                    "73": 1,
+                    "59": 1,
+                    "89": 1,
+                    "41": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "63": 1,
+                    "12": 1,
+                    "35": 1,
+                    "93": 1,
+                    "54": 2,
+                    "60": 1,
+                    "34": 1,
+                    "71": 1,
+                    "47": 1,
+                    "66": 1,
+                    "10": 1,
+                    "69": 1,
+                    "55": 1,
+                    "00": 1,
+                    "73": 1,
+                    "27": 1,
+                    "42": 1,
+                    "59": 2,
+                    "75": 1,
+                    "05": 1,
+                    "89": 1,
+                    "98": 1,
+                    "41": 1,
+                    "25": 1,
+                    "87": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    },
+    "New York Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 23:43:33 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 23:41:40 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "94"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 23:40:35 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 23:44:07 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 23:45:05 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 23:43:35 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 23:44:18 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 22:42:24 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 22:42:46 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo de 2026": {
+                "numeros": [
+                    "89",
+                    "73",
+                    "58"
+                ],
+                "fecha_completa": "Sun, 01 Mar 2026 23:43:33 -0400",
+                "fecha_iso": "2026-03-01"
+            },
+            "lunes, 2 de marzo de 2026": {
+                "numeros": [
+                    "17",
+                    "46",
+                    "86"
+                ],
+                "fecha_completa": "Mon, 02 Mar 2026 23:41:40 -0400",
+                "fecha_iso": "2026-03-02"
+            },
+            "martes, 3 de marzo de 2026": {
+                "numeros": [
+                    "94",
+                    "62",
+                    "12"
+                ],
+                "fecha_completa": "Tue, 03 Mar 2026 23:40:35 -0400",
+                "fecha_iso": "2026-03-03"
+            },
+            "miércoles, 4 de marzo de 2026": {
+                "numeros": [
+                    "70",
+                    "88",
+                    "96"
+                ],
+                "fecha_completa": "Wed, 04 Mar 2026 23:44:07 -0400",
+                "fecha_iso": "2026-03-04"
+            },
+            "jueves, 5 de marzo de 2026": {
+                "numeros": [
+                    "47",
+                    "86",
+                    "81"
+                ],
+                "fecha_completa": "Thu, 05 Mar 2026 23:45:05 -0400",
+                "fecha_iso": "2026-03-05"
+            },
+            "viernes, 6 de marzo de 2026": {
+                "numeros": [
+                    "53",
+                    "02",
+                    "83"
+                ],
+                "fecha_completa": "Fri, 06 Mar 2026 23:43:35 -0400",
+                "fecha_iso": "2026-03-06"
+            },
+            "sábado, 7 de marzo de 2026": {
+                "numeros": [
+                    "51",
+                    "43",
+                    "02"
+                ],
+                "fecha_completa": "Sat, 07 Mar 2026 23:44:18 -0400",
+                "fecha_iso": "2026-03-07"
+            },
+            "domingo, 8 de marzo de 2026": {
+                "numeros": [
+                    "47",
+                    "76",
+                    "53"
+                ],
+                "fecha_completa": "Sun, 08 Mar 2026 22:42:24 -0400",
+                "fecha_iso": "2026-03-08"
+            },
+            "lunes, 9 de marzo de 2026": {
+                "numeros": [
+                    "98",
+                    "44",
+                    "08"
+                ],
+                "fecha_completa": "Mon, 09 Mar 2026 22:42:46 -0400",
+                "fecha_iso": "2026-03-09"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "89": 1,
+                    "17": 1,
+                    "94": 1,
+                    "70": 1,
+                    "47": 2,
+                    "53": 1,
+                    "51": 1,
+                    "98": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "89": 1,
+                    "73": 1,
+                    "58": 1,
+                    "17": 1,
+                    "46": 1,
+                    "86": 2,
+                    "94": 1,
+                    "62": 1,
+                    "12": 1,
+                    "70": 1,
+                    "88": 1,
+                    "96": 1,
+                    "47": 2,
+                    "81": 1,
+                    "53": 2,
+                    "02": 2,
+                    "83": 1,
+                    "51": 1,
+                    "43": 1,
+                    "76": 1,
+                    "98": 1,
+                    "44": 1,
+                    "08": 1
+                }
+            },
+            "total_sorteos": 9,
+            "fecha_primer_registro": "2026-03-06",
+            "fecha_ultimo_registro": "2026-03-04"
+        }
+    }
+}

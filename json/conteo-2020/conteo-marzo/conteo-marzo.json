@@ -1,0 +1,2961 @@
+{
+    "Gana Mas": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2020-03-01 23:28:02"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2020-03-03 23:30:03"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2020-03-04 23:31:02"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-03-06 23:33:02"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-03-07 23:34:02"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-03-08 23:35:04"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-03-09 23:36:02"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-03-10 23:37:02"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-12 23:39:02"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-03-17 23:45:02"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-13 09:52:02"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2020-03-14 00:33:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "71",
+                    "03",
+                    "44"
+                ],
+                "fecha_completa": "2020-03-01 23:28:02"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "00",
+                    "77",
+                    "66"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "47",
+                    "58",
+                    "96"
+                ],
+                "fecha_completa": "2020-03-03 23:30:03"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "53",
+                    "81",
+                    "30"
+                ],
+                "fecha_completa": "2020-03-04 23:31:02"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "75",
+                    "82",
+                    "34"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "27",
+                    "06",
+                    "35"
+                ],
+                "fecha_completa": "2020-03-06 23:33:02"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "74",
+                    "07",
+                    "59"
+                ],
+                "fecha_completa": "2020-03-07 23:34:02"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "56",
+                    "32",
+                    "23"
+                ],
+                "fecha_completa": "2020-03-08 23:35:04"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "48",
+                    "42",
+                    "24"
+                ],
+                "fecha_completa": "2020-03-09 23:36:02"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "50",
+                    "41",
+                    "30"
+                ],
+                "fecha_completa": "2020-03-10 23:37:02"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "81",
+                    "28",
+                    "75"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "21",
+                    "46",
+                    "56"
+                ],
+                "fecha_completa": "2020-03-12 23:39:02"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "44",
+                    "01",
+                    "90"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "62",
+                    "00",
+                    "70"
+                ],
+                "fecha_completa": "2020-03-17 23:45:02"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "85",
+                    "15",
+                    "60"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "21",
+                    "23",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-13 09:52:02"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "45",
+                    "69",
+                    "71"
+                ],
+                "fecha_completa": "2020-03-14 00:33:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "71": 1,
+                    "00": 1,
+                    "47": 1,
+                    "53": 1,
+                    "75": 1,
+                    "27": 1,
+                    "74": 1,
+                    "56": 1,
+                    "48": 1,
+                    "50": 1,
+                    "81": 1,
+                    "21": 2,
+                    "44": 1,
+                    "62": 1,
+                    "85": 1,
+                    "45": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "71": 2,
+                    "03": 1,
+                    "44": 2,
+                    "00": 2,
+                    "77": 1,
+                    "66": 1,
+                    "47": 1,
+                    "58": 1,
+                    "96": 1,
+                    "53": 1,
+                    "81": 2,
+                    "30": 2,
+                    "75": 2,
+                    "82": 1,
+                    "34": 1,
+                    "27": 1,
+                    "06": 1,
+                    "35": 1,
+                    "74": 1,
+                    "07": 1,
+                    "59": 1,
+                    "56": 2,
+                    "32": 1,
+                    "23": 2,
+                    "48": 1,
+                    "42": 1,
+                    "24": 1,
+                    "50": 1,
+                    "41": 1,
+                    "28": 1,
+                    "21": 2,
+                    "46": 1,
+                    "01": 1,
+                    "90": 1,
+                    "62": 1,
+                    "70": 1,
+                    "85": 1,
+                    "15": 1,
+                    "60": 1,
+                    "94": 1,
+                    "45": 1,
+                    "69": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    },
+    "Nacional": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-03-01 23:28:02"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-03-03 23:30:04"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-03-04 23:31:02"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-03-07 23:34:02"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-03-09 23:36:02"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "70"
+                ],
+                "fecha_completa": "2020-03-10 23:37:02"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-03-17 23:45:03"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-03-13 09:52:02"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-03-14 00:33:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "99",
+                    "78",
+                    "70"
+                ],
+                "fecha_completa": "2020-03-01 23:28:02"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "44",
+                    "25",
+                    "81"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "96",
+                    "98",
+                    "76"
+                ],
+                "fecha_completa": "2020-03-03 23:30:04"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "93",
+                    "53",
+                    "93"
+                ],
+                "fecha_completa": "2020-03-04 23:31:02"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "41",
+                    "71",
+                    "37"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "01",
+                    "51",
+                    "32"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "07",
+                    "25",
+                    "03"
+                ],
+                "fecha_completa": "2020-03-07 23:34:02"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "24",
+                    "65",
+                    "93"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "93",
+                    "98",
+                    "55"
+                ],
+                "fecha_completa": "2020-03-09 23:36:02"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "70",
+                    "59",
+                    "88"
+                ],
+                "fecha_completa": "2020-03-10 23:37:02"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "86",
+                    "52",
+                    "78"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "52",
+                    "17",
+                    "56"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "37",
+                    "48",
+                    "91"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "77",
+                    "05",
+                    "93"
+                ],
+                "fecha_completa": "2020-03-17 23:45:03"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "55",
+                    "40",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "92",
+                    "42",
+                    "78"
+                ],
+                "fecha_completa": "2020-03-13 09:52:02"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "62",
+                    "00",
+                    "21"
+                ],
+                "fecha_completa": "2020-03-14 00:33:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "99": 1,
+                    "44": 1,
+                    "96": 1,
+                    "93": 2,
+                    "41": 1,
+                    "01": 1,
+                    "07": 1,
+                    "24": 1,
+                    "70": 1,
+                    "86": 1,
+                    "52": 1,
+                    "37": 1,
+                    "77": 1,
+                    "55": 1,
+                    "92": 1,
+                    "62": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "99": 1,
+                    "78": 3,
+                    "70": 2,
+                    "44": 1,
+                    "25": 2,
+                    "81": 1,
+                    "96": 1,
+                    "98": 2,
+                    "76": 1,
+                    "93": 5,
+                    "53": 1,
+                    "41": 1,
+                    "71": 1,
+                    "37": 2,
+                    "01": 1,
+                    "51": 1,
+                    "32": 1,
+                    "07": 1,
+                    "03": 1,
+                    "24": 1,
+                    "65": 1,
+                    "55": 2,
+                    "59": 1,
+                    "88": 1,
+                    "86": 1,
+                    "52": 2,
+                    "17": 1,
+                    "56": 1,
+                    "48": 1,
+                    "91": 1,
+                    "77": 1,
+                    "05": 1,
+                    "40": 1,
+                    "94": 1,
+                    "92": 1,
+                    "42": 1,
+                    "62": 1,
+                    "00": 1,
+                    "21": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    },
+    "Leidsa": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "60"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-03-03 23:30:04"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "37"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "44"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-03-07 23:34:03"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2020-03-17 23:45:03"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "73"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "88"
+                ],
+                "fecha_completa": "2020-03-14 00:33:04"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "05",
+                    "31",
+                    "16"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "60",
+                    "86",
+                    "17"
+                ],
+                "fecha_completa": "2020-03-02 23:29:02"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "90",
+                    "66",
+                    "81"
+                ],
+                "fecha_completa": "2020-03-03 23:30:04"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "86",
+                    "35",
+                    "24"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "37",
+                    "78",
+                    "95"
+                ],
+                "fecha_completa": "2020-03-05 23:32:02"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "44",
+                    "04",
+                    "27"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "41",
+                    "48",
+                    "22"
+                ],
+                "fecha_completa": "2020-03-07 23:34:03"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "77",
+                    "51",
+                    "54"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "78",
+                    "41",
+                    "12"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "25",
+                    "95",
+                    "39"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "73",
+                    "48",
+                    "97"
+                ],
+                "fecha_completa": "2020-03-11 23:38:02"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "74",
+                    "44",
+                    "65"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "24",
+                    "27",
+                    "51"
+                ],
+                "fecha_completa": "2020-03-16 23:44:02"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "89",
+                    "35",
+                    "41"
+                ],
+                "fecha_completa": "2020-03-17 23:45:03"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "73",
+                    "29",
+                    "63"
+                ],
+                "fecha_completa": "2020-03-18 23:46:02"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "86",
+                    "41",
+                    "97"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "88",
+                    "59",
+                    "30"
+                ],
+                "fecha_completa": "2020-03-14 00:33:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "05": 1,
+                    "60": 1,
+                    "90": 1,
+                    "86": 2,
+                    "37": 1,
+                    "44": 1,
+                    "41": 1,
+                    "77": 1,
+                    "78": 1,
+                    "25": 1,
+                    "73": 2,
+                    "74": 1,
+                    "24": 1,
+                    "89": 1,
+                    "88": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "05": 1,
+                    "31": 1,
+                    "16": 1,
+                    "60": 1,
+                    "86": 3,
+                    "17": 1,
+                    "90": 1,
+                    "66": 1,
+                    "81": 1,
+                    "35": 2,
+                    "24": 2,
+                    "37": 1,
+                    "78": 2,
+                    "95": 2,
+                    "44": 2,
+                    "04": 1,
+                    "27": 2,
+                    "41": 4,
+                    "48": 2,
+                    "22": 1,
+                    "77": 1,
+                    "51": 2,
+                    "54": 1,
+                    "12": 1,
+                    "25": 1,
+                    "39": 1,
+                    "73": 2,
+                    "97": 2,
+                    "74": 1,
+                    "65": 1,
+                    "89": 1,
+                    "29": 1,
+                    "63": 1,
+                    "88": 1,
+                    "59": 1,
+                    "30": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    },
+    "La Real": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-03-02 23:29:03"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-03-03 23:30:05"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "71"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-03-05 23:32:03"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-07 23:34:03"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2020-03-11 23:38:03"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2020-03-14 23:41:50"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-03-16 23:44:03"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-03-18 23:46:03"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "97"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "40",
+                    "48",
+                    "73"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "24",
+                    "89",
+                    "88"
+                ],
+                "fecha_completa": "2020-03-02 23:29:03"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "40",
+                    "15",
+                    "02"
+                ],
+                "fecha_completa": "2020-03-03 23:30:05"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "71",
+                    "46",
+                    "06"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "84",
+                    "44",
+                    "47"
+                ],
+                "fecha_completa": "2020-03-05 23:32:03"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "21",
+                    "39",
+                    "70"
+                ],
+                "fecha_completa": "2020-03-06 23:33:03"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "21",
+                    "34",
+                    "86"
+                ],
+                "fecha_completa": "2020-03-07 23:34:03"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "50",
+                    "09",
+                    "55"
+                ],
+                "fecha_completa": "2020-03-08 23:35:05"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "99",
+                    "01",
+                    "01"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "58",
+                    "84",
+                    "77"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "80",
+                    "70",
+                    "82"
+                ],
+                "fecha_completa": "2020-03-11 23:38:03"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "24",
+                    "32",
+                    "31"
+                ],
+                "fecha_completa": "2020-03-12 23:39:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "43",
+                    "75",
+                    "10"
+                ],
+                "fecha_completa": "2020-03-14 23:41:50"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "04",
+                    "53",
+                    "81"
+                ],
+                "fecha_completa": "2020-03-16 23:44:03"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "59",
+                    "66",
+                    "89"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "93",
+                    "08",
+                    "51"
+                ],
+                "fecha_completa": "2020-03-18 23:46:03"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "97",
+                    "02",
+                    "47"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "40": 2,
+                    "24": 2,
+                    "71": 1,
+                    "84": 1,
+                    "21": 2,
+                    "50": 1,
+                    "99": 1,
+                    "58": 1,
+                    "80": 1,
+                    "43": 1,
+                    "04": 1,
+                    "59": 1,
+                    "93": 1,
+                    "97": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "40": 2,
+                    "48": 1,
+                    "73": 1,
+                    "24": 2,
+                    "89": 2,
+                    "88": 1,
+                    "15": 1,
+                    "02": 2,
+                    "71": 1,
+                    "46": 1,
+                    "06": 1,
+                    "84": 2,
+                    "44": 1,
+                    "47": 2,
+                    "21": 2,
+                    "39": 1,
+                    "70": 2,
+                    "34": 1,
+                    "86": 1,
+                    "50": 1,
+                    "09": 1,
+                    "55": 1,
+                    "99": 1,
+                    "01": 2,
+                    "58": 1,
+                    "77": 1,
+                    "80": 1,
+                    "82": 1,
+                    "32": 1,
+                    "31": 1,
+                    "43": 1,
+                    "75": 1,
+                    "10": 1,
+                    "04": 1,
+                    "53": 1,
+                    "81": 1,
+                    "59": 1,
+                    "66": 1,
+                    "93": 1,
+                    "08": 1,
+                    "51": 1,
+                    "97": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    },
+    "Loteka": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-03-02 23:29:03"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2020-03-03 23:30:05"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "90"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "07"
+                ],
+                "fecha_completa": "2020-03-05 23:32:03"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-03-06 23:33:04"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "93"
+                ],
+                "fecha_completa": "2020-03-07 23:34:04"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-03-08 23:35:06"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "03"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "75"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-03-11 23:38:03"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2020-03-12 23:39:04"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-03-16 23:44:03"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "51"
+                ],
+                "fecha_completa": "2020-03-18 23:46:03"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "24"
+                ],
+                "fecha_completa": "2020-03-14 00:33:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "74",
+                    "28",
+                    "34"
+                ],
+                "fecha_completa": "2020-03-01 23:28:03"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "32",
+                    "26",
+                    "22"
+                ],
+                "fecha_completa": "2020-03-02 23:29:03"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "61",
+                    "87",
+                    "03"
+                ],
+                "fecha_completa": "2020-03-03 23:30:05"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "90",
+                    "61",
+                    "45"
+                ],
+                "fecha_completa": "2020-03-04 23:31:03"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "07",
+                    "21",
+                    "26"
+                ],
+                "fecha_completa": "2020-03-05 23:32:03"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "50",
+                    "55",
+                    "60"
+                ],
+                "fecha_completa": "2020-03-06 23:33:04"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "93",
+                    "58",
+                    "52"
+                ],
+                "fecha_completa": "2020-03-07 23:34:04"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "17",
+                    "91",
+                    "73"
+                ],
+                "fecha_completa": "2020-03-08 23:35:06"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "03",
+                    "87",
+                    "55"
+                ],
+                "fecha_completa": "2020-03-09 23:36:03"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "75",
+                    "28",
+                    "42"
+                ],
+                "fecha_completa": "2020-03-10 23:37:03"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "77",
+                    "57",
+                    "11"
+                ],
+                "fecha_completa": "2020-03-11 23:38:03"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "23",
+                    "60",
+                    "70"
+                ],
+                "fecha_completa": "2020-03-12 23:39:04"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "01",
+                    "13",
+                    "72"
+                ],
+                "fecha_completa": "2020-03-16 23:44:03"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "41",
+                    "14",
+                    "42"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "51",
+                    "48",
+                    "74"
+                ],
+                "fecha_completa": "2020-03-18 23:46:03"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "00",
+                    "39",
+                    "54"
+                ],
+                "fecha_completa": "2020-03-13 09:52:03"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "24",
+                    "63",
+                    "32"
+                ],
+                "fecha_completa": "2020-03-14 00:33:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "74": 1,
+                    "32": 1,
+                    "61": 1,
+                    "90": 1,
+                    "07": 1,
+                    "50": 1,
+                    "93": 1,
+                    "17": 1,
+                    "03": 1,
+                    "75": 1,
+                    "77": 1,
+                    "23": 1,
+                    "01": 1,
+                    "41": 1,
+                    "51": 1,
+                    "00": 1,
+                    "24": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "74": 2,
+                    "28": 2,
+                    "34": 1,
+                    "32": 2,
+                    "26": 2,
+                    "22": 1,
+                    "61": 2,
+                    "87": 2,
+                    "03": 2,
+                    "90": 1,
+                    "45": 1,
+                    "07": 1,
+                    "21": 1,
+                    "50": 1,
+                    "55": 2,
+                    "60": 2,
+                    "93": 1,
+                    "58": 1,
+                    "52": 1,
+                    "17": 1,
+                    "91": 1,
+                    "73": 1,
+                    "75": 1,
+                    "42": 2,
+                    "77": 1,
+                    "57": 1,
+                    "11": 1,
+                    "23": 1,
+                    "70": 1,
+                    "01": 1,
+                    "13": 1,
+                    "72": 1,
+                    "41": 1,
+                    "14": 1,
+                    "51": 1,
+                    "48": 1,
+                    "00": 1,
+                    "39": 1,
+                    "54": 1,
+                    "24": 1,
+                    "63": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    },
+    "New York Tarde": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "68"
+                ],
+                "fecha_completa": "2020-03-01 23:28:04"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "10"
+                ],
+                "fecha_completa": "2020-03-02 23:29:04"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-03-03 23:30:06"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "26"
+                ],
+                "fecha_completa": "2020-03-04 23:31:04"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "89"
+                ],
+                "fecha_completa": "2020-03-05 23:32:04"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "17"
+                ],
+                "fecha_completa": "2020-03-06 23:33:05"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-03-07 23:34:04"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "41"
+                ],
+                "fecha_completa": "2020-03-08 23:35:07"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-03-09 23:36:04"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-03-10 23:37:04"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "40"
+                ],
+                "fecha_completa": "2020-03-11 23:38:04"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "29"
+                ],
+                "fecha_completa": "2020-03-12 23:39:05"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "39"
+                ],
+                "fecha_completa": "2020-03-14 23:42:04"
+            },
+            "domingo, 15 de marzo": {
+                "numeros": [
+                    "20"
+                ],
+                "fecha_completa": "2020-03-15 23:43:04"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "48"
+                ],
+                "fecha_completa": "2020-03-16 23:44:04"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "52"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "59"
+                ],
+                "fecha_completa": "2020-03-18 23:46:04"
+            },
+            "jueves, 19 de marzo": {
+                "numeros": [
+                    "38"
+                ],
+                "fecha_completa": "2020-03-19 23:47:05"
+            },
+            "viernes, 20 de marzo": {
+                "numeros": [
+                    "09"
+                ],
+                "fecha_completa": "2020-03-20 23:48:04"
+            },
+            "sábado, 21 de marzo": {
+                "numeros": [
+                    "55"
+                ],
+                "fecha_completa": "2020-03-21 23:49:04"
+            },
+            "domingo, 22 de marzo": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2020-03-22 23:50:05"
+            },
+            "lunes, 23 de marzo": {
+                "numeros": [
+                    "84"
+                ],
+                "fecha_completa": "2020-03-23 23:51:04"
+            },
+            "martes, 24 de marzo": {
+                "numeros": [
+                    "43"
+                ],
+                "fecha_completa": "2020-03-24 23:52:04"
+            },
+            "miércoles, 25 de marzo": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2020-03-25 23:53:03"
+            },
+            "jueves, 26 de marzo": {
+                "numeros": [
+                    "79"
+                ],
+                "fecha_completa": "2020-03-26 23:54:04"
+            },
+            "viernes, 27 de marzo": {
+                "numeros": [
+                    "92"
+                ],
+                "fecha_completa": "2020-03-27 23:55:04"
+            },
+            "sábado, 28 de marzo": {
+                "numeros": [
+                    "50"
+                ],
+                "fecha_completa": "2020-03-28 23:56:04"
+            },
+            "domingo, 29 de marzo": {
+                "numeros": [
+                    "82"
+                ],
+                "fecha_completa": "2020-03-29 23:57:04"
+            },
+            "lunes, 30 de marzo": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2020-03-30 23:58:04"
+            },
+            "martes, 31 de marzo": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2020-03-31 23:59:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "30"
+                ],
+                "fecha_completa": "2020-03-13 09:52:04"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "68",
+                    "02",
+                    "09"
+                ],
+                "fecha_completa": "2020-03-01 23:28:04"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "10",
+                    "29",
+                    "92"
+                ],
+                "fecha_completa": "2020-03-02 23:29:04"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "74",
+                    "92",
+                    "85"
+                ],
+                "fecha_completa": "2020-03-03 23:30:06"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "26",
+                    "30",
+                    "06"
+                ],
+                "fecha_completa": "2020-03-04 23:31:04"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "89",
+                    "82",
+                    "08"
+                ],
+                "fecha_completa": "2020-03-05 23:32:04"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "17",
+                    "82",
+                    "05"
+                ],
+                "fecha_completa": "2020-03-06 23:33:05"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "27",
+                    "59",
+                    "87"
+                ],
+                "fecha_completa": "2020-03-07 23:34:04"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "41",
+                    "51",
+                    "91"
+                ],
+                "fecha_completa": "2020-03-08 23:35:07"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "04",
+                    "11",
+                    "20"
+                ],
+                "fecha_completa": "2020-03-09 23:36:04"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "96",
+                    "30",
+                    "57"
+                ],
+                "fecha_completa": "2020-03-10 23:37:04"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "40",
+                    "25",
+                    "69"
+                ],
+                "fecha_completa": "2020-03-11 23:38:04"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "29",
+                    "53",
+                    "71"
+                ],
+                "fecha_completa": "2020-03-12 23:39:05"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "39",
+                    "36",
+                    "63"
+                ],
+                "fecha_completa": "2020-03-14 23:42:04"
+            },
+            "domingo, 15 de marzo": {
+                "numeros": [
+                    "20",
+                    "49",
+                    "31"
+                ],
+                "fecha_completa": "2020-03-15 23:43:04"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "48",
+                    "22",
+                    "59"
+                ],
+                "fecha_completa": "2020-03-16 23:44:04"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "52",
+                    "53",
+                    "08"
+                ],
+                "fecha_completa": "2020-03-17 23:45:04"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "59",
+                    "14",
+                    "13"
+                ],
+                "fecha_completa": "2020-03-18 23:46:04"
+            },
+            "jueves, 19 de marzo": {
+                "numeros": [
+                    "38",
+                    "19",
+                    "99"
+                ],
+                "fecha_completa": "2020-03-19 23:47:05"
+            },
+            "viernes, 20 de marzo": {
+                "numeros": [
+                    "09",
+                    "81",
+                    "02"
+                ],
+                "fecha_completa": "2020-03-20 23:48:04"
+            },
+            "sábado, 21 de marzo": {
+                "numeros": [
+                    "55",
+                    "49",
+                    "42"
+                ],
+                "fecha_completa": "2020-03-21 23:49:04"
+            },
+            "domingo, 22 de marzo": {
+                "numeros": [
+                    "25",
+                    "29",
+                    "22"
+                ],
+                "fecha_completa": "2020-03-22 23:50:05"
+            },
+            "lunes, 23 de marzo": {
+                "numeros": [
+                    "84",
+                    "40",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-23 23:51:04"
+            },
+            "martes, 24 de marzo": {
+                "numeros": [
+                    "43",
+                    "66",
+                    "38"
+                ],
+                "fecha_completa": "2020-03-24 23:52:04"
+            },
+            "miércoles, 25 de marzo": {
+                "numeros": [
+                    "22",
+                    "68",
+                    "23"
+                ],
+                "fecha_completa": "2020-03-25 23:53:03"
+            },
+            "jueves, 26 de marzo": {
+                "numeros": [
+                    "79",
+                    "87",
+                    "98"
+                ],
+                "fecha_completa": "2020-03-26 23:54:04"
+            },
+            "viernes, 27 de marzo": {
+                "numeros": [
+                    "92",
+                    "35",
+                    "76"
+                ],
+                "fecha_completa": "2020-03-27 23:55:04"
+            },
+            "sábado, 28 de marzo": {
+                "numeros": [
+                    "50",
+                    "33",
+                    "97"
+                ],
+                "fecha_completa": "2020-03-28 23:56:04"
+            },
+            "domingo, 29 de marzo": {
+                "numeros": [
+                    "82",
+                    "10",
+                    "29"
+                ],
+                "fecha_completa": "2020-03-29 23:57:04"
+            },
+            "lunes, 30 de marzo": {
+                "numeros": [
+                    "45",
+                    "64",
+                    "61"
+                ],
+                "fecha_completa": "2020-03-30 23:58:04"
+            },
+            "martes, 31 de marzo": {
+                "numeros": [
+                    "11",
+                    "53",
+                    "95"
+                ],
+                "fecha_completa": "2020-03-31 23:59:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "30",
+                    "77",
+                    "66"
+                ],
+                "fecha_completa": "2020-03-13 09:52:04"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "68": 1,
+                    "10": 1,
+                    "74": 1,
+                    "26": 1,
+                    "89": 1,
+                    "17": 1,
+                    "27": 1,
+                    "41": 1,
+                    "04": 1,
+                    "96": 1,
+                    "40": 1,
+                    "29": 1,
+                    "39": 1,
+                    "20": 1,
+                    "48": 1,
+                    "52": 1,
+                    "59": 1,
+                    "38": 1,
+                    "09": 1,
+                    "55": 1,
+                    "25": 1,
+                    "84": 1,
+                    "43": 1,
+                    "22": 1,
+                    "79": 1,
+                    "92": 1,
+                    "50": 1,
+                    "82": 1,
+                    "45": 1,
+                    "11": 1,
+                    "30": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "68": 2,
+                    "02": 2,
+                    "09": 2,
+                    "10": 2,
+                    "29": 4,
+                    "92": 3,
+                    "74": 1,
+                    "85": 1,
+                    "26": 1,
+                    "30": 3,
+                    "06": 1,
+                    "89": 1,
+                    "82": 3,
+                    "08": 2,
+                    "17": 1,
+                    "05": 1,
+                    "27": 1,
+                    "59": 3,
+                    "87": 2,
+                    "41": 1,
+                    "51": 1,
+                    "91": 1,
+                    "04": 1,
+                    "11": 2,
+                    "20": 2,
+                    "96": 1,
+                    "57": 1,
+                    "40": 2,
+                    "25": 2,
+                    "69": 1,
+                    "53": 3,
+                    "71": 1,
+                    "39": 1,
+                    "36": 1,
+                    "63": 1,
+                    "49": 2,
+                    "31": 1,
+                    "48": 1,
+                    "22": 3,
+                    "52": 1,
+                    "14": 1,
+                    "13": 1,
+                    "38": 2,
+                    "19": 1,
+                    "99": 1,
+                    "81": 1,
+                    "55": 1,
+                    "42": 1,
+                    "84": 1,
+                    "94": 1,
+                    "43": 1,
+                    "66": 2,
+                    "23": 1,
+                    "79": 1,
+                    "98": 1,
+                    "35": 1,
+                    "76": 1,
+                    "50": 1,
+                    "33": 1,
+                    "97": 1,
+                    "45": 1,
+                    "64": 1,
+                    "61": 1,
+                    "95": 1,
+                    "77": 1
+                }
+            },
+            "total_sorteos": 31,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-31"
+        }
+    },
+    "New york Noche": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "58"
+                ],
+                "fecha_completa": "2020-03-01 23:28:05"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "18"
+                ],
+                "fecha_completa": "2020-03-02 23:29:05"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "32"
+                ],
+                "fecha_completa": "2020-03-03 23:30:06"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "81"
+                ],
+                "fecha_completa": "2020-03-04 23:31:05"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-03-05 23:32:05"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "22"
+                ],
+                "fecha_completa": "2020-03-06 23:33:05"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "96"
+                ],
+                "fecha_completa": "2020-03-07 23:34:05"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-03-08 23:35:07"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "34"
+                ],
+                "fecha_completa": "2020-03-09 23:36:05"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "00"
+                ],
+                "fecha_completa": "2020-03-10 23:37:05"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "36"
+                ],
+                "fecha_completa": "2020-03-11 23:38:05"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "78"
+                ],
+                "fecha_completa": "2020-03-12 23:39:05"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "53"
+                ],
+                "fecha_completa": "2020-03-14 23:42:10"
+            },
+            "domingo, 15 de marzo": {
+                "numeros": [
+                    "85"
+                ],
+                "fecha_completa": "2020-03-15 23:43:05"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "77"
+                ],
+                "fecha_completa": "2020-03-16 23:44:05"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-17 23:45:05"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2020-03-18 23:46:05"
+            },
+            "jueves, 19 de marzo": {
+                "numeros": [
+                    "45"
+                ],
+                "fecha_completa": "2020-03-19 23:47:05"
+            },
+            "viernes, 20 de marzo": {
+                "numeros": [
+                    "74"
+                ],
+                "fecha_completa": "2020-03-20 23:48:05"
+            },
+            "sábado, 21 de marzo": {
+                "numeros": [
+                    "27"
+                ],
+                "fecha_completa": "2020-03-21 23:49:05"
+            },
+            "domingo, 22 de marzo": {
+                "numeros": [
+                    "46"
+                ],
+                "fecha_completa": "2020-03-22 23:50:06"
+            },
+            "lunes, 23 de marzo": {
+                "numeros": [
+                    "98"
+                ],
+                "fecha_completa": "2020-03-23 23:51:05"
+            },
+            "martes, 24 de marzo": {
+                "numeros": [
+                    "62"
+                ],
+                "fecha_completa": "2020-03-24 23:52:05"
+            },
+            "miércoles, 25 de marzo": {
+                "numeros": [
+                    "21"
+                ],
+                "fecha_completa": "2020-03-25 23:53:04"
+            },
+            "jueves, 26 de marzo": {
+                "numeros": [
+                    "76"
+                ],
+                "fecha_completa": "2020-03-26 23:54:05"
+            },
+            "viernes, 27 de marzo": {
+                "numeros": [
+                    "66"
+                ],
+                "fecha_completa": "2020-03-27 23:55:05"
+            },
+            "sábado, 28 de marzo": {
+                "numeros": [
+                    "04"
+                ],
+                "fecha_completa": "2020-03-28 23:56:05"
+            },
+            "domingo, 29 de marzo": {
+                "numeros": [
+                    "25"
+                ],
+                "fecha_completa": "2020-03-29 23:57:05"
+            },
+            "lunes, 30 de marzo": {
+                "numeros": [
+                    "61"
+                ],
+                "fecha_completa": "2020-03-30 23:58:05"
+            },
+            "martes, 31 de marzo": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2020-03-31 23:59:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "47"
+                ],
+                "fecha_completa": "2020-03-13 09:52:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "58",
+                    "15",
+                    "57"
+                ],
+                "fecha_completa": "2020-03-01 23:28:05"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "18",
+                    "99",
+                    "12"
+                ],
+                "fecha_completa": "2020-03-02 23:29:05"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "32",
+                    "74",
+                    "09"
+                ],
+                "fecha_completa": "2020-03-03 23:30:06"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "81",
+                    "69",
+                    "40"
+                ],
+                "fecha_completa": "2020-03-04 23:31:05"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "62",
+                    "19",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-05 23:32:05"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "22",
+                    "07",
+                    "90"
+                ],
+                "fecha_completa": "2020-03-06 23:33:05"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "96",
+                    "87",
+                    "46"
+                ],
+                "fecha_completa": "2020-03-07 23:34:05"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "04",
+                    "47",
+                    "47"
+                ],
+                "fecha_completa": "2020-03-08 23:35:07"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "34",
+                    "75",
+                    "55"
+                ],
+                "fecha_completa": "2020-03-09 23:36:05"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "00",
+                    "28",
+                    "91"
+                ],
+                "fecha_completa": "2020-03-10 23:37:05"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "36",
+                    "02",
+                    "90"
+                ],
+                "fecha_completa": "2020-03-11 23:38:05"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "78",
+                    "66",
+                    "49"
+                ],
+                "fecha_completa": "2020-03-12 23:39:05"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "53",
+                    "62",
+                    "79"
+                ],
+                "fecha_completa": "2020-03-14 23:42:10"
+            },
+            "domingo, 15 de marzo": {
+                "numeros": [
+                    "85",
+                    "96",
+                    "03"
+                ],
+                "fecha_completa": "2020-03-15 23:43:05"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "77",
+                    "11",
+                    "92"
+                ],
+                "fecha_completa": "2020-03-16 23:44:05"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "21",
+                    "87",
+                    "33"
+                ],
+                "fecha_completa": "2020-03-17 23:45:05"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "45",
+                    "38",
+                    "82"
+                ],
+                "fecha_completa": "2020-03-18 23:46:05"
+            },
+            "jueves, 19 de marzo": {
+                "numeros": [
+                    "45",
+                    "61",
+                    "64"
+                ],
+                "fecha_completa": "2020-03-19 23:47:05"
+            },
+            "viernes, 20 de marzo": {
+                "numeros": [
+                    "74",
+                    "41",
+                    "43"
+                ],
+                "fecha_completa": "2020-03-20 23:48:05"
+            },
+            "sábado, 21 de marzo": {
+                "numeros": [
+                    "27",
+                    "42",
+                    "92"
+                ],
+                "fecha_completa": "2020-03-21 23:49:05"
+            },
+            "domingo, 22 de marzo": {
+                "numeros": [
+                    "46",
+                    "31",
+                    "00"
+                ],
+                "fecha_completa": "2020-03-22 23:50:06"
+            },
+            "lunes, 23 de marzo": {
+                "numeros": [
+                    "98",
+                    "87",
+                    "73"
+                ],
+                "fecha_completa": "2020-03-23 23:51:05"
+            },
+            "martes, 24 de marzo": {
+                "numeros": [
+                    "62",
+                    "70",
+                    "45"
+                ],
+                "fecha_completa": "2020-03-24 23:52:05"
+            },
+            "miércoles, 25 de marzo": {
+                "numeros": [
+                    "21",
+                    "97",
+                    "46"
+                ],
+                "fecha_completa": "2020-03-25 23:53:04"
+            },
+            "jueves, 26 de marzo": {
+                "numeros": [
+                    "76",
+                    "41",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-26 23:54:05"
+            },
+            "viernes, 27 de marzo": {
+                "numeros": [
+                    "66",
+                    "05",
+                    "43"
+                ],
+                "fecha_completa": "2020-03-27 23:55:05"
+            },
+            "sábado, 28 de marzo": {
+                "numeros": [
+                    "04",
+                    "85",
+                    "80"
+                ],
+                "fecha_completa": "2020-03-28 23:56:05"
+            },
+            "domingo, 29 de marzo": {
+                "numeros": [
+                    "25",
+                    "60",
+                    "39"
+                ],
+                "fecha_completa": "2020-03-29 23:57:05"
+            },
+            "lunes, 30 de marzo": {
+                "numeros": [
+                    "61",
+                    "18",
+                    "34"
+                ],
+                "fecha_completa": "2020-03-30 23:58:05"
+            },
+            "martes, 31 de marzo": {
+                "numeros": [
+                    "57",
+                    "19",
+                    "19"
+                ],
+                "fecha_completa": "2020-03-31 23:59:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "47",
+                    "16",
+                    "79"
+                ],
+                "fecha_completa": "2020-03-13 09:52:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "58": 1,
+                    "18": 1,
+                    "32": 1,
+                    "81": 1,
+                    "62": 2,
+                    "22": 1,
+                    "96": 1,
+                    "04": 2,
+                    "34": 1,
+                    "00": 1,
+                    "36": 1,
+                    "78": 1,
+                    "53": 1,
+                    "85": 1,
+                    "77": 1,
+                    "21": 2,
+                    "45": 2,
+                    "74": 1,
+                    "27": 1,
+                    "46": 1,
+                    "98": 1,
+                    "76": 1,
+                    "66": 1,
+                    "25": 1,
+                    "61": 1,
+                    "57": 1,
+                    "47": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "58": 1,
+                    "15": 1,
+                    "57": 2,
+                    "18": 2,
+                    "99": 1,
+                    "12": 1,
+                    "32": 1,
+                    "74": 2,
+                    "09": 1,
+                    "81": 1,
+                    "69": 1,
+                    "40": 1,
+                    "62": 3,
+                    "19": 3,
+                    "94": 2,
+                    "22": 1,
+                    "07": 1,
+                    "90": 2,
+                    "96": 2,
+                    "87": 3,
+                    "46": 3,
+                    "04": 2,
+                    "47": 3,
+                    "34": 2,
+                    "75": 1,
+                    "55": 1,
+                    "00": 2,
+                    "28": 1,
+                    "91": 1,
+                    "36": 1,
+                    "02": 1,
+                    "78": 1,
+                    "66": 2,
+                    "49": 1,
+                    "53": 1,
+                    "79": 2,
+                    "85": 2,
+                    "03": 1,
+                    "77": 1,
+                    "11": 1,
+                    "92": 2,
+                    "21": 2,
+                    "33": 1,
+                    "45": 3,
+                    "38": 1,
+                    "82": 1,
+                    "61": 2,
+                    "64": 1,
+                    "41": 2,
+                    "43": 2,
+                    "27": 1,
+                    "42": 1,
+                    "31": 1,
+                    "98": 1,
+                    "73": 1,
+                    "70": 1,
+                    "97": 1,
+                    "76": 1,
+                    "05": 1,
+                    "80": 1,
+                    "25": 1,
+                    "60": 1,
+                    "39": 1,
+                    "16": 1
+                }
+            },
+            "total_sorteos": 31,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-31"
+        }
+    },
+    "La Primera Dia": {
+        "ConteoEnPrimera": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "11"
+                ],
+                "fecha_completa": "2020-03-01 23:28:05"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2020-03-02 23:29:05"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "01"
+                ],
+                "fecha_completa": "2020-03-03 23:30:07"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "86"
+                ],
+                "fecha_completa": "2020-03-04 23:31:05"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2020-03-05 23:32:05"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-03-06 23:33:06"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "80"
+                ],
+                "fecha_completa": "2020-03-07 23:34:05"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "63"
+                ],
+                "fecha_completa": "2020-03-08 23:35:08"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "05"
+                ],
+                "fecha_completa": "2020-03-09 23:36:05"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2020-03-10 23:37:05"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "13"
+                ],
+                "fecha_completa": "2020-03-11 23:38:05"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "06"
+                ],
+                "fecha_completa": "2020-03-12 23:39:06"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "23"
+                ],
+                "fecha_completa": "2020-03-14 23:42:11"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "99"
+                ],
+                "fecha_completa": "2020-03-16 23:44:05"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "56"
+                ],
+                "fecha_completa": "2020-03-17 23:45:05"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "14"
+                ],
+                "fecha_completa": "2020-03-18 23:46:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "57"
+                ],
+                "fecha_completa": "2020-03-13 09:52:05"
+            }
+        },
+        "ConteoAll": {
+            "domingo, 1 de marzo": {
+                "numeros": [
+                    "11",
+                    "85",
+                    "83"
+                ],
+                "fecha_completa": "2020-03-01 23:28:05"
+            },
+            "lunes, 2 de marzo": {
+                "numeros": [
+                    "57",
+                    "99",
+                    "86"
+                ],
+                "fecha_completa": "2020-03-02 23:29:05"
+            },
+            "martes, 3 de marzo": {
+                "numeros": [
+                    "01",
+                    "04",
+                    "45"
+                ],
+                "fecha_completa": "2020-03-03 23:30:07"
+            },
+            "miércoles, 4 de marzo": {
+                "numeros": [
+                    "86",
+                    "62",
+                    "98"
+                ],
+                "fecha_completa": "2020-03-04 23:31:05"
+            },
+            "jueves, 5 de marzo": {
+                "numeros": [
+                    "80",
+                    "14",
+                    "55"
+                ],
+                "fecha_completa": "2020-03-05 23:32:05"
+            },
+            "viernes, 6 de marzo": {
+                "numeros": [
+                    "06",
+                    "91",
+                    "29"
+                ],
+                "fecha_completa": "2020-03-06 23:33:06"
+            },
+            "sábado, 7 de marzo": {
+                "numeros": [
+                    "80",
+                    "05",
+                    "31"
+                ],
+                "fecha_completa": "2020-03-07 23:34:05"
+            },
+            "domingo, 8 de marzo": {
+                "numeros": [
+                    "63",
+                    "75",
+                    "05"
+                ],
+                "fecha_completa": "2020-03-08 23:35:08"
+            },
+            "lunes, 9 de marzo": {
+                "numeros": [
+                    "05",
+                    "23",
+                    "63"
+                ],
+                "fecha_completa": "2020-03-09 23:36:05"
+            },
+            "martes, 10 de marzo": {
+                "numeros": [
+                    "14",
+                    "83",
+                    "94"
+                ],
+                "fecha_completa": "2020-03-10 23:37:05"
+            },
+            "miércoles, 11 de marzo": {
+                "numeros": [
+                    "13",
+                    "70",
+                    "99"
+                ],
+                "fecha_completa": "2020-03-11 23:38:05"
+            },
+            "jueves, 12 de marzo": {
+                "numeros": [
+                    "06",
+                    "68",
+                    "70"
+                ],
+                "fecha_completa": "2020-03-12 23:39:06"
+            },
+            "sábado, 14 de marzo": {
+                "numeros": [
+                    "23",
+                    "10",
+                    "98"
+                ],
+                "fecha_completa": "2020-03-14 23:42:11"
+            },
+            "lunes, 16 de marzo": {
+                "numeros": [
+                    "99",
+                    "21",
+                    "05"
+                ],
+                "fecha_completa": "2020-03-16 23:44:05"
+            },
+            "martes, 17 de marzo": {
+                "numeros": [
+                    "56",
+                    "35",
+                    "14"
+                ],
+                "fecha_completa": "2020-03-17 23:45:05"
+            },
+            "miércoles, 18 de marzo": {
+                "numeros": [
+                    "14",
+                    "95",
+                    "61"
+                ],
+                "fecha_completa": "2020-03-18 23:46:05"
+            },
+            "viernes, 13 de marzo": {
+                "numeros": [
+                    "57",
+                    "34",
+                    "62"
+                ],
+                "fecha_completa": "2020-03-13 09:52:05"
+            }
+        },
+        "estadisticas": {
+            "ConteoEnPrimera": {
+                "general": {
+                    "11": 1,
+                    "57": 2,
+                    "01": 1,
+                    "86": 1,
+                    "80": 2,
+                    "06": 2,
+                    "63": 1,
+                    "05": 1,
+                    "14": 2,
+                    "13": 1,
+                    "23": 1,
+                    "99": 1,
+                    "56": 1
+                }
+            },
+            "ConteoAll": {
+                "general": {
+                    "11": 1,
+                    "85": 1,
+                    "83": 2,
+                    "57": 2,
+                    "99": 3,
+                    "86": 2,
+                    "01": 1,
+                    "04": 1,
+                    "45": 1,
+                    "62": 2,
+                    "98": 2,
+                    "80": 2,
+                    "14": 4,
+                    "55": 1,
+                    "06": 2,
+                    "91": 1,
+                    "29": 1,
+                    "05": 4,
+                    "31": 1,
+                    "63": 2,
+                    "75": 1,
+                    "23": 2,
+                    "94": 1,
+                    "13": 1,
+                    "70": 2,
+                    "68": 1,
+                    "10": 1,
+                    "21": 1,
+                    "56": 1,
+                    "35": 1,
+                    "95": 1,
+                    "61": 1,
+                    "34": 1
+                }
+            },
+            "total_sorteos": 17,
+            "fecha_primer_registro": "2020-03-01",
+            "fecha_ultimo_registro": "2020-03-18"
+        }
+    }
+}
