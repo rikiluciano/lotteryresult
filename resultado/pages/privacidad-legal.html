@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte, Privacidad y Datos - FreqTable</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css?v=1">
+    <link rel="stylesheet" href="../css/theme-premium.css?v=1">
+    <style>
+        .page-content {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--text-dark);
+            min-height: 60vh;
+        }
+        .page-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        .back-btn:hover {
+            color: var(--secondary-color);
+        }
+        h2 { margin-top: 2rem; margin-bottom: 1rem; color: var(--text-dark); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+        p, li { margin-bottom: 1rem; line-height: 1.8; font-size: 1.1rem; }
+        .legal-wrapper { background: var(--card-bg); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color); backdrop-filter: blur(8px); }
+    </style>
+</head>
+
+<body data-theme="dark">
+    <!-- Header simple -->
+    <header>
+        <div class="header-container">
+            <a href="../../index.html" class="logo-info-group" style="text-decoration: none;">
+                <h1 class="logo">FreqTable <span style="font-size: 0.5em; opacity: 0.7;">BETA</span></h1>
+            </a>
+            <div class="theme-switch-wrapper">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <a href="../../index.html" class="back-btn">← Volver al inicio</a>
+        <div class="legal-wrapper">
+            <h1 class="page-title title">Privacidad, Datos y Términos</h1>
+            
+            <h2>Política de Privacidad Integral (RLabs)</h2>
+            <p>La protección de su privacidad y sus datos es un compromiso inquebrantable de RLabs y FreqTable. Aseguramos el mayor nivel de anonimato sobre su analítica particular y parámetros de búsqueda de loterías.</p>
+            <ul>
+                <li><strong>No Recopilación Activa:</strong> No vendemos, entregamos o arrendamos sus IPs hacia terceros u otras entidades publicitarias.</li>
+                <li><strong>Almacenamiento Local (Local Storage):</strong> Ciertas preferencias, tales como el Tema Oscuro/Claro y filtros rápidos recientes, son estrictamente almacenadas en el disco de origen de su dispositivo personal y jamás se depositan en una nube externa sin cifrado.</li>
+            </ul>
+            
+            <h2>Términos y Condiciones del Servicio</h2>
+            <p>FreqTable proporciona proyecciones puramente experimentales y empíricas con respecto al historial del azar. Al utilizar esta herramienta, usted asume la plena responsabilidad en el juego. FreqTable es una entidad digital ajena e independiente a cualquier lotería oficial del Estado o compañías privadas de administración de boletos.</p>
+            
+            <h2>Política de Cookies</h2>
+            <p>Esta plataforma requiere el establecimiento de cookies funcionales minúsculas para habilitar características vitales relativas a su experiencia de usuario. Si decide inhabilitarlas globalmente, ciertas funciones fluidas del diseño gráfico pudiesen no verse reflectadas del modo planeado.</p>
+        </div>
+    </main>
+
+    <script>
+        const themeBtn = document.getElementById('themeToggle');
+        const theme = localStorage.getItem('theme') || 'dark';
+        document.body.setAttribute('data-theme', theme);
+        themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        themeBtn.addEventListener('click', () => {
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            const newTheme = isDark ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            themeBtn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>

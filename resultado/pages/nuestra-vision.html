@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Visión - FreqTable</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css?v=1">
+    <link rel="stylesheet" href="../css/theme-premium.css?v=1">
+    <style>
+        .page-content {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--text-dark);
+            min-height: 60vh;
+        }
+        .page-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        .back-btn:hover {
+            color: var(--secondary-color);
+        }
+        p { margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.1rem; }
+    </style>
+</head>
+
+<body data-theme="dark">
+    <!-- Header simple -->
+    <header>
+        <div class="header-container">
+            <a href="../../index.html" class="logo-info-group" style="text-decoration: none;">
+                <h1 class="logo">FreqTable <span style="font-size: 0.5em; opacity: 0.7;">BETA</span></h1>
+            </a>
+            <div class="theme-switch-wrapper">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Cambiar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <a href="../../index.html" class="back-btn">← Volver al inicio</a>
+        <h1 class="page-title title">Nuestra Visión</h1>
+        
+        <p>En FreqTable y RLabs, nuestra visión es democratizar el acceso a los datos probabilísticos reales de la lotería, entregándolos de una forma visualmente deslumbrante, matemáticamente exacta y tecnológicamente insuperable.</p>
+        
+        <p>No creemos en la "suerte ciega". Creemos en las tendencias, los patrones históricos y la asombrosa capacidad de la analítica de datos para tomar decisiones informadas. Nuestra misión es empoderar a nuestros usuarios en República Dominicana y el mundo entero, proporcionándoles una herramienta que combina la vanguardia del diseño moderno (Glassmorphism, Dark Mode) con cálculos en milisegundos.</p>
+        
+        <p>Nos proyectamos a ser el ecosistema número uno a nivel latinoamericano donde los datos de sorteos se cruzan con Inteligencia Artificial y analítica predictiva, ofreciendo un panel de control digno de los mejores laboratorios de software.</p>
+    </main>
+
+    <!-- Script simplificado para theme oscuro -->
+    <script>
+        const themeBtn = document.getElementById('themeToggle');
+        const theme = localStorage.getItem('theme') || 'dark';
+        document.body.setAttribute('data-theme', theme);
+        themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        themeBtn.addEventListener('click', () => {
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            const newTheme = isDark ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            themeBtn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
