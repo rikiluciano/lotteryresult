@@ -1,4 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- TEMA CLARO/OSCURO ---
+    const themeToggleBtn = document.getElementById('themeToggle');
+    const THEME_STORAGE_KEY = 'freqtable-theme';
+    
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem(THEME_STORAGE_KEY, theme);
+        if (themeToggleBtn) {
+            themeToggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+    }
+    
+    const savedTheme = localStorage.getItem(THEME_STORAGE_KEY) || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    setTheme(savedTheme);
+    
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+        });
+    }
 
     // --- MODELO DE DATOS Y ESTADO DE LA APLICACIÓN ---
     let conteoData = null;
@@ -794,16 +815,14 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             await cargarAlias();
             await cargarDisponibilidadDeArchivos();
-
+        } catch (e) {
+            console.error("Inicialización de datos fallida, pero se configurarán los eventos de la UI:", e);
+        } finally {
             loadingDiv.style.display = 'none';
-
             configurarEventos();
-            actualizarUISelectorAlias();
+            if (aliasData) actualizarUISelectorAlias();
             updateFilterUI();
             saveAndApplyFilter();
-
-        } catch (e) {
-            console.error("Inicialización fallida:", e);
         }
     })();
 });

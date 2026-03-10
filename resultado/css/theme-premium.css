@@ -1,0 +1,345 @@
+/* SUPER PREMIUM THEME OVERRIDES */
+:root {
+    /* CLARO / LIGHT MODE */
+    --primary-color: #4F46E5;
+    --secondary-color: #7C3AED;
+    --accent-color: #E11D48;
+    --success-color: #059669;
+    --warning-color: #D97706;
+    
+    --background-base: #F3F4F6;
+    --background-light: #FFFFFF;
+    --background-dark: #1F2937;
+    
+    --text-dark: #111827;
+    --text-muted: #4B5563;
+    --text-light: #F9FAFB;
+    
+    --border-color: #E5E7EB;
+    
+    --glass-background: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    
+    --header-bg: rgba(255, 255, 255, 0.65);
+    --header-text: #111827;
+    
+    --nav-menu-bg: rgba(255, 255, 255, 0.95);
+    
+    --card-bg: rgba(255, 255, 255, 0.85);
+    
+    --table-header-bg: #4F46E5;
+    --table-header-text: #FFFFFF;
+    --table-cell-bg: #FFFFFF;
+    --table-cell-text: #111827;
+    --table-cell-data-bg: #EEF2FF;
+    --table-cell-data-text: #4F46E5;
+    --table-cell-hover: #F3F4F6;
+    
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-medium: rgba(0, 0, 0, 0.1);
+    --shadow-heavy: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] {
+    /* OSCURO / DARK MODE */
+    --primary-color: #818CF8;
+    --secondary-color: #A78BFA;
+    --accent-color: #FB7185;
+    --success-color: #34D399;
+    --warning-color: #FBBF24;
+
+    --background-base: #0F172A;
+    --background-light: #1E293B;
+    --background-dark: #000000;
+    
+    --text-dark: #F8FAFC;
+    --text-muted: #94A3B8;
+    --text-light: #FFFFFF;
+    
+    --border-color: #334155;
+    
+    --glass-background: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    
+    --header-bg: rgba(15, 23, 42, 0.75);
+    --header-text: #F8FAFC;
+    
+    --nav-menu-bg: rgba(15, 23, 42, 0.95);
+    
+    --card-bg: rgba(30, 41, 59, 0.85);
+    
+    --table-header-bg: #1E293B;
+    --table-header-text: #818CF8;
+    --table-cell-bg: #0F172A;
+    --table-cell-text: #E2E8F0;
+    --table-cell-data-bg: #1E293B;
+    --table-cell-data-text: #A78BFA;
+    --table-cell-hover: #334155;
+    
+    --shadow-light: rgba(0, 0, 0, 0.3);
+    --shadow-medium: rgba(0, 0, 0, 0.5);
+    --shadow-heavy: rgba(0, 0, 0, 0.7);
+}
+
+/* Base resets for theme */
+body {
+    background: var(--background-base) !important;
+    color: var(--text-dark) !important;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+header {
+    background: var(--header-bg) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    color: var(--header-text) !important;
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 4px 30px var(--shadow-medium) !important;
+}
+
+.logo {
+    color: var(--header-text) !important;
+    text-shadow: none !important;
+}
+
+.logo:hover {
+    color: var(--primary-color) !important;
+}
+
+.nav-toggle span {
+    background-color: var(--header-text) !important;
+}
+
+.btn-theme {
+    background: var(--background-light) !important;
+    color: var(--header-text) !important;
+    border: 1px solid var(--border-color);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px var(--shadow-medium);
+}
+.btn-theme:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px var(--shadow-medium);
+}
+
+.btn-info {
+    background: var(--background-light) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 2px 5px var(--shadow-medium) !important;
+}
+.info-icon {
+    color: var(--primary-color) !important;
+    text-shadow: none !important;
+}
+
+.nav-menu {
+    background: var(--nav-menu-bg) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-left: 1px solid var(--glass-border);
+}
+
+.nav-menu li a {
+    color: var(--text-dark) !important;
+}
+.nav-menu li a:hover {
+    background: var(--background-base) !important;
+    color: var(--primary-color) !important;
+}
+.nav-menu li a::before {
+    display: none !important;
+}
+
+.main-container {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+.main-container::before {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+}
+
+.title {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+.title::after {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) !important;
+}
+
+.controls-wrapper {
+    background: transparent !important;
+    border-color: var(--border-color) !important;
+    box-shadow: none !important;
+}
+
+.switch-label {
+    color: var(--text-muted) !important;
+}
+.switch-label.active {
+    color: var(--primary-color) !important;
+    background: rgba(79, 70, 229, 0.1) !important;
+    border-color: rgba(79, 70, 229, 0.2) !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    animation: none !important;
+}
+
+.slider {
+    background: var(--border-color) !important;
+}
+input:checked + .slider {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3) !important;
+}
+
+.table-container {
+    background: var(--card-bg) !important;
+}
+
+table th {
+    background: var(--table-header-bg) !important;
+    color: var(--table-header-text) !important;
+    border-bottom: 2px solid var(--border-color) !important;
+    text-shadow: none !important;
+}
+
+table td {
+    background-color: var(--table-cell-bg) !important;
+    color: var(--table-cell-text) !important;
+    border-color: var(--border-color) !important;
+}
+
+table tr:hover td {
+    background-color: var(--table-cell-hover) !important;
+}
+
+table td:not(.empty-cell) {
+    background: var(--table-cell-data-bg) !important;
+    color: var(--table-cell-data-text) !important;
+    border-color: var(--border-color) !important;
+    text-shadow: none !important;
+}
+
+.alias-dropdown-btn {
+    background: var(--background-light) !important;
+    color: var(--text-dark) !important;
+    border: 1px solid var(--border-color) !important;
+}
+.alias-dropdown-btn:hover {
+    background: var(--background-base) !important;
+    transform: none !important;
+}
+
+.alias-dropdown-content, .shortcut-dropdown {
+    background: var(--background-light) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.alias-option, .shortcut-option {
+    color: var(--text-dark) !important;
+}
+
+.alias-option:hover, .shortcut-option:hover {
+    background-color: var(--background-base) !important;
+}
+
+.alias-actions {
+    background-color: var(--background-light) !important;
+    border-top: 1px solid var(--border-color) !important;
+}
+
+.btn-clear {
+    background-color: var(--background-base) !important;
+    color: var(--text-dark) !important;
+}
+.btn-apply {
+    background-color: var(--primary-color) !important;
+    color: var(--text-light) !important;
+}
+
+.date-filter-container select, .date-filter-container input[type="date"], .date-filter-container button {
+    background-color: var(--background-light) !important;
+    color: var(--text-dark) !important;
+    border-color: var(--border-color) !important;
+}
+.date-filter-container select:focus, .date-filter-container input[type="date"]:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2) !important;
+}
+
+.date-filter-container .date-range-label {
+    color: var(--text-dark) !important;
+}
+
+.btn-single-date {
+    box-shadow: none !important;
+}
+#todayBtn {
+    background: var(--success-color) !important;
+}
+#specificDayBtn {
+    background: var(--primary-color) !important;
+}
+
+.filter-switch-title {
+    color: var(--text-muted) !important;
+}
+.three-way-switch {
+    background: var(--background-light) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: inset 0 2px 4px var(--shadow-light) !important;
+}
+.switch-option {
+    color: var(--text-muted) !important;
+}
+.switch-option.active {
+    background: var(--background-base) !important;
+    color: var(--primary-color) !important;
+    box-shadow: 0 1px 3px var(--shadow-light) !important;
+}
+.switch-option.active .label {
+    color: var(--text-dark) !important;
+    text-shadow: none !important;
+}
+
+.info-modal {
+    background: var(--background-light) !important;
+    border-left: 4px solid var(--primary-color) !important;
+}
+.info-modal h3, .info-modal p, .info-modal ul {
+    color: var(--text-dark) !important;
+}
+
+.info-modal-close {
+    background: var(--background-base) !important;
+    color: var(--text-dark) !important;
+    box-shadow: none !important;
+}
+.info-modal-close:hover {
+    background: var(--accent-color) !important;
+    color: #fff !important;
+}
+
+.filter-shortcut {
+    color: var(--primary-color) !important;
+}
+.filter-shortcut:hover {
+    background-color: rgba(79, 70, 229, 0.1) !important;
+}
+
+#filterStatus {
+    color: var(--text-muted) !important;
+}

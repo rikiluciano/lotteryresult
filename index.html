@@ -14,7 +14,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="resultado/css/estilos.css?v=1">
-    <link rel="stylesheet" href="resultado/RLabs/rlabs-footer.css?v=1">
+    <link rel="stylesheet" href="resultado/css/theme-premium.css?v=1">
+    <link rel="stylesheet" href="resultado/footer/rlabs-footer.css?v=1">
 </head>
 
 <body>
@@ -25,6 +26,9 @@
                 <button class="btn-info" id="btnInfo" aria-label="Mostrar información y ayuda"
                     title="Información y Ayuda">
                     <span class="info-icon">i</span>
+                </button>
+                <button class="btn-theme" id="themeToggle" aria-label="Cambiar tema oscuro/claro" title="Cambiar Tema">
+                    🌙
                 </button>
             </div>
             <nav>
@@ -326,14 +330,14 @@
     <!-- Overlay oscuro para el modal -->
     <div class="info-modal-overlay" id="infoModalOverlay"></div>
 
-    <!-- RLabs Footer -->
+    <!-- footer Footer -->
     <div id="rlabs-footer-container"></div>
 
     <script src="resultado/js/script.js" defer></script>
-    <script src="resultado/RLabs/rlabs-footer.js" defer></script>
+    <script src="resultado/footer/rlabs-footer.js" defer></script>
     <script>
         // Cargar footer dinámicamente
-        fetch('resultado/RLabs/rlabs-footer.html')
+        fetch('resultado/footer/rlabs-footer.html')
             .then(response => response.text())
             .then(html => {
                 document.getElementById('rlabs-footer-container').innerHTML = html;
