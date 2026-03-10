@@ -46,7 +46,7 @@ try {
             $params = ['select' => '*', 'order' => 'fecha.desc'];
 
             if (isset($_GET['startDate']) && isset($_GET['endDate'])) {
-                $params['fecha'] = 'gte.' . $_GET['startDate'] . '&fecha=lte.' . $_GET['endDate'];
+                $params['fecha'] = 'and(gte.' . $_GET['startDate'] . ',lte.' . $_GET['endDate'] . ')';
             }
             elseif (isset($_GET['year']) && isset($_GET['month'])) {
                 // Filtro por mes (ej: 2026-03)
@@ -57,11 +57,11 @@ try {
                 $year = $_GET['year'];
                 $month = str_pad($monthNum, 2, '0', STR_PAD_LEFT);
                 $lastDay = date('t', strtotime("$year-$month-01"));
-                $params['fecha'] = "gte.$year-$month-01&fecha=lte.$year-$month-$lastDay";
+                $params['fecha'] = "and(gte.$year-$month-01,lte.$year-$month-$lastDay)";
             }
             elseif (isset($_GET['year'])) {
                 $year = $_GET['year'];
-                $params['fecha'] = "gte.$year-01-01&fecha=lte.$year-12-31";
+                $params['fecha'] = "and(gte.$year-01-01,lte.$year-12-31)";
             }
 
             echo json_encode($db->fetch('lottery_results', $params));
