@@ -36,7 +36,7 @@ function obtener_logo($loteria) {
 $db = new Database();
 
 try {
-    // 1. CARGAR DATOS (Límite alto para cubrir varios días)
+    // 1. CARGAR DATOS
     $rawResults = $db->fetch('lottery_results', [
         'select' => '*',
         'order' => 'fecha.desc',
@@ -45,36 +45,25 @@ try {
     
     // 2. Determinar la fecha a mostrar
     $fechaFiltroQuery = isset($_GET['fecha']) ? $_GET['fecha'] : null;
+    
+    // Normalizar a Y-m-d
     if ($fechaFiltroQuery && strpos($fechaFiltroQuery, '/') !== false) {
         $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
         if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
     }
 
-    // SI NO HAY FECHA EN URL:
-    // Buscamos cuál es el día más reciente que tiene AL MENOS 5 loterías (para no mostrar un día vacío o incompleto como hoy 10 de marzo)
+    // SI NO HAY FECHA EN URL (Carga inicial):
+    // Mostramos hoy pase lo que pase si el usuario así lo espera,
+    // o el último día con datos si hoy está vacío.
+    // Ajuste sugerido: Si hoy tiene aunque sea 1 registro y es 'hoy', mostramos hoy.
     if (!$fechaFiltroQuery && !empty($rawResults)) {
-        $countsByDate = [];
-        foreach ($rawResults as $r) {
-            $f = substr($r['fecha'], 0, 10);
-            if (!isset($countsByDate[$f])) $countsByDate[$f] = 0;
-            $countsByDate[$f]++;
-        }
-        
-        // Buscamos el primer día que tenga suficientes registros (ej. más de 5)
-        foreach ($countsByDate as $date => $count) {
-            if ($count >= 5) {
-                $fechaFiltroQuery = $date;
-                break;
-            }
-        }
-        
-        // Si no encontramos ninguno con >5, usamos el último que haya
-        if (!$fechaFiltroQuery) $fechaFiltroQuery = substr($rawResults[0]['fecha'], 0, 10);
+        $fechaFiltroQuery = date('Y-m-d');
     } elseif (!$fechaFiltroQuery) {
         $fechaFiltroQuery = date('Y-m-d');
     }
 
-    // 3. Extraer resultados para la fecha final decidida
+    // 3. Extraer resultados para la fecha detectada
+    // Si no hay nada para hoy, mostraremos el mensaje de búsqueda pero permitiremos ver ayer.
     $resultados = [];
     $lotteriesSeen = [];
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
@@ -105,9 +94,6 @@ try {
         }
     }
     
-    // Si el usuario filtró manualmente una fecha (ej hoy) y solo hay 1, pues sale 1.
-    // Pero por defecto, el sistema ahora saltará al día anterior si hoy está vacío.
-
     usort($resultados, function($a, $b) {
         if ($a['esNacional'] !== $b['esNacional']) return $b['esNacional'] - $a['esNacional'];
         return strcmp($a['nombre'], $b['nombre']);
@@ -128,9 +114,9 @@ try {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=3.1">
-    <link rel="stylesheet" href="css/theme-premium.css?v=3.1">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.1">
+    <link rel="stylesheet" href="css/estilos.css?v=3.2">
+    <link rel="stylesheet" href="css/theme-premium.css?v=3.2">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.2">
     
     <style>
         .results-container { max-width: 1250px; margin: 0 auto; padding: 40px 15px; }
@@ -141,24 +127,41 @@ try {
         .result-card .logo-container { width: 65px; height: 65px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 5px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
         .result-card .logo-img { width: 100%; height: 100%; object-fit: contain; }
         .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.25rem; flex: 1; letter-spacing: -0.3px; }
-        .result-card .numbers { display: flex; justify-content: space-between; gap: 10px; margin: 10px 0; }
+        .result-card .numbers { display: flex; justify-content: space-between; gap: 10px; margin: 10px 0; align-items: flex-end; }
         .result-card .ball-wrapper { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
-        .result-card .ball { width: 100%; aspect-ratio: 1/1; max-width: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.6rem; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        
+        /* ESTILO REAJUSTADO: PRIMERA MÁS GRANDE Y VERDE */
+        .result-card .ball { width: 100%; aspect-ratio: 1/1; max-width: 55px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.4rem; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); transition: all 0.3s ease; }
+        .result-card .ball-1 { max-width: 75px; font-size: 2.2rem; background: linear-gradient(135deg, #00ff88, #00a859); border-radius: 18px; box-shadow: 0 8px 20px rgba(0,255,136,0.3); }
+        .result-card .ball-2 { background: linear-gradient(135deg, #4E54C8, #24243E); }
+        .result-card .ball-3 { background: linear-gradient(135deg, #ec4899, #db2777); }
+        
         .result-card .ball-label { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
         
-        .ball-1 { background: linear-gradient(135deg, #FF3D68, #D30939); }
-        .ball-2 { background: linear-gradient(135deg, #4E54C8, #24243E); }
-        .ball-3 { background: linear-gradient(135deg, #00B09B, #96C93D); }
-
         .date-filter-box { margin-bottom: 50px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
-        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 10px 30px var(--shadow-light); }
-        .date-input { padding: 8px 15px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 700; width: 170px; outline: none; font-size: 1rem; }
+        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 10px 30px var(--shadow-light); cursor: pointer; }
+        .date-input { padding: 8px 15px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 700; width: 180px; outline: none; font-size: 1rem; cursor: pointer; position: relative; }
         
+        /* Asegurar que el input de tipo date muestre el icono de calendario y abra el picker nativo */
+        .date-input::-webkit-calendar-picker-indicator {
+            background: transparent;
+            bottom: 0;
+            color: transparent;
+            cursor: pointer;
+            height: auto;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: auto;
+        }
+
         .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
 
         @media (max-width: 768px) {
             .results-grid { grid-template-columns: 1fr; }
             .title-gradient { font-size: 2.5rem; }
+            .result-card .ball-1 { max-width: 65px; font-size: 1.8rem; }
         }
     </style>
 </head>
@@ -201,9 +204,9 @@ try {
         </div>
 
         <div class="date-filter-box">
-            <form action="resultados.php" method="GET" class="filter-form">
+            <form action="resultados.php" method="GET" class="filter-form" id="dateFilterForm">
                 <span style="font-weight: 700; color: var(--text-dark); font-size: 1.1rem;"><i class="bi bi-calendar-event"></i> Histórico:</span>
-                <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()">
+                <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()" id="dateInput">
             </form>
             <?php if ($fechaFiltroQuery === date('Y-m-d')): ?>
                 <div style="display: flex; align-items: center; gap: 10px; background: #00ff88; color: #000; padding: 8px 20px; border-radius: 20px; font-weight: 800; box-shadow: 0 0 20px rgba(0,255,136,0.4); animation: livePulseCustom 2s infinite;">
@@ -215,9 +218,9 @@ try {
         <div class="results-grid">
             <?php if (empty($resultados)): ?>
                 <div class="no-data">
-                    <i class="bi bi-database-exclamation" style="font-size: 5rem; color: var(--border-color); margin-bottom: 25px; display: block;"></i>
-                    <h3 style="color: var(--text-dark); font-size: 2rem; font-weight: 800;">Día sin registros</h3>
-                    <p style="color: var(--text-muted); font-size: 1.2rem;">Prueba seleccionando una fecha previa o espera la actualización.</p>
+                    <i class="bi bi-search" style="font-size: 5rem; color: var(--border-color); margin-bottom: 25px; display: block;"></i>
+                    <h3 style="color: var(--text-dark); font-size: 1.8rem; font-weight: 800;">Aún no hay resultados hoy</h3>
+                    <p style="color: var(--text-muted); font-size: 1.1rem;">Los sorteos comenzarán a publicarse en breve.</p>
                 </div>
             <?php else: ?>
                 <?php foreach ($resultados as $res): ?>
@@ -227,9 +230,6 @@ try {
                                 <img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/100?text=LOT'; ?>" alt="Logo" class="logo-img">
                             </div>
                             <span class="name"><?php echo $res['nombre']; ?></span>
-                            <?php if ($res['esNacional']): ?>
-                                <i class="bi bi-patch-check-fill" style="color: var(--primary-color); font-size: 1.4rem;" title="Lotería Destacada"></i>
-                            <?php endif; ?>
                         </div>
                         
                         <div class="numbers">
@@ -248,7 +248,7 @@ try {
                         </div>
                         
                         <div style="font-size: 0.9rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px; font-weight: 600;">
-                            <i class="bi bi-clock-history"></i> Resultado del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
+                            Sorteo del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -261,6 +261,14 @@ try {
     <script>
         fetch('footer/rlabs-footer.html?v=' + new Date().getTime())
             .then(res => res.text()).then(html => { document.getElementById('rlabs-footer-container').innerHTML = html; });
+        
+        // Hacer que todo el cuadro de filtro sea clickeable para el calendario
+        document.querySelector('.filter-form').addEventListener('click', function(e) {
+            if (e.target.id !== 'dateInput') {
+                document.getElementById('dateInput').showPicker();
+            }
+        });
+
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
         if (navToggle) { navToggle.addEventListener('click', () => { navToggle.classList.toggle('active'); navMenu.classList.toggle('active'); }); }
