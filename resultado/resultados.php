@@ -4,7 +4,7 @@
  * Versión Ultra-Premium con integración Supabase
  */
 
-// Configuración de zona horaria (CRÍTICO para consistencia de fechas)
+// Configuración de zona horaria
 date_default_timezone_set('America/Santo_Domingo');
 
 require_once 'includes/Database.php';
@@ -13,7 +13,6 @@ require_once 'includes/Database.php';
 function obtener_logo($loteria) {
     $nombre = strtolower($loteria);
     $base_url = 'https://enloteria.com/assets/';
-    
     $logos = [
         'leidsa' => 'leidsa-26031367f0cd9ba743253bbae1c55e546de6732adf18eda71c73d4387c0da2d1.svg',
         'loteka' => 'loteka-58fb6f5ce8c707d7726e35c91f8aee0a986576dab82ce0ecd53efa237f7936aa.svg',
@@ -28,45 +27,51 @@ function obtener_logo($loteria) {
         'anguila' => 'anguila-78bcb1b1711b3176ea0eb9fe37768936cc1f70530f44fcc165067a087fba5b00.svg',
         'king' => 'king_lottery-ea033db5247fa2e2b002245b33b52ae936c2f1b2be04927ed236032c2d2c2e9f.svg'
     ];
-
     foreach ($logos as $key => $svg) {
         if (stripos($nombre, $key) !== false) return $base_url . $svg;
     }
     return null;
 }
 
-// Inicializar Supabase
 $db = new Database();
 
-// Obtener fecha de filtro
-$fechaFiltroURL = isset($_GET['fecha']) ? $_GET['fecha'] : date('Y-m-d');
-$fechaFiltroQuery = $fechaFiltroURL;
+// 1. Obtener la FECHA MÁS RECIENTE disponible en la base de datos si no hay filtro
+$fechaFiltroQuery = isset($_GET['fecha']) ? $_GET['fecha'] : null;
 
-// Normalizar formato para consulta
-if (strpos($fechaFiltroQuery, '/') !== false) {
-    $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
-    if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
+if ($fechaFiltroQuery) {
+    if (strpos($fechaFiltroQuery, '/') !== false) {
+        $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
+        if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
+    }
 }
 
 try {
-    // Aumentamos el límite para cubrir todas las loterías (podría haber más de 50 registros por día si hay variaciones)
+    // Si no hay fecha especificada, buscamos cuál es el último día con registros
+    if (!$fechaFiltroQuery) {
+        $lastRecord = $db->fetch('lottery_results', ['order' => 'fecha.desc', 'limit' => 1]);
+        if (!empty($lastRecord)) {
+            $fechaFiltroQuery = substr($lastRecord[0]['fecha'], 0, 10);
+        } else {
+            $fechaFiltroQuery = date('Y-m-d');
+        }
+    }
+
+    // Traemos todos los registros de ese día
     $params = [
         'select' => '*',
-        'order' => 'fecha.desc',
-        'limit' => 100 
+        'fecha' => 'gte.' . $fechaFiltroQuery . 'T00:00:00',
+        'order' => 'fecha.desc'
     ];
     
+    // Como las fechas vienen con T00:00:00+00:00, usamos gte y lte para el rango del día
+    $params['fecha'] = 'and(fecha.gte.' . $fechaFiltroQuery . 'T00:00:00,fecha.lt.' . date('Y-m-d', strtotime($fechaFiltroQuery . ' +1 day')) . 'T00:00:00)';
+
     $rawResults = $db->fetch('lottery_results', $params);
     $resultados = [];
 
-    // Definir loterías dominicanas para categorizar
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
 
     foreach ($rawResults as $row) {
-        // CORRECCIÓN: Comparar solo el inicio de la cadena de fecha (YYYY-MM-DD)
-        $fechaRow = substr($row['fecha'], 0, 10);
-        if ($fechaRow !== $fechaFiltroQuery) continue;
-
         $nombre = $row['loteria'];
         $esNacional = false;
         foreach ($nacionalesNames as $nacional) {
@@ -79,12 +84,11 @@ try {
         $resultados[] = [
             'nombre' => $nombre,
             'logo' => obtener_logo($nombre),
-            'fecha' => $fechaRow,
+            'fecha' => substr($row['fecha'], 0, 10),
             'primera' => str_pad($row['primera'], 2, '0', STR_PAD_LEFT),
             'segunda' => str_pad($row['segunda'], 2, '0', STR_PAD_LEFT),
             'tercera' => str_pad($row['tercera'], 2, '0', STR_PAD_LEFT),
-            'esHoy' => ($fechaRow === date('Y-m-d')),
-            'categoria' => $esNacional ? 'nacional' : 'extranjera'
+            'esNacional' => $esNacional
         ];
     }
     
@@ -100,198 +104,54 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados Diarios - FreqTable Premium</title>
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <!-- Estilos Premium -->
-    <link rel="stylesheet" href="css/estilos.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/theme-premium.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/estilos.css?v=1.2">
+    <link rel="stylesheet" href="css/theme-premium.css?v=1.2">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=1.2">
     
     <style>
-        .results-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        .results-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-
-        .result-card {
-            background: var(--card-bg);
-            border-radius: 20px;
-            padding: 24px;
-            border: 1px solid var(--border-color);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-            box-shadow: 0 4px 15px var(--shadow-light);
-            backdrop-filter: blur(12px);
-        }
-
-        .result-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px var(--shadow-medium);
-            border-color: var(--primary-color);
-        }
-
-        .result-card .header {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-        }
-
-        .result-card .logo-img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-            background: white;
-            border-radius: 12px;
-            padding: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        .result-card .name {
-            font-weight: 800;
-            color: var(--text-dark);
-            font-size: 1.2rem;
-            letter-spacing: -0.5px;
-        }
-
-        .result-card .numbers {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin: 15px 0;
-        }
-
-        .result-card .ball {
-            width: 50px;
-            height: 50px;
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            font-size: 1.4rem;
-            color: white;
-            box-shadow: 0 5px 12px var(--shadow-light);
-            transition: transform 0.2s;
-        }
-        
-        .result-card:hover .ball {
-            transform: scale(1.05);
-        }
-
+        .results-container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 25px; margin-top: 30px; }
+        .result-card { background: var(--card-bg); border-radius: 20px; padding: 24px; border: 1px solid var(--border-color); transition: all 0.3s ease; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 4px 15px var(--shadow-light); backdrop-filter: blur(12px); }
+        .result-card:hover { transform: translateY(-8px); border-color: var(--primary-color); }
+        .result-card .header { display: flex; align-items: center; gap: 14px; }
+        .result-card .logo-img { width: 50px; height: 50px; object-fit: contain; background: white; border-radius: 12px; padding: 6px; }
+        .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.2rem; }
+        .result-card .numbers { display: flex; justify-content: center; gap: 12px; margin: 15px 0; }
+        .result-card .ball { width: 50px; height: 50px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.4rem; color: white; }
         .ball-1 { background: linear-gradient(135deg, #6366f1, #4f46e5); }
         .ball-2 { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
         .ball-3 { background: linear-gradient(135deg, #ec4899, #db2777); }
-
-        .date-filter-box {
-            margin-bottom: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .filter-form {
-            background: var(--card-bg);
-            padding: 10px 25px;
-            border-radius: 50px;
-            border: 1px solid var(--border-color);
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            box-shadow: 0 8px 25px var(--shadow-light);
-            backdrop-filter: blur(10px);
-        }
-
-        .date-input {
-            padding: 10px 18px;
-            border-radius: 25px;
-            border: 1px solid var(--border-color);
-            background: var(--background-base);
-            color: var(--text-dark);
-            font-family: inherit;
-            font-weight: 600;
-            outline: none;
-            cursor: pointer;
-            transition: border-color 0.3s;
-        }
-        
-        .date-input:focus {
-            border-color: var(--primary-color);
-        }
-
-        .no-data {
-            text-align: center;
-            padding: 80px 40px;
-            background: var(--card-bg);
-            border-radius: 24px;
-            grid-column: 1 / -1;
-            border: 2px dashed var(--border-color);
-        }
-
-        .title-gradient {
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 900;
-        }
-
-        @media (max-width: 768px) {
-            .results-grid {
-                grid-template-columns: 1fr;
-            }
-            .filter-form {
-                flex-direction: column;
-                border-radius: 20px;
-                padding: 20px;
-                width: 100%;
-            }
-        }
+        .date-filter-box { margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
+        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; }
+        .date-input { padding: 10px 18px; border-radius: 25px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 600; }
+        .no-data { text-align: center; padding: 80px 40px; background: var(--card-bg); border-radius: 24px; grid-column: 1 / -1; border: 2px dashed var(--border-color); }
+        .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
     </style>
 </head>
 <body class="theme-premium">
     <header>
         <div class="header-container">
-            <div class="logo-info-group">
+            <div class="logo-info-group" style="display: flex; align-items: center;">
                 <a href="../index.html" class="logo">
-                    <i class="bi bi-bar-chart-fill" style="margin-right: 8px; font-size: 1.2rem;"></i>
-                    FreqTable
+                    <i class="bi bi-bar-chart-fill" style="margin-right: 8px;"></i> FreqTable
                 </a>
                 <button class="btn-info" onclick="document.body.classList.toggle('info-modal-open')">
                     <span class="info-icon">i</span>
                 </button>
-                <button id="themeToggle" class="btn-theme" title="Cambiar Tema">
-                    🌙
-                </button>
+                <button id="themeToggle" class="btn-theme">🌙</button>
                 
-                <!-- BOTÓN ESTRATÉGICO DE RESULTADOS (ACTIVO) -->
                 <a href="resultados.php" class="btn-direct-results">
+                    <span class="live-dot"></span>
                     <i class="bi bi-calendar-check-fill"></i>
                     <span class="btn-text">Resultados</span>
-                    <span class="live-dot"></span>
                 </a>
             </div>
             
             <nav id="mainNav">
-                <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="../index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
                     <li><a href="resultados.php" class="active"><i class="bi bi-calendar-check"></i> Resultados</a></li>
@@ -304,18 +164,18 @@ try {
 
     <main class="results-container">
         <div style="text-align: center; margin-bottom: 50px;">
-            <h1 class="title-gradient" style="font-size: 3rem; margin-bottom: 10px;">Resultados Diarios</h1>
-            <p style="color: var(--text-muted); font-size: 1.1rem;">Información oficial y verificada en tiempo real.</p>
+            <h1 class="title-gradient" style="font-size: 3rem;">Resultados Diarios</h1>
+            <p style="color: var(--text-muted);">Información oficial actualizada para el <strong><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></strong></p>
         </div>
 
         <div class="date-filter-box">
             <form action="resultados.php" method="GET" class="filter-form">
-                <span style="font-weight: 700; color: var(--text-dark);"><i class="bi bi-funnel"></i> Filtrar por fecha:</span>
+                <span style="font-weight: 700; color: var(--text-dark);"><i class="bi bi-funnel"></i> Cambiar fecha:</span>
                 <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()">
             </form>
             <?php if ($fechaFiltroQuery === date('Y-m-d')): ?>
                 <span class="badge" style="background: var(--success-color); color: white; padding: 5px 12px; border-radius: 12px; font-size: 0.8rem; font-weight: 700;">
-                    <i class="bi bi-record-fill" style="animation: pulseLive 1s infinite;"></i> EN VIVO - HOY
+                    <i class="bi bi-record-fill" style="animation: livePulse 1s infinite;"></i> EN VIVO
                 </span>
             <?php endif; ?>
         </div>
@@ -323,32 +183,24 @@ try {
         <div class="results-grid">
             <?php if (empty($resultados)): ?>
                 <div class="no-data">
-                    <i class="bi bi-search" style="font-size: 4rem; color: var(--border-color); display: block; margin-bottom: 20px;"></i>
-                    <h3 style="color: var(--text-dark);">Sin resultados encontrados</h3>
-                    <p style="color: var(--text-muted);">No hay sorteos registrados para el día <strong><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></strong> todavía.</p>
+                    <i class="bi bi-search" style="font-size: 4rem; color: var(--border-color); margin-bottom: 20px; display: block;"></i>
+                    <h3 style="color: var(--text-dark);">Sin resultados</h3>
+                    <p style="color: var(--text-muted);">No hay registros en la base de datos para esta fecha.</p>
                 </div>
             <?php else: ?>
                 <?php foreach ($resultados as $res): ?>
-                    <div class="result-card" data-category="<?php echo $res['categoria']; ?>">
+                    <div class="result-card">
                         <div class="header">
-                            <?php if ($res['logo']): ?>
-                                <img src="<?php echo $res['logo']; ?>" alt="Logo" class="logo-img">
-                            <?php else: ?>
-                                <div class="logo-img" style="display:flex;align-items:center;justify-content:center;background:var(--primary-color);color:white;">
-                                    <i class="bi bi-trophy"></i>
-                                </div>
-                            <?php endif; ?>
+                            <img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/50'; ?>" alt="Logo" class="logo-img">
                             <span class="name"><?php echo $res['nombre']; ?></span>
                         </div>
-                        
                         <div class="numbers">
                             <div class="ball ball-1"><?php echo $res['primera']; ?></div>
                             <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
                             <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
                         </div>
-                        
-                        <div style="font-size: 0.9rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px; font-weight: 500;">
-                            <i class="bi bi-calendar3"></i> Sorteo del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
+                        <div style="font-size: 0.85rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                            Sorteo: <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -357,23 +209,13 @@ try {
     </main>
 
     <div id="rlabs-footer-container"></div>
-
     <script src="js/script.js"></script>
     <script>
         fetch('footer/rlabs-footer.html?v=' + new Date().getTime())
-            .then(res => res.text())
-            .then(html => {
-                document.getElementById('rlabs-footer-container').innerHTML = html;
-            });
-            
+            .then(res => res.text()).then(html => { document.getElementById('rlabs-footer-container').innerHTML = html; });
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
-        if (navToggle) {
-            navToggle.addEventListener('click', () => {
-                navToggle.classList.toggle('active');
-                navMenu.classList.toggle('active');
-            });
-        }
+        if (navToggle) { navToggle.addEventListener('click', () => { navToggle.classList.toggle('active'); navMenu.classList.toggle('active'); }); }
     </script>
 </body>
 </html>
