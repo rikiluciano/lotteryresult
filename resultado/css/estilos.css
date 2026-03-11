@@ -747,14 +747,14 @@ td.empty-cell {
 /* Modal de información - Inicialmente oculto */
 .info-modal {
     position: fixed;
-    top: 0;
+    top: 62px; /* Alineado con la base del header */
     right: 0;
     bottom: 0;
     width: 90%;
     max-width: 500px;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     box-shadow: -10px 0 30px var(--shadow-heavy);
-    z-index: 2000;
+    z-index: 999; /* Justo debajo del header (1000) para recibir su sombra */
     overflow-y: auto;
     padding: var(--spacing-xl);
     border-left: 4px solid var(--secondary-color);
@@ -821,7 +821,7 @@ td.empty-cell {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1999;
+    z-index: 998;
     display: none;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -1507,6 +1507,7 @@ aside p {
     .info-modal {
         width: 95%;
         max-width: none;
+        top: 50px; /* Header más pequeño en móviles (18px logo + padding) */
     }
 
     /* Ajustar padding del main-container en móviles */
