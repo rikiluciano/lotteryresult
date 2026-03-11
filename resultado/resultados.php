@@ -35,57 +35,69 @@ function obtener_logo($loteria) {
 
 $db = new Database();
 
-// 1. Obtener los últimos 200 registros (esto asegura tener varios días de datos)
 try {
-    $rawResults = $db->fetch('lottery_results', ['order' => 'fecha.desc', 'limit' => 200]);
+    // 1. INCREMENTAR LÍMITE SIGNIFICATIVAMENTE
+    // Si hay 20 loterías, 200 registros solo cubren 10 días de historia. 
+    // Para asegurar que NUNCA falten datos actualizados, buscamos los últimos 500 registros.
+    $rawResults = $db->fetch('lottery_results', [
+        'select' => '*',
+        'order' => 'fecha.desc',
+        'limit' => 500
+    ]);
     
     // 2. Determinar qué fecha mostrar
     $fechaFiltroQuery = isset($_GET['fecha']) ? $_GET['fecha'] : null;
-    
-    // Si se pasó por URL, normalizar a Y-m-d
     if ($fechaFiltroQuery && strpos($fechaFiltroQuery, '/') !== false) {
         $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
         if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
     }
 
-    // Si NO hay fecha en URL, tomar la fecha del registro más reciente
+    // Fallback: Si no hay fecha en URL, tomar la del registro más joven
     if (!$fechaFiltroQuery && !empty($rawResults)) {
         $fechaFiltroQuery = substr($rawResults[0]['fecha'], 0, 10);
     } elseif (!$fechaFiltroQuery) {
         $fechaFiltroQuery = date('Y-m-d');
     }
 
-    // 3. Filtrar en PHP para la fecha seleccionada
+    // 3. Extracción de TODOS los resultados para la fecha detectada
     $resultados = [];
+    $lotteriesSeen = []; // Para evitar duplicados si los datos están repetidos en la BD
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
 
     foreach ($rawResults as $row) {
         $fechaRow = substr($row['fecha'], 0, 10);
-        if ($fechaRow === $fechaFiltroQuery) {
-            $nombre = $row['loteria'];
+        $nombreLoteria = trim($row['loteria']);
+        
+        // Solo agregar si coincide la fecha y no la hemos agregado ya
+        if ($fechaRow === $fechaFiltroQuery && !isset($lotteriesSeen[$nombreLoteria])) {
             $esNacional = false;
             foreach ($nacionalesNames as $nacional) {
-                if (stripos($nombre, $nacional) !== false) {
+                if (stripos($nombreLoteria, $nacional) !== false) {
                     $esNacional = true;
                     break;
                 }
             }
 
             $resultados[] = [
-                'nombre' => $nombre,
-                'logo' => obtener_logo($nombre),
+                'nombre' => $nombreLoteria,
+                'logo' => obtener_logo($nombreLoteria),
                 'fecha' => $fechaRow,
                 'primera' => str_pad($row['primera'], 2, '0', STR_PAD_LEFT),
                 'segunda' => str_pad($row['segunda'], 2, '0', STR_PAD_LEFT),
                 'tercera' => str_pad($row['tercera'], 2, '0', STR_PAD_LEFT),
                 'esNacional' => $esNacional
             ];
+            
+            $lotteriesSeen[$nombreLoteria] = true;
         }
     }
     
-    // Reordenar un poco para que las nacionales salgan primero si se desea
+    // Ordenar: Nacionales primero, luego por nombre
     usort($resultados, function($a, $b) {
-        return $b['esNacional'] - $a['esNacional'];
+        if ($a['esNacional'] !== $b['esNacional']) {
+            return $b['esNacional'] - $a['esNacional'];
+        }
+        return strcmp($a['nombre'], $b['nombre']);
     });
 
 } catch (Exception $e) {
@@ -98,33 +110,43 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultados Diarios - FreqTable Premium</title>
+    <title>Resultados RD - FreqTable Premium</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=2.1">
-    <link rel="stylesheet" href="css/theme-premium.css?v=2.1">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=2.1">
+    <link rel="stylesheet" href="css/estilos.css?v=3.0">
+    <link rel="stylesheet" href="css/theme-premium.css?v=3.0">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.0">
     
     <style>
-        .results-container { max-width: 1210px; margin: 0 auto; padding: 40px 15px; }
-        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 20px; margin-top: 30px; }
-        .result-card { background: var(--card-bg); border-radius: 20px; padding: 24px; border: 1px solid var(--border-color); transition: all 0.3s ease; display: flex; flex-direction: column; gap: 15px; box-shadow: 0 4px 15px var(--shadow-light); backdrop-filter: blur(12px); }
+        .results-container { max-width: 1250px; margin: 0 auto; padding: 40px 15px; }
+        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; margin-top: 30px; }
+        .result-card { background: var(--card-bg); border-radius: 20px; padding: 25px; border: 1px solid var(--border-color); transition: all 0.3s ease; display: flex; flex-direction: column; gap: 15px; box-shadow: 0 4px 15px var(--shadow-light); backdrop-filter: blur(12px); }
         .result-card:hover { transform: translateY(-5px); border-color: var(--primary-color); box-shadow: 0 10px 25px var(--shadow-medium); }
-        .result-card .header { display: flex; align-items: center; gap: 14px; position: relative; }
-        .result-card .logo-img { width: 55px; height: 55px; object-fit: contain; background: white; border-radius: 12px; padding: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-        .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.15rem; flex: 1; }
-        .result-card .numbers { display: flex; justify-content: center; gap: 12px; margin: 5px 0; }
-        .result-card .ball { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.5rem; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-        .ball-1 { background: linear-gradient(135deg, #6366f1, #4f46e5); }
-        .ball-2 { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
-        .ball-3 { background: linear-gradient(135deg, #ec4899, #db2777); }
-        .date-filter-box { margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
-        .filter-form { background: var(--card-bg); padding: 8px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 5px 20px var(--shadow-light); }
-        .date-input { padding: 8px 15px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 700; width: 160px; outline: none; }
-        .no-data { text-align: center; padding: 100px 20px; background: var(--card-bg); border-radius: 24px; grid-column: 1 / -1; border: 2px dashed var(--border-color); }
-        .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; letter-spacing: -1px; }
+        .result-card .header { display: flex; align-items: center; gap: 15px; }
+        .result-card .logo-container { width: 65px; height: 65px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 5px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .result-card .logo-img { width: 100%; height: 100%; object-fit: contain; }
+        .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.25rem; flex: 1; letter-spacing: -0.3px; }
+        .result-card .numbers { display: flex; justify-content: space-between; gap: 10px; margin: 10px 0; }
+        .result-card .ball-wrapper { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
+        .result-card .ball { width: 100%; aspect-ratio: 1/1; max-width: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.6rem; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        .result-card .ball-label { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        
+        .ball-1 { background: linear-gradient(135deg, #FF3D68, #D30939); }
+        .ball-2 { background: linear-gradient(135deg, #4E54C8, #24243E); }
+        .ball-3 { background: linear-gradient(135deg, #00B09B, #96C93D); }
+
+        .date-filter-box { margin-bottom: 50px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
+        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 10px 30px var(--shadow-light); }
+        .date-input { padding: 8px 15px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 700; width: 170px; outline: none; font-size: 1rem; }
+        
+        .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
+
+        @media (max-width: 768px) {
+            .results-grid { grid-template-columns: 1fr; }
+            .title-gradient { font-size: 2.5rem; }
+        }
     </style>
 </head>
 <body class="theme-premium">
@@ -161,46 +183,59 @@ try {
 
     <main class="results-container">
         <div style="text-align: center; margin-bottom: 50px;">
-            <h1 class="title-gradient" style="font-size: 3.5rem; margin-bottom: 5px;">Resultados Diarios</h1>
-            <p style="color: var(--text-muted); font-size: 1.1rem;">Sorteos verificados para el: <span style="font-weight: 800; color: var(--primary-color);"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
+            <h1 class="title-gradient" style="font-size: 3.5rem;">Loterías Dominicanas</h1>
+            <p style="color: var(--text-muted); font-size: 1.2rem;">Resultados oficiales para el día: <span style="font-weight: 800; color: var(--primary-color); border-bottom: 2px solid;"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
         </div>
 
         <div class="date-filter-box">
             <form action="resultados.php" method="GET" class="filter-form">
-                <span style="font-weight: 700; color: var(--text-dark);"><i class="bi bi-calendar3"></i> Seleccionar día:</span>
+                <span style="font-weight: 700; color: var(--text-dark); font-size: 1.1rem;"><i class="bi bi-calendar-event"></i> Histórico:</span>
                 <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()">
             </form>
             <?php if ($fechaFiltroQuery === date('Y-m-d')): ?>
-                <span class="badge" style="background: #00ff88; color: #000; padding: 6px 15px; border-radius: 12px; font-size: 0.85rem; font-weight: 800; box-shadow: 0 0 15px rgba(0,255,136,0.3);">
-                    <i class="bi bi-record-fill" style="animation: livePulseCustom 1s infinite;"></i> EN VIVO
-                </span>
+                <div style="display: flex; align-items: center; gap: 10px; background: #00ff88; color: #000; padding: 8px 20px; border-radius: 20px; font-weight: 800; box-shadow: 0 0 20px rgba(0,255,136,0.4); animation: livePulseCustom 2s infinite;">
+                    <i class="bi bi-broadcast"></i> EN VIVO AHORA
+                </div>
             <?php endif; ?>
         </div>
 
         <div class="results-grid">
             <?php if (empty($resultados)): ?>
                 <div class="no-data">
-                    <i class="bi bi-search" style="font-size: 5rem; color: var(--border-color); margin-bottom: 25px; display: block;"></i>
-                    <h3 style="color: var(--text-dark); font-size: 1.8rem; font-weight: 800;">No hay resultados aún</h3>
-                    <p style="color: var(--text-muted); font-size: 1.1rem;">No se han encontrado sorteos para esta fecha en nuestra base de datos.</p>
+                    <i class="bi bi-database-exclamation" style="font-size: 5rem; color: var(--border-color); margin-bottom: 25px; display: block;"></i>
+                    <h3 style="color: var(--text-dark); font-size: 2rem; font-weight: 800;">Día sin registros</h3>
+                    <p style="color: var(--text-muted); font-size: 1.2rem;">Prueba seleccionando una fecha previa o espera la actualización.</p>
                 </div>
             <?php else: ?>
                 <?php foreach ($resultados as $res): ?>
                     <div class="result-card">
                         <div class="header">
-                            <img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/60?text=RD'; ?>" alt="Logo" class="logo-img">
+                            <div class="logo-container">
+                                <img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/100?text=LOT'; ?>" alt="Logo" class="logo-img">
+                            </div>
                             <span class="name"><?php echo $res['nombre']; ?></span>
                             <?php if ($res['esNacional']): ?>
-                                <i class="bi bi-patch-check-fill" style="color: #4f46e5; font-size: 1.2rem;" title="Lotería Nacional"></i>
+                                <i class="bi bi-patch-check-fill" style="color: var(--primary-color); font-size: 1.4rem;" title="Lotería Destacada"></i>
                             <?php endif; ?>
                         </div>
+                        
                         <div class="numbers">
-                            <div class="ball ball-1"><?php echo $res['primera']; ?></div>
-                            <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
-                            <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
+                            <div class="ball-wrapper">
+                                <div class="ball ball-1"><?php echo $res['primera']; ?></div>
+                                <span class="ball-label">1ro</span>
+                            </div>
+                            <div class="ball-wrapper">
+                                <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
+                                <span class="ball-label">2do</span>
+                            </div>
+                            <div class="ball-wrapper">
+                                <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
+                                <span class="ball-label">3ro</span>
+                            </div>
                         </div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px; letter-spacing: 0.5px;">
-                            <i class="bi bi-clock"></i> ACTUALIZADO: <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
+                        
+                        <div style="font-size: 0.9rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px; font-weight: 600;">
+                            <i class="bi bi-clock-history"></i> Resultado del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
                         </div>
                     </div>
                 <?php endforeach; ?>
