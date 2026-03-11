@@ -355,8 +355,8 @@
     <script src="resultado/js/script.js" defer></script>
     <script src="resultado/footer/rlabs-footer.js" defer></script>
     <script>
-        // Cargar footer dinámicamente
-        fetch('resultado/footer/rlabs-footer.html')
+        // Cargar footer dinámicamente asegurando versión reciente sin caché
+        fetch('resultado/footer/rlabs-footer.html?v=' + new Date().getTime())
             .then(response => response.text())
             .then(html => {
                 document.getElementById('rlabs-footer-container').innerHTML = html;
