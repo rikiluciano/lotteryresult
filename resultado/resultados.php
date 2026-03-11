@@ -53,17 +53,26 @@ try {
     }
 
     // SI NO HAY FECHA EN URL (Carga inicial):
-    // Mostramos hoy pase lo que pase si el usuario así lo espera,
-    // o el último día con datos si hoy está vacío.
-    // Ajuste sugerido: Si hoy tiene aunque sea 1 registro y es 'hoy', mostramos hoy.
+    // Prioridad: Mostrar el día más reciente PERO que tenga al menos 10 loterías para que no salga vacío
     if (!$fechaFiltroQuery && !empty($rawResults)) {
-        $fechaFiltroQuery = date('Y-m-d');
+        $countsByDate = [];
+        foreach ($rawResults as $r) {
+            $f = substr($r['fecha'], 0, 10);
+            if (!isset($countsByDate[$f])) $countsByDate[$f] = 0;
+            $countsByDate[$f]++;
+        }
+        foreach ($countsByDate as $date => $count) {
+            if ($count >= 10) {
+                $fechaFiltroQuery = $date;
+                break;
+            }
+        }
+        if (!$fechaFiltroQuery) $fechaFiltroQuery = substr($rawResults[0]['fecha'], 0, 10);
     } elseif (!$fechaFiltroQuery) {
         $fechaFiltroQuery = date('Y-m-d');
     }
 
-    // 3. Extraer resultados para la fecha detectada
-    // Si no hay nada para hoy, mostraremos el mensaje de búsqueda pero permitiremos ver ayer.
+    // 3. Filtrar
     $resultados = [];
     $lotteriesSeen = [];
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
@@ -80,7 +89,6 @@ try {
                     break;
                 }
             }
-
             $resultados[] = [
                 'nombre' => $nombreLoteria,
                 'logo' => obtener_logo($nombreLoteria),
@@ -114,77 +122,47 @@ try {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=3.2">
-    <link rel="stylesheet" href="css/theme-premium.css?v=3.2">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.2">
+    <link rel="stylesheet" href="css/estilos.css?v=3.3">
+    <link rel="stylesheet" href="css/theme-premium.css?v=3.3">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.3">
     
     <style>
         .results-container { max-width: 1250px; margin: 0 auto; padding: 40px 15px; }
         .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; margin-top: 30px; }
-        .result-card { background: var(--card-bg); border-radius: 20px; padding: 25px; border: 1px solid var(--border-color); transition: all 0.3s ease; display: flex; flex-direction: column; gap: 15px; box-shadow: 0 4px 15px var(--shadow-light); backdrop-filter: blur(12px); }
-        .result-card:hover { transform: translateY(-5px); border-color: var(--primary-color); box-shadow: 0 10px 25px var(--shadow-medium); }
+        .result-card { background: var(--card-bg); border-radius: 20px; padding: 25px; border: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 15px; box-shadow: 0 4px 15px var(--shadow-light); backdrop-filter: blur(12px); transition: all 0.3s ease; }
+        .result-card:hover { transform: translateY(-5px); border-color: var(--primary-color); }
         .result-card .header { display: flex; align-items: center; gap: 15px; }
-        .result-card .logo-container { width: 65px; height: 65px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 5px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .result-card .logo-container { width: 60px; height: 60px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 5px; box-shadow: 0 4px 10px rgba(0,0,0,0.06); }
         .result-card .logo-img { width: 100%; height: 100%; object-fit: contain; }
-        .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.25rem; flex: 1; letter-spacing: -0.3px; }
-        .result-card .numbers { display: flex; justify-content: space-between; gap: 10px; margin: 10px 0; align-items: flex-end; }
-        .result-card .ball-wrapper { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
+        .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.2rem; flex: 1; }
+        .result-card .numbers { display: flex; justify-content: center; gap: 15px; margin: 10px 0; }
+        .result-card .ball-wrapper { display: flex; flex-direction: column; align-items: center; gap: 5px; }
         
-        /* ESTILO REAJUSTADO: PRIMERA MÁS GRANDE Y VERDE */
-        .result-card .ball { width: 100%; aspect-ratio: 1/1; max-width: 55px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.4rem; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); transition: all 0.3s ease; }
-        .result-card .ball-1 { max-width: 75px; font-size: 2.2rem; background: linear-gradient(135deg, #00ff88, #00a859); border-radius: 18px; box-shadow: 0 8px 20px rgba(0,255,136,0.3); }
+        /* TODOS DEL MISMO TAMAÑO, PRIMERO EN VERDE */
+        .result-card .ball { width: 60px; height: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.6rem; color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .result-card .ball-1 { background: linear-gradient(135deg, #00ff88, #00a859); box-shadow: 0 6px 15px rgba(0,255,136,0.25); }
         .result-card .ball-2 { background: linear-gradient(135deg, #4E54C8, #24243E); }
         .result-card .ball-3 { background: linear-gradient(135deg, #ec4899, #db2777); }
         
-        .result-card .ball-label { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .result-card .ball-label { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
         
         .date-filter-box { margin-bottom: 50px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
-        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 10px 30px var(--shadow-light); cursor: pointer; }
-        .date-input { padding: 8px 15px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 700; width: 180px; outline: none; font-size: 1rem; cursor: pointer; position: relative; }
+        .filter-form { background: var(--card-bg); padding: 10px 25px; border-radius: 50px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px; box-shadow: 0 10px 25px var(--shadow-light); }
+        .date-input { padding: 8px 12px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--background-base); color: var(--text-dark); font-weight: 800; width: 175px; cursor: pointer; }
         
-        /* Asegurar que el input de tipo date muestre el icono de calendario y abra el picker nativo */
-        .date-input::-webkit-calendar-picker-indicator {
-            background: transparent;
-            bottom: 0;
-            color: transparent;
-            cursor: pointer;
-            height: auto;
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: auto;
-        }
-
         .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
-
-        @media (max-width: 768px) {
-            .results-grid { grid-template-columns: 1fr; }
-            .title-gradient { font-size: 2.5rem; }
-            .result-card .ball-1 { max-width: 65px; font-size: 1.8rem; }
-        }
+        @media (max-width: 768px) { .results-grid { grid-template-columns: 1fr; } .title-gradient { font-size: 2.5rem; } }
     </style>
 </head>
 <body class="theme-premium">
     <header>
         <div class="header-container">
             <div class="logo-info-group" style="display: flex; align-items: center;">
-                <a href="../index.html" class="logo">
-                    <i class="bi bi-bar-chart-fill" style="margin-right: 8px;"></i>
-                    FreqTable
-                </a>
-                <button class="btn-info" onclick="document.body.classList.toggle('info-modal-open')">
-                    <span class="info-icon">i</span>
-                </button>
+                <a href="../index.html" class="logo"><i class="bi bi-bar-chart-fill" style="margin-right: 8px;"></i> FreqTable</a>
+                <button class="btn-info" onclick="document.body.classList.toggle('info-modal-open')"><span class="info-icon">i</span></button>
                 <button id="themeToggle" class="btn-theme">🌙</button>
-                
-                <a href="resultados.php" class="btn-direct-results">
-                    <span class="indicator-live-header"></span>
-                    <i class="bi bi-calendar-check-fill"></i>
-                    <span class="btn-text">Resultados</span>
-                </a>
+                <a href="resultados.php" class="btn-direct-results"><span class="indicator-live-header"></span><i class="bi bi-calendar-check-fill"></i><span class="btn-text">Resultados</span></a>
             </div>
-            
             <nav id="mainNav">
                 <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
                 <ul class="nav-menu" id="navMenu">
@@ -199,57 +177,36 @@ try {
 
     <main class="results-container">
         <div style="text-align: center; margin-bottom: 50px;">
-            <h1 class="title-gradient" style="font-size: 3.5rem;">Loterías Dominicanas</h1>
-            <p style="color: var(--text-muted); font-size: 1.2rem;">Resultados oficiales para el día: <span style="font-weight: 800; color: var(--primary-color); border-bottom: 2px solid;"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
+            <h1 class="title-gradient" style="font-size: 3.5rem;">Resultados RD</h1>
+            <p style="color: var(--text-muted); font-size: 1.2rem;">Sorteos del día: <span style="font-weight: 800; color: var(--primary-color); underline;"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
         </div>
 
         <div class="date-filter-box">
-            <form action="resultados.php" method="GET" class="filter-form" id="dateFilterForm">
-                <span style="font-weight: 700; color: var(--text-dark); font-size: 1.1rem;"><i class="bi bi-calendar-event"></i> Histórico:</span>
-                <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()" id="dateInput">
+            <form action="resultados.php" method="GET" class="filter-form">
+                <span style="font-weight: 700; color: var(--text-dark);"><i class="bi bi-calendar-event"></i> Cambiar fecha:</span>
+                <input type="date" name="fecha" class="date-input" value="<?php echo $fechaFiltroQuery; ?>" onchange="this.form.submit()">
             </form>
             <?php if ($fechaFiltroQuery === date('Y-m-d')): ?>
-                <div style="display: flex; align-items: center; gap: 10px; background: #00ff88; color: #000; padding: 8px 20px; border-radius: 20px; font-weight: 800; box-shadow: 0 0 20px rgba(0,255,136,0.4); animation: livePulseCustom 2s infinite;">
-                    <i class="bi bi-broadcast"></i> EN VIVO AHORA
-                </div>
+                <div style="background: #00ff88; color: #000; padding: 6px 18px; border-radius: 15px; font-weight: 800; animation: livePulseCustom 2s infinite;"><i class="bi bi-broadcast"></i> EN VIVO</div>
             <?php endif; ?>
         </div>
 
         <div class="results-grid">
             <?php if (empty($resultados)): ?>
-                <div class="no-data">
-                    <i class="bi bi-search" style="font-size: 5rem; color: var(--border-color); margin-bottom: 25px; display: block;"></i>
-                    <h3 style="color: var(--text-dark); font-size: 1.8rem; font-weight: 800;">Aún no hay resultados hoy</h3>
-                    <p style="color: var(--text-muted); font-size: 1.1rem;">Los sorteos comenzarán a publicarse en breve.</p>
-                </div>
+                <div class="no-data"><i class="bi bi-search" style="font-size: 4rem; color: var(--border-color); margin-bottom: 20px; display: block;"></i><h3>Sin registros para hoy</h3><p>Los resultados se publicarán pronto.</p></div>
             <?php else: ?>
                 <?php foreach ($resultados as $res): ?>
                     <div class="result-card">
                         <div class="header">
-                            <div class="logo-container">
-                                <img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/100?text=LOT'; ?>" alt="Logo" class="logo-img">
-                            </div>
+                            <div class="logo-container"><img src="<?php echo $res['logo'] ?: 'https://via.placeholder.com/100?text=LOT'; ?>" alt="Logo" class="logo-img"></div>
                             <span class="name"><?php echo $res['nombre']; ?></span>
                         </div>
-                        
                         <div class="numbers">
-                            <div class="ball-wrapper">
-                                <div class="ball ball-1"><?php echo $res['primera']; ?></div>
-                                <span class="ball-label">1ro</span>
-                            </div>
-                            <div class="ball-wrapper">
-                                <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
-                                <span class="ball-label">2do</span>
-                            </div>
-                            <div class="ball-wrapper">
-                                <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
-                                <span class="ball-label">3ro</span>
-                            </div>
+                            <div class="ball-wrapper"><div class="ball ball-1"><?php echo $res['primera']; ?></div><span class="ball-label">1ro</span></div>
+                            <div class="ball-wrapper"><div class="ball ball-2"><?php echo $res['segunda']; ?></div><span class="ball-label">2do</span></div>
+                            <div class="ball-wrapper"><div class="ball ball-3"><?php echo $res['tercera']; ?></div><span class="ball-label">3ro</span></div>
                         </div>
-                        
-                        <div style="font-size: 0.9rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px; font-weight: 600;">
-                            Sorteo del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
-                        </div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 12px;">Sorteo: <?php echo date('d/m/Y', strtotime($res['fecha'])); ?></div>
                     </div>
                 <?php endforeach; ?>
             <?php endif; ?>
@@ -259,16 +216,7 @@ try {
     <div id="rlabs-footer-container"></div>
     <script src="js/script.js"></script>
     <script>
-        fetch('footer/rlabs-footer.html?v=' + new Date().getTime())
-            .then(res => res.text()).then(html => { document.getElementById('rlabs-footer-container').innerHTML = html; });
-        
-        // Hacer que todo el cuadro de filtro sea clickeable para el calendario
-        document.querySelector('.filter-form').addEventListener('click', function(e) {
-            if (e.target.id !== 'dateInput') {
-                document.getElementById('dateInput').showPicker();
-            }
-        });
-
+        fetch('footer/rlabs-footer.html?v=' + new Date().getTime()).then(res => res.text()).then(html => { document.getElementById('rlabs-footer-container').innerHTML = html; });
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
         if (navToggle) { navToggle.addEventListener('click', () => { navToggle.classList.toggle('active'); navMenu.classList.toggle('active'); }); }
