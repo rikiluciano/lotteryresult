@@ -560,19 +560,21 @@ table td:not(.empty-cell) {
     font-size: 1.1rem;
 }
 
-.btn-direct-results .live-dot {
+/* INDICADOR INTERNO (Renombrado para evitar caché) */
+.indicator-live-header {
     width: 8px;
     height: 8px;
-    background: #00ff88; /* Neon Green */
+    background: #00ff88; /* Verde Neón */
     border-radius: 50%;
     box-shadow: 0 0 10px #00ff88;
     border: 1.5px solid rgba(255, 255, 255, 0.8);
-    display: inline-block;
+    display: block; /* Forzado como elemento de bloque para flex */
     flex-shrink: 0;
-    animation: livePulse 1.5s infinite ease-in-out;
+    margin-right: -2px; /* Pegado un poco más a la izquierda del icono */
+    animation: livePulseCustom 1.5s infinite ease-in-out;
 }
 
-@keyframes livePulse {
+@keyframes livePulseCustom {
     0% { transform: scale(1); opacity: 1; }
     50% { transform: scale(1.3); opacity: 0.6; }
     100% { transform: scale(1); opacity: 1; }

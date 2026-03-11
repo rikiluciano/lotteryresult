@@ -35,18 +35,17 @@ function obtener_logo($loteria) {
 
 $db = new Database();
 
-// 1. Obtener la FECHA MÁS RECIENTE disponible en la base de datos si no hay filtro
+// Obtener fecha de filtro de la URL
 $fechaFiltroQuery = isset($_GET['fecha']) ? $_GET['fecha'] : null;
 
-if ($fechaFiltroQuery) {
-    if (strpos($fechaFiltroQuery, '/') !== false) {
-        $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
-        if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
-    }
+// Si se pasó una fecha en formato d/m/Y, convertirla
+if ($fechaFiltroQuery && strpos($fechaFiltroQuery, '/') !== false) {
+    $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
+    if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
 }
 
 try {
-    // Si no hay fecha especificada, buscamos cuál es el último día con registros
+    // Si NO se especificó fecha, buscamos la última con datos en la BD
     if (!$fechaFiltroQuery) {
         $lastRecord = $db->fetch('lottery_results', ['order' => 'fecha.desc', 'limit' => 1]);
         if (!empty($lastRecord)) {
@@ -56,16 +55,15 @@ try {
         }
     }
 
-    // Traemos todos los registros de ese día
+    // Consultar todos los registros para esa fecha
+    // Usamos un rango para cubrir variaciones de zona horaria en la BD
+    $nextDay = date('Y-m-d', strtotime($fechaFiltroQuery . ' +1 day'));
     $params = [
         'select' => '*',
-        'fecha' => 'gte.' . $fechaFiltroQuery . 'T00:00:00',
-        'order' => 'fecha.desc'
+        'fecha' => 'and(fecha.gte.' . $fechaFiltroQuery . 'T00:00:00,fecha.lt.' . $nextDay . 'T00:00:00)',
+        'order' => 'fecha.asc'
     ];
     
-    // Como las fechas vienen con T00:00:00+00:00, usamos gte y lte para el rango del día
-    $params['fecha'] = 'and(fecha.gte.' . $fechaFiltroQuery . 'T00:00:00,fecha.lt.' . date('Y-m-d', strtotime($fechaFiltroQuery . ' +1 day')) . 'T00:00:00)';
-
     $rawResults = $db->fetch('lottery_results', $params);
     $resultados = [];
 
@@ -88,7 +86,7 @@ try {
             'primera' => str_pad($row['primera'], 2, '0', STR_PAD_LEFT),
             'segunda' => str_pad($row['segunda'], 2, '0', STR_PAD_LEFT),
             'tercera' => str_pad($row['tercera'], 2, '0', STR_PAD_LEFT),
-            'esNacional' => $esNacional
+            'categoria' => $esNacional ? 'nacional' : 'extranjera'
         ];
     }
     
@@ -107,9 +105,10 @@ try {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=1.2">
-    <link rel="stylesheet" href="css/theme-premium.css?v=1.2">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=1.2">
+    <!-- Forzar recarga de CSS con versión nueva -->
+    <link rel="stylesheet" href="css/estilos.css?v=2.0">
+    <link rel="stylesheet" href="css/theme-premium.css?v=2.0">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=2.0">
     
     <style>
         .results-container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
@@ -136,15 +135,17 @@ try {
         <div class="header-container">
             <div class="logo-info-group" style="display: flex; align-items: center;">
                 <a href="../index.html" class="logo">
-                    <i class="bi bi-bar-chart-fill" style="margin-right: 8px;"></i> FreqTable
+                    <i class="bi bi-bar-chart-fill" style="margin-right: 8px;"></i>
+                    FreqTable
                 </a>
                 <button class="btn-info" onclick="document.body.classList.toggle('info-modal-open')">
                     <span class="info-icon">i</span>
                 </button>
                 <button id="themeToggle" class="btn-theme">🌙</button>
                 
+                <!-- BOTÓN REESTRUCTURADO -->
                 <a href="resultados.php" class="btn-direct-results">
-                    <span class="live-dot"></span>
+                    <span class="indicator-live-header"></span>
                     <i class="bi bi-calendar-check-fill"></i>
                     <span class="btn-text">Resultados</span>
                 </a>
@@ -165,7 +166,7 @@ try {
     <main class="results-container">
         <div style="text-align: center; margin-bottom: 50px;">
             <h1 class="title-gradient" style="font-size: 3rem;">Resultados Diarios</h1>
-            <p style="color: var(--text-muted);">Información oficial actualizada para el <strong><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></strong></p>
+            <p style="color: var(--text-muted);">Mostrando sorteos del: <strong><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></strong></p>
         </div>
 
         <div class="date-filter-box">
@@ -184,8 +185,8 @@ try {
             <?php if (empty($resultados)): ?>
                 <div class="no-data">
                     <i class="bi bi-search" style="font-size: 4rem; color: var(--border-color); margin-bottom: 20px; display: block;"></i>
-                    <h3 style="color: var(--text-dark);">Sin resultados</h3>
-                    <p style="color: var(--text-muted);">No hay registros en la base de datos para esta fecha.</p>
+                    <h3 style="color: var(--text-dark);">Sin resultados encontrados</h3>
+                    <p style="color: var(--text-muted);">Intenta seleccionar otra fecha reciente.</p>
                 </div>
             <?php else: ?>
                 <?php foreach ($resultados as $res): ?>
@@ -200,7 +201,7 @@ try {
                             <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
                         </div>
                         <div style="font-size: 0.85rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 15px;">
-                            Sorteo: <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
+                            Sorteo del <?php echo date('d/m/Y', strtotime($res['fecha'])); ?>
                         </div>
                     </div>
                 <?php endforeach; ?>
