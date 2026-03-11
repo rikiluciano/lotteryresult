@@ -36,39 +36,53 @@ function obtener_logo($loteria) {
 $db = new Database();
 
 try {
-    // 1. INCREMENTAR LÍMITE SIGNIFICATIVAMENTE
-    // Si hay 20 loterías, 200 registros solo cubren 10 días de historia. 
-    // Para asegurar que NUNCA falten datos actualizados, buscamos los últimos 500 registros.
+    // 1. CARGAR DATOS (Límite alto para cubrir varios días)
     $rawResults = $db->fetch('lottery_results', [
         'select' => '*',
         'order' => 'fecha.desc',
-        'limit' => 500
+        'limit' => 1000
     ]);
     
-    // 2. Determinar qué fecha mostrar
+    // 2. Determinar la fecha a mostrar
     $fechaFiltroQuery = isset($_GET['fecha']) ? $_GET['fecha'] : null;
     if ($fechaFiltroQuery && strpos($fechaFiltroQuery, '/') !== false) {
         $dateObj = DateTime::createFromFormat('d/m/Y', $fechaFiltroQuery);
         if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
     }
 
-    // Fallback: Si no hay fecha en URL, tomar la del registro más joven
+    // SI NO HAY FECHA EN URL:
+    // Buscamos cuál es el día más reciente que tiene AL MENOS 5 loterías (para no mostrar un día vacío o incompleto como hoy 10 de marzo)
     if (!$fechaFiltroQuery && !empty($rawResults)) {
-        $fechaFiltroQuery = substr($rawResults[0]['fecha'], 0, 10);
+        $countsByDate = [];
+        foreach ($rawResults as $r) {
+            $f = substr($r['fecha'], 0, 10);
+            if (!isset($countsByDate[$f])) $countsByDate[$f] = 0;
+            $countsByDate[$f]++;
+        }
+        
+        // Buscamos el primer día que tenga suficientes registros (ej. más de 5)
+        foreach ($countsByDate as $date => $count) {
+            if ($count >= 5) {
+                $fechaFiltroQuery = $date;
+                break;
+            }
+        }
+        
+        // Si no encontramos ninguno con >5, usamos el último que haya
+        if (!$fechaFiltroQuery) $fechaFiltroQuery = substr($rawResults[0]['fecha'], 0, 10);
     } elseif (!$fechaFiltroQuery) {
         $fechaFiltroQuery = date('Y-m-d');
     }
 
-    // 3. Extracción de TODOS los resultados para la fecha detectada
+    // 3. Extraer resultados para la fecha final decidida
     $resultados = [];
-    $lotteriesSeen = []; // Para evitar duplicados si los datos están repetidos en la BD
+    $lotteriesSeen = [];
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
 
     foreach ($rawResults as $row) {
         $fechaRow = substr($row['fecha'], 0, 10);
         $nombreLoteria = trim($row['loteria']);
         
-        // Solo agregar si coincide la fecha y no la hemos agregado ya
         if ($fechaRow === $fechaFiltroQuery && !isset($lotteriesSeen[$nombreLoteria])) {
             $esNacional = false;
             foreach ($nacionalesNames as $nacional) {
@@ -87,16 +101,15 @@ try {
                 'tercera' => str_pad($row['tercera'], 2, '0', STR_PAD_LEFT),
                 'esNacional' => $esNacional
             ];
-            
             $lotteriesSeen[$nombreLoteria] = true;
         }
     }
     
-    // Ordenar: Nacionales primero, luego por nombre
+    // Si el usuario filtró manualmente una fecha (ej hoy) y solo hay 1, pues sale 1.
+    // Pero por defecto, el sistema ahora saltará al día anterior si hoy está vacío.
+
     usort($resultados, function($a, $b) {
-        if ($a['esNacional'] !== $b['esNacional']) {
-            return $b['esNacional'] - $a['esNacional'];
-        }
+        if ($a['esNacional'] !== $b['esNacional']) return $b['esNacional'] - $a['esNacional'];
         return strcmp($a['nombre'], $b['nombre']);
     });
 
@@ -115,9 +128,9 @@ try {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=3.0">
-    <link rel="stylesheet" href="css/theme-premium.css?v=3.0">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.0">
+    <link rel="stylesheet" href="css/estilos.css?v=3.1">
+    <link rel="stylesheet" href="css/theme-premium.css?v=3.1">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=3.1">
     
     <style>
         .results-container { max-width: 1250px; margin: 0 auto; padding: 40px 15px; }
