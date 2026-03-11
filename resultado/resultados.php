@@ -48,7 +48,6 @@ try {
         if ($dateObj) $fechaFiltroQuery = $dateObj->format('Y-m-d');
     }
 
-    // Auto-fallback si no hay fecha seleccionada o si hoy tiene muy pocos datos
     if (!$fechaFiltroQuery && !empty($rawResults)) {
         $countsByDate = [];
         foreach ($rawResults as $r) {
@@ -58,7 +57,7 @@ try {
         }
         $targetDate = null;
         foreach ($countsByDate as $date => $count) {
-            if ($count >= 8) { // Mínimo 8 loterías para considerar el día "completo"
+            if ($count >= 8) {
                 $targetDate = $date;
                 break;
             }
@@ -98,11 +97,11 @@ try {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Flatpickr (Calendario Moderno) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
     
-    <link rel="stylesheet" href="css/estilos.css?v=4.0">
-    <link rel="stylesheet" href="css/theme-premium.css?v=4.0">
-    <link rel="stylesheet" href="footer/rlabs-footer.css?v=4.0">
+    <link rel="stylesheet" href="css/estilos.css?v=4.1">
+    <link rel="stylesheet" href="css/theme-premium.css?v=4.1">
+    <link rel="stylesheet" href="footer/rlabs-footer.css?v=4.1">
     
     <style>
         .results-container { max-width: 1250px; margin: 0 auto; padding: 40px 15px; }
@@ -112,16 +111,18 @@ try {
         .result-card .header { display: flex; align-items: center; gap: 15px; }
         .result-card .logo-container { width: 60px; height: 60px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 5px; }
         .result-card .name { font-weight: 800; color: var(--text-dark); font-size: 1.2rem; flex: 1; }
-        .result-card .numbers { display: flex; justify-content: center; gap: 15px; margin: 10px 0; }
+        .result-card .numbers { display: flex; justify-content: center; gap: 12px; margin: 10px 0; }
         
-        /* TODOS DEL MISMO TAMAÑO (60px), PRIMERO EN VERDE */
-        .result-card .ball { width: 62px; height: 62px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.7rem; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
-        .result-card .ball-1 { background: linear-gradient(135deg, #00ff88, #00a859); box-shadow: 0 6px 18px rgba(0,255,136,0.3); }
+        /* TODOS DEL MISMO TAMAÑO EXACTO QUE EL DEL MEDIO */
+        .result-card .ball { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.5rem; color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .result-card .ball-1 { background: linear-gradient(135deg, #00ff88, #00a859); box-shadow: 0 0 15px rgba(0,255,136,0.3); border: 1px solid rgba(255,255,255,0.2); }
         .result-card .ball-2 { background: linear-gradient(135deg, #4E54C8, #24243E); }
         .result-card .ball-3 { background: linear-gradient(135deg, #ec4899, #db2777); }
         
-        /* CALENDARIO MODERNO CUSTOM */
-        .date-filter-box { margin-bottom: 50px; display: flex; justify-content: center; }
+        .result-card .ball-label { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; text-align: center; display: block; }
+        
+        /* CALENDARIO CENTRADO Y MODERNO */
+        .date-filter-box { margin-bottom: 50px; display: flex; justify-content: center; position: relative; }
         .custom-calendar-trigger {
             background: var(--card-bg);
             padding: 12px 30px;
@@ -133,15 +134,23 @@ try {
             cursor: pointer;
             box-shadow: 0 10px 25px var(--shadow-light);
             transition: all 0.3s ease;
+            min-width: 200px;
+            justify-content: center;
         }
         .custom-calendar-trigger:hover {
             transform: scale(1.02);
             border-color: var(--primary-color);
-            box-shadow: 0 15px 35px var(--shadow-medium);
         }
         .calendar-icon { font-size: 1.4rem; color: var(--primary-color); }
         .calendar-text { font-weight: 800; color: var(--text-dark); font-size: 1.1rem; }
-        #datePicker { display: none; }
+        #datePicker { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); opacity: 0; pointer-events: none; }
+
+        /* Estilo Flatpickr Custom para centrarlo */
+        .flatpickr-calendar {
+            box-shadow: 0 15px 45px rgba(0,0,0,0.4) !important;
+            border: 1px solid var(--border-color) !important;
+            background: #0f172a !important;
+        }
 
         .title-gradient { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900; }
     </style>
@@ -169,17 +178,17 @@ try {
 
     <main class="results-container">
         <div style="text-align: center; margin-bottom: 50px;">
-            <h1 class="title-gradient" style="font-size: 3.5rem; letter-spacing: -1px;">Resultados Diarios</h1>
-            <p style="color: var(--text-muted); font-size: 1.1rem;">Mostrando sorteos del: <span style="font-weight: 800; color: var(--primary-color);"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
+            <h1 class="title-gradient" style="font-size: 3.5rem;">Resultados Diarios</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem;">Sorteos del: <span style="font-weight: 800; color: var(--primary-color);"><?php echo date('d/m/Y', strtotime($fechaFiltroQuery)); ?></span></p>
         </div>
 
         <div class="date-filter-box">
             <div class="custom-calendar-trigger" id="openCalendar">
-                <i class="bi bi-calendar3-range calendar-icon"></i>
+                <i class="bi bi-calendar3 calendar-icon"></i>
                 <div class="calendar-text">
                     <?php echo date('d / m / Y', strtotime($fechaFiltroQuery)); ?>
                 </div>
-                <i class="bi bi-chevron-down" style="font-size: 0.8rem; opacity: 0.5;"></i>
+                <i class="bi bi-chevron-down" style="font-size: 0.8rem; opacity: 1;"></i>
             </div>
             <input type="text" id="datePicker">
         </div>
@@ -195,9 +204,18 @@ try {
                             <span class="name"><?php echo $res['nombre']; ?></span>
                         </div>
                         <div class="numbers">
-                            <div class="ball ball-1"><?php echo $res['primera']; ?></div>
-                            <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
-                            <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
+                            <div>
+                                <div class="ball ball-1"><?php echo $res['primera']; ?></div>
+                                <span class="ball-label">1ro</span>
+                            </div>
+                            <div>
+                                <div class="ball ball-2"><?php echo $res['segunda']; ?></div>
+                                <span class="ball-label">2do</span>
+                            </div>
+                            <div>
+                                <div class="ball ball-3"><?php echo $res['tercera']; ?></div>
+                                <span class="ball-label">3ro</span>
+                            </div>
                         </div>
                         <div style="font-size: 0.8rem; color: var(--text-muted); text-align: center; border-top: 1px solid var(--border-color); padding-top: 12px; font-weight: 600; opacity: 0.7;">
                             SORTEO OFICIAL RD
@@ -216,20 +234,20 @@ try {
     <script>
         fetch('footer/rlabs-footer.html?v=' + new Date().getTime()).then(res => res.text()).then(html => { document.getElementById('rlabs-footer-container').innerHTML = html; });
         
-        // Configuración de Calendario Moderno (Flatpickr)
-        flatpickr("#datePicker", {
+        // Configuración de Calendario con posicionamiento forzado al centro
+        const fp = flatpickr("#datePicker", {
             locale: "es",
             dateFormat: "Y-m-d",
-            defaultDate: "<?php echo $fechaFiltroQuery; ?>",
             maxDate: "today",
-            disableMobile: "true",
+            static: false, // Permitir que flote
+            position: "below center", // Forzar centrado debajo del trigger
             onChange: function(selectedDates, dateStr) {
                 window.location.href = "resultados.php?fecha=" + dateStr;
             }
         });
 
         document.getElementById('openCalendar').addEventListener('click', () => {
-            document.getElementById('datePicker')._flatpickr.open();
+            fp.open();
         });
 
         const navToggle = document.getElementById('navToggle');
