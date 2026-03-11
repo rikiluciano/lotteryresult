@@ -536,47 +536,49 @@ table td:not(.empty-cell) {
 .btn-direct-results {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white !important;
-    padding: 6px 14px;
+    padding: 6px 18px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     gap: 8px;
     text-decoration: none !important;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 13px;
-    box-shadow: 0 4px 10px var(--glow-color);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px var(--glow-color);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     position: relative;
-    margin-left: 5px;
+    margin-left: 12px;
+    overflow: visible !important;
 }
 
 .btn-direct-results:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 15px var(--glow-color);
-    filter: brightness(1.1);
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 25px var(--glow-color);
 }
 
 .btn-direct-results i {
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .btn-direct-results .live-dot {
-    width: 6px;
-    height: 6px;
-    background: #ff4757;
+    width: 12px;
+    height: 12px;
+    background: #00ff88; /* Neon Green */
     border-radius: 50%;
     position: absolute;
-    top: 4px;
-    right: 4px;
-    box-shadow: 0 0 8px #ff4757;
-    animation: liveHighlight 1.5s infinite;
+    top: -5px;
+    right: -5px;
+    box-shadow: 0 0 12px #00ff88;
+    border: 2px solid #ffffff;
+    z-index: 100;
+    animation: liveHighlight 1.3s infinite ease-in-out;
 }
 
 @keyframes liveHighlight {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.5); opacity: 0.5; }
-    100% { transform: scale(1); opacity: 1; }
+    0% { transform: scale(1); box-shadow: 0 0 0px #00ff88; }
+    50% { transform: scale(1.2); box-shadow: 0 0 15px #00ff88; }
+    100% { transform: scale(1); box-shadow: 0 0 0px #00ff88; }
 }
 
 @media (max-width: 768px) {
