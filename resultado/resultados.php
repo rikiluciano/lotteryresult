@@ -4,6 +4,9 @@
  * Versión Ultra-Premium con integración Supabase
  */
 
+// Configuración de zona horaria (CRÍTICO para consistencia de fechas)
+date_default_timezone_set('America/Santo_Domingo');
+
 require_once 'includes/Database.php';
 
 // Función para obtener URL del logo
@@ -23,7 +26,6 @@ function obtener_logo($loteria) {
         'florida' => 'florida-0d3b11e2215473f987ac28c156cbff56ccf186e650ddf2df2b6b194254677eed.svg',
         'york' => 'new_york-e78bc3206a0497915ddab4a77f80e06ad0f8eb6d6e355770340c17be4f29a616.svg',
         'anguila' => 'anguila-78bcb1b1711b3176ea0eb9fe37768936cc1f70530f44fcc165067a087fba5b00.svg',
-        'angulla' => 'anguila-78bcb1b1711b3176ea0eb9fe37768936cc1f70530f44fcc165067a087fba5b00.svg',
         'king' => 'king_lottery-ea033db5247fa2e2b002245b33b52ae936c2f1b2be04927ed236032c2d2c2e9f.svg'
     ];
 
@@ -36,7 +38,7 @@ function obtener_logo($loteria) {
 // Inicializar Supabase
 $db = new Database();
 
-// Obtener fecha de filtro (formato YYYY-MM-DD para Supabase)
+// Obtener fecha de filtro
 $fechaFiltroURL = isset($_GET['fecha']) ? $_GET['fecha'] : date('Y-m-d');
 $fechaFiltroQuery = $fechaFiltroURL;
 
@@ -47,14 +49,11 @@ if (strpos($fechaFiltroQuery, '/') !== false) {
 }
 
 try {
-    // Si queremos ver todos los resultados de un día, a veces Supabase 
-    // puede tener loterías que aún no han jugado hoy.
-    // Para depurar, pediremos los últimos 50 resultados ordenados por fecha
-    // y filtraremos los que correspondan al día.
+    // Aumentamos el límite para cubrir todas las loterías (podría haber más de 50 registros por día si hay variaciones)
     $params = [
         'select' => '*',
         'order' => 'fecha.desc',
-        'limit' => 50
+        'limit' => 100 
     ];
     
     $rawResults = $db->fetch('lottery_results', $params);
@@ -64,8 +63,9 @@ try {
     $nacionalesNames = ['Gana Mas', 'Nacional', 'Leidsa', 'Real', 'Loteka', 'La Primera', 'La Suerte', 'LoteDom'];
 
     foreach ($rawResults as $row) {
-        // Solo mostrar los que coincidan con la fecha seleccionada
-        if ($row['fecha'] !== $fechaFiltroQuery) continue;
+        // CORRECCIÓN: Comparar solo el inicio de la cadena de fecha (YYYY-MM-DD)
+        $fechaRow = substr($row['fecha'], 0, 10);
+        if ($fechaRow !== $fechaFiltroQuery) continue;
 
         $nombre = $row['loteria'];
         $esNacional = false;
@@ -79,18 +79,15 @@ try {
         $resultados[] = [
             'nombre' => $nombre,
             'logo' => obtener_logo($nombre),
-            'fecha' => $row['fecha'],
+            'fecha' => $fechaRow,
             'primera' => str_pad($row['primera'], 2, '0', STR_PAD_LEFT),
             'segunda' => str_pad($row['segunda'], 2, '0', STR_PAD_LEFT),
             'tercera' => str_pad($row['tercera'], 2, '0', STR_PAD_LEFT),
-            'esHoy' => ($row['fecha'] === date('Y-m-d')),
+            'esHoy' => ($fechaRow === date('Y-m-d')),
             'categoria' => $esNacional ? 'nacional' : 'extranjera'
         ];
     }
     
-    // Si no hay resultados para hoy, quizás el usuario quiere ver los últimos disponibles
-    // pero respetaremos su filtro. Si está vacío, avisaremos.
-
 } catch (Exception $e) {
     $resultados = [];
     $error = $e->getMessage();
@@ -282,7 +279,7 @@ try {
                 </button>
                 
                 <!-- BOTÓN ESTRATÉGICO DE RESULTADOS (ACTIVO) -->
-                <a href="resultados.php" class="btn-direct-results" style="filter: brightness(1.2); border-color: white;">
+                <a href="resultados.php" class="btn-direct-results">
                     <i class="bi bi-calendar-check-fill"></i>
                     <span class="btn-text">Resultados</span>
                     <span class="live-dot"></span>
@@ -359,19 +356,16 @@ try {
         </div>
     </main>
 
-    <!-- Footer Dinámico -->
     <div id="rlabs-footer-container"></div>
 
     <script src="js/script.js"></script>
     <script>
-        // Cargar Footer Dinámico con CSS (Asegurando que rlabs-footer.css esté en el head)
         fetch('footer/rlabs-footer.html?v=' + new Date().getTime())
             .then(res => res.text())
             .then(html => {
                 document.getElementById('rlabs-footer-container').innerHTML = html;
             });
             
-        // Toggle Menú Móvil
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
         if (navToggle) {
